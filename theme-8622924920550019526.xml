@@ -2445,8 +2445,6 @@ date_time(&#39;date_time&#39;);
         &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://bsmikotablitar.org/&quot;&gt;BSMI Kota Blitar&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://bsmipadang.wordpress.com/&quot;&gt;BSMI Padang&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://bsmi.or.id/&quot;&gt;BSMI Pusat&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.bsmisemarang.org/&quot;&gt;BSMI Semarang&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.bsmisumut.com/&quot;&gt;BSMI Sumut&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://bsmisurabaya.blogspot.co.id/&quot;&gt;BSMI Surabaya&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://bsmiwamena.blogspot.co.id/&quot;&gt;BSMI Wamena&lt;/a&gt;&lt;/li&gt;
 
@@ -2524,6 +2522,58 @@ $(&#39;.nav li &gt; .sub-menu&#39;).parent().click(function() {
   <b:include name='quickedit'/>
 </b:includable>
    </b:widget>
+   <b:widget id='Image3' locked='false' title='' type='Image'>
+     <b:widget-settings>
+       <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-bgnBmExNpVY/Xij9Y1AJPUI/AAAAAAAADco/9V4NlAcXAYcPCwvar1Sy50g9bJjpmszfQCK4BGAYYCw/s292/newiconbsmimobile1.jpg</b:widget-setting>
+       <b:widget-setting name='displayHeight'>105</b:widget-setting>
+       <b:widget-setting name='sectionWidth'>292</b:widget-setting>
+       <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+       <b:widget-setting name='displayWidth'>292</b:widget-setting>
+       <b:widget-setting name='link'>http://bsmimobile.sf.net</b:widget-setting>
+       <b:widget-setting name='caption'/>
+     </b:widget-settings>
+     <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+      <b:tag cond='data:link' expr:href='data:link' name='a'>
+        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+      </b:tag>
+      <br/>
+      <b:if cond='data:caption'>
+        <span class='caption'><data:caption/></span>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+   </b:widget>
+   <b:widget id='Image4' locked='false' title='' type='Image'>
+     <b:widget-settings>
+       <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-vKUCJ1rec9Q/Xij-EqUWReI/AAAAAAAADdA/UUtrTG5dHM0Ps_gmDtEgMbf3qKkkrhhxgCK4BGAYYCw/s292/en_badge_web_generic.png</b:widget-setting>
+       <b:widget-setting name='displayHeight'>113</b:widget-setting>
+       <b:widget-setting name='sectionWidth'>292</b:widget-setting>
+       <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+       <b:widget-setting name='displayWidth'>292</b:widget-setting>
+       <b:widget-setting name='link'>http://bsmimobile.sf.net</b:widget-setting>
+       <b:widget-setting name='caption'/>
+     </b:widget-settings>
+     <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+      <b:tag cond='data:link' expr:href='data:link' name='a'>
+        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+      </b:tag>
+      <br/>
+      <b:if cond='data:caption'>
+        <span class='caption'><data:caption/></span>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+   </b:widget>
    <b:widget id='Image2' locked='false' title='' type='Image'>
      <b:widget-settings>
        <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-sb3sh8Hk3P0/WgmY7J6Pt-I/AAAAAAAABBU/XeRVJDQY-c0_KTSHLCR20GDZJsC90GH3wCK4BGAYYCw/s1600/website%2Bbsmi%2Bpusat.jpg</b:widget-setting>
@@ -2590,6 +2640,34 @@ $(&#39;.nav li &gt; .sub-menu&#39;).parent().click(function() {
   </div>
 
   <b:include name='quickedit'/>
+</b:includable>
+   </b:widget>
+   <b:widget id='Followers1' locked='false' title='Pengikut' type='Followers'>
+     <b:widget-settings>
+       <b:widget-setting name='borderColorTransparent'>true</b:widget-setting>
+       <b:widget-setting name='useTemplateDefaultStyles'>true</b:widget-setting>
+       <b:widget-setting name='contentSecondaryTextColor'>#999999</b:widget-setting>
+       <b:widget-setting name='contentHeadlineColor'>#cc6600</b:widget-setting>
+       <b:widget-setting name='endcapTextColor'>#666666</b:widget-setting>
+       <b:widget-setting name='contentTextColor'>#666666</b:widget-setting>
+       <b:widget-setting name='contentSecondaryLinkColor'>#5588aa</b:widget-setting>
+       <b:widget-setting name='endcapLinkColor'>#5588aa</b:widget-setting>
+       <b:widget-setting name='contentLinkColor'>#5588aa</b:widget-setting>
+     </b:widget-settings>
+     <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot; and data:codeSnippet != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
+      <b:if cond='data:codeSnippet != &quot;&quot;'>
+        <div style='margin-right:2px;'>
+          <data:codeSnippet/>
+        </div>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </div>
 </b:includable>
    </b:widget>
  </b:section>
@@ -2712,7 +2790,7 @@ $(&#39;.nav li &gt; .sub-menu&#39;).parent().click(function() {
 <b:section class='footer' id='footer1'>
   <b:widget id='HTML18' locked='false' title='KANTOR' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.3587821280457!2d112.76509690876391!3d-7.270341394003684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xc6d3f93d8454a00b!2sGedung+Kemanusiaan+BSMI!5e0!3m2!1sid!2sid!4v1462364986527" width="100%" height="216" frameborder="0" style="border:0" allowfullscreen></iframe>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d989.4352549571066!2d112.765119!3d-7.270284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6d3f93d8454a00b!2sGedung%20Kemanusiaan%20BSMI!5e0!3m2!1sid!2sid!4v1579745111162!5m2!1sid!2sid" width="100%" height="216" frameborder="0" style="border:0;" allowfullscreen=""></iframe>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2928,7 +3006,7 @@ $(&#39;#featuredContent&#39;).find(&#39;img&#39;).each(function(n,image){
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML3' locked='false' title='Download' type='HTML'>
+  <b:widget id='HTML3' locked='false' title='' type='HTML'>
     <b:widget-settings>
       <b:widget-setting name='content'>&lt;!-- Histats.com  START  (aync)--&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;var _Hasync= _Hasync|| [];

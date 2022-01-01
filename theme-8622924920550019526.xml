@@ -326,6 +326,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
   .carousel-caption {
   width:40%;
   }
+  #judulweb{display:inline!important;}
 }
 @media (min-width:1200px) {
 }
@@ -340,7 +341,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 <div class='container'>
 <nav class='navbar navbar-light bg-light'>
 
-    <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img src='https://1.bp.blogspot.com/-FHd2HzjMViY/XlyAHHXid6I/AAAAAAAADdo/9LGV4_sAHiU0KZWpm1FeAcLRNhGH8jS1QCLcBGAsYHQ/s1600/logobsmiwebalpha.png' width='200px'/></a>
+    <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA</span></a>
   	<div class='d-flex justify-content-end'>
     <a class='btn btn-light d-none d-sm-none d-md-block mr-sm-4' role='button'/>
     <a class='btn btn-danger d-block d-sm-block mr-sm-4' data-target='#myModalDonasi' data-toggle='modal' href='#' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
@@ -410,9 +411,9 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
         <svg class='bd-placeholder-img' focusable='false' height='100%' preserveAspectRatio='xMidYMid slice' role='img' width='100%' xmlns='http://www.w3.org/2000/svg'><div class='carouselbg'/></svg>
         <div class='container'>
           <div class='carousel-caption text-left'>
-            <h2 data-animation='animated bounceInLeft'>WikiBSMI</h2>
-            <p class='subtitle' data-animation='animated bounceInRight'>Portal informasi Bulan Sabit Merah Indonesia</p>
-            <p class='tombol' data-animation='animated bounceInUp'><a class='btn btn-lg btn-danger' href='https://wiki.bsmijatim.org' role='button'>WikiBSMI</a></p>
+            <h2 data-animation='animated bounceInLeft'>BSMI</h2>
+            <p class='subtitle' data-animation='animated bounceInRight'>Bulan Sabit Merah Indonesia</p>
+            <p class='tombol' data-animation='animated bounceInUp'><a class='btn btn-lg btn-danger' href='https://wiki.bsmijatim.org' role='button'>Lihat</a></p>
           </div>
         </div>
       </div>
@@ -459,14 +460,26 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 
     <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
-      <div class='col-12 col-md-6 col-lg-4'><h2>2.000.000.000+</h2><h5>Donasi Tersalurkan</h5></div>
-        <div class='col-12 col-md-6 col-lg-4'><h2>100.000+</h2><h5>Penerima Manfaat</h5></div>
-        <div class='col-12 col-md-6 col-lg-4'><h2>1.000+</h2><h5>Giat Kemanusiaan</h5></div>
+      <div class='col-12 col-md-6 col-lg-4'><h2>50.<span id='penerimamanfaat'>111</span></h2><h5>Penerima Manfaat</h5></div>
+      <div class='col-12 col-md-6 col-lg-4'><h2>38</h2><h5>Cab Kota/Kab SeJatim</h5></div>
+      <div class='col-12 col-md-6 col-lg-4'><h2>1.000+</h2><h5>Relawan</h5></div>
     </div>
     </div></div>
     
   </div>
 </carousel>
+<script type='text/javascript'>
+//<![CDATA[
+setInterval(fPenerimamanfaat, 1000);
+var countpenerimamanfaat = 111;
+function fPenerimamanfaat(){
+countpenerimamanfaat++;
+document.getElementById("penerimamanfaat").textContent = countpenerimamanfaat;
+if (countpenerimamanfaat === 999){countpenerimamanfaat = 0;}
+}
+console.log('cek');
+//]]>
+</script>
   
 <cauroselscript>
 <script type='text/javascript'>
@@ -512,7 +525,7 @@ img=new Array();
   //document.getElementById("bsmipost").innerHTML += trtd;
   //console.log(trtd);
   var id=i+1;
-  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text("Buka");
+  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text("Lihat");
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("href", posturl)
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > h2").text("");
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle").text(posttitle);
@@ -1566,7 +1579,7 @@ margin-bottom:25px;
 <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Magazine</h5>
   <div class='row' id='bsmimagazine'>
   </div>
-  <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.majalahspinner&quot; ).toggle();sendQueryMajalah();return false'>more<div class='majalahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
+  <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.majalahspinner&quot; ).toggle();setTimeout(function(){ sendQueryMajalah(); }, 2000);return false'>more<div class='majalahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
 </div> 
 
 <script>
@@ -1616,7 +1629,7 @@ function CSVToArray( strData, strDelimiter ){
     }
 
 var datamajalah= "";
-function getmajalah(){ console.log("test2");   
+function getmajalah(){ //console.log("test2");   
 $.get("https://script.google.com/macros/s/AKfycbz6Fit6-D_2PABn3zrpzydiGb9PogiqqBdItpx6XcPqrLhFjW0/exec?url=https://docs.google.com/spreadsheets/d/e/2PACX-1vTZEiolmUm4E-2v6CORSzS9KYl_qt0wFPoseFY3dlParwWtDW10xZIJLLVVpnHbw0TDzV2BjB9y84l4/pub?output=csv", function(data, status){
     var data = JSON.parse(data);
     data = CSVToArray(data.contents);
@@ -1626,12 +1639,12 @@ $.get("https://script.google.com/macros/s/AKfycbz6Fit6-D_2PABn3zrpzydiGb9PogiqqB
 }
 
 var indexmajalah = 0;
-function sendQueryMajalah(){console.log("test1");
-	if (datamajalah === "") {getmajalah();} else { var data = datamajalah;console.log("cek1 ="+datamajalah);
+function sendQueryMajalah(){//console.log("test1");
+	if (datamajalah === "") {getmajalah();} else { var data = datamajalah;//console.log("cek1 ="+datamajalah);
            	for (var i = data.length-1-indexmajalah ; i > data.length-1-(4+indexmajalah)  ; i--) {
             	if (i < 1){break}
     			//$('#bsmimagazine').append('<div class=col-50 class=majalahitem><a class=openiframe href=https://drive.google.com/file/d/'+data[i][3]+'/preview><div class=majalahcover style=background-image:url('+data[i][4]+')></div><div class=majalahtitle>Edisi '+data[i][0]+' # '+data[i][1]+' '+data[i][2]+'</div></a></div>');
-				var majalahitem='<div class="item col-md-6 col-lg-3" style=""><a target="_blank" href="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;"><p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
+				var majalahitem='<div class="item col-6 col-lg-3" style=""><a target="_blank" href="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;"><p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
 				//$('#bsmimagazine').append(majalahitem);
 				document.getElementById("bsmimagazine").innerHTML += majalahitem;
 				AOS.refreshHard();
@@ -1832,7 +1845,7 @@ width:auto!important;
           <h2>Telepon : 031 5952 248</h2>
       	</div>
     </div>
-    <h4>Copyright 2015 - <script type='text/javascript'>var tahunsekarang = new Date;document.write(tahunsekarang.getFullYear());</script> Humas BSMI Jawa Timur</h4>
+    <h4>Copyright [ &#169; ]  2015 - <script type='text/javascript'>var tahunsekarang = new Date;document.write(tahunsekarang.getFullYear());</script> Humas BSMI Jawa Timur</h4>
   </div>
 </footer>
 <div class='container-fluid' style='height:20px;background:#dc3545;'/>

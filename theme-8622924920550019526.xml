@@ -646,7 +646,7 @@ bsmipost .item .isi{
   background:#fff;
     background-size:cover;
   background-position:center center;
-  background-color: #dc3545;
+  background-color: #C0C0C0;
   background-blend-mode: multiply;
 	border-radius:20px 20px 20px 20px;
   }
@@ -1560,6 +1560,143 @@ margin-bottom:25px;
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:section class='bsmiwidget-home-bottom' id='bsmiwidget-home-bottom'/>
+  
+<bsmimagazine>
+<div class='container'>
+<h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Magazine</h5>
+  <div class='row' id='bsmimagazine'>
+  </div>
+  <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.majalahspinner&quot; ).toggle();sendQueryMajalah();return false'>more<div class='majalahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
+</div> 
+
+<script>
+//<![CDATA[
+function CSVToArray( strData, strDelimiter ){
+        strDelimiter = (strDelimiter || ",");
+        var objPattern = new RegExp(
+            (
+                // Delimiters.
+                "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
+
+                // Quoted fields.
+                "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+
+                // Standard fields.
+                "([^\"\\" + strDelimiter + "\\r\\n]*))"
+            ),
+            "gi"
+            );
+        var arrData = [[]];
+        var arrMatches = null;
+        while (arrMatches = objPattern.exec( strData )){
+            var strMatchedDelimiter = arrMatches[ 1 ];
+            if (
+                strMatchedDelimiter.length &&
+                strMatchedDelimiter !== strDelimiter
+                ){
+                arrData.push( [] );
+
+            }
+
+            var strMatchedValue;
+            if (arrMatches[ 2 ]){
+                strMatchedValue = arrMatches[ 2 ].replace(
+                    new RegExp( "\"\"", "g" ),
+                    "\""
+                    );
+
+            } else {
+                strMatchedValue = arrMatches[ 3 ];
+
+            }
+
+            arrData[ arrData.length - 1 ].push( strMatchedValue );
+        }
+        return( arrData );
+    }
+
+var datamajalah= "";
+function getmajalah(){ console.log("test2");   
+$.get("https://script.google.com/macros/s/AKfycbz6Fit6-D_2PABn3zrpzydiGb9PogiqqBdItpx6XcPqrLhFjW0/exec?url=https://docs.google.com/spreadsheets/d/e/2PACX-1vTZEiolmUm4E-2v6CORSzS9KYl_qt0wFPoseFY3dlParwWtDW10xZIJLLVVpnHbw0TDzV2BjB9y84l4/pub?output=csv", function(data, status){
+    var data = JSON.parse(data);
+    data = CSVToArray(data.contents);
+    datamajalah = data;
+    sendQueryMajalah();
+});
+}
+
+var indexmajalah = 0;
+function sendQueryMajalah(){console.log("test1");
+	if (datamajalah === "") {getmajalah();} else { var data = datamajalah;console.log("cek1 ="+datamajalah);
+           	for (var i = data.length-1-indexmajalah ; i > data.length-1-(4+indexmajalah)  ; i--) {
+            	if (i < 1){break}
+    			//$('#bsmimagazine').append('<div class=col-50 class=majalahitem><a class=openiframe href=https://drive.google.com/file/d/'+data[i][3]+'/preview><div class=majalahcover style=background-image:url('+data[i][4]+')></div><div class=majalahtitle>Edisi '+data[i][0]+' # '+data[i][1]+' '+data[i][2]+'</div></a></div>');
+				var majalahitem='<div class="item col-md-6 col-lg-3" style=""><a target="_blank" href="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;"><p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
+				//$('#bsmimagazine').append(majalahitem);
+				document.getElementById("bsmimagazine").innerHTML += majalahitem;
+				AOS.refreshHard();
+				
+            }
+			indexmajalah += 4;
+     		$( ".majalahspinner" ).toggle();
+    }
+}
+
+$(document).ready(function() {
+sendQueryMajalah();
+});
+//]]>
+</script>
+<style>
+bsmimagazine {
+margin:30px auto;
+display:block;
+}
+
+bsmimagazine .item{
+margin-bottom:20px;
+	overflow:hidden;
+  height:250px;
+    background-size:cover;
+  background-position:center top;
+border-radius:20px 20px 20px 20px;
+  }
+
+bsmimagazine .item .isi{
+	overflow:hidden;
+  height:500px;
+  background:#fff;
+    background-size:cover;
+  background-position:center top;
+  background-color: #808080;
+  background-blend-mode: multiply;
+	border-radius:20px 20px 20px 20px;
+  }
+
+bsmimagazine .item .isi:hover{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  background-color: red;
+  background-blend-mode: normal;
+border-radius:20px 20px 20px 20px;
+}
+
+bsmimagazine .item .isi p {
+position:absolute;
+bottom:15px;
+background:#fff;
+width:80%;
+padding:5px 10px;
+color:red;
+left:30px;
+border-radius:5px 5px 5px 5px;
+}
+</style>
+</bsmimagazine>
+   
   
 <rekening>
 <div class='container'><div class='row'>

@@ -354,35 +354,31 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 	<div class='row'>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'>
         <a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html'>Sejarah</a>
-		<a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmis'>Visi Misi</a>
-        <a href='http://www.bsmijatim.org/p/jadi-donatur.html'>Donatur</a>
-        <a href='http://www.bsmijatim.org/p/jadi-relawan.html'>Relawan</a>
-		<a href='http://www.bsmijatim.org/p/sitemap.html'>News</a>
+        <a href='http://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a>
+		<!--<a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmis'>Visi Misi</a>-->
+        <!--<a href='http://www.bsmijatim.org/p/jadi-donatur.html'>Donatur</a>-->
+        <!--<a href='http://www.bsmijatim.org/p/jadi-relawan.html'>Relawan</a>-->
+		<a href='http://www.bsmijatim.org/p/sitemap.html'>Sitemap</a>
         <a href='http://www.bsmijatim.org/p/kontak.html'>Kontak</a>
       </div>
 	  <div class='col-12 col-sm-12 col-md-6 col-lg-3'>
-        <a href='https://wiki.bsmijatim.org/'>WikiBSMI</a>
-        <a href='https://covid19.bsmijatim.org'>COVID-19</a>
-		<a href='http://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a>
-        
-        <a href='#'>Program</a>
-		<a href='#'>Layanan</a>
-        <a href='http://www.bsmijatim.org/p/kontak.html'>Sekretariat</a>
+        <!--<a href='https://wiki.bsmijatim.org/'>WikiBSMI</a>-->
+        <!--<a href='https://covid19.bsmijatim.org'>COVID-19</a>-->
       </div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'>
-        <a href='http://www.bsmijatim.org/p/download.html'>File</a>
+        <a href='http://www.bsmijatim.org/p/download.html'>Download</a>
 		<a href='http://www.bsmijatim.org/p/poster.html'>Poster</a>
         <a href='http://www.bsmijatim.org/p/majalah.html'>Majalah</a>
-        <a href='http://www.bsmijatim.org/p/foto.html'>Gallery</a>
+        <!--<a href='http://www.bsmijatim.org/p/foto.html'>Foto</a>-->
 		<a href='http://www.bsmijatim.org/p/video.html'>Video</a>
         <a href='http://www.bsmijatim.org/p/audio.html'>Audio</a>
       </div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'>
-        <a href='https://www.facebook.com/bsmijawatimur2'>Facebook Profile</a>
-		<a href='https://www.facebook.com/bsmijatimnews/'>Facebook Page</a>
+        <a href='https://youtube.com/bsmitv'>Youtube</a>
+		<a href='https://www.facebook.com/bsmijatimnews/'>Facebook</a>
         <a href='https://www.instagram.com/bsmijatim'>Instagram</a>
         <a href='https://www.twitter.com/bsmijatim'>Twitter</a>
-		<a href='https://www.youtube.com/channel/UCYoYOUOgYDnpM7FRUe6JyLQ'>Youtube</a>
+		<a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>Android </a>
         <a href='https://soundcloud.com/bsmijatim'>Soundcloud</a>
       </div>
     </div>
@@ -456,7 +452,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
       <span aria-hidden='true' class='carousel-control-next-icon'/>
       <span class='sr-only'>Next</span>
     </a>
-    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>Yuk Donasi</h4><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;100000&quot;)' role='button'>100.000</a><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;500000&quot;)' role='button'>500.000</a></div></div></div>
+    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>Pilih Donasimu</h4><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;100000&quot;)' role='button'>100.000</a><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;500000&quot;)' role='button'>500.000</a></div></div></div>
 
     <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
@@ -1761,9 +1757,9 @@ getbsmitv();
 	<div class='row'>
 		<div class='item col-12 col-lg-6'><div class='isi vertical-center'><a data-target='#myModalDonasi' data-toggle='modal' href='#'><img src='https://1.bp.blogspot.com/-nTdTXUkYZ48/XmLJHHQjppI/AAAAAAAADg0/dEpvz9_CgrgWeWd3SHJGb121zCSWxTitQCLcBGAsYHQ/s1600/qris.png' style='width:100%'/></a></div>
       	</div>
-      <div class='item col-6 col-lg-3'><div class='isi vertical-center'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'><img src='https://3.bp.blogspot.com/-bgnBmExNpVY/Xij9Y1AJPUI/AAAAAAAADco/9V4NlAcXAYcPCwvar1Sy50g9bJjpmszfQCK4BGAYYCw/s292/newiconbsmimobile1.jpg' style='width:100%'/></a></div>
+      <div class='item col-6 col-lg-3'><div class='isi vertical-center'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://3.bp.blogspot.com/-bgnBmExNpVY/Xij9Y1AJPUI/AAAAAAAADco/9V4NlAcXAYcPCwvar1Sy50g9bJjpmszfQCK4BGAYYCw/s292/newiconbsmimobile1.jpg' style='width:100%'/></a></div>
       	</div>
-		<div class='item col-6 col-lg-3'><div class='isi vertical-center'><a href='https://kitabisa.com/orang-baik/c444e950064b8786ae28f5f01ef1b03f'><img src='https://1.bp.blogspot.com/-mLEO57pxV8w/XmLBdybA2-I/AAAAAAAADgY/e0ZPbMOm3JU-IEdUh6AhcTV3vPkLZVLrgCLcBGAsYHQ/s1600/96160b4c9eb0b5152470f09ab3343bfc4fbd437b.png' style='width:100%'/></a></div>
+		<div class='item col-6 col-lg-3'><div class='isi vertical-center'><a href='https://kitabisa.com/orang-baik/c444e950064b8786ae28f5f01ef1b03f' target='_blank'><img src='https://1.bp.blogspot.com/-mLEO57pxV8w/XmLBdybA2-I/AAAAAAAADgY/e0ZPbMOm3JU-IEdUh6AhcTV3vPkLZVLrgCLcBGAsYHQ/s1600/96160b4c9eb0b5152470f09ab3343bfc4fbd437b.png' style='width:100%'/></a></div>
       	</div>
 
   </div>
@@ -1865,15 +1861,15 @@ width:auto!important;
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <h1>Tentang Kami</h1>
           <h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html'>Sejarah</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmisi'>Visi Misi</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/jadi-donatur.html'>Donasi</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/jadi-relawan.html'>Relawan</a></h2>
+          <!--<h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmisi'>Visi Misi</a></h2>-->
+          <!--<h2><a href='https://www.bsmijatim.org/p/jadi-donatur.html'>Donasi</a></h2>-->
+          <!--<h2><a href='https://www.bsmijatim.org/p/jadi-relawan.html'>Relawan</a></h2>-->
           <h2><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/sitemap.html'>News</a></h2>
+          <h2><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></h2>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <h1>Rekening Donasi</h1>
-          <h2>Bank Syariah Mandiri</h2>
+          <h2>Bank Syariah Indonesia</h2>
           <h2>no 7063416872</h2>
           <h2>an BSMI Jawa Timur</h2>
       	</div>
@@ -1969,6 +1965,32 @@ width:auto!important;
   </div>
 </div>
 </myModalInputDonasi>
+  
+<myModalPembayaran>
+<!-- Modal -->
+<div aria-hidden='true' aria-labelledby='ModalPembayaran' class='modal fade' id='myModalPembayaran' role='dialog' tabindex='-1'>
+  <div class='modal-dialog' role='document'>
+    <div class='modal-content'>
+      <div class='modal-header'>
+        <h5 class='modal-title' id='ModalPembayaran'>Instruksi Pembayaran</h5>
+        <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+          <span aria-hidden='true'>x</span>
+        </button>
+      </div>
+      <div class='modal-body'>
+        <h2>Transfer bank</h2>
+        <h4>Bank : Bank Syariah Indonesia</h4>
+        <h4>Nama : BSMI Jawa Timur</h4>
+        <h4>No Rekening : 7063416872</h4>
+        <h4>Nominal : Rp. <span id='nominalpembayaran'/></h4>
+      </div>
+      <div class='modal-footer'>
+        <button class='btn btn-danger' onclick='window.open(&quot;https://wa.me/6285645620534&quot;, &quot;_blank&quot;);' type='button'>Kirim bukti transfer</button>
+      </div>
+    </div>
+  </div>
+</div>
+</myModalPembayaran>
 
 <myModalInputEmail>
 <!-- Modal -->
@@ -2062,6 +2084,13 @@ $('article').find('img').each(function(n,image){
 });
 //]]></script>
 
+<script type='text/javascript'>//<![CDATA[
+function fpembayaran(data){console.log('cek');
+	$('#myModalPembayaran').modal('show');
+	$('#nominalpembayaran').text(data);
+}
+//]]></script>  
+  
 <script>//<![CDATA[
 function uuidv4() {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
@@ -2113,6 +2142,8 @@ function uuidv4() {
     }
 
 	//alert(data+' ' +nama+' '+email);
+
+	fpembayaran(data);return; //diasable untuk pembayaran midtrans
 
 	var order_id = uuidv4();console.log(order_id);
 	snap.show();

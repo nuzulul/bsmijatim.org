@@ -357,8 +357,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 
   <div class='collapse navbar-collapse' id='navbarsBsmi01'>
 	<div class='row'>
-      
-      
+      <div class='col-12'><strong><h3>Tautan</h3></strong></div>      
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html'>Sejarah</a></div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></div>
@@ -366,8 +365,10 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/download.html'>Download</a></div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/poster.html'>Poster</a></div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/majalah.html'>Majalah</a></div>
-      <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/video.html'>Video</a></div>
+      <!--<div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/video.html'>Video</a></div>-->
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/audio.html'>Audio</a></div>
+      <div class='col-12'><strong><h3/></strong></div>
+      <div class='col-12'><strong><h3>Sosial Media</h3></strong></div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='https://youtube.com/bsmitv'>Youtube</a></div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='https://www.facebook.com/bsmijatimnews/'>Facebook</a></div>
       <div class='col-12 col-sm-12 col-md-6 col-lg-3'><a href='https://www.instagram.com/bsmijatim'>Instagram</a></div>
@@ -449,7 +450,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
       <span aria-hidden='true' class='carousel-control-next-icon'/>
       <span class='sr-only'>Next</span>
     </a>
-    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>Pilih Donasimu</h4><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;100000&quot;)' role='button'>100.000</a><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;500000&quot;)' role='button'>500.000</a></div></div></div>
+    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>DONASI<strong>BSMI</strong></h4><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;100000&quot;)' role='button'>100.000</a><a class='btn btn-lg btn-danger' href='#' onclick='donasi(&quot;500000&quot;)' role='button'>500.000</a></div></div></div>
 
     <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
@@ -1686,142 +1687,6 @@ margin-bottom:25px;
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:section class='bsmiwidget-home-bottom' id='bsmiwidget-home-bottom'/>
-  
-<bsmimagazine>
-<div class='container'>
-<h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Majalah Kemanusiaan</h5>
-  <div class='row' id='bsmimagazine'>
-  </div>
-  <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.majalahspinner&quot; ).toggle();setTimeout(function(){ sendQueryMajalah(); }, 2000);return false'>more<div class='majalahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
-</div> 
-
-<script>
-//<![CDATA[
-function CSVToArray( strData, strDelimiter ){
-        strDelimiter = (strDelimiter || ",");
-        var objPattern = new RegExp(
-            (
-                // Delimiters.
-                "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
-
-                // Quoted fields.
-                "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
-
-                // Standard fields.
-                "([^\"\\" + strDelimiter + "\\r\\n]*))"
-            ),
-            "gi"
-            );
-        var arrData = [[]];
-        var arrMatches = null;
-        while (arrMatches = objPattern.exec( strData )){
-            var strMatchedDelimiter = arrMatches[ 1 ];
-            if (
-                strMatchedDelimiter.length &&
-                strMatchedDelimiter !== strDelimiter
-                ){
-                arrData.push( [] );
-
-            }
-
-            var strMatchedValue;
-            if (arrMatches[ 2 ]){
-                strMatchedValue = arrMatches[ 2 ].replace(
-                    new RegExp( "\"\"", "g" ),
-                    "\""
-                    );
-
-            } else {
-                strMatchedValue = arrMatches[ 3 ];
-
-            }
-
-            arrData[ arrData.length - 1 ].push( strMatchedValue );
-        }
-        return( arrData );
-    }
-
-var datamajalah= "";
-function getmajalah(){ //console.log("test2");   
-$.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vTZEiolmUm4E-2v6CORSzS9KYl_qt0wFPoseFY3dlParwWtDW10xZIJLLVVpnHbw0TDzV2BjB9y84l4/pub?output=csv", function(data, status){
-    data = CSVToArray(data);
-    datamajalah = data;
-    sendQueryMajalah();
-});
-}
-
-var indexmajalah = 0;
-function sendQueryMajalah(){//console.log("test1");
-	if (datamajalah === "") {getmajalah();} else { var data = datamajalah;//console.log("cek1 ="+datamajalah);
-           	for (var i = data.length-1-indexmajalah ; i > data.length-1-(4+indexmajalah)  ; i--) {
-            	if (i < 1){break}
-    			//$('#bsmimagazine').append('<div class=col-50 class=majalahitem><a class=openiframe href=https://drive.google.com/file/d/'+data[i][3]+'/preview><div class=majalahcover style=background-image:url('+data[i][4]+')></div><div class=majalahtitle>Edisi '+data[i][0]+' # '+data[i][1]+' '+data[i][2]+'</div></a></div>');
-				//var majalahitem='<div class="item col-6 col-lg-3" style=""><a target="_blank" href="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;"><p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
-				var majalahitem='<div class="item col-6 col-lg-3" style=""><a href="javascript:;" data-fancybox data-type="iframe" data-src="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;"><p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
-				//$('#bsmimagazine').append(majalahitem);
-				document.getElementById("bsmimagazine").innerHTML += majalahitem;
-				AOS.refreshHard();
-				
-            }
-			indexmajalah += 4;
-     		$( ".majalahspinner" ).toggle();
-    }
-}
-
-$(document).ready(function() {
-sendQueryMajalah();
-});
-//]]>
-</script>
-<style>
-bsmimagazine {
-margin:30px auto;
-display:block;
-}
-
-bsmimagazine .item{
-margin-bottom:20px;
-	overflow:hidden;
-  height:250px;
-    background-size:cover;
-  background-position:center top;
-border-radius:20px 20px 20px 20px;
-  }
-
-bsmimagazine .item .isi{
-	overflow:hidden;
-  height:500px;
-  background:#fff;
-    background-size:cover;
-  background-position:center top;
-  background-color: #808080;
-  background-blend-mode: multiply;
-	border-radius:20px 20px 20px 20px;
-  }
-
-bsmimagazine .item .isi:hover{
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-  background-color: red;
-  background-blend-mode: normal;
-border-radius:20px 20px 20px 20px;
-}
-
-bsmimagazine .item .isi p {
-position:absolute;
-bottom:15px;
-background:#fff;
-width:80%;
-padding:5px 10px;
-color:red;
-left:30px;
-border-radius:5px 5px 5px 5px;
-}
-</style>
-</bsmimagazine>
 
 <bsmichannel>
 <div class='container'>
@@ -1925,7 +1790,152 @@ left:30px;
 border-radius:5px 5px 5px 5px;
 }
 </style>
-</bsmichannel>
+</bsmichannel>  
+  
+  
+<bsmimagazine>
+<div class='container'>
+<h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Majalah Kemanusiaan</h5>
+  <div class='row' id='bsmimagazine'>
+  </div>
+  <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.majalahspinner&quot; ).toggle();setTimeout(function(){ sendQueryMajalah(); }, 2000);return false'>more<div class='majalahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
+</div> 
+
+<script>
+//<![CDATA[
+function CSVToArray( strData, strDelimiter ){
+        strDelimiter = (strDelimiter || ",");
+        var objPattern = new RegExp(
+            (
+                // Delimiters.
+                "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
+
+                // Quoted fields.
+                "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+
+                // Standard fields.
+                "([^\"\\" + strDelimiter + "\\r\\n]*))"
+            ),
+            "gi"
+            );
+        var arrData = [[]];
+        var arrMatches = null;
+        while (arrMatches = objPattern.exec( strData )){
+            var strMatchedDelimiter = arrMatches[ 1 ];
+            if (
+                strMatchedDelimiter.length &&
+                strMatchedDelimiter !== strDelimiter
+                ){
+                arrData.push( [] );
+
+            }
+
+            var strMatchedValue;
+            if (arrMatches[ 2 ]){
+                strMatchedValue = arrMatches[ 2 ].replace(
+                    new RegExp( "\"\"", "g" ),
+                    "\""
+                    );
+
+            } else {
+                strMatchedValue = arrMatches[ 3 ];
+
+            }
+
+            arrData[ arrData.length - 1 ].push( strMatchedValue );
+        }
+        return( arrData );
+    }
+
+var ebookpdfbutton = '<div class="ebookpdfbutton"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="60" fill="currentColor" class="bi bi-file-earmark-pdf-fill" viewBox="0 0 16 16">   <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z"/>   <path fill-rule="evenodd" d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"/> </svg></div>';
+
+var datamajalah= "";
+function getmajalah(){ //console.log("test2");   
+$.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vTZEiolmUm4E-2v6CORSzS9KYl_qt0wFPoseFY3dlParwWtDW10xZIJLLVVpnHbw0TDzV2BjB9y84l4/pub?output=csv", function(data, status){
+    data = CSVToArray(data);
+    datamajalah = data;
+    sendQueryMajalah();
+});
+}
+
+var indexmajalah = 0;
+function sendQueryMajalah(){//console.log("test1");
+	if (datamajalah === "") {getmajalah();} else { var data = datamajalah;//console.log("cek1 ="+datamajalah);
+           	for (var i = data.length-1-indexmajalah ; i > data.length-1-(4+indexmajalah)  ; i--) {
+            	if (i < 1){break}
+    			//$('#bsmimagazine').append('<div class=col-50 class=majalahitem><a class=openiframe href=https://drive.google.com/file/d/'+data[i][3]+'/preview><div class=majalahcover style=background-image:url('+data[i][4]+')></div><div class=majalahtitle>Edisi '+data[i][0]+' # '+data[i][1]+' '+data[i][2]+'</div></a></div>');
+				//var majalahitem='<div class="item col-6 col-lg-3" style=""><a target="_blank" href="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;"><p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
+				var majalahitem='<div class="item col-6 col-lg-3" style=""><a href="javascript:;" data-fancybox data-type="iframe" data-src="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;">'+ebookpdfbutton+'<p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
+				//$('#bsmimagazine').append(majalahitem);
+				document.getElementById("bsmimagazine").innerHTML += majalahitem;
+				AOS.refreshHard();
+				
+            }
+			indexmajalah += 4;
+     		$( ".majalahspinner" ).toggle();
+    }
+}
+
+$(document).ready(function() {
+sendQueryMajalah();
+});
+//]]>
+</script>
+<style>
+bsmimagazine {
+margin:30px auto;
+display:block;
+}
+
+bsmimagazine .item{
+margin-bottom:20px;
+	overflow:hidden;
+  height:250px;
+    background-size:cover;
+  background-position:center top;
+border-radius:20px 20px 20px 20px;
+  }
+
+bsmimagazine .item .isi{
+	overflow:hidden;
+  height:500px;
+  background:#fff;
+    background-size:cover;
+  background-position:center top;
+  background-color: #808080;
+  background-blend-mode: multiply;
+	border-radius:20px 20px 20px 20px;
+  }
+bsmimagazine .item .isi .ebookpdfbutton{
+  margin:25px auto;
+  width:30px;
+  }
+  
+bsmimagazine .item .isi:hover{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  background-color: red;
+  background-blend-mode: normal;
+border-radius:20px 20px 20px 20px;
+}
+
+bsmimagazine .item .isi p {
+position:absolute;
+bottom:15px;
+background:#fff;
+width:80%;
+padding:5px 10px;
+color:red;
+left:30px;
+border-radius:5px 5px 5px 5px;
+}
+</style>
+</bsmimagazine>
+
+
   
 <!--<bsmivideo>
   <div class='container'><div class='row'>

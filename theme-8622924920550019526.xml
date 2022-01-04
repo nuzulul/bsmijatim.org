@@ -3,6 +3,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='utf-8'/>
+<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -18,10 +19,10 @@
 
 <link href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' rel='stylesheet'/>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' rel='stylesheet'/>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'/>
+  
+<script crossorigin='anonymous' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'/>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'/>
-
-<script data-client-key='SB-Mid-client-DegWqA_DSFerObPF' src='https://app.sandbox.midtrans.com/snap/snap.js'/>
+<!--<script data-client-key='SB-Mid-client-DegWqA_DSFerObPF' src='https://app.sandbox.midtrans.com/snap/snap.js'/>-->
   
 <!-- deskripsi dan keyword -->
 
@@ -1738,9 +1739,8 @@ function CSVToArray( strData, strDelimiter ){
 
 var datamajalah= "";
 function getmajalah(){ //console.log("test2");   
-$.get("https://script.google.com/macros/s/AKfycbz6Fit6-D_2PABn3zrpzydiGb9PogiqqBdItpx6XcPqrLhFjW0/exec?url=https://docs.google.com/spreadsheets/d/e/2PACX-1vTZEiolmUm4E-2v6CORSzS9KYl_qt0wFPoseFY3dlParwWtDW10xZIJLLVVpnHbw0TDzV2BjB9y84l4/pub?output=csv", function(data, status){
-    var data = JSON.parse(data);
-    data = CSVToArray(data.contents);
+$.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vTZEiolmUm4E-2v6CORSzS9KYl_qt0wFPoseFY3dlParwWtDW10xZIJLLVVpnHbw0TDzV2BjB9y84l4/pub?output=csv", function(data, status){
+    data = CSVToArray(data);
     datamajalah = data;
     sendQueryMajalah();
 });
@@ -1819,7 +1819,7 @@ border-radius:5px 5px 5px 5px;
 </bsmimagazine>
   
   
-<bsmivideo>
+<!--<bsmivideo>
   <div class='container'><div class='row'>
     <div class='col-md-6' data-aos='zoom-in-up'>
 		<h5 style='margin:30px 0px 20px 10px;'>Kiprah BSMI Jawa Timur</h5>
@@ -1853,7 +1853,7 @@ getbsmitv();
 });
 //]]>
 </script>
-</bsmivideo>  
+</bsmivideo>-->  
    
   
 <rekening>
@@ -1959,7 +1959,7 @@ width:auto!important;
 </mitra>
 
 <div class='container-fluid' style='height:10px;background:#dc3545;'/> 
-<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7407495217426!2d112.76295431437097!3d-7.270314673455884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7b2e99a1%3A0xe0360390fae406f0!2sKantor%20BSMI%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1583203832858!5m2!1sid!2sid' style='border:0;' width='100%'/>
+<!--<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7407495217426!2d112.76295431437097!3d-7.270314673455884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7b2e99a1%3A0xe0360390fae406f0!2sKantor%20BSMI%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1583203832858!5m2!1sid!2sid' style='border:0;' width='100%'/>-->
 </b:if></b:if></b:if>  
 <div class='container-fluid' style='height:10px;background:#dc3545;'/> 
 <footer class='blended' style='background-image:url(https://1.bp.blogspot.com/-YozdStDZzBQ/XmILfAwrWAI/AAAAAAAADfY/Kn9onA-eB1EJVjrcKAjk_jdsVa-MloVigCLcBGAsYHQ/s1600/CGyYOoiUkAAoDe3.jpg);background-size:cover;background-position:center top;'>
@@ -2126,7 +2126,7 @@ width:auto!important;
 </div>
 </myModalInputEmail>  
 
-<script crossorigin='anonymous' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'/>
+<!--<script crossorigin='anonymous' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'/>-->
 <script crossorigin='anonymous' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'/>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js'/>  
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js'/>
@@ -2389,9 +2389,8 @@ navigator.clipboard.writeText(data);
 //pengaturan
 var pengaturan= "";
 function fpengaturan(){    
-$.get("https://script.google.com/macros/s/AKfycbz6Fit6-D_2PABn3zrpzydiGb9PogiqqBdItpx6XcPqrLhFjW0/exec?url=https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-nsfe3eqFW8iNXAywySZ79CXuYY6V3BfiN0HGf8AvYyE2bxtLZ3vQYsezvGAyMeprkNxelKrVDwOO/pub?output=csv", function(data, status){
-    var data = JSON.parse(data);
-    data = CSVToArray(data.contents);
+$.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-nsfe3eqFW8iNXAywySZ79CXuYY6V3BfiN0HGf8AvYyE2bxtLZ3vQYsezvGAyMeprkNxelKrVDwOO/pub?output=csv", function(data, status){
+    data = CSVToArray(data);
     pengaturan = data;
     //console.log(data);
 });

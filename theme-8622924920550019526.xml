@@ -561,6 +561,15 @@ sendQueryPosthead();
   <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://t.me/bsmipeduli' target='_blank'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEjE4pk3zBwijyOSX4GsaTu-WtIwg6Izr7qIbb6THcDoaorZUv8QG5nPUYVIJPsRxkaFSYs65RWEUQlVEVwGlk-g8KBnxcuq6sbjobLhXT0FHk13qyeUPdm8-zSjQmSvPvIcsywKuBRmvUeYDhn0Vf3Y4qMEIZZjjwO-zKmGX8PQ-7KJKlOygC-HZF7lhQ=s354' width='100%'/></a></div>
   <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEjGODTJ2w6FiUoWvYbrSoJ4d4N0U7lPO3ogyp6h5N_Yg6WCW4WdtfvplfsBW-Kgk7WnTf4_27idOqCNDFJKRvSS7D5wCskAnbvZldie12h2Amt93n7ShRhmjhREsbbq0ERlcGD15HYo14bzQC9UuS8FmCxRuWPrr0p-Bjg9x6sZ7C7xbEtz4ry0nojD_Q=s354' width='100%'/></a></div>
 </div></div>
+<style>
+bsmisosmed div div img:hover{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+</style>
 </bsmisosmed>
 
   
@@ -2525,6 +2534,7 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
 $(document).ready(function() {
 fpengaturan();
 });
+console.log("Halo gaes mau nyari apa ...");
 //]]></script>  
 </body>
 </html>

@@ -3,7 +3,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -1822,7 +1822,110 @@ border-radius:5px 5px 5px 5px;
 }
 </style>
 </bsmimagazine>
+
+<bsmichannel>
+<div class='container'>
+<h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Channel Kemanusiaan</h5>
+  <div class='row' id='bsmichannel'>
+  </div>
+  <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.bsmichannelspinner&quot; ).toggle();setTimeout(function(){ sendQuerybsmichannel(); }, 2000);return false'>more<div class='bsmichannelspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
+</div> 
+
+<script>
+//<![CDATA[
+var ytVideo = [];
+function getbsmichannel(){ //console.log("cek2");
+  $.ajax({url: "https://cors.bsmijatim.workers.dev/?https://www.youtube.com/feeds/videos.xml?channel_id=UCobpncSvOW0iOaQmUwuExpQ", success: function(result){
+    result = result.getElementsByTagName("entry");
+    $.each(result, function(index, val) {
+      ytVideo[index] = {
+          "videoId":val.children[1].innerHTML,
+          "title":val.children[3].innerHTML,
+          "published":val.children[6].innerHTML
+          };
+      })
+    sendQuerybsmichannel();
+  }});
+}
+
+var indexbsmichannel = 0;
+function sendQuerybsmichannel(){ //console.log("cek1");
+	if (ytVideo.length === 0) {getbsmichannel();} else { var data = ytVideo;
+           	for(var i=0+indexbsmichannel;i<2+indexbsmichannel;i++){
+            	//if (i < 1){break}
+
+              var item='<div class="item col-12 col-md-6 col-lg-6" style=""><a href="javascript:;" data-fancybox data-src="https://www.youtube.com/embed/'+data[i]['videoId']+'"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url(https://img.youtube.com/vi/'+data[i]['videoId']+'/0.jpg);padding:50px 50px;"><div class="playvideobutton"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">   <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/> </svg></div><p>'+data[i]['title']+'<br/><span style="color:#969696;font-size:10px">'+data[i]['published']+'</span></p></div></a></div>';
+
+				document.getElementById("bsmichannel").innerHTML += item;
+				AOS.refreshHard();
+				
+            }
+			indexbsmichannel += 2;
+     		$( ".bsmichannelspinner" ).toggle();
+    }
+}
+
+$(document).ready(function() {
+sendQuerybsmichannel();
+});
+//]]>
+</script>
+<style>
+bsmichannel {
+margin:30px auto;
+display:block;
+}
+
+bsmichannel .item{
+margin-bottom:20px;
+	overflow:hidden;
+  height:250px;
+    background-size:cover;
+  background-position:center center;
+border-radius:20px 20px 20px 20px;
+  }
+
+bsmichannel .item .isi{
+	overflow:hidden;
+  height:500px;
+  background:#fff;
+    background-size:cover;
+  background-position:center center;
+  background-color: #808080;
+  background-blend-mode: multiply;
+	border-radius:20px 20px 20px 20px;
+  }
+
+bsmichannel .item .isi .playvideobutton{
+  margin:25px auto;
+  width:100px;
+  }
+bsmichannel .item .isi .playvideobutton{
+  }
   
+bsmichannel .item .isi:hover{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  background-color: red;
+  background-blend-mode: normal;
+border-radius:20px 20px 20px 20px;
+}
+
+bsmichannel .item .isi p {
+position:absolute;
+bottom:15px;
+background:#fff;
+width:80%;
+padding:5px 10px;
+color:red;
+left:30px;
+border-radius:5px 5px 5px 5px;
+}
+</style>
+</bsmichannel>
   
 <!--<bsmivideo>
   <div class='container'><div class='row'>

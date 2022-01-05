@@ -461,7 +461,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
     </a>
     <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>DONASI<strong>BSMI</strong></h4><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;100000&quot;)' role='button'>100.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;500000&quot;)' role='button'>500.000</a></div></div></div>
 
-    <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
+    <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container shadow' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
       <div class='col-12 col-md-6 col-lg-4'><h2>500.<span id='penerimamanfaat'>111</span></h2><h5>Penerima Manfaat</h5></div>
       <div class='col-12 col-md-6 col-lg-4'><h2>38</h2><h5>Cab Kota/Kab SeJatim</h5></div>

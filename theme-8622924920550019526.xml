@@ -463,7 +463,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 
     <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container shadow' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
-      <div class='col-12 col-md-6 col-lg-4'><h2>500.<span id='penerimamanfaat'>111</span></h2><h5>Penerima Manfaat</h5></div>
+      <div class='col-12 col-md-6 col-lg-4'><h2>50.<span id='penerimamanfaat'>111</span></h2><h5>Penerima Manfaat</h5></div>
       <div class='col-12 col-md-6 col-lg-4'><h2>38</h2><h5>Cab Kota/Kab SeJatim</h5></div>
       <div class='col-12 col-md-6 col-lg-4'><h2>1.000+</h2><h5>Relawan</h5></div>
     </div>

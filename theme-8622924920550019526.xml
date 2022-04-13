@@ -378,23 +378,24 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
       <div class='col-12'><strong><h3/></strong></div>
       <div class='col-12'><strong><h3/></strong></div>
       <div class='col-12'><strong><h3>Aplikasi</h3></strong></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>BSMI MOBILE</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI RADIO</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://wiki.bsmijatim.org/'>WIKI BSMI</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'>BSMI MOBILE</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'>BSMI RADIO</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://wiki.bsmijatim.org/' target='_blank'>WIKI BSMI</a></div>
       <div class='col-12'><strong><h3/></strong></div>
       <div class='col-12'><strong><h3/></strong></div>
       <div class='col-12'><strong><h3>Sosmed</h3></strong></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://youtube.com/bsmitv'>Youtube</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.facebook.com/bsmijatimnews/'>Facebook</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.instagram.com/bsmijatim'>Instagram</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.twitter.com/bsmijatim'>Twitter</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>Android </a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://soundcloud.com/bsmijatim'>Soundcloud</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://issuu.com/majalahbsmi'>Issuu</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://tiktok.com/@bsmijatim'>Tiktok</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://kitabisa.com/orang-baik/c444e950064b8786ae28f5f01ef1b03f'>Kita Bisa</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/bsmipeduli'>Telegram</a></div>
-      
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://youtube.com/bsmitv' target='_blank'>Youtube</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.facebook.com/bsmijatimnews/' target='_blank'>Facebook</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.instagram.com/bsmijatim' target='_blank'>Instagram</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.twitter.com/bsmijatim' target='_blank'>Twitter</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'>Android </a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://soundcloud.com/bsmijatim' target='_blank'>Soundcloud</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://issuu.com/majalahbsmi' target='_blank'>Issuu</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://tiktok.com/@bsmijatim' target='_blank'>Tiktok</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://kitabisa.com/orang-baik/c444e950064b8786ae28f5f01ef1b03f' target='_blank'>Kita Bisa</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/bsmipeduli' target='_blank'>Telegram</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://web.facebook.com/groups/316612265111204' target='_blank'>Fb Group</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/mtbindonesia' target='_blank'>Telegram Group</a></div>
     </div>
   </div>
 </nav>
@@ -850,7 +851,6 @@ border-radius:5px 5px 5px 5px;
           <b:widget-setting name='showCommentLink'>true</b:widget-setting>
           <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
           <b:widget-setting name='showAuthor'>true</b:widget-setting>
-          <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
           <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
           <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
           <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
@@ -912,8 +912,6 @@ border-radius:5px 5px 5px 5px;
   <b:else/>
     <b:include name='mobile-main'/>
   </b:if>
-
-  <b:include cond='data:top.showPlusOne' name='googlePlusBootstrap'/>
 </b:includable>
         <b:includable id='backlinkDeleteIcon' var='backlink'/>
         <b:includable id='backlinks' var='post'/>
@@ -1258,9 +1256,6 @@ border-radius:5px 5px 5px 5px;
                   <a href='javascript:void(0);'><data:shareMsg/></a>
                 </div>
               </b:if>
-              <b:if cond='data:top.showDummy'>
-                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
-              </b:if>
             </div>
 
           </div>
@@ -1431,7 +1426,7 @@ border-radius:5px 5px 5px 5px;
   </b:if>
 </b:includable>
         <b:includable id='shareButtons' var='post'>
-  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if><b:if cond='data:top.showPlusOne'><div class='goog-inline-block google-plus-share-container'><data:post.googlePlusShareTag/></div></b:if>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if>
 </b:includable>
         <b:includable id='status-message'>
   <b:if cond='data:navMessage'>
@@ -2121,13 +2116,17 @@ width:auto!important;
           <img height='200px' src='https://1.bp.blogspot.com/-I9V1NyLtG68/XmJRZ_RhTJI/AAAAAAAADgI/wJiuL0Wnjvc2jyoV8AMRsIp1YvSQs1QXwCLcBGAsYHQ/s1600/Logo%2BBSMI%2B%2528vector%2529.png'/>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
-          <h1>Tentang Kami</h1>
+          <!--<h1>Tentang Kami</h1>-->
           <h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html'>Sejarah</a></h2>
           <!--<h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmisi'>Visi Misi</a></h2>-->
           <!--<h2><a href='https://www.bsmijatim.org/p/jadi-donatur.html'>Donasi</a></h2>-->
           <!--<h2><a href='https://www.bsmijatim.org/p/jadi-relawan.html'>Relawan</a></h2>-->
           <h2><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></h2>
           <h2><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></h2>
+          <h2><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></h2>
+          <h2><a href='https://www.bsmijatim.org/p/download.html'>Download</a></h2>
+          <h2><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>BSMI Mobile</a></h2>
+          <h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <h1>Rekening Donasi</h1>

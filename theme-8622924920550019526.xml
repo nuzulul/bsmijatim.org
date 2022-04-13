@@ -367,6 +367,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 	<div class='row'>
       <div class='col-12'><strong><h3>Tautan</h3></strong></div>      
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html'>Sejarah</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/kontak.html'>Kontak</a></div>
@@ -2118,6 +2119,7 @@ width:auto!important;
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <!--<h1>Tentang Kami</h1>-->
           <h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html'>Sejarah</a></h2>
+          <h2><a href='http://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></h2>
           <!--<h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmisi'>Visi Misi</a></h2>-->
           <!--<h2><a href='https://www.bsmijatim.org/p/jadi-donatur.html'>Donasi</a></h2>-->
           <!--<h2><a href='https://www.bsmijatim.org/p/jadi-relawan.html'>Relawan</a></h2>-->

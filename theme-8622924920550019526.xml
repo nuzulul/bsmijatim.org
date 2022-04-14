@@ -3,7 +3,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -2118,6 +2118,7 @@ width:auto!important;
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <!--<h1>Tentang Kami</h1>-->
+          <h2><a href='https://www.bsmijatim.org/'>Home</a></h2>
           <h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html'>Sejarah</a></h2>
           <h2><a href='http://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></h2>
           <!--<h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmisi'>Visi Misi</a></h2>-->
@@ -2129,18 +2130,95 @@ width:auto!important;
           <h2><a href='https://www.bsmijatim.org/p/download.html'>Download</a></h2>
           <h2><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>BSMI Mobile</a></h2>
           <h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2>
-      	</div>
-      	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
-          <h1>Rekening Donasi</h1>
-          <h2>Bank Syariah Indonesia</h2>
-          <h2>no 7063416872</h2>
-          <h2>an BSMI Jawa Timur</h2>
+          <h2><a href='http://wiki.bsmijatim.org/'>WikiBSMI</a></h2>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <h1>Sekretariat</h1>
           <h2>Kantor BSMI Jawa Timur</h2>
           <h2>Jl. Mojo III No 33 Surabaya, Jawa Timur</h2>
           <h2>Telepon : 031 5952 248</h2>
+          <br/>
+          <h1>Rekening Donasi</h1>
+          <h2>Bank Syariah Indonesia</h2>
+          <h2>no 7063416872</h2>
+          <h2>an BSMI Jawa Timur</h2>
+      	</div>
+      	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
+          <b:section class='bsmiwidget-sidebar-right' id='bsmiwidget-sidebar-right'>
+            <b:widget id='PopularPosts1' locked='false' title='Populer' type='PopularPosts'>
+              <b:widget-settings>
+                <b:widget-setting name='numItemsToShow'>1</b:widget-setting>
+                <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+                <b:widget-setting name='showSnippets'>true</b:widget-setting>
+                <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+        <b:if cond='!data:showThumbnails'>
+          <b:if cond='!data:showSnippets'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
+          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
+            <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
+              <div class='item-thumbnail'>
+                <a expr:href='data:post.href' target='_blank'>
+                  <b:with value='data:post.featuredImage.isResizable                                  ? resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)                                  : data:post.thumbnail' var='image'>
+                    <img alt='' border='0' expr:src='data:image'/>
+                  </b:with>
+                </a>
+              </div>
+            </b:if>
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <b:if cond='data:showSnippets'>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </b:if>
+          </div>
+          <div style='clear: both;'/>
+        </b:if>
+      </li>
+      </b:loop>
+    </ul>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+            </b:widget>
+            <b:widget id='Stats1' locked='true' title='Statistik' type='Stats'>
+              <b:widget-settings>
+                <b:widget-setting name='showGraphicalCounter'>true</b:widget-setting>
+                <b:widget-setting name='showAnimatedCounter'>true</b:widget-setting>
+                <b:widget-setting name='showSparkline'>false</b:widget-setting>
+                <b:widget-setting name='sparklineStyle'>WHITE_TRANSPARENT</b:widget-setting>
+                <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <!-- Content is going to be visible when data will be fetched from server. -->
+    <div expr:id='data:widget.instanceId + &quot;_content&quot;' style='display: none;'>
+      <!-- Counter and image will be injected later via AJAX call. -->
+      <b:if cond='data:showSparkline'>
+        <script src='https://www.gstatic.com/charts/loader.js' type='text/javascript'/>
+        <span expr:id='data:widget.instanceId + &quot;_sparklinespan&quot;' style='display:inline-block; width:75px; height:30px'/>
+      </b:if>
+      <span expr:class='&quot;counter-wrapper &quot; + (data:showGraphicalCounter ? &quot;graph-counter-wrapper&quot; : &quot;text-counter-wrapper&quot;)' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'>
+      </span>
+      <b:include name='quickedit'/>
+    </div>
+  </div>
+</b:includable>
+            </b:widget>
+          </b:section>
       	</div>
     </div>
 
@@ -2551,7 +2629,7 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
 $(document).ready(function() {
 fpengaturan();
 });
-console.log("Hai gaes mau liat apaan??? ...");
+console.log("created by Nuzulul");
 //]]></script>  
 </body>
 </html>

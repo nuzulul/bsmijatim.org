@@ -593,10 +593,54 @@ bsmisosmed div div img:hover{
   
 <b:section class='bsmiwidget-home-top' id='bsmiwidget-home-top'/>
   
+  
+<profil>
+<div class='container' style='padding-top:30px;padding-bottom:30px;'><div class='row'>
+<div class='col-md-4' data-aos='zoom-in-up'>
+	<h5 style='margin:30px 0px 20px 10px;'>PROFIL BSMI JATIM</h5>
+  	<div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #fff;padding:15px 15px;'>
+      <p>Kiprah Kemanusiaan Relawan Bulan Sabit Merah Indonesia Wilayah Jawa Timur</p>
+      <a data-fancybox='' data-src='https://www.youtube.com/embed/Z6qX8Tkb_5c' href='javascript:;'>
+          <svg class='bi bi-camera-video-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
+            <path d='M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z' fill-rule='evenodd'/>
+          </svg>        
+      </a>
+  	</div>
+</div>
+<div class='col-md-4' data-aos='zoom-in-up'>
+	<h5 style='margin:30px 0px 20px 10px;'>PENGURUS WILAYAH</h5>
+  	<div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #fff;padding:15px 15px;'>
+      <p>Susunan Pengurus Bulan Sabit Merah Indonesia Wilayah Jawa Timur</p>
+      <a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>
+          <svg class='bi bi-people-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
+            <path d='M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/>
+            <path d='M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z' fill-rule='evenodd'/>
+            <path d='M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'/>
+          </svg>        
+      </a>
+  	</div>
+</div>
+<div class='col-md-4' data-aos='zoom-in-up'>
+	<h5 style='margin:30px 0px 20px 10px;'>LAYANAN DONATUR</h5>
+  	<div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #fff;padding:15px 15px;'>
+      <p>Berbagi kebaikan kepada sesama dengan daftar donatur</p>
+      <a href='https://bit.ly/3KLuzop' target='_blank'>
+            <svg class='bi bi-envelope-heart-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
+              <path d='M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555l-4.2 2.568a2.785 2.785 0 0 0-.051-.105c-.666-1.3-2.363-1.917-3.699-1.25-1.336-.667-3.033-.05-3.699 1.25l-.05.105L.05 3.555ZM11.584 8.91a4.694 4.694 0 0 1-.073.139L16 11.8V4.697l-4.003 2.447c.027.562-.107 1.163-.413 1.767Zm-4.135 3.05c-1.048-.693-1.84-1.39-2.398-2.082L.19 12.856A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144L10.95 9.878c-.559.692-1.35 1.389-2.398 2.081L8 12.324l-.551-.365ZM4.416 8.91c-.306-.603-.44-1.204-.413-1.766L0 4.697v7.104l4.49-2.752a4.742 4.742 0 0 1-.074-.138Z'/>
+              <path d='M8 5.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z'/>
+            </svg>
+      </a>  
+  	</div>
+</div>
+<style>
+</style>
+</div></div>
+</profil>
+  
 
 <bsmidonasi>
 <div class='container'>
-<h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Penggalangan Donasi Kemanusiaan</h5>
+<h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Program Donasi Kemanusiaan</h5>
   <div class='row' id='bsmidonasi'>
   
 <script type='text/javascript'>
@@ -2147,9 +2191,9 @@ width:auto!important;
           <b:section class='bsmiwidget-sidebar-right' id='bsmiwidget-sidebar-right'>
             <b:widget id='PopularPosts1' locked='false' title='Populer' type='PopularPosts'>
               <b:widget-settings>
-                <b:widget-setting name='numItemsToShow'>1</b:widget-setting>
+                <b:widget-setting name='numItemsToShow'>2</b:widget-setting>
                 <b:widget-setting name='showThumbnails'>true</b:widget-setting>
-                <b:widget-setting name='showSnippets'>true</b:widget-setting>
+                <b:widget-setting name='showSnippets'>false</b:widget-setting>
                 <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>

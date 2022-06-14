@@ -2056,13 +2056,13 @@ getbsmitv();
       <h5 style='margin:30px 0px 20px 10px;text-align:center;'>Layanan</h5>
       <div class='row'>
         
-		<div class='item col-12 col-lg-4 hover1'><div class='isi vertical-center'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFbs-R-3PZ6xL_UH0_59EOVCh6u6RuYLX3IbDkvvuWNy0qXjytGIxP8As91q45Kr0kjCVNqiCIUKMRFoYdWHFcATpMVVZ5NY2dTj1cFYjx5wRSHa67_orX4WAhCWC4QmdusA8xX2_-safrDR06B9oLr2H5XcqUoeykVkQ8zoxD4MHjZs7wXaavslz6QA/s320/logoradiobsmifm.png' style='width:100%'/></a></div>          
+		<div class='item col-md-4 hover1'><div class='isi'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFbs-R-3PZ6xL_UH0_59EOVCh6u6RuYLX3IbDkvvuWNy0qXjytGIxP8As91q45Kr0kjCVNqiCIUKMRFoYdWHFcATpMVVZ5NY2dTj1cFYjx5wRSHa67_orX4WAhCWC4QmdusA8xX2_-safrDR06B9oLr2H5XcqUoeykVkQ8zoxD4MHjZs7wXaavslz6QA/s320/logoradiobsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
-        <div class='item col-12 col-lg-4 hover1'><div class='isi vertical-center'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%'/></a></div>          
+        <div class='item col-md-4 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
-        <div class='item col-12 col-lg-4 hover1'><div class='isi vertical-center'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%'/></a></div>          
+        <div class='item col-md-4 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
       </div>

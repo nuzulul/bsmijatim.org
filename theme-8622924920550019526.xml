@@ -810,7 +810,7 @@ for(var i=0;i<4;i++){
 
 
 <div class='container'>
-<h5 data-aos='zoom-in-up' style='margin:80px 0px 20px 10px;text-align:center;'>Storyboard Kemanusiaan</h5>
+<h5 data-aos='zoom-in-up' style='margin:80px 0px 20px 10px;text-align:center;'>Kabar Kemanusiaan</h5>
   <div class='row' id='bsmipost'>
 <script>
 //<![CDATA[
@@ -2185,7 +2185,7 @@ width:auto!important;
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <!--<h1>Tentang Kami</h1>-->
           <h2><a href='https://www.bsmijatim.org/'>Home</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html'>Sejarah</a></h2>
+          <h2><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></h2>
           <h2><a href='http://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></h2>
           <!--<h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmisi'>Visi Misi</a></h2>-->
           <!--<h2><a href='https://www.bsmijatim.org/p/jadi-donatur.html'>Donasi</a></h2>-->

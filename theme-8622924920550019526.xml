@@ -2690,6 +2690,15 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
     data = CSVToArray(data);
     pengaturan = data;
     //console.log(data);
+	var batasdonasi = new Date(pengaturan[0][3]).getTime();//console.log(batasdonasi);
+	var waktusekarang = new Date().getTime();//console.log(waktusekarang);
+	if (waktusekarang >= batasdonasi)
+	{
+		pengaturan[0][2] = 3;
+		pengaturan[0][1] = "Penanganan Tanggap Bencana";
+		$("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5fBNwnk4KBQJKT18jSc43zwE7dTDWWJFyHUx5bWCQ0bDgpvLuVdH-HjJVO-C2WufZwkvUXlpDIxQcG6fca6yBZAY7-FvzqOUinCQqaNqB56jpNjIWTFTSILyA5r5WoiRQBIqytN2zkR38Ywbbuq5O0LdN8tcFgCZ48JwQEy0vVe9Qj_UaW-qBOs0gA/s320/bsmijatim2022programtanggapbencana.jpg)");
+		$("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5fBNwnk4KBQJKT18jSc43zwE7dTDWWJFyHUx5bWCQ0bDgpvLuVdH-HjJVO-C2WufZwkvUXlpDIxQcG6fca6yBZAY7-FvzqOUinCQqaNqB56jpNjIWTFTSILyA5r5WoiRQBIqytN2zkR38Ywbbuq5O0LdN8tcFgCZ48JwQEy0vVe9Qj_UaW-qBOs0gA/s320/bsmijatim2022programtanggapbencana.jpg");
+	}
 });
 }
 $(document).ready(function() {

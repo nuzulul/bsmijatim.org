@@ -398,8 +398,9 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://tiktok.com/@bsmijatim' target='_blank'>Tiktok</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://kitabisa.com/orang-baik/c444e950064b8786ae28f5f01ef1b03f' target='_blank'>Kita Bisa</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/bsmipeduli' target='_blank'>Telegram</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://web.facebook.com/groups/316612265111204' target='_blank'>Fb Group</a></div>
+      <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://web.facebook.com/groups/316612265111204' target='_blank'>Fb Group</a></div>-->
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/tanggapbencanaindonesia' target='_blank'>Telegram Group</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.linkedin.com/company/indonesianredcrescent' target='_blank'>Linkedin</a></div>
     </div>
   </div>
 </nav>

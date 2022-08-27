@@ -367,21 +367,22 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 	<div class='row'>
       <div class='col-12'><strong><h3>Tautan</h3></strong></div>      
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/legalitas.html'>Legalitas</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/kontak.html'>Kontak</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/download.html'>Download</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/download.html'>Download</a></div>
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/poster.html'>Poster</a></div>-->
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/majalah.html'>Majalah</a></div>-->
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/video.html'>Video</a></div>-->
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/audio.html'>Audio</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/audio.html'>Audio</a></div>
       <div class='col-12'><strong><h3/></strong></div>
       <div class='col-12'><strong><h3/></strong></div>
       <div class='col-12'><strong><h3>Layanan</h3></strong></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'>BSMI MOBILE</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'>BSMI RADIO</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://wiki.bsmijatim.org/' target='_blank'>WIKI BSMI</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://wiki.bsmijatim.org/' target='_blank'>WIKI BSMI</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/radiobsmifm.html'>RADIOBSMI FM</a></div>
       
       

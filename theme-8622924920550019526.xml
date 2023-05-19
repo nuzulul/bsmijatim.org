@@ -3,7 +3,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -350,7 +350,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 
   
 <header>
-  <div class='container-fluid' style='height:30px;background:#dc3545;'><div class='container'><span id='countdown' style='margin-left:20px;color:#fff;'/><a href='https://mybsmi.bsmijatim.org/' style='margin-right:20px;color:#fff;float:right;'>Login</a></div></div>
+  <div class='container-fluid' style='height:30px;background:#dc3545;'><div class='container'><span id='countdown' style='margin-left:20px;color:#fff;'/><a href='https://mybsmi.bsmijatim.org/' style='margin-right:20px;color:#fff;float:right;'>MyBSMI</a></div></div>
 <div class='container'>
 <nav class='navbar navbar-light bg-light'>
 
@@ -1945,7 +1945,8 @@ function sendQueryMajalah(){//console.log("test1");
             	if (i < 1){break}
     			//$('#bsmimagazine').append('<div class=col-50 class=majalahitem><a class=openiframe href=https://drive.google.com/file/d/'+data[i][3]+'/preview><div class=majalahcover style=background-image:url('+data[i][4]+')></div><div class=majalahtitle>Edisi '+data[i][0]+' # '+data[i][1]+' '+data[i][2]+'</div></a></div>');
 				//var majalahitem='<div class="item col-6 col-lg-3" style=""><a target="_blank" href="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;"><p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
-				var majalahitem='<div class="item col-6 col-lg-3" style=""><a href="javascript:;" data-fancybox data-type="iframe" data-src="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;">'+ebookpdfbutton+'<p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
+				//var majalahitem='<div class="item col-6 col-lg-3" style=""><a href="javascript:;" data-fancybox data-type="iframe" data-src="https://drive.google.com/file/d/'+data[i][3]+'/preview"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;">'+ebookpdfbutton+'<p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
+				var majalahitem='<div class="item col-6 col-lg-3" style=""><a href="javascript:;" data-fancybox data-type="iframe" data-src="https://nuzulul.github.io/app/pdfflipbook/gdrivepdf.html?fileid='+data[i][3]+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+data[i][4]+');padding:50px 50px;">'+ebookpdfbutton+'<p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
 				//$('#bsmimagazine').append(majalahitem);
 				document.getElementById("bsmimagazine").innerHTML += majalahitem;
 				AOS.refreshHard();

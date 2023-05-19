@@ -439,7 +439,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
         <div class='container'>
           <div class='carousel-caption text-left'>
             <h2 data-animation='animated bounceInLeft'>BSMI</h2>
-            <p class='subtitle' data-animation='animated bounceInRight'>Lembaga medis dan kemanusiaan independen di Indonesia, menjalankan giat kemanusian sejak 2002 baik nasional maupun internasional</p>
+            <p class='subtitle' data-animation='animated bounceInRight'>Lembaga kemanusiaan, kesehatan dan sosial di Indonesia yang telah menjalankan giat kemanusian sejak 2002 baik di tingkat nasional maupun internasional</p>
             <p class='tombol' data-animation='animated bounceInUp'><a class='btn btn-lg btn-danger' data-target='#myModalDonasi' data-toggle='modal' href='#' role='button'>Dukung Kami</a></p>
           </div>
         </div>
@@ -449,7 +449,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
         <div class='container'>
           <div class='carousel-caption text-left'>
             <h2 data-animation='animated bounceInLeft'>Bantuan Kemanusiaan</h2>
-            <p class='subtitle' data-animation='animated bounceInRight'>Bantuan untuk saudara saudara kita yang dilanda musibah banjir, gempa bumi, tsunami, gunung meletus , dll</p>
+            <p class='subtitle' data-animation='animated bounceInRight'>Memberikan bantuan kemanusiaan untuk korban bencana seperti banjir, gempa bumi, tsunami, gunung meletus , dan sebagainya</p>
             <p class='tombol' data-animation='animated bounceInUp'><a class='btn btn-lg btn-danger' data-target='#myModalDonasi' data-toggle='modal' href='#' role='button'>Donasi Sekarang</a></p>
           </div>
         </div>
@@ -812,7 +812,7 @@ for(var i=0;i<4;i++){
 
 
 <div class='container'>
-<h5 data-aos='zoom-in-up' style='margin:80px 0px 20px 10px;text-align:center;'>Berita BSMI</h5>
+<h5 data-aos='zoom-in-up' style='margin:80px 0px 20px 10px;text-align:center;'>Publikasi BSMI</h5>
   <div class='row' id='bsmipost'>
 <script>
 //<![CDATA[
@@ -896,12 +896,12 @@ border-radius:5px 5px 5px 5px;
       <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog'>
         <b:widget-settings>
           <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-          <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
           <b:widget-setting name='showShareButtons'>false</b:widget-setting>
           <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-          <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
           <b:widget-setting name='showAuthor'>true</b:widget-setting>
-          <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
           <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
           <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
           <b:widget-setting name='reactionsLabel'/>
@@ -2059,7 +2059,7 @@ getbsmitv();
       <h5 style='margin:30px 0px 20px 10px;text-align:center;'>Layanan BSMI</h5>
       <div class='row'>
         
-		<div class='item col-md-4 hover1'><div class='isi'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFbs-R-3PZ6xL_UH0_59EOVCh6u6RuYLX3IbDkvvuWNy0qXjytGIxP8As91q45Kr0kjCVNqiCIUKMRFoYdWHFcATpMVVZ5NY2dTj1cFYjx5wRSHa67_orX4WAhCWC4QmdusA8xX2_-safrDR06B9oLr2H5XcqUoeykVkQ8zoxD4MHjZs7wXaavslz6QA/s320/logoradiobsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+		<div class='item col-md-4 hover1'><div class='isi'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
         <div class='item col-md-4 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          

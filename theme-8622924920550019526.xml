@@ -3,7 +3,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -2247,13 +2247,14 @@ border-radius:10px 10px 10px 10px;
 <mitra data-aos='zoom-in-up'><div class='container'><h5 style='margin:30px 0px 20px 10px;text-align:center;'>Mitra BSMI</h5>
 <div class='owl-carousel owl-theme'>
   <div class='item1'> <div class='item'><img class='mitra' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeM7OTrJ0JKizBVi9-qbcALWeTseNqLkr0QtMzRzjTcMumDKMjhywRjCsKQUfHhYRboKUXquH3c-VV1_xPdfLrnmy423uJq4lUPnp4fGAcgSVA4e5G_yF6I4tcOAfO7IMSNA_X009sxmoRdzV47dg99rSQVZiOxpVgggL1teMUv1gUbh9_to4g3Ilf/s320/LOGO-BNPB.png'/></div> </div>
+  <div class='item1'> <div class='item'><img class='mitra' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOEO1J1oiq0lONWPZazxDBQrQfGTeJvSsMbabZf19oLbpmtajPiquY7ETXarftPHraQmRUuZ6opcJ69D2AaW9BaGJM_B_F85IvjXVVTxbqoXj_CDrP95G5FHFJcO0e6zDPKWrfqRGvKdw26OPNSb-qjRsURhCmSKsz6F_JRPg0MQjCLct5BmU-lkmf/s1600/Logo_BMKG_(2010).png'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-FfTDluPaZYw/WazhwksLqrI/AAAAAAAAAc4/jqCbkYMfE_ok3RIjj4wL6_195hr2xPryACLcBGAs/s1600/ydsf2.jpg'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-tCngD7trvYk/WazhvYC7yBI/AAAAAAAAAco/X8agMXGkLxUNSqtQWXYq_aerC6FyMeDxACLcBGAs/s1600/LMI.jpg'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-kR1uhOlD2Q0/XmbEJyeOjwI/AAAAAAAADhg/dNPnVycLEbML3aGsQlhm5j3ydWLo9sgwQCLcBGAsYHQ/s1600/suaramuslim.jpg'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-Oc5cel-wZXU/XmbDDdLD7SI/AAAAAAAADhU/C2i_fsyVWw430B_71kCDHDrnL3zPUmCUgCLcBGAsYHQ/s1600/logo-radarbromo2.png'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-fIUAKXtyZok/XmbFLyP8ofI/AAAAAAAADho/_AsRgb2CaeI4-ZZP-7bodcGCt1pvn9WLgCLcBGAsYHQ/s1600/logoits.png'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-CM8Phsp93BI/XmbA3XcqrRI/AAAAAAAADhA/B9NLTDMJrOUfLXtdUgxTeaKjxVSQeNkuACLcBGAsYHQ/s1600/1310169851_476394_1-PT-Indochito-International1.jpg'/></div> </div>
-  <div class='item1'> <div class='item'><img class='mitra' src='https://2.bp.blogspot.com/-ccfhfksHO28/WazhvqWaUgI/AAAAAAAAAcw/hJTdBl-GvestQishaloLp_zmH2Wz_TH-gCLcBGAs/s1600/Unair.jpg'/></div> </div>
+  <div class='item1'> <div class='item'><img class='mitra' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcZFldAVv2rkZ14Umuuu11VmBrO5-VEnEe5anB7CUZU_icggYjB2N59K7fBN-qNs6RvzDJx_A8Jln5bXtohD1mC0eSKRNHrNbYirpWaaKcw62i6LJVJefwXqXziaoy6ezVmzfZm5Q71XH2a1EkErU8J105bgA1yrqDXCUfwYEgoUkBbO0RdZcOBSIl/s320/Logo%20Branding%20UNAIR%20(biru).png'/></div> </div>
 </div>
 
 <script>

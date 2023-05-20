@@ -2060,14 +2060,24 @@ getbsmitv();
       <h5 style='margin:30px 0px 20px 10px;text-align:center;'>Layanan BSMI</h5>
       <div class='row'>
         
-		<div class='item col-md-4 hover1'><div class='isi'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://mybsmi.bsmijatim.org'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1GMHu8YmL24twZwHPHSKXeryToFTsrx-Tj-SuAYJojpDYGtXG82orEsWOljMD-bPzL8-fNVDEifUQUTFteQA_29dw2kTv5pcuegTiR4lV3ZIcGBpZzGZjSQ3cUQ9exZZvdhN1eOtYl4S-Bb22neUJE_7eGVPbwLumQHDakDFaagIyHVelM3LYR67R/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        </div>        
+
+        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        </div>        
+        
+        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://t.me/info_bencana' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiClixDIl8jtcm6zK1YkyCKCHRYmZlfY2k3R6x_CX-7d0Hen4ww0Sd37tEG5cEqU4cn3c2ZxRz99yO_wWIby9t9gxeJM8XDZtSrQZuaUHh_2v323DbnRIda-yChpjM_lFtdve5O4PG-PbQGwnquk2F5y22TU7OstwLGS4vM_MX1zVrw2l_62wXRT76U/s320/infobencana.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        </div>        
+        
+		<div class='item col-6 col-md-2 hover1'><div class='isi'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
-        <div class='item col-md-4 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
+
+        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://radiobsmi.press.my.id/' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT312vOGU8__pLGs3LFHlIzdEhjp8iPfsA1nyI3CMKemD6vy59AGU2zNEhAyoxDex42RzOGUog6r0jj6ogVxmThUscB4QwGG88bDLCi9AOo9160-T4FhiRAZaa05icouTA2muC2ZJ0qB4O9FvvNGyQ_yHzVDchpWmfg_zwP7YpcOXePYVrYnZQiktC/s320/radioonlinebsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        </div>           
         
-        <div class='item col-md-4 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
-        </div>
         
       </div>
     </div>
@@ -2126,6 +2136,7 @@ border-radius:10px 10px 10px 10px;
 
 <mitra data-aos='zoom-in-up'><div class='container'><h5 style='margin:30px 0px 20px 10px;text-align:center;'>Mitra BSMI</h5>
 <div class='owl-carousel owl-theme'>
+  <div class='item1'> <div class='item'><img class='mitra' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeM7OTrJ0JKizBVi9-qbcALWeTseNqLkr0QtMzRzjTcMumDKMjhywRjCsKQUfHhYRboKUXquH3c-VV1_xPdfLrnmy423uJq4lUPnp4fGAcgSVA4e5G_yF6I4tcOAfO7IMSNA_X009sxmoRdzV47dg99rSQVZiOxpVgggL1teMUv1gUbh9_to4g3Ilf/s320/LOGO-BNPB.png'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-FfTDluPaZYw/WazhwksLqrI/AAAAAAAAAc4/jqCbkYMfE_ok3RIjj4wL6_195hr2xPryACLcBGAs/s1600/ydsf2.jpg'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-tCngD7trvYk/WazhvYC7yBI/AAAAAAAAAco/X8agMXGkLxUNSqtQWXYq_aerC6FyMeDxACLcBGAs/s1600/LMI.jpg'/></div> </div>
   <div class='item1'> <div class='item'><img class='mitra' src='https://1.bp.blogspot.com/-kR1uhOlD2Q0/XmbEJyeOjwI/AAAAAAAADhg/dNPnVycLEbML3aGsQlhm5j3ydWLo9sgwQCLcBGAsYHQ/s1600/suaramuslim.jpg'/></div> </div>
@@ -2179,7 +2190,7 @@ padding:20px 20px;
 text-align:center;
 border-radius:10px 10px 10px 10px;
 border-radius: 15px 15px 15px 15px;
-    border: 5px solid #dc3545;
+    border: 0px solid #5a5a5a;
 }
 mitra .mitra {
 height:60px;

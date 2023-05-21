@@ -911,7 +911,7 @@ for(var i=0;i<4;i++){
   for(var u2=0;u2<month.length;u2++){if(parseInt(m)==month[u2]){m=month2[u2];break}}
   var daystr=day+' '+m+' '+y;
   var jpg = img[i].replace("s320","s1600");
-  var trtd='<div class="item col-md-6 col-lg-3" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+jpg+');padding:50px 50px;"><p>'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></p></div></a></div>';
+  var trtd='<div class="item col-6 col-md-6 col-lg-3" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+jpg+');padding:50px 50px;"><p>'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></p></div></a></div>';
   //document.write(trtd);
   document.getElementById("bsmipost").innerHTML += trtd;AOS.refreshHard();
   j++
@@ -1909,7 +1909,7 @@ function sendQuerybsmichannel(){ //console.log("cek1");
             	//if (i < 1){break}
 			  
  			  var tanggalupload = new Date(data[i]['published']).toLocaleDateString("id");
-              var item='<div class="item col-12 col-md-6 col-lg-6" style=""><a href="javascript:;" data-fancybox data-src="https://www.youtube.com/embed/'+data[i]['videoId']+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url(https://img.youtube.com/vi/'+data[i]['videoId']+'/0.jpg);padding:50px 50px;"><div class="playvideobutton"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">   <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/> </svg></div><p>'+data[i]['title']+'<br/><span style="color:#969696;font-size:10px">'+tanggalupload+'</span></p></div></a></div>';
+              var item='<div class="item col-6 col-md-6 col-lg-6" style=""><a href="javascript:;" data-fancybox data-src="https://www.youtube.com/embed/'+data[i]['videoId']+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url(https://img.youtube.com/vi/'+data[i]['videoId']+'/0.jpg);padding:50px 50px;"><div class="playvideobutton"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">   <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/> </svg></div><p>'+data[i]['title']+'<br/><span style="color:#969696;font-size:10px">'+tanggalupload+'</span></p></div></a></div>';
 
 				document.getElementById("bsmichannel").innerHTML += item;
 				AOS.refreshHard();

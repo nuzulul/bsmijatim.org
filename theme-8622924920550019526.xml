@@ -365,7 +365,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 
   <div class='collapse navbar-collapse' id='navbarsBsmi01'>
 	<div class='row'>
-      <div class='col-12'><strong><h3>Tautan</h3></strong></div>      
+      <div class='col-12 mt-3 mb-2'><strong><h3>Tautan</h3></strong></div>      
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/legalitas.html'>Legalitas</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></div>
@@ -377,18 +377,18 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/majalah.html'>Majalah</a></div>-->
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/video.html'>Video</a></div>-->
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/audio.html'>Audio</a></div>
-      <div class='col-12'><strong><h3/></strong></div>
-      <div class='col-12'><strong><h3/></strong></div>
-      <div class='col-12'><strong><h3>Layanan</h3></strong></div>
+      
+      <div class='col-12 mt-3 mb-2'><strong><h3>Layanan</h3></strong></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'>Klinik BSMI</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/relawanmerah' target='_blank'>Donor Darah</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'>BSMI MOBILE</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'>BSMI RADIO</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://wiki.bsmijatim.org/' target='_blank'>WIKI BSMI</a></div>
-      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/radiobsmifm.html'>RADIOBSMI FM</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/radiobsmifm.html'>BSMI FM</a></div>
+      <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/info_bencana' target='_blank'>Info Bencana</a></div>
       
-      
-      <div class='col-12'><strong><h3/></strong></div>
-      <div class='col-12'><strong><h3/></strong></div>
-      <div class='col-12'><strong><h3>Sosmed</h3></strong></div>
+      <div class='col-12 mt-3 mb-2'><strong><h3>Channel</h3></strong></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://youtube.com/bsmitv' target='_blank'>Youtube</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.facebook.com/bsmijatimnews/' target='_blank'>Facebook</a></div>
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.instagram.com/bsmijatim' target='_blank'>Instagram</a></div>
@@ -477,7 +477,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 
     <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container shadow' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
-      <div class='col-12 col-md-6 col-lg-4'><h2>50.<span id='penerimamanfaat'>111</span></h2><h5>Penerima Manfaat</h5></div>
+      <div class='col-12 col-md-6 col-lg-4'><h2>50.<span id='penerimamanfaat'>111</span>+</h2><h5>Penerima Manfaat</h5></div>
       <div class='col-12 col-md-6 col-lg-4'><h2>38</h2><h5>Cabang Se-Jatim</h5></div>
       <div class='col-12 col-md-6 col-lg-4'><h2>1.000+</h2><h5>Relawan</h5></div>
     </div>
@@ -2444,20 +2444,18 @@ width:auto!important;
           <img height='200px' src='https://1.bp.blogspot.com/-I9V1NyLtG68/XmJRZ_RhTJI/AAAAAAAADgI/wJiuL0Wnjvc2jyoV8AMRsIp1YvSQs1QXwCLcBGAsYHQ/s1600/Logo%2BBSMI%2B%2528vector%2529.png'/>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
-          <!--<h1>Tentang Kami</h1>-->
-          <h2><a href='https://www.bsmijatim.org/'>Home</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></h2>
-          <h2><a href='http://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></h2>
-          <!--<h2><a href='https://www.bsmijatim.org/p/selayang-pandang-bsmi-jatim.html#visidanmisi'>Visi Misi</a></h2>-->
-          <!--<h2><a href='https://www.bsmijatim.org/p/jadi-donatur.html'>Donasi</a></h2>-->
-          <!--<h2><a href='https://www.bsmijatim.org/p/jadi-relawan.html'>Relawan</a></h2>-->
-          <h2><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></h2>
-          <h2><a href='https://www.bsmijatim.org/p/download.html'>Download</a></h2>
-          <h2><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>BSMI Mobile</a></h2>
-          <h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2>
-          <h2><a href='http://wiki.bsmijatim.org/'>WikiBSMI</a></h2>
+          <div class='row'>
+              <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/'>Home</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='http://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/download.html'>Download</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>BSMI Mobile</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2></div>
+              <div class='col-6 col-md-12'><h2><a href='http://wiki.bsmijatim.org/'>WikiBSMI</a></h2></div>
+          </div>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <h1>Sekretariat</h1>

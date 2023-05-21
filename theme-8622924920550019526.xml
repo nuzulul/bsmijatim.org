@@ -1876,6 +1876,119 @@ margin-bottom:25px;
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:section class='bsmiwidget-home-bottom' id='bsmiwidget-home-bottom'/>
+  
+  
+<bsmiinfodonordarah>
+  <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
+     <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
+        <div class='container'>
+          <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Info Donor Darah</h5>
+          <div class='row' id='bsmiinfodonordarah'>
+          </div>
+          <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.bsmiinfodonordarahspinner&quot; ).toggle();setTimeout(function(){ sendQuerybsmiinfodonordarah(); }, 2000);return false'>more<div class='bsmiinfodonordarahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
+         </div> 
+     </div>
+  </div>
+<script>
+//<![CDATA[
+var dataDonordarah = [];
+function getbsmiinfodonordarah(){ //console.log("cek2");
+  $.ajax({url: "https://cors.bsmijatim.workers.dev/?https%3A%2F%2Ft.me%2Fs%2Finfo_donor_darah",  success: function(result){
+    //console.log(result);
+    var el = $( '<div></div>' );
+    el.html(result);
+    //result = el.getElementsByTagName("tgme_widget_message_wrap");
+    result = $('.tgme_widget_message_wrap', el)
+    $.each(result, function(index, val) {
+      var msg = val.children[0].children[1].children[2].innerHTML;//console.log(msg);
+      var img = val.children[0].children[1].children[3].href;//console.log(img);
+      dataDonordarah[index] = {
+          //"videoId":val.children[1].innerHTML,
+          "msg":msg,
+          "img":img,
+          "datahtml":val.innerHTML
+          };
+      })
+    sendQuerybsmiinfodonordarah();
+  }});
+}
+
+var indexbsmiinfodonordarah = 0;
+function sendQuerybsmiinfodonordarah(){ //console.log("cek1");
+	if (dataDonordarah.length === 0) {getbsmiinfodonordarah();} else { 
+	     var data = dataDonordarah;
+	     var showitem = 2;
+           	//for(var i=0+indexbsmiinfodonordarah;i<showitem+indexbsmiinfodonordarah;i++){
+            for(var i=dataDonordarah.length-indexbsmiinfodonordarah-1;i>dataDonordarah.length-indexbsmiinfodonordarah-1-showitem;i--){
+            	//if (i < 1){break}
+            	
+              //var item='<div class="item col-12" style="">'+dataDonordarah[i].msg+'</div>';
+              var item='<div class="item col-12 col-md-6" style="">'+
+                       '   <div class="row align-items-center justify-content-center">'+
+                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-12" style="">'+dataDonordarah[i].msg+
+                       '       </div>'+
+                       '       <div data-aos="zoom-in-up" class="item col-0 col-md-0" style="">'+
+                       //'              <a data-fancybox="" data-src="'+dataDonordarah[i].img+'" href="#/"><img src="'+dataDonordarah[i].img+'" style="width:100%;"></a>'+
+                       '       </div>'+
+                       '   </div>'+
+                       '</div>';
+
+              document.getElementById("bsmiinfodonordarah").innerHTML += item;
+              AOS.refreshHard();
+				
+            }
+			indexbsmiinfodonordarah += showitem;
+     		$( ".bsmiinfodonordarahspinner" ).toggle();
+    }
+}
+
+$(document).ready(function() {
+sendQuerybsmiinfodonordarah();
+});
+//]]>
+</script>
+<style>
+bsmiinfodonordarah {
+margin:30px auto;
+display:block;
+color:#fff;
+}
+  
+bsmiinfodonordarah .isi{
+  overflow:hidden;
+  height:500px;
+  background:#fff;
+  background-size:cover;
+  background-image:url(https://1.bp.blogspot.com/-oXxJNUxuPns/XPYiZ9lmViI/AAAAAAAACNo/DG-ctm_iUaI3UvAihmLGX-IMu9I2Vs8VQCEwYBhgL/s2000/IMG-20190604-WA0025.jpg);
+  background-position:center center;
+  /*background-color: #FF0000;*/
+  background-color: #2e302f;
+  background-blend-mode: multiply;
+  }
+
+bsmiinfodonordarah .item{
+margin-bottom:20px;
+    background-size:cover;
+  background-position:center center;
+border-radius:20px 20px 20px 20px;
+  }
+
+bsmiinfodonordarah .parallax {
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</bsmiinfodonordarah>  
+  
+  
+  
 
 <bsmichannel>
 <div class='container'>

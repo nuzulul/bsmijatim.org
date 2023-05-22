@@ -719,12 +719,15 @@ function sendQuerybsmiinfobencana(){ //console.log("cek1");
             	//if (i < 1){break}
             	
               //var item='<div class="item col-12" style="">'+dataBencana[i].msg+'</div>';
+			  var msg = dataBencana[i].msg;
+			  var img = dataBencana[i].img;//console.log('img : '+img);
+			  if (img == undefined) img = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiClixDIl8jtcm6zK1YkyCKCHRYmZlfY2k3R6x_CX-7d0Hen4ww0Sd37tEG5cEqU4cn3c2ZxRz99yO_wWIby9t9gxeJM8XDZtSrQZuaUHh_2v323DbnRIda-yChpjM_lFtdve5O4PG-PbQGwnquk2F5y22TU7OstwLGS4vM_MX1zVrw2l_62wXRT76U/s320/infobencana.png';
               var item='<div class="item col-12" style="">'+
                        '   <div class="row align-items-center justify-content-center">'+
-                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-9" style="">'+dataBencana[i].msg+
+                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-9" style="">'+msg+
                        '       </div>'+
                        '       <div data-aos="zoom-in-up" class="item col-12 col-md-3" style="">'+
-                       '              <a data-fancybox="" data-src="'+dataBencana[i].img+'" href="#/"><img src="'+dataBencana[i].img+'" style="width:100%;"></a>'+
+                       '              <a data-fancybox="" data-src="'+img+'" href="#/"><img src="'+img+'" style="width:100%;"></a>'+
                        '       </div>'+
                        '   </div>'+
                        '</div>';

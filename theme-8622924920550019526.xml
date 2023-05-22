@@ -343,6 +343,28 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 }
 @media (min-width:1200px) {
 }
+  
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
 </style>
   
 </head>
@@ -1923,9 +1945,10 @@ function sendQuerybsmiinfodonordarah(){ //console.log("cek1");
             	//if (i < 1){break}
             	
               //var item='<div class="item col-12" style="">'+dataDonordarah[i].msg+'</div>';
-              var item='<div class="item col-12 col-md-6" style="">'+
+              var item='<div class="item col-6 col-md-6" style="">'+
                        '   <div class="row align-items-center justify-content-center">'+
-                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-12" style="">'+dataDonordarah[i].msg+
+                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-12" style="">'+
+                       '             <small>'+dataDonordarah[i].msg+'</small>'+
                        '       </div>'+
                        '       <div data-aos="zoom-in-up" class="item col-0 col-md-0" style="">'+
                        //'              <a data-fancybox="" data-src="'+dataDonordarah[i].img+'" href="#/"><img src="'+dataDonordarah[i].img+'" style="width:100%;"></a>'+

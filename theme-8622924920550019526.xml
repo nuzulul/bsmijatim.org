@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html translate='no' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
+<meta content='notranslate' name='google'/>
 <meta charset='utf-8'/>
 <meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>

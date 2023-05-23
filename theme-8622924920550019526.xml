@@ -373,7 +373,7 @@ html {
 
   
 <header>
-  <div class='container-fluid' style='height:30px;background:#dc3545;'><div class='container'><span id='countdown' style='margin-left:20px;color:#fff;'/><a href='https://mybsmi.bsmijatim.org/' style='margin-right:20px;color:#fff;float:right;'>MyBSMI</a></div></div>
+  <div class='container-fluid' style='height:30px;background:#dc3545;'><div class='container'><span id='countdown' style='margin-left:20px;color:#fff;'/><a href='https://mybsmi.bsmijatim.org/' style='margin-right:20px;color:#fff;float:right;'>Login Relawan</a></div></div>
 <div class='container'>
 <nav class='navbar navbar-light bg-light'>
 

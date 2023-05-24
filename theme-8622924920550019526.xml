@@ -367,6 +367,25 @@ html {
   }
 }
 </style>
+
+<script type='text/javascript'>
+//<![CDATA[
+/*Object.defineProperty(HTMLScriptElement.prototype, 'src', {
+    get: function() {
+        return this.getAttribute('src')
+    },
+    set: function(url) {
+        var prefix = "http://";
+
+        if (url.startsWith(prefix))
+            url = "https://" + url.substr(prefix.length);
+
+        console.log('being set: ' + url);
+        this.setAttribute('src', url);
+    }
+});*/
+//]]>
+</script>  
   
 </head>
 <body>
@@ -846,10 +865,17 @@ var startIndexbsmidonasi = 1;
 var maxResultsbsmidonasi = 1;
 function sendQueryPostbsmidonasi()
 {
-   var scpt = document.createElement("script");
-   scpt.src = "/feeds/posts/default/-/Donasi?alt=json-in-script&orderby=published&callback=bsmidonasibsmijatim&start-index=" + startIndexbsmidonasi + "&max-results=" + maxResultsbsmidonasi;
+   //var scpt = document.createElement("script");
+   //scpt.src = "/feeds/posts/default/-/Donasi?alt=json-in-script&orderby=published&callback=bsmidonasibsmijatim&start-index=" + startIndexbsmidonasi + "&max-results=" + maxResultsbsmidonasi;
+   //document.body.appendChild(scpt);
 
-   document.body.appendChild(scpt);
+   let url = "/feeds/posts/default/-/Donasi?alt=json&orderby=published&start-index=" + startIndexbsmidonasi + "&max-results=" + maxResultsbsmidonasi;
+   $.ajax({url: url,  success: function(result){
+        //console.log("result:"+typeof(result));
+        if (typeof(result) == 'string') result = JSON.parse(result);
+		if (typeof(result) == 'object')bsmidonasibsmijatim(result);
+   }});
+
    startIndexbsmidonasi += 1;
    maxResultsbsmidonasi += 1;
 }
@@ -965,11 +991,17 @@ var startIndex = 1;
 var maxResults = 4;
 function sendQueryPost()
 {
-   var scpt = document.createElement("script");
-   scpt.src = "/feeds/posts/default?alt=json-in-script&orderby=published&callback=postrecentbsmijatim&start-index=" + startIndex + "&max-results=" + maxResults;
+   //var scpt = document.createElement("script");
+   //scpt.src = "/feeds/posts/default?alt=json-in-script&orderby=published&callback=postrecentbsmijatim&start-index=" + startIndex + "&max-results=" + maxResults;
+   //document.body.appendChild(scpt);
 
-   document.body.appendChild(scpt);
-   startIndex += 4;maxResults += 4;
+   let url = "/feeds/posts/default?alt=json&orderby=published&start-index=" + startIndex + "&max-results=" + maxResults;
+   $.ajax({url: url,  success: function(result){
+        if (typeof(result) == 'string') result = JSON.parse(result);
+		if (typeof(result) == 'object')postrecentbsmijatim(result);
+   }});   
+
+	startIndex += 4;maxResults += 4;
 }
 
 $(document).ready(function() {

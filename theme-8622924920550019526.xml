@@ -411,7 +411,7 @@ html {
     </button>
   </div>
 
-  <div class='collapse navbar-collapse' id='navbarsBsmi01'>
+  <div class='collapse navbar-collapse' id='navbarsBsmi01' style='max-height:70vh;overflow:scroll;'>
 	<div class='row'>
       <div class='col-12 mt-3 mb-2'><strong><h3>Tautan</h3></strong></div>      
       <div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></div>

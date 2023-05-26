@@ -366,6 +366,12 @@ html {
     font-size: 1.6rem;
   }
 }
+  
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 </style>
 
 <script type='text/javascript'>
@@ -391,9 +397,9 @@ html {
 <body>
 
   
-<header>
-  <div class='container-fluid' style='height:30px;background:#dc3545;'><div class='container'><span id='countdown' style='margin-left:20px;color:#fff;'/><a href='https://mybsmi.bsmijatim.org/' style='margin-right:20px;color:#fff;float:right;'>Login Relawan</a></div></div>
-<div class='container'>
+<header class='fixed-top'>
+  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left'><span id='countdown' style='color:#fff;'/></div><div class='float-right'><a href='https://mybsmi.bsmijatim.org/' style='color:#fff;float-right'>Login Relawan</a></div></div>
+<div class='container-fluid bg-light'>
 <nav class='navbar navbar-light bg-light'>
 
     <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA</span></a>
@@ -449,9 +455,9 @@ html {
 </nav>
 </div>
 </header>
-<div class='container-fluid' style='height:10px;background:#dc3545;'>
+<div class='container-fluid' style='height:120px;background:#dc3545;'>
   <div class='row align-items-center justify-content-center'><div class='col-10 col-md-3'>
-  	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;'>
+  	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:123px;z-index:999;'>
         Anda butuh darah? <a class='' href='https://forms.gle/3LoD4MnAVCF9NMUb7' style=''>Klik</a>
         <button aria-label='Close' class='close p-0 pr-1' data-dismiss='alert' type='button'>
           <span aria-hidden='true'>x</span>

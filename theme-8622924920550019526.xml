@@ -2458,33 +2458,33 @@ border-radius:20px 20px 20px 20px;
   
   
   
-<layanan data-aos='zoom-in-up'>
+<layanan>
 	<div class='container' style='margin:30px auto;text-align:center;'>
-      <h5 style='margin:30px 0px 20px 10px;text-align:center;'>Layanan BSMI</h5>
+      <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Layanan BSMI</h5>
       <div class='row align-items-center justify-content-center'>
         
-        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://mybsmi.bsmijatim.org'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1GMHu8YmL24twZwHPHSKXeryToFTsrx-Tj-SuAYJojpDYGtXG82orEsWOljMD-bPzL8-fNVDEifUQUTFteQA_29dw2kTv5pcuegTiR4lV3ZIcGBpZzGZjSQ3cUQ9exZZvdhN1eOtYl4S-Bb22neUJE_7eGVPbwLumQHDakDFaagIyHVelM3LYR67R/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://mybsmi.bsmijatim.org'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1GMHu8YmL24twZwHPHSKXeryToFTsrx-Tj-SuAYJojpDYGtXG82orEsWOljMD-bPzL8-fNVDEifUQUTFteQA_29dw2kTv5pcuegTiR4lV3ZIcGBpZzGZjSQ3cUQ9exZZvdhN1eOtYl4S-Bb22neUJE_7eGVPbwLumQHDakDFaagIyHVelM3LYR67R/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
 
-        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLU1LobuMfuf5z83RIl41ahdiwe2iav3-SwFSZvRBbS1SDjr-ifaOCY6j2oZkGrNf7J3zqz5ylLhw7th6rOi68WSVoLHOueeLiq0WqGRDQjsGwilnRm0tcIa3SAzzQLoxsR7bgK4pb_JjPaE9G8gjQv0v_JwjJs-zvPtzZmjFAGYfydiflu_sNZ_9N/s320/iconklinikbsmimojo.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLU1LobuMfuf5z83RIl41ahdiwe2iav3-SwFSZvRBbS1SDjr-ifaOCY6j2oZkGrNf7J3zqz5ylLhw7th6rOi68WSVoLHOueeLiq0WqGRDQjsGwilnRm0tcIa3SAzzQLoxsR7bgK4pb_JjPaE9G8gjQv0v_JwjJs-zvPtzZmjFAGYfydiflu_sNZ_9N/s320/iconklinikbsmimojo.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>         
         
-        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
         
-        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://t.me/info_bencana' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiClixDIl8jtcm6zK1YkyCKCHRYmZlfY2k3R6x_CX-7d0Hen4ww0Sd37tEG5cEqU4cn3c2ZxRz99yO_wWIby9t9gxeJM8XDZtSrQZuaUHh_2v323DbnRIda-yChpjM_lFtdve5O4PG-PbQGwnquk2F5y22TU7OstwLGS4vM_MX1zVrw2l_62wXRT76U/s320/infobencana.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://t.me/info_bencana' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiClixDIl8jtcm6zK1YkyCKCHRYmZlfY2k3R6x_CX-7d0Hen4ww0Sd37tEG5cEqU4cn3c2ZxRz99yO_wWIby9t9gxeJM8XDZtSrQZuaUHh_2v323DbnRIda-yChpjM_lFtdve5O4PG-PbQGwnquk2F5y22TU7OstwLGS4vM_MX1zVrw2l_62wXRT76U/s320/infobencana.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
         
-		<div class='item col-6 col-md-2 hover1'><div class='isi'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+		<div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
-        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
 
-        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://t.me/relawanmerah' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjICfTkfH5hrS6Uk3hM1Usqe1OLRM6tr3gX6mHicbp6BGTRSHsPmNxIfbWJKe4tGYEWvSngGJhq6vaZ30FX0RFxLfs80gHfcwSQQtb5GqZve77TXegH0tNyns1pveT1vZS91xbS45p-p-Q0ZiVEQinvqWbUJNHDMIFbfUzu4ODA96sjZz60IgC9WLAd/s320/iconrelawanmerah.pn' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://t.me/relawanmerah' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjICfTkfH5hrS6Uk3hM1Usqe1OLRM6tr3gX6mHicbp6BGTRSHsPmNxIfbWJKe4tGYEWvSngGJhq6vaZ30FX0RFxLfs80gHfcwSQQtb5GqZve77TXegH0tNyns1pveT1vZS91xbS45p-p-Q0ZiVEQinvqWbUJNHDMIFbfUzu4ODA96sjZz60IgC9WLAd/s320/iconrelawanmerah.pn' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
         
-        <div class='item col-6 col-md-2 hover1'><div class='isi'><a href='https://radiobsmi.press.my.id/' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT312vOGU8__pLGs3LFHlIzdEhjp8iPfsA1nyI3CMKemD6vy59AGU2zNEhAyoxDex42RzOGUog6r0jj6ogVxmThUscB4QwGG88bDLCi9AOo9160-T4FhiRAZaa05icouTA2muC2ZJ0qB4O9FvvNGyQ_yHzVDchpWmfg_zwP7YpcOXePYVrYnZQiktC/s320/radioonlinebsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://radiobsmi.press.my.id/' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT312vOGU8__pLGs3LFHlIzdEhjp8iPfsA1nyI3CMKemD6vy59AGU2zNEhAyoxDex42RzOGUog6r0jj6ogVxmThUscB4QwGG88bDLCi9AOo9160-T4FhiRAZaa05icouTA2muC2ZJ0qB4O9FvvNGyQ_yHzVDchpWmfg_zwP7YpcOXePYVrYnZQiktC/s320/radioonlinebsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>           
         
         
@@ -2499,6 +2499,55 @@ border-radius:20px 20px 20px 20px;
   }
 </style>
 </layanan>
+  
+  
+<bsmiinfomaps>
+  <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
+     <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
+        <div class='container'>
+          <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Kantor BSMI</h5>
+          <h6 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Jl. Mojo III No.33, Mojo, Kec. Gubeng, Surabaya, Jawa Timur 60285</h6>
+          <div class='row align-items-center justify-content-center' id='bsmiinfomaps'>
+            	<div class='item col-12' data-aos='zoom-in-up' style=''>
+                  	<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7407495217426!2d112.76295431437097!3d-7.270314673455884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7b2e99a1%3A0xe0360390fae406f0!2sKantor%20BSMI%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1583203832858!5m2!1sid!2sid' style='border:0;' width='100%'/>
+            	</div>
+          </div>
+         </div> 
+     </div>
+  </div>
+<style>
+bsmiinfomaps {
+margin:30px auto;
+display:block;
+color:#fff;
+}
+  
+bsmiinfomaps .isi{
+  overflow:hidden;
+  height:500px;
+  background:#fff;
+  background-size:cover;
+  background-image:url(https://1.bp.blogspot.com/-YozdStDZzBQ/XmILfAwrWAI/AAAAAAAADfY/Kn9onA-eB1EJVjrcKAjk_jdsVa-MloVigCLcBGAsYHQ/s1600/CGyYOoiUkAAoDe3.jpg);
+  background-position:center center;
+  /*background-color: #FF0000;*/
+  background-color: #2e302f;
+  background-blend-mode: multiply;
+  }
+
+bsmiinfomaps .parallax {
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  </style>
+</bsmiinfomaps>
    
   
 <rekening>
@@ -2617,7 +2666,7 @@ width:auto!important;
 <!--<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7407495217426!2d112.76295431437097!3d-7.270314673455884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7b2e99a1%3A0xe0360390fae406f0!2sKantor%20BSMI%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1583203832858!5m2!1sid!2sid' style='border:0;' width='100%'/>-->
 </b:if></b:if></b:if>  
 <div class='container-fluid' style='height:10px;background:#dc3545;'/> 
-<footer class='blended' style='background-image:url(https://1.bp.blogspot.com/-YozdStDZzBQ/XmILfAwrWAI/AAAAAAAADfY/Kn9onA-eB1EJVjrcKAjk_jdsVa-MloVigCLcBGAsYHQ/s1600/CGyYOoiUkAAoDe3.jpg);background-size:cover;background-position:center top;'>
+<footer class='blended1' style='background-image:url();background-size:cover;background-position:center top;background-color:#000;'>
   <div class='container'>
     <div class='row'>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
@@ -2633,8 +2682,8 @@ width:auto!important;
               <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></h2></div>
               <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/download.html'>Download</a></h2></div>
               <div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>BSMI Mobile</a></h2></div>
-              <div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2></div>
-              <div class='col-6 col-md-12'><h2><a href='http://wiki.bsmijatim.org/'>WikiBSMI</a></h2></div>
+              <!--<div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2></div>-->
+              <div class='col-6 col-md-12'><h2><a href='http://mybsmi.bsmijatim.org/'>MyBSMI</a></h2></div>
           </div>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>

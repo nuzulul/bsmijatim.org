@@ -402,7 +402,7 @@ html {
 <div class='container-fluid bg-light'>
 <nav class='navbar navbar-light bg-light'>
 
-    <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA</span></a>
+    <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
   	<div class='d-flex justify-content-end'>
     <a class='btn btn-light d-none d-sm-none d-md-block mr-sm-4' role='button'/>
     <a class='btn btn-danger d-block d-sm-block mr-sm-4' data-target='#myModalDonasi' data-toggle='modal' href='#' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
@@ -967,7 +967,7 @@ function postrecentbsmijatim(json){
 j=(showRandomImg)?Math.floor((imgr.length+1)*Math.random()):0;
 img=new Array();
 
-for(var i=0;i<4;i++){
+for(var i=0;i<8;i++){
   var entry=json.feed.entry[i];
   var posttitle=entry.title.$t;
   var pcm;
@@ -1010,7 +1010,7 @@ for(var i=0;i<4;i++){
 <script>
 //<![CDATA[
 var startIndex = 1;
-var maxResults = 4;
+var maxResults = 8;
 function sendQueryPost()
 {
    //var scpt = document.createElement("script");
@@ -1023,7 +1023,7 @@ function sendQueryPost()
 		if (typeof(result) == 'object')postrecentbsmijatim(result);
    }});   
 
-	startIndex += 4;maxResults += 4;
+	startIndex += 8;maxResults += 8;
 }
 
 $(document).ready(function() {

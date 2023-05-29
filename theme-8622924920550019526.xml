@@ -398,7 +398,7 @@ html {
 
   
 <header class='fixed-top'>
-  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left'><span id='countdown' style='color:#fff;'/></div><div class='float-right'><a href='https://mybsmi.bsmijatim.org/' style='color:#fff;float-right'>Login Relawan</a></div></div>
+  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left'><span id='countdown' style='color:#fff;'/></div><div class='float-right'><a href='https://mybsmi.bsmijatim.org/' style='color:#fff;float-right'>Login Anggota</a></div></div>
 <div class='container-fluid bg-light'>
 <nav class='navbar navbar-light bg-light'>
 

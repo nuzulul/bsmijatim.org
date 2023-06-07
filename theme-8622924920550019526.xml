@@ -424,7 +424,7 @@ html {
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/poster.html'>Poster</a></div>-->
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/majalah.html'>Majalah</a></div>-->
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/video.html'>Video</a></div>-->
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/audio.html'>Audio</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/mars-bsmi.html'>Mars</a></div>
       
       <div class='col-12 mt-3 mb-2'><strong><h3>Layanan</h3></strong></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div>
@@ -2509,7 +2509,7 @@ border-radius:20px 20px 20px 20px;
           <h6 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Jl. Mojo III No.33, Mojo, Kec. Gubeng, Surabaya, Jawa Timur 60285</h6>
           <div class='row align-items-center justify-content-center' id='bsmiinfomaps'>
             	<div class='item col-12' data-aos='zoom-in-up' style=''>
-                  	<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7407495217426!2d112.76295431437097!3d-7.270314673455884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7b2e99a1%3A0xe0360390fae406f0!2sKantor%20BSMI%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1583203832858!5m2!1sid!2sid' style='border:0;' width='100%'/>
+                  	<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.35882285530008!2d112.76507719615333!3d-7.2702674486758925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7ad4d187%3A0xc6d3f93d8454a00b!2sGedung%20Kemanusiaan%20BSMI!5e0!3m2!1sid!2sid!4v1686106323078!5m2!1sid!2sid' style='border:0;' width='100%'/>
             	</div>
           </div>
          </div> 

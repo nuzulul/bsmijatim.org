@@ -329,42 +329,32 @@ footer .item h1{font-size:1.4rem;}
 footer .item h2 {font-size:1.2rem}
 footer .item h3 {font-size:1.0rem}
 footer h4 {font-size:1.0rem;margin-top:20px;}
+  
+body {
+  font-size: 0.7rem;
+}
 
 @media (min-width:576px){
   #tomboldonasi{position:static;bottom:auto;}
+  body {
+    font-size: 0.8rem;
+  }  
 }
 @media (min-width:768px) {
-
+  body {
+    font-size: 0.9rem;
+  }
 }
 @media (min-width:992px) {
   .carousel-caption {
   width:40%;
   }
   #judulweb{display:inline!important;}
+  body {
+    font-size: 1rem;
+  }
 }
 @media (min-width:1200px) {
-}
-  
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
 }
   
 .sticky {
@@ -415,6 +405,7 @@ html {
 	<div class='row'>
       <div class='col-12 mt-3 mb-2'><strong><h3>Menu</h3></strong></div>      
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/visi-dan-misi-bsmi.html'>Visi Misi</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/legalitas.html'>Legalitas</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></div>
@@ -425,6 +416,7 @@ html {
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/majalah.html'>Majalah</a></div>-->
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/video.html'>Video</a></div>-->
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/mars-bsmi.html'>Mars</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/hymne-bsmi.html'>Hymne</a></div>
       
       <div class='col-12 mt-3 mb-2'><strong><h3>Layanan</h3></strong></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div>
@@ -702,7 +694,7 @@ bsmisosmed div div img:hover{
 	<h6 style='margin:30px 0px 20px 10px;'>DONATUR</h6>
   	<div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
       <p class='d-none d-md-block'>Pendaftaran Donatur BSMI JATIM</p>
-      <a href='https://bit.ly/3KLuzop' target='_blank'>
+      <a href='https://wa.me/6287782872007' target='_blank'><!--<a href='https://bit.ly/3KLuzop' target='_blank'>-->
             <svg class='bi bi-envelope-heart-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
               <path d='M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555l-4.2 2.568a2.785 2.785 0 0 0-.051-.105c-.666-1.3-2.363-1.917-3.699-1.25-1.336-.667-3.033-.05-3.699 1.25l-.05.105L.05 3.555ZM11.584 8.91a4.694 4.694 0 0 1-.073.139L16 11.8V4.697l-4.003 2.447c.027.562-.107 1.163-.413 1.767Zm-4.135 3.05c-1.048-.693-1.84-1.39-2.398-2.082L.19 12.856A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144L10.95 9.878c-.559.692-1.35 1.389-2.398 2.081L8 12.324l-.551-.365ZM4.416 8.91c-.306-.603-.44-1.204-.413-1.766L0 4.697v7.104l4.49-2.752a4.742 4.742 0 0 1-.074-.138Z'/>
               <path d='M8 5.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z'/>
@@ -715,106 +707,41 @@ bsmisosmed div div img:hover{
 </div></div>
 </profil>
   
-  
-<bsmiinfobencana>
+
+<bsmiinfomars>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
         <div class='container'>
-        <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Info Terkini</h5>
-          <div class='row' id='bsmiinfobencana'>
+          <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Tentang BSMI</h5>
+          <div class='row align-items-center justify-content-center' id='bsmiinfomars'>
+            	<div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''>
+                  	<p>Bulan Sabit Merah Indonesia adalah Lembaga Kemanusiaan Nasional yang berdiri sejak tanggal 8 Juni 2002. BSMI aktif  memberikan dukungan dan pertolongan kemanusian, kesehatan serta sosial baik di lingkup Nasional maupun Internasional. BSMI juga berperan aktif dalam menghadapi dan menanggulangi krisis kemanusian di negara-negara konflik dan darurat, tanpa memandang ras, agama, negara, kelas, maupun aspirasi politik.</p><a class='btn btn-danger' href='https://www.youtube.com/watch?v=KyFunq56mMc'><span>VIDEO MARS</span><svg class='bi bi-play-btn-fill' fill='currentColor' height='25' viewBox='0 0 16 16' width='50' xmlns='http://www.w3.org/2000/svg'>   <path d='M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z'/> </svg></a>
+            	</div>
+                <div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''><a data-fancybox='' data-src='https://www.youtube.com/embed/KyFunq56mMc' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url(https://img.youtube.com/vi/KyFunq56mMc/0.jpg);padding:50px 50px;'><div class='playvideobutton'><svg class='bi bi-play-btn-fill' fill='currentColor' height='50' viewBox='0 0 16 16' width='100' xmlns='http://www.w3.org/2000/svg'>   <path d='M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z'/> </svg></div></div></a></div>
           </div>
-          <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.bsmiinfobencanaspinner&quot; ).toggle();setTimeout(function(){ sendQuerybsmiinfobencana(); }, 2000);return false'>more<div class='bsmiinfobencanaspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
-        </div> 
+         </div> 
      </div>
   </div>
-<script>
-//<![CDATA[
-var dataBencana = [];
-function getbsmiinfobencana(){ //console.log("cek2");
-  $.ajax({url: "https://cors.bsmijatim.workers.dev/?https%3A%2F%2Ft.me%2Fs%2Finfo_bencana",  success: function(result){
-    //console.log(result);
-    var el = $( '<div></div>' );
-    el.html(result);
-    //result = el.getElementsByTagName("tgme_widget_message_wrap");
-    result = $('.tgme_widget_message_wrap', el)
-    $.each(result, function(index, val) {
-      var msg = val.children[0].children[1].children[2].innerHTML;//console.log(msg);
-      var img = val.children[0].children[1].children[3].href;//console.log(img);
-      dataBencana[index] = {
-          //"videoId":val.children[1].innerHTML,
-          "msg":msg,
-          "img":img,
-          "datahtml":val.innerHTML
-          };
-      })
-    sendQuerybsmiinfobencana();
-  }});
-}
-
-var indexbsmiinfobencana = 0;
-function sendQuerybsmiinfobencana(){ //console.log("cek1");
-	if (dataBencana.length === 0) {getbsmiinfobencana();} else { 
-	     var data = dataBencana;
-	     var showitem = 1;
-           	//for(var i=0+indexbsmiinfobencana;i<showitem+indexbsmiinfobencana;i++){
-            for(var i=dataBencana.length-indexbsmiinfobencana-1;i>dataBencana.length-indexbsmiinfobencana-1-showitem;i--){
-            	//if (i < 1){break}
-            	
-              //var item='<div class="item col-12" style="">'+dataBencana[i].msg+'</div>';
-			  var msg = dataBencana[i].msg;
-			  var img = dataBencana[i].img;//console.log('img : '+img);
-			  if (img == undefined) img = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiClixDIl8jtcm6zK1YkyCKCHRYmZlfY2k3R6x_CX-7d0Hen4ww0Sd37tEG5cEqU4cn3c2ZxRz99yO_wWIby9t9gxeJM8XDZtSrQZuaUHh_2v323DbnRIda-yChpjM_lFtdve5O4PG-PbQGwnquk2F5y22TU7OstwLGS4vM_MX1zVrw2l_62wXRT76U/s320/infobencana.png';
-              var item='<div class="item col-12" style="">'+
-                       '   <div class="row align-items-center justify-content-center">'+
-                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-9" style="">'+msg+
-                       '       </div>'+
-                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-3" style="">'+
-                       '              <a data-fancybox="" data-src="'+img+'" href="#/"><img src="'+img+'" style="width:100%;"></a>'+
-                       '       </div>'+
-                       '   </div>'+
-                       '</div>';
-
-              document.getElementById("bsmiinfobencana").innerHTML += item;
-              AOS.refreshHard();
-				
-            }
-			indexbsmiinfobencana += showitem;
-     		$( ".bsmiinfobencanaspinner" ).toggle();
-    }
-}
-
-$(document).ready(function() {
-sendQuerybsmiinfobencana();
-});
-//]]>
-</script>
 <style>
-bsmiinfobencana {
+bsmiinfomars {
 margin:30px auto;
 display:block;
 color:#fff;
 }
   
-bsmiinfobencana .isi{
+bsmiinfomars .isi{
   overflow:hidden;
   height:500px;
   background:#fff;
   background-size:cover;
-  background-image:url(https://1.bp.blogspot.com/-vIks5tic9TQ/YbADNAjwNjI/AAAAAAAAD6A/r7OnqDqxZ70zX4I06ZQaeaI40o5UXhAwgCNcBGAsYHQ/s1366/thvhvjhvjh.jpg);
+  background-image:url(https://1.bp.blogspot.com/-7XNa49Cgk9Y/YbADVJk73II/AAAAAAAAD6I/YpuXW9YMhhcAzZI5wnKxUbcxqUEBM-oygCNcBGAsYHQ/s1600/WhatsApp%2BImage%2B2021-12-07%2Bat%2B08.26.35kok.jpeg);
   background-position:center center;
   /*background-color: #FF0000;*/
   background-color: #2e302f;
   background-blend-mode: multiply;
   }
 
-bsmiinfobencana .item{
-margin-bottom:20px;
-    background-size:cover;
-  background-position:center center;
-border-radius:20px 20px 20px 20px;
-  }
-
-bsmiinfobencana .parallax {
+bsmiinfomars .parallax {
 
   /* Full height */
   height: 100%;
@@ -825,8 +752,48 @@ bsmiinfobencana .parallax {
   background-repeat: no-repeat;
   background-size: cover;
 }
-</style>
-</bsmiinfobencana>  
+
+bsmiinfomars .item{
+
+	
+  
+    background-size:cover;
+  background-position:center center;
+border-radius:20px 20px 20px 20px;
+  }
+
+bsmiinfomars .item .isi{
+	overflow:hidden;
+  height:500px;
+  background:#fff;
+    background-size:cover;
+  background-position:center center;
+  background-color: #808080;
+  background-blend-mode: multiply;
+	border-radius:20px 20px 20px 20px;
+  }
+
+bsmiinfomars .item .isi .playvideobutton{
+  margin:30px auto;
+  width:100px;
+  }
+bsmiinfomars .item .isi .playvideobutton{
+  }
+  
+bsmiinfomars .item .isi:hover{
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+  background-color: red;
+  background-blend-mode: normal;
+border-radius:20px 20px 20px 20px;
+}  
+  </style>
+</bsmiinfomars>  
+  
+  
   
 
 <bsmidonasi>
@@ -1967,22 +1934,22 @@ margin-bottom:25px;
 <b:section class='bsmiwidget-home-bottom' id='bsmiwidget-home-bottom'/>
   
   
-<bsmiinfodonordarah>
+<bsmiinfobencana>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
         <div class='container'>
-          <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Info Donor Darah</h5>
-          <div class='row' id='bsmiinfodonordarah'>
+        <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Info Terkini</h5>
+          <div class='row' id='bsmiinfobencana'>
           </div>
-          <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.bsmiinfodonordarahspinner&quot; ).toggle();setTimeout(function(){ sendQuerybsmiinfodonordarah(); }, 2000);return false'>more<div class='bsmiinfodonordarahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
-         </div> 
+          <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.bsmiinfobencanaspinner&quot; ).toggle();setTimeout(function(){ sendQuerybsmiinfobencana(); }, 2000);return false'>more<div class='bsmiinfobencanaspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
+        </div> 
      </div>
   </div>
 <script>
 //<![CDATA[
-var dataDonordarah = [];
-function getbsmiinfodonordarah(){ //console.log("cek2");
-  $.ajax({url: "https://cors.bsmijatim.workers.dev/?https%3A%2F%2Ft.me%2Fs%2Finfo_donor_darah",  success: function(result){
+var dataBencana = [];
+function getbsmiinfobencana(){ //console.log("cek2");
+  $.ajax({url: "https://cors.bsmijatim.workers.dev/?https%3A%2F%2Ft.me%2Fs%2Finfo_bencana",  success: function(result){
     //console.log(result);
     var el = $( '<div></div>' );
     el.html(result);
@@ -1991,79 +1958,81 @@ function getbsmiinfodonordarah(){ //console.log("cek2");
     $.each(result, function(index, val) {
       var msg = val.children[0].children[1].children[2].innerHTML;//console.log(msg);
       var img = val.children[0].children[1].children[3].href;//console.log(img);
-      dataDonordarah[index] = {
+      dataBencana[index] = {
           //"videoId":val.children[1].innerHTML,
           "msg":msg,
           "img":img,
           "datahtml":val.innerHTML
           };
       })
-    sendQuerybsmiinfodonordarah();
+    sendQuerybsmiinfobencana();
   }});
 }
 
-var indexbsmiinfodonordarah = 0;
-function sendQuerybsmiinfodonordarah(){ //console.log("cek1");
-	if (dataDonordarah.length === 0) {getbsmiinfodonordarah();} else { 
-	     var data = dataDonordarah;
-	     var showitem = 2;
-           	//for(var i=0+indexbsmiinfodonordarah;i<showitem+indexbsmiinfodonordarah;i++){
-            for(var i=dataDonordarah.length-indexbsmiinfodonordarah-1;i>dataDonordarah.length-indexbsmiinfodonordarah-1-showitem;i--){
+var indexbsmiinfobencana = 0;
+function sendQuerybsmiinfobencana(){ //console.log("cek1");
+	if (dataBencana.length === 0) {getbsmiinfobencana();} else { 
+	     var data = dataBencana;
+	     var showitem = 1;
+           	//for(var i=0+indexbsmiinfobencana;i<showitem+indexbsmiinfobencana;i++){
+            for(var i=dataBencana.length-indexbsmiinfobencana-1;i>dataBencana.length-indexbsmiinfobencana-1-showitem;i--){
             	//if (i < 1){break}
             	
-              //var item='<div class="item col-12" style="">'+dataDonordarah[i].msg+'</div>';
-              var item='<div class="item col-6 col-md-6" style="">'+
+              //var item='<div class="item col-12" style="">'+dataBencana[i].msg+'</div>';
+			  var msg = dataBencana[i].msg;
+			  var img = dataBencana[i].img;//console.log('img : '+img);
+			  if (img == undefined) img = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiClixDIl8jtcm6zK1YkyCKCHRYmZlfY2k3R6x_CX-7d0Hen4ww0Sd37tEG5cEqU4cn3c2ZxRz99yO_wWIby9t9gxeJM8XDZtSrQZuaUHh_2v323DbnRIda-yChpjM_lFtdve5O4PG-PbQGwnquk2F5y22TU7OstwLGS4vM_MX1zVrw2l_62wXRT76U/s320/infobencana.png';
+              var item='<div class="item col-12" style="">'+
                        '   <div class="row align-items-center justify-content-center">'+
-                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-12" style="">'+
-                       '             <small>'+dataDonordarah[i].msg+'</small>'+
+                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-9" style="">'+msg+
                        '       </div>'+
-                       '       <div data-aos="zoom-in-up" class="item col-0 col-md-0" style="">'+
-                       //'              <a data-fancybox="" data-src="'+dataDonordarah[i].img+'" href="#/"><img src="'+dataDonordarah[i].img+'" style="width:100%;"></a>'+
+                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-3" style="">'+
+                       '              <a data-fancybox="" data-src="'+img+'" href="#/"><img src="'+img+'" style="width:100%;"></a>'+
                        '       </div>'+
                        '   </div>'+
                        '</div>';
 
-              document.getElementById("bsmiinfodonordarah").innerHTML += item;
+              document.getElementById("bsmiinfobencana").innerHTML += item;
               AOS.refreshHard();
 				
             }
-			indexbsmiinfodonordarah += showitem;
-     		$( ".bsmiinfodonordarahspinner" ).toggle();
+			indexbsmiinfobencana += showitem;
+     		$( ".bsmiinfobencanaspinner" ).toggle();
     }
 }
 
 $(document).ready(function() {
-sendQuerybsmiinfodonordarah();
+sendQuerybsmiinfobencana();
 });
 //]]>
 </script>
 <style>
-bsmiinfodonordarah {
+bsmiinfobencana {
 margin:30px auto;
 display:block;
 color:#fff;
 }
   
-bsmiinfodonordarah .isi{
+bsmiinfobencana .isi{
   overflow:hidden;
   height:500px;
   background:#fff;
   background-size:cover;
-  background-image:url(https://1.bp.blogspot.com/-oXxJNUxuPns/XPYiZ9lmViI/AAAAAAAACNo/DG-ctm_iUaI3UvAihmLGX-IMu9I2Vs8VQCEwYBhgL/s2000/IMG-20190604-WA0025.jpg);
+  background-image:url(https://1.bp.blogspot.com/-vIks5tic9TQ/YbADNAjwNjI/AAAAAAAAD6A/r7OnqDqxZ70zX4I06ZQaeaI40o5UXhAwgCNcBGAsYHQ/s1366/thvhvjhvjh.jpg);
   background-position:center center;
   /*background-color: #FF0000;*/
   background-color: #2e302f;
   background-blend-mode: multiply;
   }
 
-bsmiinfodonordarah .item{
+bsmiinfobencana .item{
 margin-bottom:20px;
     background-size:cover;
   background-position:center center;
 border-radius:20px 20px 20px 20px;
   }
 
-bsmiinfodonordarah .parallax {
+bsmiinfobencana .parallax {
 
   /* Full height */
   height: 100%;
@@ -2075,7 +2044,7 @@ bsmiinfodonordarah .parallax {
   background-size: cover;
 }
 </style>
-</bsmiinfodonordarah>  
+</bsmiinfobencana>  
   
   
   
@@ -2368,42 +2337,103 @@ getbsmitv();
 </bsmivideo>-->  
   
   
-  
-  
-<bsmiinfomars>
+<bsmiinfodonordarah>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
         <div class='container'>
-          <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Tentang BSMI</h5>
-          <div class='row align-items-center justify-content-center' id='bsmiinfomars'>
-            	<div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''>
-                  	<p>Bulan Sabit Merah Indonesia adalah Lembaga Kemanusiaan Nasional yang berdiri pada tanggal 8 Juni 2002. BSMI aktif  memberikan dukungan dan pertolongan kemanusian, kesehatan serta sosial baik di lingkup Nasional maupun Internasional. BSMI juga berperan aktif dalam menghadapi dan menanggulangi krisis kemanusian di negara-negara konflik dan darurat, tanpa memandang ras, agama, negara, kelas, maupun aspirasi politik.</p><a class='btn btn-danger' href='https://www.youtube.com/watch?v=KyFunq56mMc'><span>VIDEO MARS</span><svg class='bi bi-play-btn-fill' fill='currentColor' height='25' viewBox='0 0 16 16' width='50' xmlns='http://www.w3.org/2000/svg'>   <path d='M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z'/> </svg></a>
-            	</div>
-                <div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''><a data-fancybox='' data-src='https://www.youtube.com/embed/KyFunq56mMc' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url(https://img.youtube.com/vi/KyFunq56mMc/0.jpg);padding:50px 50px;'><div class='playvideobutton'><svg class='bi bi-play-btn-fill' fill='currentColor' height='50' viewBox='0 0 16 16' width='100' xmlns='http://www.w3.org/2000/svg'>   <path d='M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z'/> </svg></div></div></a></div>
+          <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Info Donor Darah</h5>
+          <div class='row' id='bsmiinfodonordarah'>
           </div>
+          <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.bsmiinfodonordarahspinner&quot; ).toggle();setTimeout(function(){ sendQuerybsmiinfodonordarah(); }, 2000);return false'>more<div class='bsmiinfodonordarahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
          </div> 
      </div>
   </div>
+<script>
+//<![CDATA[
+var dataDonordarah = [];
+function getbsmiinfodonordarah(){ //console.log("cek2");
+  $.ajax({url: "https://cors.bsmijatim.workers.dev/?https%3A%2F%2Ft.me%2Fs%2Finfo_donor_darah",  success: function(result){
+    //console.log(result);
+    var el = $( '<div></div>' );
+    el.html(result);
+    //result = el.getElementsByTagName("tgme_widget_message_wrap");
+    result = $('.tgme_widget_message_wrap', el)
+    $.each(result, function(index, val) {
+      var msg = val.children[0].children[1].children[2].innerHTML;//console.log(msg);
+      var img = val.children[0].children[1].children[3].href;//console.log(img);
+      dataDonordarah[index] = {
+          //"videoId":val.children[1].innerHTML,
+          "msg":msg,
+          "img":img,
+          "datahtml":val.innerHTML
+          };
+      })
+    sendQuerybsmiinfodonordarah();
+  }});
+}
+
+var indexbsmiinfodonordarah = 0;
+function sendQuerybsmiinfodonordarah(){ //console.log("cek1");
+	if (dataDonordarah.length === 0) {getbsmiinfodonordarah();} else { 
+	     var data = dataDonordarah;
+	     var showitem = 2;
+           	//for(var i=0+indexbsmiinfodonordarah;i<showitem+indexbsmiinfodonordarah;i++){
+            for(var i=dataDonordarah.length-indexbsmiinfodonordarah-1;i>dataDonordarah.length-indexbsmiinfodonordarah-1-showitem;i--){
+            	//if (i < 1){break}
+            	
+              //var item='<div class="item col-12" style="">'+dataDonordarah[i].msg+'</div>';
+              var item='<div class="item col-6 col-md-6" style="">'+
+                       '   <div class="row align-items-center justify-content-center">'+
+                       '       <div data-aos="zoom-in-up" class="item col-12 col-md-12" style="">'+
+                       '             <small>'+dataDonordarah[i].msg+'</small>'+
+                       '       </div>'+
+                       '       <div data-aos="zoom-in-up" class="item col-0 col-md-0" style="">'+
+                       //'              <a data-fancybox="" data-src="'+dataDonordarah[i].img+'" href="#/"><img src="'+dataDonordarah[i].img+'" style="width:100%;"></a>'+
+                       '       </div>'+
+                       '   </div>'+
+                       '</div>';
+
+              document.getElementById("bsmiinfodonordarah").innerHTML += item;
+              AOS.refreshHard();
+				
+            }
+			indexbsmiinfodonordarah += showitem;
+     		$( ".bsmiinfodonordarahspinner" ).toggle();
+    }
+}
+
+$(document).ready(function() {
+sendQuerybsmiinfodonordarah();
+});
+//]]>
+</script>
 <style>
-bsmiinfomars {
+bsmiinfodonordarah {
 margin:30px auto;
 display:block;
 color:#fff;
 }
   
-bsmiinfomars .isi{
+bsmiinfodonordarah .isi{
   overflow:hidden;
   height:500px;
   background:#fff;
   background-size:cover;
-  background-image:url(https://1.bp.blogspot.com/-7XNa49Cgk9Y/YbADVJk73II/AAAAAAAAD6I/YpuXW9YMhhcAzZI5wnKxUbcxqUEBM-oygCNcBGAsYHQ/s1600/WhatsApp%2BImage%2B2021-12-07%2Bat%2B08.26.35kok.jpeg);
+  background-image:url(https://1.bp.blogspot.com/-oXxJNUxuPns/XPYiZ9lmViI/AAAAAAAACNo/DG-ctm_iUaI3UvAihmLGX-IMu9I2Vs8VQCEwYBhgL/s2000/IMG-20190604-WA0025.jpg);
   background-position:center center;
   /*background-color: #FF0000;*/
   background-color: #2e302f;
   background-blend-mode: multiply;
   }
 
-bsmiinfomars .parallax {
+bsmiinfodonordarah .item{
+margin-bottom:20px;
+    background-size:cover;
+  background-position:center center;
+border-radius:20px 20px 20px 20px;
+  }
+
+bsmiinfodonordarah .parallax {
 
   /* Full height */
   height: 100%;
@@ -2414,46 +2444,9 @@ bsmiinfomars .parallax {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-bsmiinfomars .item{
-
-	
-  
-    background-size:cover;
-  background-position:center center;
-border-radius:20px 20px 20px 20px;
-  }
-
-bsmiinfomars .item .isi{
-	overflow:hidden;
-  height:500px;
-  background:#fff;
-    background-size:cover;
-  background-position:center center;
-  background-color: #808080;
-  background-blend-mode: multiply;
-	border-radius:20px 20px 20px 20px;
-  }
-
-bsmiinfomars .item .isi .playvideobutton{
-  margin:30px auto;
-  width:100px;
-  }
-bsmiinfomars .item .isi .playvideobutton{
-  }
-  
-bsmiinfomars .item .isi:hover{
-    -ms-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    transform: scale(1.05);
-  background-color: red;
-  background-blend-mode: normal;
-border-radius:20px 20px 20px 20px;
-}  
-  </style>
-</bsmiinfomars>  
+</style>
+</bsmiinfodonordarah>  
+    
   
   
   
@@ -2509,7 +2502,7 @@ border-radius:20px 20px 20px 20px;
           <h6 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Jl. Mojo III No.33, Mojo, Kec. Gubeng, Surabaya, Jawa Timur 60285</h6>
           <div class='row align-items-center justify-content-center' id='bsmiinfomaps'>
             	<div class='item col-12' data-aos='zoom-in-up' style=''>
-                  	<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.35882285530008!2d112.76507719615333!3d-7.2702674486758925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7ad4d187%3A0xc6d3f93d8454a00b!2sGedung%20Kemanusiaan%20BSMI!5e0!3m2!1sid!2sid!4v1686106323078!5m2!1sid!2sid' style='border:0;' width='100%'/>
+                  	<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.358825546793!2d112.7650057216607!3d-7.27026256191381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b64d08275%3A0xa24afa3e292cb35c!2sMARKAS%20Bulan%20Sabit%20Merah%20Indonesia%20(BSMI)%20JATIM!5e0!3m2!1sid!2sid!4v1687142517801!5m2!1sid!2sid' width='100%'/>
             	</div>
           </div>
          </div> 
@@ -2942,6 +2935,7 @@ width:auto!important;
         <h4 class='modal-title'>Pilih Donasi</h4>
       </div>
       <div class='modal-body'>
+        <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Scan QRIS</a>   
         <a class='btn btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>10.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>20.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>50.000</a>
@@ -2949,7 +2943,7 @@ width:auto!important;
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;200000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>200.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;500000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>500.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Input Sendiri</a>
-        <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Scan QRIS</a>        
+        <a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Daftar Donatur</a>     
       </div>
       <div class='modal-footer'>
         <button class='btn btn-default' data-dismiss='modal' type='button'>Close</button>
@@ -3004,7 +2998,7 @@ width:auto!important;
         <p>Ditambahkan kode donasi di belakang nominal untuk mempermudah identifikasi</p>
       </div>
       <div class='modal-footer'>
-        <button class='btn btn-danger' onclick='window.open(&quot;https://wa.me/6285645620534&quot;, &quot;_blank&quot;);' type='button'>Kirim bukti transfer</button>
+        <button class='btn btn-danger' onclick='window.open(&quot;https://wa.me/6287782872007&quot;, &quot;_blank&quot;);' type='button'>Kirim bukti transfer</button>
       </div>
     </div>
   </div>

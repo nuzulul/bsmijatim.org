@@ -4,7 +4,7 @@
 <head>
 <meta content='notranslate' name='google'/>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -362,10 +362,24 @@ body {
   position: sticky;
   top: 0;
 }
+  
+/*search*/
+.navbar .dropdown-toggle::after {
+	display: none;
+}
+.navbar .dropdown-menu {
+	padding: 20px;
+	left: auto;
+	right: 0;
+	font-size: 14px;
+    width:400px;
+    max-width:100%;
+}
 </style>
 
 <script type='text/javascript'>
 //<![CDATA[
+
 /*Object.defineProperty(HTMLScriptElement.prototype, 'src', {
     get: function() {
         return this.getAttribute('src')
@@ -380,6 +394,24 @@ body {
         this.setAttribute('src', url);
     }
 });*/
+
+$(document).ready(function(){
+	var dropdown = $(".search-dropdown");
+	var toogleBtn = $(".search-dropdown .dropdown-toggle");
+	
+	// Toggle search and close icon for search dropdown
+	dropdown.on("show.bs.dropdown", function(e){
+		toogleBtn.toggleClass("d-none");
+	});
+	dropdown.on("hide.bs.dropdown", function(e){
+		toogleBtn.addClass("d-none");
+		toogleBtn.first().removeClass("d-none");
+	});
+	$(".search-dropdown .dropdown-menu").on("click", function(e){
+		e.stopPropagation()
+	});
+});
+
 //]]>
 </script>  
   
@@ -390,11 +422,18 @@ body {
 <header class='fixed-top'>
   <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left'><span id='countdown' style='color:#fff;'/></div><div class='float-right'><a href='https://mybsmi.bsmijatim.org/' style='color:#fff;float-right'>Login Anggota</a></div></div>
 <div class='container-fluid bg-light'>
-<nav class='navbar navbar-light bg-light'>
+<nav class='navbar navbar-light bg-light dropdown search-dropdown'>
 
     <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
   	<div class='d-flex justify-content-end'>
     <a class='btn btn-light d-none d-sm-none d-md-block mr-sm-4' role='button'/>
+    <a class='nav-item nav-link dropdown-toggle' data-toggle='dropdown' href='#'><svg class='bi bi-search' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/> </svg></a>
+    <a class='nav-item nav-link dropdown-toggle d-none' data-toggle='dropdown' href='#'><svg class='bi bi-x-lg' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/> </svg></a>
+    <div class='dropdown-menu'>
+        <script async='async' src='https://cse.google.com/cse.js?cx=52ef3ceb8450448b6'>
+        </script>
+        <div class='gcse-search'/>
+    </div>
     <a class='btn btn-danger d-block d-sm-block mr-sm-4' data-target='#myModalDonasi' data-toggle='modal' href='#' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
     <button aria-controls='navbarsBsmi01' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-target='#navbarsBsmi01' data-toggle='collapse' type='button'>
       <span class='navbar-toggler-icon'/>

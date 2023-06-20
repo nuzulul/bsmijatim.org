@@ -351,7 +351,7 @@ body {
   }
   #judulweb{display:inline!important;}
   body {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 @media (min-width:1200px) {
@@ -420,7 +420,7 @@ $(document).ready(function(){
 
   
 <header class='fixed-top'>
-  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left'><span id='countdown' style='color:#fff;'/></div><div class='float-right'><a href='https://mybsmi.bsmijatim.org/' style='color:#fff;float-right'>Login Anggota</a></div></div>
+  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='float-right d-flex align-items-center h-100'><a href='https://mybsmi.bsmijatim.org/' style='color:#fff;float-right'>Login Anggota</a></div></div>
 <div class='container-fluid bg-light'>
 <nav class='navbar navbar-light bg-light dropdown search-dropdown'>
 
@@ -429,7 +429,7 @@ $(document).ready(function(){
     <a class='btn btn-light d-none d-sm-none d-md-block mr-sm-4' role='button'/>
     <a class='nav-item nav-link dropdown-toggle' data-toggle='dropdown' href='#'><svg class='bi bi-search' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/> </svg></a>
     <a class='nav-item nav-link dropdown-toggle d-none' data-toggle='dropdown' href='#'><svg class='bi bi-x-lg' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/> </svg></a>
-    <div class='dropdown-menu'>
+    <div class='dropdown-menu bg-danger'>
         <script async='async' src='https://cse.google.com/cse.js?cx=52ef3ceb8450448b6'>
         </script>
         <div class='gcse-search'/>
@@ -2711,7 +2711,6 @@ width:auto!important;
               <div class='col-6 col-md-12'><h2><a href='http://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></h2></div>
               <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></h2></div>
               <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></h2></div>
-              <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></h2></div>
               <div class='col-6 col-md-12'><h2><a href='https://www.bsmijatim.org/p/download.html'>Download</a></h2></div>
               <div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>BSMI Mobile</a></h2></div>
               <!--<div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2></div>-->
@@ -2719,15 +2718,21 @@ width:auto!important;
           </div>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
-          <h1>Sekretariat</h1>
-          <h2>Kantor BSMI Jawa Timur</h2>
-          <h2>Jl. Mojo III No 33 Surabaya, Jawa Timur</h2>
-          <h2>Telepon : 031 5952 248</h2>
+          <div class='row'>
+            <div class='col-6 col-md-12'>
+              <h2>Sekretariat</h2>
+              <p>MARKAS BSMI Jawa Timur<br/>
+              Jl. Mojo III No 33 Surabaya, Jawa Timur<br/>
+              Telepon : (031) 5952248</p>
+            </div>
           <br/>
-          <h1>Rekening Donasi</h1>
-          <h2>Bank Syariah Indonesia</h2>
-          <h2>no 7063416872</h2>
-          <h2>an BSMI Jawa Timur</h2>
+            <div class='col-6 col-md-12'>
+              <h2>Rekening Donasi</h2>
+              <p>Bank Syariah Indonesia<br/>
+              no 7063416872<br/>
+              an BSMI Jawa Timur</p>
+            </div>
+          </div>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
           <b:section class='bsmiwidget-sidebar-right' id='bsmiwidget-sidebar-right'>

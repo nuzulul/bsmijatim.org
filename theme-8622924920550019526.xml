@@ -375,6 +375,23 @@ body {
     width:400px;
     max-width:100%;
 }
+  
+/*topmenu*/
+.topmenu {
+  	color:white;
+  	font-size:0.8em;
+  font-weight:bold;
+}
+.topmenu a {
+  	color:white;
+  	padding-left:5px;
+  	padding-right:5px;
+}
+.topmenu a:hover
+{
+	color:#dc3545;
+  background-color:#fff;
+}
 </style>
 
 <script type='text/javascript'>
@@ -420,7 +437,7 @@ $(document).ready(function(){
 
   
 <header class='fixed-top'>
-  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='float-right d-flex align-items-center h-100'><a href='https://mybsmi.bsmijatim.org/' style='color:#fff;float-right'>Login Anggota</a></div></div>
+  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='https://bsmi.or.id/'>BSMI Nasional</a> | <a href='https://mybsmi.bsmijatim.org/'>Login Anggota</a></div></div>
 <div class='container-fluid bg-light'>
 <nav class='navbar navbar-light bg-light dropdown search-dropdown'>
 
@@ -497,7 +514,8 @@ $(document).ready(function(){
     }
     #navbarsBsmi01 .item a:hover
     {
-    background:#Ece7e7;
+    background:#dc3545;
+    color:#fff;
     }
   </style>
 </div>
@@ -734,10 +752,9 @@ bsmisosmed div div img:hover{
   	<div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
       <p class='d-none d-md-block'>Pendaftaran Donatur BSMI JATIM</p>
       <a href='https://wa.me/6287782872007' target='_blank'><!--<a href='https://bit.ly/3KLuzop' target='_blank'>-->
-            <svg class='bi bi-envelope-heart-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
-              <path d='M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555l-4.2 2.568a2.785 2.785 0 0 0-.051-.105c-.666-1.3-2.363-1.917-3.699-1.25-1.336-.667-3.033-.05-3.699 1.25l-.05.105L.05 3.555ZM11.584 8.91a4.694 4.694 0 0 1-.073.139L16 11.8V4.697l-4.003 2.447c.027.562-.107 1.163-.413 1.767Zm-4.135 3.05c-1.048-.693-1.84-1.39-2.398-2.082L.19 12.856A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144L10.95 9.878c-.559.692-1.35 1.389-2.398 2.081L8 12.324l-.551-.365ZM4.416 8.91c-.306-.603-.44-1.204-.413-1.766L0 4.697v7.104l4.49-2.752a4.742 4.742 0 0 1-.074-.138Z'/>
-              <path d='M8 5.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z'/>
-            </svg>
+          <svg class='bi bi-whatsapp' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
+            <path d='M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z'/>
+          </svg>
       </a>  
   	</div>
 </div>
@@ -3032,14 +3049,14 @@ width:auto!important;
         </button>
       </div>
       <div class='modal-body'>
-        <h5>Lanjutkan Transfer atau ganti <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#'>Scan QRIS</a></h5>
+        <h5>Lanjutkan Transfer atau <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#'>Scan QRIS</a></h5>
         <h4>Anda akan berdonasi untuk program <span><span id='namaprogramdonasi'/></span></h4><br/>
         <h5>Metode : Transfer bank</h5>
         <h5>Bank : Bank Syariah Indonesia</h5>
         <h5>Nama : BSMI Jawa Timur</h5>
         <h5>No Rekening : 7063416872 <button class='btn btn-danger' onclick='copy2clipboard(&quot;7063416872&quot;);' type='button'>Copy</button></h5>
         <h5>Nominal : Rp. <span id='nominalpembayaran'/> <button class='btn btn-danger' onclick='copy2clipboard($(&quot;#nominalpembayaran&quot;).text());' type='button'>Copy</button></h5>
-        <p>Ditambahkan kode donasi di belakang nominal untuk mempermudah identifikasi</p>
+        <p>* Ditambahkan kode donasi di belakang nominal untuk mempermudah identifikasi</p>
       </div>
       <div class='modal-footer'>
         <button class='btn btn-danger' onclick='window.open(&quot;https://wa.me/6287782872007&quot;, &quot;_blank&quot;);' type='button'>Kirim bukti transfer</button>

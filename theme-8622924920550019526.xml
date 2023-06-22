@@ -4,7 +4,7 @@
 <head>
 <meta content='notranslate' name='google'/>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/ https://www.google.com/js/bg/; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -330,32 +330,6 @@ footer .item h2 {font-size:1.2rem}
 footer .item h3 {font-size:1.0rem}
 footer h4 {font-size:1.0rem;margin-top:20px;}
   
-body {
-  font-size: 0.7rem;
-}
-
-@media (min-width:576px){
-  #tomboldonasi{position:static;bottom:auto;}
-  body {
-    font-size: 0.8rem;
-  }  
-}
-@media (min-width:768px) {
-  body {
-    font-size: 0.9rem;
-  }
-}
-@media (min-width:992px) {
-  .carousel-caption {
-  width:40%;
-  }
-  #judulweb{display:inline!important;}
-  body {
-    font-size: 0.9rem;
-  }
-}
-@media (min-width:1200px) {
-}
   
 .sticky {
   position: -webkit-sticky; /* Safari */
@@ -393,10 +367,38 @@ body {
   background-color:#fff;
 }
   
-	/*widget*/
+.hovereffect{
+    background:#fff;
+    background-size:cover;
+    background-position:center center;
+    background-color: #808080;
+    background-blend-mode: multiply;
+  }
+
+.hovereffect:hover{
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: red;
+    background-blend-mode: normal;
+}  
+  
+/*-------------------------------------------------------
+  widget start
+--------------------------------------------------------*/
+  .bsmiwidget-sidebar-right .widget{
+  	margin-bottom:10px;
+  }
   .bsmiwidget-sidebar-right .widget-content{
   	border:1px solid #fff;
   	padding:5px 5px;
+  }
+  .bsmiwidget-sidebar-right .PopularPosts .widget-content{
+  	max-height:150px;
+  	overflow:hidden;
+  	text-align:left;
   }
   .bsmiwidget-sidebar-right .PopularPosts .widget-content ul{
   	list-style: none;
@@ -418,12 +420,12 @@ body {
   .bsmiwidget-menu-top .PopularPosts .widget-content ul li{
   	border: 1px solid #000;
   	float:left;
-  	width:45%;
-  	height:150px;
+  	width:100%;
+  	/*width:45%;margin-right:5%;*/
+  	/*height:150px;*/
   	overflow:hidden;
   	padding: 0.7em 0.7em;
   	margin-bottom: 0.7em;
-  	margin-right:5%;
   }
   .bsmiwidget-menu-top .PopularPosts .widget-content ul li a{
   	font-size: 12px!important;
@@ -462,6 +464,47 @@ body {
   	color:#dc3545!important;
   	background:#fff!important;
   }
+/*-------------------------------------------------------
+  widget end
+--------------------------------------------------------*/
+
+/*-------------------------------------------------------
+  responsive start
+--------------------------------------------------------*/
+body {
+  font-size: 0.7rem;
+}
+
+@media (min-width:576px){
+  #tomboldonasi{position:static;bottom:auto;}
+  body {
+    font-size: 0.8rem;
+  }  
+}
+@media (min-width:768px) {
+  body {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width:992px) {
+  .carousel-caption {
+  width:40%;
+  }
+  #judulweb{display:inline!important;}
+  body {
+    font-size: 0.9rem;
+  }
+  .bsmiwidget-menu-top .PopularPosts .widget-content ul li{
+  	width:45%;margin-right:5%;
+  	height:115px;
+  } 
+}
+@media (min-width:1200px) {
+ 
+}  
+/*-------------------------------------------------------
+  responsive end
+--------------------------------------------------------*/
 </style>
 
 <script type='text/javascript'>
@@ -507,13 +550,13 @@ $(document).ready(function(){
 
   
 <header class='fixed-top'>
-  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='https://bsmi.or.id/'>BSMI Nasional</a> | <a href='https://mybsmi.bsmijatim.org/'>Login Anggota</a></div></div>
+  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='https://bsmi.or.id/'>BSMI Nasional</a> | <a href='https://jurnal.bsmi.or.id/'>Jurnal</a> | <a href='https://mybsmi.bsmijatim.org/'>Login Anggota</a></div></div>
 <div class='container-fluid bg-light'>
 <nav class='navbar navbar-light bg-light dropdown search-dropdown'>
 
     <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
   	<div class='d-flex justify-content-end'>
-    <a class='btn btn-light d-none d-sm-none d-md-block mr-sm-4' role='button'/>
+    <a class='btn btn-light d-none d-sm-none d-md-none mr-sm-4' role='button'/>
     <a class='nav-item nav-link dropdown-toggle' data-toggle='dropdown' href='#'><svg class='bi bi-search' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/> </svg></a>
     <a class='nav-item nav-link dropdown-toggle d-none' data-toggle='dropdown' href='#'><svg class='bi bi-x-lg' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/> </svg></a>
     <div class='dropdown-menu bg-danger'>
@@ -618,7 +661,7 @@ $(document).ready(function(){
       </b:widget>
       <b:widget id='PopularPosts2' locked='false' title='Populer' type='PopularPosts'>
         <b:widget-settings>
-          <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+          <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
           <b:widget-setting name='showThumbnails'>true</b:widget-setting>
           <b:widget-setting name='showSnippets'>true</b:widget-setting>
           <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
@@ -846,7 +889,7 @@ $(document).ready(function(){
     <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container shadow' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
       <div class='col-4 col-md-4 col-lg-4'><h5>50.<span id='penerimamanfaat'>111</span>+</h5><h6>Penerima Manfaat</h6></div>
-      <div class='col-4 col-md-4 col-lg-4'><h5>38</h5><h6>Cabang Se-Jatim</h6></div>
+      <div class='col-4 col-md-4 col-lg-4'><h5>38</h5><h6>Cabang Jatim</h6></div>
       <div class='col-4 col-md-4 col-lg-4'><h5>1.000+</h5><h6>Anggota Relawan</h6></div>
     </div>
     </div></div>
@@ -1204,6 +1247,7 @@ bsmidonasi .item .isi{
   background-color: #FF0000;
   background-blend-mode: multiply;
 	border-radius:20px 20px 20px 20px;
+  border: 5px solid #dc3545;
   }
 
 bsmidonasi .item .isi:hover{
@@ -1329,6 +1373,7 @@ bsmipost .item .isi{
   background-color: #C0C0C0;
   background-blend-mode: multiply;
 	border-radius:20px 20px 20px 20px;
+  border: 5px solid #dc3545;
   }
 
 bsmipost .item .isi:hover{
@@ -2423,6 +2468,7 @@ bsmichannel .item .isi{
   background-color: #808080;
   background-blend-mode: multiply;
 	border-radius:20px 20px 20px 20px;
+  border: 5px solid #dc3545;
   }
 
 bsmichannel .item .isi .playvideobutton{
@@ -2570,6 +2616,7 @@ bsmimagazine .item .isi{
   background-color: #808080;
   background-blend-mode: multiply;
 	border-radius:20px 20px 20px 20px;
+  border: 5px solid #dc3545;
   }
 bsmimagazine .item .isi .ebookpdfbutton{
   margin:25px auto;
@@ -2758,28 +2805,28 @@ bsmiinfodonordarah .parallax {
       <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Layanan BSMI</h5>
       <div class='row align-items-center justify-content-center'>
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://mybsmi.bsmijatim.org'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDkYbqgh-MQ7ppJ6jpGwhDp27JTL9k_Iv8XhzyON3VLN54C3Z3JS4HxM56TIFxelRt5Q3ujk0TLskfiA-Bc81wDZVdIYbxu783QFE0891p_3iJ2XSBZK-R2kDRvuTXPXEdzvl3aNYsN_5OL9j2akrXL2PvRRX5mgAmWKakWycpNl5MqNal2YzXwr-Osg/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://mybsmi.bsmijatim.org'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDkYbqgh-MQ7ppJ6jpGwhDp27JTL9k_Iv8XhzyON3VLN54C3Z3JS4HxM56TIFxelRt5Q3ujk0TLskfiA-Bc81wDZVdIYbxu783QFE0891p_3iJ2XSBZK-R2kDRvuTXPXEdzvl3aNYsN_5OL9j2akrXL2PvRRX5mgAmWKakWycpNl5MqNal2YzXwr-Osg/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
 
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLU1LobuMfuf5z83RIl41ahdiwe2iav3-SwFSZvRBbS1SDjr-ifaOCY6j2oZkGrNf7J3zqz5ylLhw7th6rOi68WSVoLHOueeLiq0WqGRDQjsGwilnRm0tcIa3SAzzQLoxsR7bgK4pb_JjPaE9G8gjQv0v_JwjJs-zvPtzZmjFAGYfydiflu_sNZ_9N/s320/iconklinikbsmimojo.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLU1LobuMfuf5z83RIl41ahdiwe2iav3-SwFSZvRBbS1SDjr-ifaOCY6j2oZkGrNf7J3zqz5ylLhw7th6rOi68WSVoLHOueeLiq0WqGRDQjsGwilnRm0tcIa3SAzzQLoxsR7bgK4pb_JjPaE9G8gjQv0v_JwjJs-zvPtzZmjFAGYfydiflu_sNZ_9N/s320/iconklinikbsmimojo.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>         
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://t.me/info_bencana' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiClixDIl8jtcm6zK1YkyCKCHRYmZlfY2k3R6x_CX-7d0Hen4ww0Sd37tEG5cEqU4cn3c2ZxRz99yO_wWIby9t9gxeJM8XDZtSrQZuaUHh_2v323DbnRIda-yChpjM_lFtdve5O4PG-PbQGwnquk2F5y22TU7OstwLGS4vM_MX1zVrw2l_62wXRT76U/s320/infobencana.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://t.me/info_bencana' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiClixDIl8jtcm6zK1YkyCKCHRYmZlfY2k3R6x_CX-7d0Hen4ww0Sd37tEG5cEqU4cn3c2ZxRz99yO_wWIby9t9gxeJM8XDZtSrQZuaUHh_2v323DbnRIda-yChpjM_lFtdve5O4PG-PbQGwnquk2F5y22TU7OstwLGS4vM_MX1zVrw2l_62wXRT76U/s320/infobencana.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
         
-		<div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+		<div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
 
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://t.me/relawanmerah' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjICfTkfH5hrS6Uk3hM1Usqe1OLRM6tr3gX6mHicbp6BGTRSHsPmNxIfbWJKe4tGYEWvSngGJhq6vaZ30FX0RFxLfs80gHfcwSQQtb5GqZve77TXegH0tNyns1pveT1vZS91xbS45p-p-Q0ZiVEQinvqWbUJNHDMIFbfUzu4ODA96sjZz60IgC9WLAd/s320/iconrelawanmerah.pn' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://t.me/relawanmerah' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjICfTkfH5hrS6Uk3hM1Usqe1OLRM6tr3gX6mHicbp6BGTRSHsPmNxIfbWJKe4tGYEWvSngGJhq6vaZ30FX0RFxLfs80gHfcwSQQtb5GqZve77TXegH0tNyns1pveT1vZS91xbS45p-p-Q0ZiVEQinvqWbUJNHDMIFbfUzu4ODA96sjZz60IgC9WLAd/s320/iconrelawanmerah.pn' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi'><a href='https://radiobsmi.press.my.id/' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT312vOGU8__pLGs3LFHlIzdEhjp8iPfsA1nyI3CMKemD6vy59AGU2zNEhAyoxDex42RzOGUog6r0jj6ogVxmThUscB4QwGG88bDLCi9AOo9160-T4FhiRAZaa05icouTA2muC2ZJ0qB4O9FvvNGyQ_yHzVDchpWmfg_zwP7YpcOXePYVrYnZQiktC/s320/radioonlinebsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://radiobsmi.press.my.id/' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT312vOGU8__pLGs3LFHlIzdEhjp8iPfsA1nyI3CMKemD6vy59AGU2zNEhAyoxDex42RzOGUog6r0jj6ogVxmThUscB4QwGG88bDLCi9AOo9160-T4FhiRAZaa05icouTA2muC2ZJ0qB4O9FvvNGyQ_yHzVDchpWmfg_zwP7YpcOXePYVrYnZQiktC/s320/radioonlinebsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>           
         
         
@@ -2964,10 +3011,10 @@ width:auto!important;
 <footer class='blended1' style='background-image:url();background-size:cover;background-position:center top;background-color:#000;'>
   <div class='container'>
     <div class='row align-items-center justify-content-center'>
-      	<div class='item col-12 col-sm-6 col-md-3 col-lg-3 d-flex align-items-center justify-content-center' data-aos='zoom-in-up'>
+      	<div class='item col-12 col-sm-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-center' data-aos='zoom-in-up'>
           <img height='200px' src='https://1.bp.blogspot.com/-I9V1NyLtG68/XmJRZ_RhTJI/AAAAAAAADgI/wJiuL0Wnjvc2jyoV8AMRsIp1YvSQs1QXwCLcBGAsYHQ/s1600/Logo%2BBSMI%2B%2528vector%2529.png'/>
       	</div>
-      	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
+      	<div class='item col-12 col-sm-6 col-md-6 col-lg-3' data-aos='zoom-in-up'>
           <div class='row align-items-center justify-content-center'>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/'>Home</a></h2></div>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></h2></div>
@@ -2980,7 +3027,7 @@ width:auto!important;
               <div class='col-6 col-md-12 text-center'><h2><a href='http://mybsmi.bsmijatim.org/'>MyBSMI</a></h2></div>
           </div>
       	</div>
-      	<div class='item col-12 col-sm-6 col-md-3 col-lg-3' data-aos='zoom-in-up'>
+      	<div class='item col-12 col-sm-6 col-md-6 col-lg-3' data-aos='zoom-in-up'>
           <div class='row align-items-center justify-content-center'>
             <div class='col-6 col-md-12 align-items-center justify-content-center text-center'>
               <h2>Sekretariat</h2>
@@ -2997,13 +3044,13 @@ width:auto!important;
             </div>
           </div>
       	</div>
-      	<div class='item col-12 col-sm-6 col-md-3 col-lg-3 text-center' data-aos='zoom-in-up'>
+      	<div class='item col-12 col-sm-6 col-md-6 col-lg-3 text-center' data-aos='zoom-in-up'>
           <b:section class='bsmiwidget-sidebar-right' id='bsmiwidget-sidebar-right'>
-            <b:widget id='PopularPosts1' locked='false' title='Populer' type='PopularPosts'>
+            <b:widget id='PopularPosts1' locked='false' title='Trending' type='PopularPosts'>
               <b:widget-settings>
                 <b:widget-setting name='numItemsToShow'>1</b:widget-setting>
                 <b:widget-setting name='showThumbnails'>true</b:widget-setting>
-                <b:widget-setting name='showSnippets'>false</b:widget-setting>
+                <b:widget-setting name='showSnippets'>true</b:widget-setting>
                 <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
@@ -3047,7 +3094,7 @@ width:auto!important;
   </div>
 </b:includable>
             </b:widget>
-            <b:widget id='Stats1' locked='true' title='Statistik' type='Stats'>
+            <b:widget id='Stats1' locked='true' title='Counter' type='Stats'>
               <b:widget-settings>
                 <b:widget-setting name='showGraphicalCounter'>true</b:widget-setting>
                 <b:widget-setting name='showAnimatedCounter'>true</b:widget-setting>

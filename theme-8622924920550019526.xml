@@ -27,7 +27,7 @@
   
 <script crossorigin='anonymous' integrity='sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'/> <!--  https://web.archive.org/web/20210325170940/https://fancyapps.com/fancybox/3/docs/ -->
 <link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css' integrity='sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==' referrerpolicy='no-referrer' rel='stylesheet'/>  
-  
+<script async='async' src='https://cse.google.com/cse.js?cx=52ef3ceb8450448b6'/>  
   
 <!-- deskripsi dan keyword -->
 
@@ -559,10 +559,23 @@ $(document).ready(function(){
     <a class='btn btn-light d-none d-sm-none d-md-none mr-sm-4' role='button'/>
     <a class='nav-item nav-link dropdown-toggle' data-toggle='dropdown' href='#'><svg class='bi bi-search' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/> </svg></a>
     <a class='nav-item nav-link dropdown-toggle d-none' data-toggle='dropdown' href='#'><svg class='bi bi-x-lg' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/> </svg></a>
-    <div class='dropdown-menu bg-danger'>
-        <script async='async' src='https://cse.google.com/cse.js?cx=52ef3ceb8450448b6'>
-        </script>
-        <div class='gcse-search'/>
+    <div class='dropdown-menu bg-danger' style=''>
+                             <form action='https://www.bsmijatim.org/p/search.html' class='card card-sm'>
+                                <div class='card-body row no-gutters align-items-center'>
+                                    <div class='col-auto'>
+                                        <i class='fas fa-search h4 text-body'/>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class='col'>
+                                        <input class='form-control form-control-lg form-control-borderless' name='q' placeholder='Kata kunci' type='search'/>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class='col-auto'>
+                                        <button class='btn btn-lg btn-danger' type='submit'>Cari</button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form> 
     </div>
     <a class='btn btn-danger d-block d-sm-block mr-sm-4' data-target='#myModalDonasi' data-toggle='modal' href='#' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
     <button aria-controls='navbarsBsmi01' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-target='#navbarsBsmi01' data-toggle='collapse' type='button'>

@@ -3607,8 +3607,8 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
         var myintervaldonasi = setInterval(function(){
           if( $('#bsmidonasi > div:nth-child(3) > a > div').length )
           {
-                $("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5fBNwnk4KBQJKT18jSc43zwE7dTDWWJFyHUx5bWCQ0bDgpvLuVdH-HjJVO-C2WufZwkvUXlpDIxQcG6fca6yBZAY7-FvzqOUinCQqaNqB56jpNjIWTFTSILyA5r5WoiRQBIqytN2zkR38Ywbbuq5O0LdN8tcFgCZ48JwQEy0vVe9Qj_UaW-qBOs0gA/s320/bsmijatim2022programtanggapbencana.jpg)");
-                $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5fBNwnk4KBQJKT18jSc43zwE7dTDWWJFyHUx5bWCQ0bDgpvLuVdH-HjJVO-C2WufZwkvUXlpDIxQcG6fca6yBZAY7-FvzqOUinCQqaNqB56jpNjIWTFTSILyA5r5WoiRQBIqytN2zkR38Ywbbuq5O0LdN8tcFgCZ48JwQEy0vVe9Qj_UaW-qBOs0gA/s320/bsmijatim2022programtanggapbencana.jpg");
+                $("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB9E3EOYceQH5xGfPOsrCaoLQy_hUx-LuI-fjexvUFx6xTXWojlfaZY1CcobWjQ2qeSuTH5eg1dZBGr6uuSYzdn1hWIcyLPxJmRSrmw6zoHox3_MQiShgHXRjfIq8DVQYO9ugFZChaPzfuf2LzYvqtHS1n-nUylWEEeptUFfa-BPl8D80G5zhUs8ISYMJm/s1080/opendonasibsmijatim.png)");
+                $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB9E3EOYceQH5xGfPOsrCaoLQy_hUx-LuI-fjexvUFx6xTXWojlfaZY1CcobWjQ2qeSuTH5eg1dZBGr6uuSYzdn1hWIcyLPxJmRSrmw6zoHox3_MQiShgHXRjfIq8DVQYO9ugFZChaPzfuf2LzYvqtHS1n-nUylWEEeptUFfa-BPl8D80G5zhUs8ISYMJm/s1080/opendonasibsmijatim.png");
                 clearInterval(myintervaldonasi);
           }
         }, 1000);

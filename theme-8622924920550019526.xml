@@ -1000,7 +1000,7 @@ function sendQueryPosthead()
 }
 
 $(document).ready(function() {
-//sendQueryPosthead();
+	sendQueryPosthead();
 });
 
 

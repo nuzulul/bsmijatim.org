@@ -982,6 +982,7 @@ img=new Array();
   //console.log(trtd);
   var id=i+1;
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text("Lihat");
+  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("data-toggle","");
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("href", posturl)
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > h2").text("");
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle").text(posttitle);

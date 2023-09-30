@@ -4,7 +4,7 @@
 <head>
 <meta content='notranslate' name='google'/>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/ https://www.google.com/js/bg/; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/ https://www.google.com/js/bg/ nuzulul.github.io cdn.tailwindcss.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -615,6 +615,7 @@ $(document).ready(function(){
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/video.html'>Video</a></div>-->
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/mars-bsmi.html'>Mars</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/hymne-bsmi.html'>Hymne</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/majalah.html'>Majalah</a></div>
       
       <div class='col-12 mt-3 mb-2'><strong><h3>Layanan</h3></strong></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div>
@@ -645,52 +646,6 @@ $(document).ready(function(){
       <div class='menu-cabang'/>
     </div><!-- row end -->
     <b:section class='bsmiwidget-menu-top' id='bsmiwidget-menu-top'>
-      <b:widget id='Label1' locked='false' title='Label' type='Label'>
-        <b:widget-settings>
-          <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
-          <b:widget-setting name='display'>CLOUD</b:widget-setting>
-          <b:widget-setting name='selectedLabelsList'/>
-          <b:widget-setting name='showType'>ALL</b:widget-setting>
-          <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2><data:title/></h2>
-  </b:if>
-  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-    <b:if cond='data:display == &quot;list&quot;'>
-      <ul>
-        <b:loop values='data:labels' var='label'>
-          <li>
-            <b:if cond='data:blog.url == data:label.url'>
-              <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-            <b:else/>
-              <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-            </b:if>
-            <b:if cond='data:showFreqNumbers'>
-              <span dir='ltr'>(<data:label.count/>)</span>
-            </b:if>
-          </li>
-        </b:loop>
-      </ul>
-    <b:else/>
-      <b:loop values='data:labels' var='label'>
-        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-          <b:if cond='data:blog.url == data:label.url'>
-            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-          <b:else/>
-            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-          </b:if>
-          <b:if cond='data:showFreqNumbers'>
-            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
-          </b:if>
-        </span>
-      </b:loop>
-    </b:if>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-      </b:widget>
       <b:widget id='PopularPosts2' locked='false' title='Populer' type='PopularPosts'>
         <b:widget-settings>
           <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
@@ -817,6 +772,52 @@ $(document).ready(function(){
       </b:if>
     </span>
   </a>
+</b:includable>
+      </b:widget>
+      <b:widget id='Label1' locked='false' title='Label' type='Label'>
+        <b:widget-settings>
+          <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
+          <b:widget-setting name='display'>CLOUD</b:widget-setting>
+          <b:widget-setting name='selectedLabelsList'/>
+          <b:widget-setting name='showType'>ALL</b:widget-setting>
+          <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+    <b:if cond='data:display == &quot;list&quot;'>
+      <ul>
+        <b:loop values='data:labels' var='label'>
+          <li>
+            <b:if cond='data:blog.url == data:label.url'>
+              <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+            <b:else/>
+              <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+            </b:if>
+            <b:if cond='data:showFreqNumbers'>
+              <span dir='ltr'>(<data:label.count/>)</span>
+            </b:if>
+          </li>
+        </b:loop>
+      </ul>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </span>
+      </b:loop>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
 </b:includable>
       </b:widget>
     </b:section>

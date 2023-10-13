@@ -2570,7 +2570,7 @@ sendQuerybsmichannel();
 <style>
 bsmichannel {
 margin:30px auto;
-display:block;
+display:none;
 }
 
 bsmichannel .item{

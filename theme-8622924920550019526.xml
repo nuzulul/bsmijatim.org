@@ -846,7 +846,8 @@ $(document).ready(function(){
 <div class='container-fluid' style='height:120px;background:#dc3545;'>
   <div class='row align-items-center justify-content-center'><div class='col-10 col-md-3'>
   	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:123px;z-index:999;'>
-        Cari donor darah? <a class='' href='https://forms.gle/3LoD4MnAVCF9NMUb7' style='' target='_blank'>Klik</a>
+        <!--Cari donor darah? <a class='' href='https://forms.gle/3LoD4MnAVCF9NMUb7' style='' target='_blank'>Klik</a>-->
+        Donasi Peduli Palestina <a class='' href='https://go.bsmijatim.org/donasipalestina' style='' target='_blank'>Klik</a>
         <button aria-label='Close' class='close p-0 pr-1' data-dismiss='alert' type='button'>
           <span aria-hidden='true'>x</span>
         </button>

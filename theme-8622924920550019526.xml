@@ -847,13 +847,14 @@ $(document).ready(function(){
   <div class='row align-items-center justify-content-center'><div class='col-10 col-md-3'>
   	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:123px;z-index:999;'>
         <!--Cari donor darah? <a class='' href='https://forms.gle/3LoD4MnAVCF9NMUb7' style='' target='_blank'>Klik</a>-->
-        Donasi Peduli Palestina <a class='' href='https://go.bsmijatim.org/donasipalestina' style='' target='_blank'>Klik</a>
+        Donasi Peduli Palestina <a class='' href='https://go.bsmijatim.org/donasipalestina' style=''>Klik</a>
         <button aria-label='Close' class='close p-0 pr-1' data-dismiss='alert' type='button'>
           <span aria-hidden='true'>x</span>
         </button>
       </div>
   </div></div>
-</div>
+</div>  
+
   
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
@@ -1056,7 +1057,7 @@ bsmisosmed div div img:hover{
                   		<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgICEiTVfLER56FAIA8Rac-4JTkcC5wj2ZRQ3TrmPHq_pD1Tv9LWqkDrvdfGrN7GYBpxBuEHcmX8DysJ1lJmfwti7WRP59HuUxuvhadJE8c7hv8sQNr8YEO3u-qdAwNgWczSYkgscCT_NUThjymiP_QVaopSIbwAm5Nnjn1-LkyspjJJlVBg191FeYHflWw/s2000/banner-bsmi-jatim.jpg' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgICEiTVfLER56FAIA8Rac-4JTkcC5wj2ZRQ3TrmPHq_pD1Tv9LWqkDrvdfGrN7GYBpxBuEHcmX8DysJ1lJmfwti7WRP59HuUxuvhadJE8c7hv8sQNr8YEO3u-qdAwNgWczSYkgscCT_NUThjymiP_QVaopSIbwAm5Nnjn1-LkyspjJJlVBg191FeYHflWw/s2000/banner-bsmi-jatim.jpg' style='width:100%;'/></div></a>
             	</div>
           </div>
-          <div class='row align-items-center justify-content-center'>
+          <div class='row align-items-center justify-content-center d-none'>
             	<div class='item col-12 col-md-4 col-lg-4 mb-3' data-aos='zoom-in-up' style=''>
                   	<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/a/AVvXsEhK6m1ZemFy_zUIftbkbXMLrCNSJfRWLuxPe6RXVZiYvJ4qewDB_fvJwY-5uw0HMXtL9gaC7ZE0eGWu6xZ-vqMx3ZUl2Hbk-g_--q3DGMTobQxf30nY2sDVs9_UBZ61ER9-rtbEDa05593hwrbxpgzzahYh14CHdq0c-bXhuJ_oaaVU-vh7kFV-MHq0RA=s2000' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEhK6m1ZemFy_zUIftbkbXMLrCNSJfRWLuxPe6RXVZiYvJ4qewDB_fvJwY-5uw0HMXtL9gaC7ZE0eGWu6xZ-vqMx3ZUl2Hbk-g_--q3DGMTobQxf30nY2sDVs9_UBZ61ER9-rtbEDa05593hwrbxpgzzahYh14CHdq0c-bXhuJ_oaaVU-vh7kFV-MHq0RA=s2000' style='width:100%;'/></div></a>
             	</div>            

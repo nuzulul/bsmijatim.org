@@ -3342,7 +3342,7 @@ width:auto!important;
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>20.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>50.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;100000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>100.000</a>
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;200000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>200.000</a>
+		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;200000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>200.000</a>-->
 		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;500000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>500.000</a>-->
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Input Manual</a>
         <a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Layanan Donatur</a>

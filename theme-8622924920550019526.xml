@@ -478,6 +478,22 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 body {
   font-size: 0.7rem;
 }
+  
+.togglepencarian{
+  display:none;
+}
+  
+#tomboldonasi{display:none;}   
+
+@media (min-width:340px){
+  #tomboldonasi{display:block;}  
+}  
+  
+@media (min-width:390px){
+  .togglepencarian{
+  	display:block;
+  }
+}
 
 @media (min-width:576px){
   #tomboldonasi{position:static;bottom:auto;}
@@ -573,7 +589,7 @@ $(document).ready(function(){
     <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
   	<div class='d-flex justify-content-end'>
     <a class='btn btn-light d-none d-sm-none d-md-none mr-sm-4' role='button'/>
-    <a class='nav-item nav-link dropdown-toggle' data-toggle='dropdown' href='#'><svg class='bi bi-search' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/> </svg></a>
+    <a class='nav-item nav-link dropdown-toggle togglepencarian' data-toggle='dropdown' href='#'><svg class='bi bi-search' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/> </svg></a>
     <a class='nav-item nav-link dropdown-toggle d-none' data-toggle='dropdown' href='#'><svg class='bi bi-x-lg' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/> </svg></a>
     <div class='dropdown-menu bg-danger' style=''>
                              <form action='https://www.bsmijatim.org/p/search.html' class='card card-sm'>
@@ -594,7 +610,7 @@ $(document).ready(function(){
                             </form> 
     </div>
     <!--<a class='btn btn-danger d-block d-sm-block mr-sm-4' data-target='#myModalDonasi' data-toggle='modal' href='#' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>-->
-    <a class='btn btn-danger d-block d-sm-block mr-sm-4' href='https://go.bsmijatim.org/donasipalestina' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
+    <a class='btn btn-danger mr-sm-4' href='https://go.bsmijatim.org/donasipalestina' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
     <button aria-controls='navbarsBsmi01' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-target='#navbarsBsmi01' data-toggle='collapse' type='button'>
       <span class='navbar-toggler-icon'/>
     </button>

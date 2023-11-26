@@ -625,6 +625,7 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/search'>Artikel</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/download.html'>Download</a></div>
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/poster.html'>Poster</a></div>-->

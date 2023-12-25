@@ -582,7 +582,7 @@ $(document).ready(function(){
 
   
 <header class='fixed-top'>
-  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='https://www.bsmijatim.org/search'>News</a> | <a href='https://www.bsmijatim.org/p/anggota.html'>Anggota</a> | <a href='https://mybsmi.bsmijatim.org/'>Login Anggota</a></div></div>
+  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='https://www.bsmijatim.org/search'>News</a> | <a href='https://www.bsmijatim.org/search/label/Event'>Event</a> | <a href='https://www.bsmijatim.org/p/anggota.html'>Anggota</a> | <a href='https://mybsmi.bsmijatim.org/'>Login Anggota</a></div></div>
 <div class='container-fluid bg-light'>
 <nav class='navbar navbar-light bg-light dropdown search-dropdown'>
 
@@ -872,7 +872,7 @@ $(document).ready(function(){
       <a href='https://go.bsmijatim.org/donasipalestina' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpjIrD6kc4q_e_xWvdLud57J-YvENjjaS-iev0lZhomIg2qSKJAb9vbiBYasMAHxqw21ZCBxbtlkUOgIYCUXNAzmwRjIkp4BP2OGvB4mWi3ZOwkCP5L-Z7o5xHeWNF2aVWDupHb3I-VhRWykzWfBk_JwMfg2yfGDrajYEtVi_ydbnE7QQf0TbBjstEu3Gh/s1920/banner-gazaunderattack-2023.jpg' style='width:100%'/></a>
     </div>
     <div class='col-10 col-md-3' style='height:10px'>
-  	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;'>
+  	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;display:none;'>
         <!--Cari donor darah? <a class='' href='https://forms.gle/3LoD4MnAVCF9NMUb7' style='' target='_blank'>Klik</a>-->
         Donasi Peduli Palestina <a class='' href='https://go.bsmijatim.org/donasipalestina' style=''>Klik</a>
         <button aria-label='Close' class='close p-0 pr-1' data-dismiss='alert' type='button'>

@@ -582,7 +582,7 @@ $(document).ready(function(){
 
   
 <header class='fixed-top'>
-  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='https://www.bsmijatim.org/search'>News</a> | <a href='https://www.bsmijatim.org/search/label/Event'>Event</a> | <a href='https://www.bsmijatim.org/p/anggota.html'>Anggota</a> | <a href='https://mybsmi.bsmijatim.org/'>Login Anggota</a></div></div>
+  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home</a> | <a href='https://www.bsmijatim.org/search'>News</a> | <a href='https://www.bsmijatim.org/search/label/Event'>Event</a> | <a href='https://www.bsmijatim.org/p/anggota.html'>Anggota</a> | <a href='https://mybsmi.bsmijatim.org/'>Login Anggota</a></div></div>
 <div class='container-fluid bg-light'>
 <nav class='navbar navbar-light bg-light dropdown search-dropdown'>
 

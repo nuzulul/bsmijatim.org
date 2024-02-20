@@ -3252,7 +3252,7 @@ width:auto!important;
   </div>
 </b:includable>
             </b:widget>
-            <b:widget id='Stats1' locked='true' title='Counter' type='Stats'>
+            <b:widget id='Stats1' locked='true' title='Pengunjung' type='Stats'>
               <b:widget-settings>
                 <b:widget-setting name='showGraphicalCounter'>true</b:widget-setting>
                 <b:widget-setting name='showAnimatedCounter'>true</b:widget-setting>

@@ -610,7 +610,7 @@ $(document).ready(function(){
                             </form> 
     </div>
     <!--<a class='btn btn-danger d-block d-sm-block mr-sm-4' data-target='#myModalDonasi' data-toggle='modal' href='#' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>-->
-    <a class='btn btn-danger mr-sm-4' href='https://go.bsmijatim.org/donasipalestina' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
+    <a class='btn btn-danger mr-sm-4' href='https://www.bsmijatim.org/p/donasi.html' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
     <button aria-controls='navbarsBsmi01' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-target='#navbarsBsmi01' data-toggle='collapse' type='button'>
       <span class='navbar-toggler-icon'/>
     </button>
@@ -3744,10 +3744,14 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
           }
         }, 1000);
 	}
+	if (window.location.href.indexOf("donasi-palestina") > -1){
+		pengaturan[0][2] = 8;
+       	pengaturan[0][1] = "Solidaritas Peduli Palestina";
+	}
 });
 }
 $(document).ready(function() {
-fpengaturan();
+	fpengaturan();
 	//$('<iframe src="https://bsmiradio.netlify.app/?platform=bsmijatimorg" frameborder="0" scrolling="no" id="myFrame" style="display:none"></iframe>').appendTo('body');
 });
 console.log("created by Nuzulul");

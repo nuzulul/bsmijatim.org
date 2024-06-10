@@ -3729,7 +3729,7 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
     //console.log(data);
 	var batasdonasi = new Date(pengaturan[0][3]).getTime();//console.log(batasdonasi);
 	var waktusekarang = new Date().getTime();//console.log(waktusekarang);
-	if (waktusekarang >= batasdonasi)
+	if (waktusekarang >= batasdonasi && window.location.href.indexOf("donasi-palestina") == -1)
 	{
 		pengaturan[0][2] = 3;
 		pengaturan[0][1] = "Penanganan Tanggap Bencana";

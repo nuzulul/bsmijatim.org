@@ -873,7 +873,7 @@ $(document).ready(function(){
     </div>
     <div class='col-10 col-md-3' style='height:10px'>
   	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;display:none;'>
-        <!--Cari donor darah? <a class='' href='https://forms.gle/3LoD4MnAVCF9NMUb7' style='' target='_blank'>Klik</a>-->
+        <!--Cari donor darah? <a class='' href='https://forms.gle/3LoD4MnAVCF9NMUb7' style='' target='_self'>Klik</a>-->
         Donasi Peduli Palestina <a class='' href='https://go.bsmijatim.org/donasipalestina' style=''>Klik</a>
         <button aria-label='Close' class='close p-0 pr-1' data-dismiss='alert' type='button'>
           <span aria-hidden='true'>x</span>
@@ -3741,6 +3741,9 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
                 $("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB9E3EOYceQH5xGfPOsrCaoLQy_hUx-LuI-fjexvUFx6xTXWojlfaZY1CcobWjQ2qeSuTH5eg1dZBGr6uuSYzdn1hWIcyLPxJmRSrmw6zoHox3_MQiShgHXRjfIq8DVQYO9ugFZChaPzfuf2LzYvqtHS1n-nUylWEEeptUFfa-BPl8D80G5zhUs8ISYMJm/s1080/opendonasibsmijatim.png)");
                 $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB9E3EOYceQH5xGfPOsrCaoLQy_hUx-LuI-fjexvUFx6xTXWojlfaZY1CcobWjQ2qeSuTH5eg1dZBGr6uuSYzdn1hWIcyLPxJmRSrmw6zoHox3_MQiShgHXRjfIq8DVQYO9ugFZChaPzfuf2LzYvqtHS1n-nUylWEEeptUFfa-BPl8D80G5zhUs8ISYMJm/s1080/opendonasibsmijatim.png");
                 clearInterval(myintervaldonasi);
+				if (window.location.href.indexOf("/p/donasi.html") > -1){
+						document.getElementById("bsmidonasititle").innerHTML = "Program Donasi Tanggap Bencana";
+				}
           }
         }, 1000);
 	}

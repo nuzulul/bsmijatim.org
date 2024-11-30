@@ -869,7 +869,7 @@ $(document).ready(function(){
       <div style='width:100%;height:120px;'/>
     </div>
     <div class='col-12'>
-      <a href='https://go.bsmijatim.org/donasipalestina'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpjIrD6kc4q_e_xWvdLud57J-YvENjjaS-iev0lZhomIg2qSKJAb9vbiBYasMAHxqw21ZCBxbtlkUOgIYCUXNAzmwRjIkp4BP2OGvB4mWi3ZOwkCP5L-Z7o5xHeWNF2aVWDupHb3I-VhRWykzWfBk_JwMfg2yfGDrajYEtVi_ydbnE7QQf0TbBjstEu3Gh/s1920/banner-gazaunderattack-2023.jpg' style='width:100%'/></a>
+      <a href='https://go.bsmijatim.org/donasipalestina'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc3FLz05eWE1GIbpsV6EhwTIUNAYjy-kjD9EZn-JvGC7YkR0Q2eSw1WiaLZsB7TrQkiC83HzQrHtV9Kd2zWKn-iKbqEttnqtYW6aSf9cFKvJIZP6qeEGfdrNun43Li89PyOcvL2LHVHpIOv7K2WEpFco810LYMHPpDEGazyErkIyuoXCVUvyjD3wzCIUtr/s7559/banner-donasi-kemanusiaan-palestina.png' style='width:100%'/></a>
     </div>
     <div class='col-10 col-md-3' style='height:10px'>
   	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;display:none;'>

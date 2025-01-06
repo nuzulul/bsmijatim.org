@@ -1428,6 +1428,7 @@ padding:5px 10px;
 color:red;
 left:30px;
 border-radius:5px 5px 5px 5px;
+display:none;
 }
 </style>
 </bsmievent>
@@ -2583,6 +2584,12 @@ margin-bottom:25px;
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:section class='bsmiwidget-home-bottom' id='bsmiwidget-home-bottom'/>
   
+
+  
+  
+  
+  
+  
   
 <bsmiinfobencana>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
@@ -2597,6 +2604,10 @@ margin-bottom:25px;
   </div>
 <script>
 //<![CDATA[
+
+/*
+
+
 var dataBencana = [];
 function getbsmiinfobencana(){ //console.log("cek2");
   $.ajax({url: "https://cors.bsmijatim.workers.dev/?https%3A%2F%2Ft.me%2Fs%2Finfo_bencana",  success: function(result){
@@ -2654,12 +2665,15 @@ function sendQuerybsmiinfobencana(){ //console.log("cek1");
 $(document).ready(function() {
 sendQuerybsmiinfobencana();
 });
+
+*/
+
 //]]>
 </script>
 <style>
 bsmiinfobencana {
 margin:30px auto;
-display:block;
+display:none;
 color:#fff;
 }
   
@@ -2695,6 +2709,11 @@ bsmiinfobencana .parallax {
 }
 </style>
 </bsmiinfobencana>  
+
+  
+  
+  
+  
   
   
   
@@ -2989,6 +3008,12 @@ getbsmitv();
 </script>
 </bsmivideo>-->  
   
+
+  
+  
+  
+  
+  
   
 <bsmiinfodonordarah>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
@@ -3001,8 +3026,51 @@ getbsmitv();
          </div> 
      </div>
   </div>
+
+<style>
+bsmiinfodonordarah {
+margin:30px auto;
+display:none;
+color:#fff;
+}
+  
+bsmiinfodonordarah .isi{
+  overflow:hidden;
+  height:500px;
+  background:#fff;
+  background-size:cover;
+  background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4jdHVYhAdlD48AG_A0xshr3YrZTHV9nobGjD4EqCSUPd_ar9L7nVxjLC_zPcAMeyQ6lxs4b_Y9Tm2IscsKsj6XMelhqSAEEfPaDagwR2nWgq1G-uyAIolLA_ITviCLDzwSTSFDvwNgLix/s2000/IMG-20190604-WA0025.jpg);
+  background-position:center center;
+  /*background-color: #FF0000;*/
+  background-color: #2e302f;
+  background-blend-mode: multiply;
+  }
+
+bsmiinfodonordarah .item{
+margin-bottom:20px;
+    background-size:cover;
+  background-position:center center;
+border-radius:20px 20px 20px 20px;
+  }
+
+bsmiinfodonordarah .parallax {
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 <script>
 //<![CDATA[
+
+/*
+
+
 var dataDonordarah = [];
 function getbsmiinfodonordarah(){ //console.log("cek2");
   $.ajax({url: "https://cors.bsmijatim.workers.dev/?https%3A%2F%2Ft.me%2Fs%2Finfo_donor_darah",  success: function(result){
@@ -3058,48 +3126,19 @@ function sendQuerybsmiinfodonordarah(){ //console.log("cek1");
 $(document).ready(function() {
 sendQuerybsmiinfodonordarah();
 });
+
+*/
+
+
 //]]>
 </script>
-<style>
-bsmiinfodonordarah {
-margin:30px auto;
-display:block;
-color:#fff;
-}
-  
-bsmiinfodonordarah .isi{
-  overflow:hidden;
-  height:500px;
-  background:#fff;
-  background-size:cover;
-  background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4jdHVYhAdlD48AG_A0xshr3YrZTHV9nobGjD4EqCSUPd_ar9L7nVxjLC_zPcAMeyQ6lxs4b_Y9Tm2IscsKsj6XMelhqSAEEfPaDagwR2nWgq1G-uyAIolLA_ITviCLDzwSTSFDvwNgLix/s2000/IMG-20190604-WA0025.jpg);
-  background-position:center center;
-  /*background-color: #FF0000;*/
-  background-color: #2e302f;
-  background-blend-mode: multiply;
-  }
-
-bsmiinfodonordarah .item{
-margin-bottom:20px;
-    background-size:cover;
-  background-position:center center;
-border-radius:20px 20px 20px 20px;
-  }
-
-bsmiinfodonordarah .parallax {
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
 </bsmiinfodonordarah>  
+
     
+
+
+
+
   
   
   
@@ -3149,7 +3188,11 @@ bsmiinfodonordarah .parallax {
 </style>
 </layanan>
   
+
   
+  
+  
+<!--  
 <bsmiinfomaps>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
@@ -3197,7 +3240,7 @@ bsmiinfomaps .parallax {
 
   </style>
 </bsmiinfomaps>
-   
+-->   
   
 <rekening>
 <div class='container'><div class='row'>

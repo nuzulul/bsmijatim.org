@@ -86,7 +86,10 @@ body {
   padding-bottom: 0rem;
   color: #5a5a5a;
   background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLuNwFWaSFDfkDLoJZemDKfUsR57fM7FvfNRLzNl6O2ER36hGi0bAE5yaROHebZeosrL16jTwDnxOhQUjQLcKDh6PEu2WRa7-oGRX1gBzuV3hetz8NUgcehD2Og4tPssHilQ9vxYURJpDxio_SW4avQzv4Eg8VOycwSOHrCu7x7lkJVUZ6PZ3RHi6f71IP/s1600/background-white.png);
-  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   
 .bg-bsmi-white{
@@ -593,9 +596,9 @@ $(document).ready(function(){
 <body>
 
   
-<header class='fixed-top'>
+<header class='fixed-top bg-bsmi-white'>
   <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home</a> | <a href='https://www.bsmijatim.org/search'>News</a> | <a href='https://www.bsmijatim.org/search/label/Event'>Event</a> | <a href='https://www.bsmijatim.org/p/majalah.html'>Magazine</a> | <a href='https://www.bsmijatim.org/p/anggota.html'>Members</a> | <a href='https://mybsmi.bsmijatim.org/'>Login</a></div></div>
-<div class='container-fluid bg-light bg-bsmi-white'>
+<div class='container-fluid'>
 <nav class='navbar navbar-light dropdown search-dropdown'>
 
     <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>

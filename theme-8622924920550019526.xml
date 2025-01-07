@@ -141,7 +141,7 @@ font-size:24px;
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 390px;
+  height: 520px;
   background-size:cover;
   background-position:center center;
   background-attachment: fixed;
@@ -149,8 +149,8 @@ font-size:24px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  -webkit-animation: blenderzoomin 20s ease-in infinite;
-  animation: blenderzoomin 20s ease-in infinite;
+  -webkit-animation: blendersimple 20s ease-in infinite;
+  animation: blendersimple 20s ease-in infinite;
   transition: all .5s ease-in-out;
 
 }
@@ -177,6 +177,11 @@ font-size:24px;
   100% {background-color: #C0C0C0;background-blend-mode: multiply;background-position: center top;}
 }
 
+@keyframes blendersimple {
+  0% {background-position: center top;}
+  50% {background-position: center center;}
+  100% {background-position: center top;}
+}
 
 
 .carousel-item &gt; img {
@@ -285,7 +290,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#f7000000
 carousel .donasi {
 min-height:300px;
 position:absolute;
-top:50px;
+bottom:50px;
 }
 
 carousel .donasi a {
@@ -904,7 +909,7 @@ $(document).ready(function(){
         <div class='container'>
           <div class='carousel-caption text-left'>
             <h2 data-animation='animated bounceInLeft'>WELCOME</h2>
-            <p class='subtitle' data-animation='animated bounceInRight'>Selamat datang di Situs Resmi Bulan Sabit Merah Indonesia Provinsi Jawa Timur</p>
+            <p class='subtitle' data-animation='animated bounceInRight'><a class='btn btn-lg btn-danger' href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Selamat datang di Situs Resmi Bulan Sabit Merah Indonesia Provinsi Jawa Timur</a></p>
             <p class='tombol' data-animation='animated bounceInUp'><a class='btn btn-lg btn-danger' href='https://www.bsmijatim.org/p/sejarah-bsmi.html' role='button'>Lihat</a></p>
           </div>
         </div>
@@ -914,7 +919,7 @@ $(document).ready(function(){
         <div class='container'>
           <div class='carousel-caption text-left'>
             <h2 data-animation='animated bounceInLeft'>BSMI</h2>
-            <p class='subtitle' data-animation='animated bounceInRight'>Lembaga kemanusiaan, kesehatan dan sosial di Indonesia yang telah menjalankan giat kemanusian sejak 2002 baik di tingkat nasional maupun internasional</p>
+            <p class='subtitle' data-animation='animated bounceInRight'><a class='btn btn-lg btn-danger' href='https://www.bsmijatim.org/'>Lembaga kemanusiaan, kesehatan dan sosial di Indonesia yang telah menjalankan giat kemanusian sejak 2002 baik di tingkat nasional maupun internasional</a></p>
             <p class='tombol' data-animation='animated bounceInUp'><a class='btn btn-lg btn-danger' data-target='#myModalDonasi' data-toggle='modal' href='#' role='button'>Dukung Kami</a></p>
           </div>
         </div>
@@ -924,7 +929,7 @@ $(document).ready(function(){
         <div class='container'>
           <div class='carousel-caption text-left'>
             <h2 data-animation='animated bounceInLeft'>Bantuan Kemanusiaan</h2>
-            <p class='subtitle' data-animation='animated bounceInRight'>Memberikan bantuan kemanusiaan untuk korban bencana seperti banjir, gempa bumi, tsunami, gunung meletus , dan sebagainya</p>
+            <p class='subtitle' data-animation='animated bounceInRight'><a class='btn btn-lg btn-danger' href='https://www.bsmijatim.org/'>Memberikan bantuan kemanusiaan untuk korban bencana seperti banjir, gempa bumi, tsunami, gunung meletus , dan sebagainya</a></p>
             <p class='tombol' data-animation='animated bounceInUp'><a class='btn btn-lg btn-danger' data-target='#myModalDonasi' data-toggle='modal' href='#' role='button'>Donasi Sekarang</a></p>
           </div>
         </div>
@@ -934,7 +939,7 @@ $(document).ready(function(){
         <div class='container'>
           <div class='carousel-caption text-left'>
             <h2 data-animation='animated bounceInLeft'>Peduli Palestina</h2>
-            <p class='subtitle' data-animation='animated bounceInRight'>Bantuan kemanusiaan untuk saudara saudara kita di Palestina. Semoga Allah memberikan rahmat untuk mereka.</p>
+            <p class='subtitle' data-animation='animated bounceInRight'><a class='btn btn-lg btn-danger' href='https://www.bsmijatim.org/'>Bantuan kemanusiaan untuk saudara saudara kita di Palestina. Semoga Allah memberikan rahmat untuk mereka.</a></p>
             <p class='tombol' data-animation='animated bounceInUp'><a class='btn btn-lg btn-danger' data-target='#myModalDonasi' data-toggle='modal' href='#' role='button'>Saya Peduli</a></p>
           </div>
         </div>
@@ -948,9 +953,9 @@ $(document).ready(function(){
       <span aria-hidden='true' class='carousel-control-next-icon'/>
       <span class='sr-only'>Next</span>
     </a>
-    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>DONASI<strong>BSMI</strong></h4><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button'>10.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'>MORE</a></div></div></div>
+    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>DONASI<strong>BSMI</strong></h4><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button'>10.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a></div></div></div>
 
-    <div class='container-fluid' style='position:absolute;top:350px;left:0px;'><div class='container shadow' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
+    <div class='container-fluid' style='position:absolute;bottom:-60px;left:0px;'><div class='container shadow' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
       <div class='col-4 col-md-4 col-lg-4'><h5>50.<span id='penerimamanfaat'>111</span>+</h5><h6>Penerima Manfaat</h6></div>
       <div class='col-4 col-md-4 col-lg-4'><h5>38</h5><h6>Cabang Jatim</h6></div>
@@ -1017,11 +1022,13 @@ img=new Array();
   //document.getElementById("bsmipost").innerHTML += trtd;
   //console.log(trtd);
   var id=i+1;
-  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text("Lihat");
+  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text(posttitle);
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("data-toggle","");
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("href", posturl)
+  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle").hide()
+  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle > a").attr("href", posturl)
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > h2").text("");
-  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle").text(posttitle);
+  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle > a").text(posttitle);
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+")").css("background-image", "url("+jpg+")"); 
   }
 }

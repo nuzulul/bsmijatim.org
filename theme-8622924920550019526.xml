@@ -1092,6 +1092,27 @@ bsmisosmed div div img:hover{
 <b:section class='bsmiwidget-home-top' id='bsmiwidget-home-top'/>
   
   
+<bsmiselayangpandang>
+  <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
+    <div class='container'>
+        <div class='row align-items-center justify-content-center'>
+          <div class='item col-12 col-md-6 col-lg-4 mb-5 mt-5'>
+            <div class='photo' style='border-radius:50% 50% 50% 50%;overflow: hidden;border:2em solid #dc3545;width:100%;aspect-ratio:1/1;'>
+              <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcLPd_5GeoFU9dI_arGXbis1hy079QyOxbwnakVv2Rf-LILAmjZFKt3OPv7BZlTy3Hlm5X_EEEKDRpyAEq5P2NudV7MSVO9DRJEW9ygm4InEcnjjMzyx9KisCeJXADRTgq-jVmzENvh-6-lREN5vLOPzAEV9Quc2vkFUuxzW6VH9eSAjsXLmbMzcGyisi5/s1000/m35w7k5g.jpg' width='100%'/>
+            </div>
+          </div>
+          <div class='item col-12 col-md-6 col-lg-8'>
+            <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>Selamatkan Satu Jiwa Sambung Seribu Asa</div>
+            <div style='width:100%;font-size:2em;text-align:center;'>&#8220;Cinta bermakna memberi sedangkan kerelawanan adalah bukti dari cinta yaitu pengorbanan. Tidak ada kebahagiaan hakiki kecuali menebarkan cinta dan pelayanan umat&#8220;<hr/></div><div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'/>
+            <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>dr. Azhar Anwar, MM, MMRS</div>
+            <div style='width:100%;font-size:2em;text-align:center;'>Ketua BSMI Jawa Timur</div>
+          </div>
+        </div>
+    </div>
+  </div>
+</bsmiselayangpandang>
+  
+  
   
 <bsmiinfomars>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
@@ -1209,7 +1230,7 @@ border-radius:20px 20px 20px 20px;
             <div class='col-4' data-aos='zoom-in-up'>
                 <h6 style='margin:30px 0px 20px 10px;'>RELAWAN</h6>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
-                  <p class='d-none d-md-block'>Relawan Kemanusiaan BSMI JATIM</p>
+                  <p class='d-none d-md-block'>Anggota Relawan BSMI JATIM</p>
                   <!--<a data-fancybox='' data-src='https://www.youtube.com/embed/Z6qX8Tkb_5c' href='javascript:;'>-->
                   <a href='https://www.bsmijatim.org/p/anggota.html'>
                       <svg class='bi bi-person-vcard-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
@@ -3376,11 +3397,11 @@ bsmiinfomaps .parallax {
 <rekening>
 <div class='container'><div class='row'>
 <div class='col-md-6' data-aos='zoom-in-up'>
-	<h5 style='margin:30px 0px 20px 10px;'>Rekening Donasi Kemanusiaan</h5>
+	<h5 style='margin:30px 0px 20px 10px;'>Rekening BSMI</h5>
   <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'><a data-target='#myModalDonasi' data-toggle='modal' href='#'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' style='width:100px;margin:0px 10px 5px;float:left;'/><span style='font-size:28px;color:red;font-weight:bold;'>7063416872</span> a.n. <span style='font-weight:bold;'>BSMI Jawa Timur</span></a></div>
 </div>
 <div class='col-md-6' data-aos='zoom-in-up'>
-<h5 style='margin:30px 0px 5px 10px;'>Donasi Lebih Mudah Lewat App</h5>
+<h5 style='margin:30px 0px 5px 10px;'>Channel BSMI</h5>
 	<div class='row'>
 		<div class='item col-12 col-lg-6 hover1'><div class='isi vertical-center'><a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhACIcYT_MOob74mP0vqlk4W5ETjT-NvOUnCFr15F5txJvbLQSskiXeDJB7gqSfiM5BSx-FBW_TsMyQyuRNokpMmC7MmRgSUvRrL85XuHAMjUe5FXUReVWA7RZqnVO1B-Xs8U11QTMBVF8/s1600/qris.png' style='width:100%'/></a></div>
       	</div>

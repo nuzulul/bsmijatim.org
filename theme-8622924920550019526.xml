@@ -965,11 +965,11 @@ $(document).ready(function(){
     </a>
     <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>DONASI<strong>BSMI</strong></h4><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button'>10.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a></div></div></div>
 
-    <div class='container-fluid' style='position:absolute;bottom:-60px;left:0px;'><div class='container shadow' style='height:100px;background:#00923F;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
+    <div class='container-fluid' style='position:absolute;bottom:-60px;left:0px;'><div class='container shadow bg-danger' style='height:100px;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
-      <div class='col-4 col-md-4 col-lg-4'><h5>50.<span id='penerimamanfaat'>111</span>+</h5><h6>Penerima Manfaat</h6></div>
-      <div class='col-4 col-md-4 col-lg-4'><h5>38</h5><h6>Cabang Jatim</h6></div>
-      <div class='col-4 col-md-4 col-lg-4'><h5>1.000+</h5><h6>Anggota Relawan</h6></div>
+      <div class='col-4 col-md-4 col-lg-4'><h3>50.<span id='penerimamanfaat'>111</span>+</h3><h6>Penerima</h6></div>
+      <div class='col-4 col-md-4 col-lg-4'><h3>38</h3><h6>Cabang</h6></div>
+      <div class='col-4 col-md-4 col-lg-4'><h3>1.000+</h3><h6>Relawan</h6></div>
     </div>
     </div></div>
     
@@ -1103,9 +1103,9 @@ bsmisosmed div div img:hover{
           </div>
           <div class='item col-12 col-md-6 col-lg-8'>
             <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>Selamatkan Satu Jiwa Sambung Seribu Asa</div>
-            <div style='width:100%;font-size:2em;text-align:center;'>&#8220;Cinta bermakna memberi sedangkan kerelawanan adalah bukti dari cinta yaitu pengorbanan. Tidak ada kebahagiaan hakiki kecuali menebarkan cinta dan pelayanan umat&#8220;<hr/></div><div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'/>
+            <div style='width:100%;font-size:1.5em;text-align:center;'>&#8220;Cinta bermakna memberi sedangkan kerelawanan adalah bukti dari cinta yaitu pengorbanan. Tidak ada kebahagiaan hakiki kecuali menebarkan cinta dan pelayanan umat&#8220;<hr/></div><div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'/>
             <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>dr. Azhar Anwar, MM, MMRS</div>
-            <div style='width:100%;font-size:2em;text-align:center;'>Ketua BSMI Jawa Timur</div>
+            <div style='width:100%;font-size:1.5em;text-align:center;'>Ketua BSMI Jawa Timur Periode 2025-2030</div>
           </div>
         </div>
     </div>
@@ -3720,7 +3720,7 @@ width:auto!important;
 		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;500000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>500.000</a>-->
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Input Manual</a>
         <a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Konfirmasi</a>
-        <a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Contact Person</a>
+        <a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Hotline</a>
       </div>
       <div class='modal-footer'>
         <button class='btn btn-default' data-dismiss='modal' type='button'>Close</button>

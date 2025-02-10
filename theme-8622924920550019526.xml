@@ -3763,15 +3763,15 @@ width:auto!important;
         <h4 class='modal-title'>Pilih Donasi</h4>
       </div>
       <div class='modal-body'>
-        <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Scan QRIS</a>   
+        <!--<a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Scan QRIS</a>-->   
         <a class='btn btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>10.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>20.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>50.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;100000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>100.000</a>
 		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;200000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>200.000</a>-->
 		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;500000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>500.000</a>-->
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Input Manual</a>
-        <a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Konfirmasi</a>
+		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Nominal Lainnya</a>
+        <!--<a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Konfirmasi</a>-->
         <a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Hotline</a>
       </div>
       <div class='modal-footer'>

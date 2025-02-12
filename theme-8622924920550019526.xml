@@ -486,6 +486,10 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
 .CSS_LIGHTBOX {
     z-index: 10000!important;
 }
+  
+myModalPembayaran table td{
+  font-size:1.5em;
+}
 
 /*-------------------------------------------------------
   responsive start
@@ -3817,14 +3821,16 @@ width:auto!important;
         </button>
       </div>
       <div class='modal-body'>
-        <h5>Lanjutkan Transfer atau <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#'>Scan QRIS</a></h5>
-        <h4>Anda akan berdonasi untuk program <span><span id='namaprogramdonasi'/></span></h4><br/>
-        <h5>Metode : Transfer bank</h5>
-        <h5>Bank : Bank Syariah Indonesia</h5>
-        <h5>Nama : BSMI Jawa Timur</h5>
-        <h5>No Rekening : 7063416872 <button class='btn btn-danger' onclick='copy2clipboard(&quot;7063416872&quot;);' type='button'>Copy</button></h5>
-        <h5>Nominal : Rp. <span id='nominalpembayaran'/> <button class='btn btn-danger' onclick='copy2clipboard($(&quot;#nominalpembayaran&quot;).text());' type='button'>Copy</button></h5>
+        <h4>Anda akan berdonasi untuk program <strong><span id='namaprogramdonasi'/></strong></h4><br/>
+        <table>
+          <tr><td>Metode</td> <td>:</td> <td>Transfer bank</td></tr>
+          <tr><td>Bank</td> <td>:</td> <td><img src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' width='100px'/><br/>Bank Syariah Indonesia (BSI)</td></tr>
+          <tr><td>Nama</td> <td>:</td> <td>BSMI Jawa Timur</td></tr>
+          <tr><td>No Rekening</td> <td>:</td> <td>7063416872 <button class='btn btn-danger' onclick='copy2clipboard(&quot;7063416872&quot;);' type='button'>Copy</button></td></tr>
+          <tr><td>Nominal*</td> <td>:</td> <td>Rp<span id='nominalpembayaran'/> <button class='btn btn-danger' onclick='copy2clipboard($(&quot;#nominalpembayaran&quot;).text());' type='button'>Copy</button></td></tr>
+        </table>
         <p>* Ditambahkan kode donasi di belakang nominal untuk mempermudah identifikasi</p>
+		<h5>Lanjutkan Transfer atau <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#'>Scan QRIS</a></h5>
       </div>
       <div class='modal-footer'>
         <a href='https://go.bsmijatim.org/donasipalestina' style='left: 10px;position: absolute;'>Donasi Palestina</a>

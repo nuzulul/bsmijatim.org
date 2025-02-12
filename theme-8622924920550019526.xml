@@ -4126,27 +4126,25 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
     //console.log(data);
 	var batasdonasi = new Date(pengaturan[0][3]).getTime();//console.log(batasdonasi);
 	var waktusekarang = new Date().getTime();//console.log(waktusekarang);
-	if (waktusekarang >= batasdonasi && window.location.href.indexOf("donasi-palestina") == -1)
+	if (waktusekarang >= batasdonasi && window.location.href.indexOf("/p/donasi-palestina.html") == -1)
 	{
-		pengaturan[0][2] = 3;
-		pengaturan[0][1] = "Penanganan Tanggap Bencana";
-		//$("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5fBNwnk4KBQJKT18jSc43zwE7dTDWWJFyHUx5bWCQ0bDgpvLuVdH-HjJVO-C2WufZwkvUXlpDIxQcG6fca6yBZAY7-FvzqOUinCQqaNqB56jpNjIWTFTSILyA5r5WoiRQBIqytN2zkR38Ywbbuq5O0LdN8tcFgCZ48JwQEy0vVe9Qj_UaW-qBOs0gA/s320/bsmijatim2022programtanggapbencana.jpg)");
-		//$("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5fBNwnk4KBQJKT18jSc43zwE7dTDWWJFyHUx5bWCQ0bDgpvLuVdH-HjJVO-C2WufZwkvUXlpDIxQcG6fca6yBZAY7-FvzqOUinCQqaNqB56jpNjIWTFTSILyA5r5WoiRQBIqytN2zkR38Ywbbuq5O0LdN8tcFgCZ48JwQEy0vVe9Qj_UaW-qBOs0gA/s320/bsmijatim2022programtanggapbencana.jpg");
+		pengaturan[0][2] = 8;
+		pengaturan[0][1] = "BANGUN KEMBALI GAZA PALESTINA";
         var myintervaldonasi = setInterval(function(){
           if( $('#bsmidonasi > div:nth-child(3) > a > div').length )
           {
-                $("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB9E3EOYceQH5xGfPOsrCaoLQy_hUx-LuI-fjexvUFx6xTXWojlfaZY1CcobWjQ2qeSuTH5eg1dZBGr6uuSYzdn1hWIcyLPxJmRSrmw6zoHox3_MQiShgHXRjfIq8DVQYO9ugFZChaPzfuf2LzYvqtHS1n-nUylWEEeptUFfa-BPl8D80G5zhUs8ISYMJm/s1080/opendonasibsmijatim.png)");
-                $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB9E3EOYceQH5xGfPOsrCaoLQy_hUx-LuI-fjexvUFx6xTXWojlfaZY1CcobWjQ2qeSuTH5eg1dZBGr6uuSYzdn1hWIcyLPxJmRSrmw6zoHox3_MQiShgHXRjfIq8DVQYO9ugFZChaPzfuf2LzYvqtHS1n-nUylWEEeptUFfa-BPl8D80G5zhUs8ISYMJm/s1080/opendonasibsmijatim.png");
+                $("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url(https://blogger.googleusercontent.com/img/a/AVvXsEgQW8CjXJ0Eyz4s9QiubzVQOCIejddS3Aq_R4ZAXhkydJI8eg4l1HU485t5TSGQD2gZiDHHgyepuRQm4argaVYSFu65sR90_gKorG69MLusHYO1MYxNPr0p5EsKnt3cyK3_McPttaOoJkiltBsKGNisiPGNSr79tBWGZdfusZpQtsxEBuelp3m2n40SPr2X=s2000)");
+                $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/a/AVvXsEgQW8CjXJ0Eyz4s9QiubzVQOCIejddS3Aq_R4ZAXhkydJI8eg4l1HU485t5TSGQD2gZiDHHgyepuRQm4argaVYSFu65sR90_gKorG69MLusHYO1MYxNPr0p5EsKnt3cyK3_McPttaOoJkiltBsKGNisiPGNSr79tBWGZdfusZpQtsxEBuelp3m2n40SPr2X=s2000");
                 clearInterval(myintervaldonasi);
 				if (window.location.href.indexOf("/p/donasi.html") > -1){
-						document.getElementById("bsmidonasititle").innerHTML = "Program Donasi Tanggap Bencana";
+						document.getElementById("bsmidonasititle").innerHTML = "BANGUN KEMBALI GAZA PALESTINA";
 				}
           }
         }, 1000);
 	}
-	if (window.location.href.indexOf("donasi-palestina") > -1){
+	if (window.location.href.indexOf("/p/donasi-palestina.html") > -1){
 		pengaturan[0][2] = 8;
-       	pengaturan[0][1] = "Solidaritas Peduli Palestina";
+       	pengaturan[0][1] = "BANGUN KEMBALI GAZA PALESTINA";
 	}
 });
 }

@@ -1267,6 +1267,20 @@ border-radius:20px 20px 20px 20px;
           </div>
           <div class='row align-items-center justify-content-center'>
             	<div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''>
+                  	<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s2000' href='javascript:;'>
+                      <div class='row align-items-center justify-content-center no-gutters shadow isiku'>
+                        	<div class='col-2'>
+                              	<div style='width:100%;aspect-ratio:1/1;background:white;border-radius:50% 50% 50%;border:0.5em solid #dc3545;overflow:hidden;'>
+                                  <img src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s2000' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
+                              	</div>
+                        	</div>
+                        	<div class='col-10'>
+                      			<div class='bg-danger p-2' style='width:100%;height:100%;background-image:url();font-size:1.3em;color:#fff;text-align:center;position:relative;left:-10px;'>PEDULI PALESTINA</div>
+                            </div>
+                      </div>
+                    </a>
+            	</div>   
+            	<div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''>
                   	<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipSqdlt3QmUkspiy8-5ZenSrMVb-yP_oUhxCTKL4xd2e1DPEeTc0Q7YgiVUsskh2GxO1k57TbNNJxcMZsS-Qt9GFFdkolnBnwbIEWsx674ayQivWIPgN96e6MneLpTaGgi9dFgOXEOh7EE/s2000/IMG_20180904_092158.jpg' href='javascript:;'>
                       <div class='row align-items-center justify-content-center no-gutters shadow isiku'>
                         	<div class='col-2'>
@@ -3463,7 +3477,7 @@ bsmiinfomaps .parallax {
       	</div>
       <div class='item col-6 col-lg-3 hover1'><div class='isi vertical-center'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-s8g0g4bbiXZdHMwjpdDG-Cf7hxXND6YO4vwA83WhGX9nkqCFyIsg9QMvX7HmUTp5KjjS-375Ks0BZxBkYwRUzMP_RSeTsedTQiq2GQ2oVCJ-48NrDyvwZts7heYrhg09OfTPYr-jrf4/s292/newiconbsmimobile1.jpg' style='width:100%'/></a></div>
       	</div>
-		<div class='item col-6 col-lg-3 hover1'><div class='isi vertical-center'><a href='https://kitabisa.com/orang-baik/c444e950064b8786ae28f5f01ef1b03f' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbrC8BORBfjjMHWlbmT26_aH6nX1kY6OA1IhaSHPsBPX-K899kopa1KNiRNJ_h-IfjKyqMowIuBPTb4kNGo-TLcvbraaNGE2gg8SK8fMX3z4Gec3vY4L9WKJHh_Ny7uKLHHIc8QRFKL_0/s1600/96160b4c9eb0b5152470f09ab3343bfc4fbd437b.png' style='width:100%'/></a></div>
+		<div class='item col-6 col-lg-3 hover1'><div class='isi vertical-center'><a href='https://www.bsmijatim.org/p/donasi.html' target='_self'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgjd0cGJyiGVnEiv49soZzikxwV0OgfRew64QggLAsFmP1ai2VkYE9mIKEmD6x9VrAIo4zhMnxu44y3MIQ5Nfpzd1cYPH8CVg41SCfrJAjL2dI4Wq7cve2jlIP0YafUxy7aJEhyphenhypheny_xHmSkzw1NOoRmYa09rcia8ZyvjDXko969_zDRTpKjR7Qc5CbQPfeS/s1732/donasibsmi.jpg' style='width:100%'/></a></div>
       	</div>
 
   </div>
@@ -3591,14 +3605,12 @@ width:auto!important;
               <h2>Sekretariat</h2>
               <p>MARKAS BSMI Jawa Timur<br/>
               Jl. Mojo III No 33 Surabaya, Jawa Timur<br/>
-              Telepon : (031) 5952248</p>
+              Hotline : 087782872007</p>
             </div>
           <br/>
             <div class='col-6 col-md-12 align-items-center justify-content-center text-center'>
-              <h2>Rekening Donasi</h2>
-              <p>Bank Syariah Indonesia<br/>
-              no 7063416872<br/>
-              an BSMI Jawa Timur</p>
+              <h2>Aplikasi Gawai</h2>
+              <p><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyfK9Fu_Xc9JT3zqVUI8UEmb2W8LrJdifx9nG6aOJYgBz99oqEPiAykCb4y34YoL2HaD4GGaPn7AbsPVKkT3bwdk-MZb8NqVsAuy16tr_VWBm0GPZdqdPHob_TPe53HHgjzvRXRrptmds6gUq3XtH20YdAfb5FC6CbIPY7weYJ8drNjREcKPvhTfp7gFOS/s646/en_badge_web_generic.png' width='100%'/></a></p>
             </div>
           </div>
       	</div>
@@ -4135,7 +4147,7 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
 	if (waktusekarang >= batasdonasi && window.location.href.indexOf("/p/donasi-palestina.html") == -1)
 	{
 		pengaturan[0][2] = 8;
-		pengaturan[0][1] = "BANGUN KEMBALI GAZA PALESTINA";
+		pengaturan[0][1] = "PULIHKAN KEMBALI GAZA PALESTINA";
         var myintervaldonasi = setInterval(function(){
           if( $('#bsmidonasi > div:nth-child(3) > a > div').length )
           {
@@ -4143,14 +4155,14 @@ $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/
                 $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/a/AVvXsEgQW8CjXJ0Eyz4s9QiubzVQOCIejddS3Aq_R4ZAXhkydJI8eg4l1HU485t5TSGQD2gZiDHHgyepuRQm4argaVYSFu65sR90_gKorG69MLusHYO1MYxNPr0p5EsKnt3cyK3_McPttaOoJkiltBsKGNisiPGNSr79tBWGZdfusZpQtsxEBuelp3m2n40SPr2X=s2000");
                 clearInterval(myintervaldonasi);
 				if (window.location.href.indexOf("/p/donasi.html") > -1){
-						document.getElementById("bsmidonasititle").innerHTML = "BANGUN KEMBALI GAZA PALESTINA";
+						document.getElementById("bsmidonasititle").innerHTML = "PULIHKAN KEMBALI GAZA PALESTINA";
 				}
           }
         }, 1000);
 	}
 	if (window.location.href.indexOf("/p/donasi-palestina.html") > -1){
 		pengaturan[0][2] = 8;
-       	pengaturan[0][1] = "BANGUN KEMBALI GAZA PALESTINA";
+       	pengaturan[0][1] = "PULIHKAN KEMBALI GAZA PALESTINA";
 	}
 });
 }

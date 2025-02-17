@@ -3788,7 +3788,7 @@ width:auto!important;
 		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;500000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>500.000</a>-->
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Nominal Lainnya</a>
         <!--<a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Konfirmasi</a>-->
-        <a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Hotline</a>
+        <a class='btn btn-success' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Hotline</a>
       </div>
       <div class='modal-footer'>
         <button class='btn btn-default' data-dismiss='modal' type='button'>Close</button>
@@ -3841,8 +3841,8 @@ width:auto!important;
           <tr><td>No Rekening</td> <td>:</td> <td>7063416872 <button class='btn btn-danger' onclick='copy2clipboard(&quot;7063416872&quot;);' type='button'>Copy</button></td></tr>
           <tr><td>Nominal*</td> <td>:</td> <td>Rp<span id='nominalpembayaran'/> <button class='btn btn-danger' onclick='copy2clipboard($(&quot;#nominalpembayaran&quot;).text());' type='button'>Copy</button></td></tr>
         </table>
-        <p>* Ditambahkan kode donasi di belakang nominal untuk mempermudah identifikasi</p>
-		<h5>Lanjutkan Transfer atau <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#'>Scan QRIS</a></h5>
+        <p>* Ditambahkan kode donasi di belakang nominal untuk verifikasi</p>
+		<h5>Lanjutkan Transfer bank atau ganti <a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#'>Transfer QRIS</a></h5>
       </div>
       <div class='modal-footer'>
         <a href='https://go.bsmijatim.org/donasipalestina' style='left: 10px;position: absolute;'>Donasi Palestina</a>

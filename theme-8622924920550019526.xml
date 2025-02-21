@@ -4,7 +4,7 @@
 <head>
 <meta content='notranslate' name='google'/>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/ https://www.google.com/js/bg/ nuzulul.github.io cdn.tailwindcss.com; img-src &apos;self&apos; data: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/ https://www.google.com/js/bg/ nuzulul.github.io cdn.tailwindcss.com script.google.com/macros/s/AKfycbxoLyMWCU7L2rh0HulWpPjEQNppNT8Rw64MSMZKkwsMmVwEg3Y4yvOZoZ620UqiiBxEtg/exec script.google.com/macros/s/AKfycbygAypOfPrMh_PNAf_-dLV8euphqIP_zBOZ2B1Dvpi5/dev script.google.com/macros/s/AKfycbzCdYoE_z89SId9VkxFCri9WQ11GBx50WBCTuIFbD85eUx8zh7C_HpPrSaoHhgRBSaN/exec; img-src &apos;self&apos; data: blob: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -489,6 +489,20 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
   
 myModalPembayaran table td{
   font-size:1.5em;
+}
+  
+.mycustomoverlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100vw; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 20000; /* Specify a stack order in case you&#39;re using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
 
 /*-------------------------------------------------------
@@ -3776,7 +3790,7 @@ width:auto!important;
     <div class='modal-content'>
       <div class='modal-header'>
         
-        <h4 class='modal-title'>Pilih Donasi</h4>
+        <h4 class='modal-title'>Pilih Donasi BSMI</h4>
       </div>
       <div class='modal-body'>
         <!--<a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Scan QRIS</a>-->   
@@ -3873,7 +3887,115 @@ width:auto!important;
     </div>
   </div>
 </div>
-</myModalInputEmail>  
+</myModalInputEmail>
+  
+<myModalDonasiDetail>
+<!-- Modal -->
+<div aria-hidden='true' aria-labelledby='myModalDonasiDetail' class='modal fade' id='myModalDonasiDetail' role='dialog' tabindex='-1'>
+  <div class='modal-dialog modal-dialog-centered' role='document'>
+    <div class='modal-content'>
+      <div class='modal-header bg-danger'>
+        <div class='p-2 bg-white'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFYntKvwXtgQwUMW9ZsqG63x68e5_5xqLLpQPtBHhnFTjkJjMaj2bmiI91JigRuVBgJHDyNJWUlaurfyfJyrWbEW2vTW5lqqKQUZj3bgb-RZxhpUmtLEke-8oUWMjVCJnujQb2XPbr1pA/s1600/Logo+BSMI+%2528vector%2529.png' width='45px'/></div>
+        <div class='p-2'>
+          	<h6 class='modal-title text-white-50' id='exampleModalLabel'>DONASI SEKARANG</h6>
+          	<strong><h5 class='text-white' id='detaildonasiprogram'>Pulihkan Kembali Gaza Palestina Sekarang</h5></strong>
+        </div>
+        <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+          <span aria-hidden='true'>x</span>
+        </button>
+      </div>
+      <div class='modal-body'>
+        	<form id='formDonasiDetail'>
+              		<p style='font-size:1rem;'>Assalamualaikum Wr. Wb.</p>
+                  <p style='font-size:1rem;'>Sahabat , masukkan detail anda dibawah untuk berdonasi</p>
+                  <div style='display:flex;'><div style='width:30px;font-size:1rem;'>Rp</div> <input class='form-control' id='inputnominaldonasi' min='10000' name='inputnominaldonasi' placeholder='Nominal (Rp)' required='true' type='number'/></div>
+                  <div class='p-3'><button class='btn btn-danger mr-1' onclick='document.getElementById(&apos;inputnominaldonasi&apos;).value = 100000' type='button'>100rb</button><button class='btn btn-danger mr-1' onclick='document.getElementById(&apos;inputnominaldonasi&apos;).value = 250000' type='button'>250rb</button><button class='btn btn-danger mr-1' onclick='document.getElementById(&apos;inputnominaldonasi&apos;).value = 500000' type='button'>500rb</button><button class='btn btn-danger mr-1' onclick='document.getElementById(&apos;inputnominaldonasi&apos;).value = 1000000' type='button'>1jt</button><button class='btn btn-danger mr-1' onclick='document.getElementById(&apos;inputnominaldonasi&apos;).value = 2000000' type='button'>2jt</button></div>
+                   <textarea class='form-control rows-2 form-control' name='detaildonasimessage' placeholder='Sertakan doa terbaikmu disini... (opsional)'/>
+                    <div class='p-3 mt-2 mb-2 bg-light clearfix'>
+                            <div class='float-left p-3'>
+                              <svg class='bi bi-bank' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>
+                                <path d='m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z'/>
+                              </svg>                      
+                            </div>
+                            <div class='float-left p-3'>Metode Pembayaran*
+                                    <input class='d-none' name='detaildonasimetodepilihan' required='true' type='text'/>
+                                    <div id='metodepembayarandonasi'/>
+                            </div>
+                            <div class='float-right p-3 mydropdown'>
+                                <div class='dropdown-container' id='dropdown-target'>
+                                  <a class='dropbtn btn btn-danger' href='#dropdown-target'>Pilih</a>
+                                  <div class='dropdown-content'>
+                                    <a href='#' onclick='metodepembayarantransfer(&apos;bsi&apos;)'>Transfer BSI</a>
+                                    <a href='#' onclick='metodepembayarantransfer(&apos;qris&apos;)'>Transfer QRIS</a>
+                                  </div>
+                                </div>
+                            </div>
+                    </div>
+              		<div class='p-3'><strong>Detail Donatur</strong></div>
+                    <input class='form-control mb-2' name='detaildonaturemail' placeholder='Email*' required='true' type='email'/>
+                    <input class='form-control mb-2' name='detaildonaturnama' placeholder='Nama*' required='true' type='text'/>
+                    <input class='form-control mb-2' name='detaildonaturno' placeholder='No. HP/WA*' required='true' type='number'/>
+                    <div class='custom-control custom-checkbox mb-2'>
+                      <input class='custom-control-input' id='detaildonaturanonim' name='detaildonaturanonim' type='checkbox'/>
+                      <label class='custom-control-label' for='detaildonaturanonim'>Sembunyikan nama saya (Hamba Allah)</label>
+                    </div>
+					<div class='p-3'>Donasi melalui BSMI bersumber dari dana yang sah secara hukum, bukan bersumber maupun untuk tujuan pencucian uang (money laundry), termasuk terorisme maupun tindak kejahatan lainnya.</div>              
+        	</form>
+      </div>
+      <div class='modal-footer'>
+        <div class='pesan'/>
+        <button class='btn btn-danger' onclick='bayardonasi()' type='submit'>BAYAR DONASI</button>
+      </div>
+    </div>
+  </div>
+</div>
+</myModalDonasiDetail>
+<style>
+.dropdown-container {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown-container:target .dropdown-content {
+      display: block;
+    }
+
+    .dropbtn {
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 12px 16px;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f0f0f0;
+    }
+  
+  </style>
 
 <!--<script crossorigin='anonymous' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'/>-->
 <script crossorigin='anonymous' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'/>
@@ -3982,7 +4104,102 @@ function uuidv4() {
   });
 }
 
-  function donasi(data, nama = "Anonim", email = "anonim@anonim.org" ){
+function donasi(data){
+	donasiold(data)
+	//if(pengaturan != '')donasinew(data)
+}
+
+function donasinew(data){
+	//console.log('data',data)
+	$('#inputnominaldonasi').val(data)
+	$('#myModalDonasiDetail').modal('show');
+	$('#detaildonasiprogram').text(pengaturan[0][1])
+	$('textarea[name=detaildonasimessage]').val('')
+	$('input[name=detaildonasimetodepilihan]').val('')
+	$('#metodepembayarandonasi').html('')
+	$('input[name=detaildonaturemail]').val('')
+	$('input[name=detaildonaturnama]').val('')
+	$('input[name=detaildonaturno]').val('')
+	$('input[name=detaildonaturanonim]').prop('checked', false)
+	$('#myModalDonasiDetail .modal-footer .pesan').html('')
+}
+
+function metodepembayarantransfer(metode){
+  let image = ''
+  let info = ''
+  if(metode == 'bsi'){
+	image = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ0Ek82A6zvWxzTs-lYtu7ox83764nWcbm930nlkxJYwkfFv7ZHmCJK2apzYsrnoBK6C9bLPVOQngBCdGbnbSF_IYZiDllyg6qKkaVQzKIq19siFeGfKkcqngGZKWldAQcJLbamD__8_vAwxBcrS_5xfmvhK3h81JJqRsYXwKyImPK_ITsIUQYG8fm86WF/s149/bsi.png'
+	info = 'Transfer BSI'
+  }
+  if(metode == 'qris'){
+		image = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXsCNSD1YSv1c6wX-eMqvutmR8OljkOUf7OhZzhyphenhyphenkZ8TyDPhb2Q_CuWV5CJXLcEFXrv8p8ncDXT5gZjMq078lVt2aV2x8UHgn5lB1SFqtITFb9ZtUCXOHNMExICy4Oca09SsZi2Y0cqZNsuDM2oSGAtB_a6nH9eSM8vHykKJKfliDgthq9TYhGAaORgd5i/s149/qris.png'
+		info = 'Transfer QRIS'
+  }
+ let html = '<table><tr><td><img src="'+image+'"/></td></tr><tr><td><strong>'+info+'</strong></td></table>'
+ $('#metodepembayarandonasi').html(html)
+ $('input[name=detaildonasimetodepilihan]').val(metode)
+}
+
+function bayardonasi(){
+  if (!$('#formDonasiDetail')[0].checkValidity()) {
+        console.log('Check Validity!');
+		let alert = `<div class="alert alert-warning alert-dismissible fade show" role="alert">
+                      <strong>Maaf!</strong> Silahkan lengkapi data yang diperlukan.
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>`
+		$('#myModalDonasiDetail .modal-footer .pesan').append(alert)
+        return;
+  }
+	console.log('ok')
+ 	let html = `<div class='mycustomoverlay d-flex justify-content-center align-items-center'>
+					
+                      <div class="spinner-border text-danger" role="status">
+                      			<span class="sr-only">Loading...</span>
+                        </div>
+      				
+				</div>`
+	$('body').append(html)
+   let program = pengaturan[0][1]
+   let kode = pengaturan[0][2]
+	let nominal = $('#inputnominaldonasi').val()
+	let message = "'"+$('textarea[name=detaildonasimessage]').val()
+	let metode = $('input[name=detaildonasimetodepilihan]').val()
+	let email = $('input[name=detaildonaturemail]').val()
+	let nama = "'"+$('input[name=detaildonaturnama]').val()
+	let nomor = "'"+$('input[name=detaildonaturno]').val()
+	let anonim = $('input[name=detaildonaturanonim]').prop('checked')
+	let input = {program,kode,nominal,message,metode,email,nama,nomor,anonim,fundraiser}
+	console.log(input)
+
+	const access_token = ''
+	const prod = 'https://script.google.com/macros/s/AKfycbxoLyMWCU7L2rh0HulWpPjEQNppNT8Rw64MSMZKkwsMmVwEg3Y4yvOZoZ620UqiiBxEtg/exec'
+	const dev = 'https://script.google.com/macros/s/AKfycbygAypOfPrMh_PNAf_-dLV8euphqIP_zBOZ2B1Dvpi5/dev?access_token='+access_token
+	const api = prod
+
+	const data = {
+		command : 'createinvoice',
+		input : JSON.stringify(input)
+	}
+
+	$.post(api,data,function(jqdata,jqstatus){
+		if(jqstatus == 'success'){
+			let json = JSON.parse(jqdata)
+			if(json.status == 'success'){
+				let id = json.data
+				let url = 'https://www.bsmijatim.org/p/invoice.html?id='+encodeURI(id)
+				window.location.href = url
+			}
+		}
+		else{
+			console.log('error')
+		}
+	})
+
+}
+
+function donasiold(data, nama = "Anonim", email = "anonim@anonim.org" ){
 
     //if (data === 'custom')
     //{console.log('custom');
@@ -4135,34 +4352,54 @@ function copy2clipboard(data){
 navigator.clipboard.writeText(data);
 }
 
+
+
 //pengaturan
 var pengaturan= "";
+var fundraiser= {
+	uid:'bsmijatim',
+	nama:'BSMI JATIM',
+	bid:'BSMI3500',
+	photo:'1F901aHCLdWzsepvnnFhb1oZHT3qhIXPl'
+}
+var pengaturanawal = [
+	[
+		"KODE DONASI",
+		"PULIHKAN KEMBALI GAZA PALESTINA",
+		"8",
+		"https://blogger.googleusercontent.com/img/a/AVvXsEgby5J11nnSQ0iXGTTJbJdRwwKn_P2Hk7s6cX43eqDjXLxiAQzFZu8MmyBEKhywao-8zLCYiDmywZRolQxu1XOEhGDjEJWoooTxaQgYj4wBiMa-dpsbiaYQWMOsMq4scPjkzF2hNRgZTe9PyJcsUba8cye4IDzEUDZX09bP1a1_dBRx0B8nuKTIzPe0Frj8=s2000"
+	]
+]
+pengaturan = pengaturanawal
+
 function fpengaturan(){    
 $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-nsfe3eqFW8iNXAywySZ79CXuYY6V3BfiN0HGf8AvYyE2bxtLZ3vQYsezvGAyMeprkNxelKrVDwOO/pub?output=csv", function(data, status){
     data = CSVToArray(data);
     pengaturan = data;
+	pengaturanawal[0][1]=pengaturan[1][1]
+	pengaturanawal[0][2]=pengaturan[1][2]
+	pengaturanawal[0][3]=pengaturan[1][3]
     //console.log(data);
 	var batasdonasi = new Date(pengaturan[0][3]).getTime();//console.log(batasdonasi);
 	var waktusekarang = new Date().getTime();//console.log(waktusekarang);
 	if (waktusekarang >= batasdonasi && window.location.href.indexOf("/p/donasi-palestina.html") == -1)
 	{
-		pengaturan[0][2] = 8;
-		pengaturan[0][1] = "PULIHKAN KEMBALI GAZA PALESTINA";
+		pengaturan = pengaturanawal
         var myintervaldonasi = setInterval(function(){
           if( $('#bsmidonasi > div:nth-child(3) > a > div').length )
           {
-                $("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url(https://blogger.googleusercontent.com/img/a/AVvXsEgQW8CjXJ0Eyz4s9QiubzVQOCIejddS3Aq_R4ZAXhkydJI8eg4l1HU485t5TSGQD2gZiDHHgyepuRQm4argaVYSFu65sR90_gKorG69MLusHYO1MYxNPr0p5EsKnt3cyK3_McPttaOoJkiltBsKGNisiPGNSr79tBWGZdfusZpQtsxEBuelp3m2n40SPr2X=s2000)");
-                $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src","https://blogger.googleusercontent.com/img/a/AVvXsEgQW8CjXJ0Eyz4s9QiubzVQOCIejddS3Aq_R4ZAXhkydJI8eg4l1HU485t5TSGQD2gZiDHHgyepuRQm4argaVYSFu65sR90_gKorG69MLusHYO1MYxNPr0p5EsKnt3cyK3_McPttaOoJkiltBsKGNisiPGNSr79tBWGZdfusZpQtsxEBuelp3m2n40SPr2X=s2000");
+				let image = pengaturan[0][3]                
+				$("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url("+image+")");
+                $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src",image);
                 clearInterval(myintervaldonasi);
 				if (window.location.href.indexOf("/p/donasi.html") > -1){
-						document.getElementById("bsmidonasititle").innerHTML = "PULIHKAN KEMBALI GAZA PALESTINA";
+						document.getElementById("bsmidonasititle").innerHTML = pengaturan[0][1];
 				}
           }
         }, 1000);
 	}
 	if (window.location.href.indexOf("/p/donasi-palestina.html") > -1){
-		pengaturan[0][2] = 8;
-       	pengaturan[0][1] = "PULIHKAN KEMBALI GAZA PALESTINA";
+		pengaturan = pengaturanawal
 	}
 });
 }
@@ -4170,7 +4407,7 @@ $(document).ready(function() {
 	fpengaturan();
 	//$('<iframe src="https://bsmiradio.netlify.app/?platform=bsmijatimorg" frameborder="0" scrolling="no" id="myFrame" style="display:none"></iframe>').appendTo('body');
 });
-console.log("created by Nuzulul");
+console.log("created by nzl");
 //]]></script>  
   
   <script type='text/javascript'>//<![CDATA[

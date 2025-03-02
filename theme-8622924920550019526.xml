@@ -500,7 +500,7 @@ myModalPembayaran table td{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  background-color: rgba(0,0,0,0.9); /* Black background with opacity */
   z-index: 20000; /* Specify a stack order in case you&#39;re using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }
@@ -558,6 +558,15 @@ body {
 /*-------------------------------------------------------
   responsive end
 --------------------------------------------------------*/
+
+/* print styles */
+@media print {
+
+  footer,header,.topboard,article .blog-pager,article .blog-feeds {
+    display:none;
+  }
+
+}
 </style>
 
 <script type='text/javascript'>
@@ -896,7 +905,7 @@ $(document).ready(function(){
   </style>
 </div>
 </header>
-<div class='container-fluid' style='background:#dc3545;'>
+<div class='container-fluid topboard' style='background:#dc3545;'>
   <div class='row align-items-center justify-content-center'>
     <div class='col-12'>
       <div style='width:100%;height:120px;'/>
@@ -981,7 +990,7 @@ $(document).ready(function(){
       <span aria-hidden='true' class='carousel-control-next-icon'/>
       <span class='sr-only'>Next</span>
     </a>
-    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>DONASI<strong>BSMI</strong></h4><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button'>10.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>50.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a></div></div></div>
+    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:60px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><h4>DONASI<strong>BSMI</strong></h4><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button'>Rp 10.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button'>Rp 20.000</a><a class='btn btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a></div></div></div>
 
     <div class='container-fluid' style='position:absolute;bottom:-60px;left:0px;'><div class='container shadow bg-danger' style='height:100px;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
@@ -3790,14 +3799,14 @@ width:auto!important;
     <div class='modal-content'>
       <div class='modal-header'>
         
-        <h4 class='modal-title'>Pilih Donasi BSMI</h4>
+        <h4 class='modal-title'>Donasi Sekarang</h4>
       </div>
       <div class='modal-body'>
         <!--<a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Scan QRIS</a>-->   
-        <a class='btn btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>10.000</a>
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>20.000</a>
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>50.000</a>
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;100000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>100.000</a>
+        <a class='btn btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 10.000</a>
+		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 20.000</a>
+		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 50.000</a>
+		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;100000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 100.000</a>
 		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;200000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>200.000</a>-->
 		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;500000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>500.000</a>-->
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Nominal Lainnya</a>
@@ -4105,8 +4114,8 @@ function uuidv4() {
 }
 
 function donasi(data){
-	donasiold(data)
-	//if(pengaturan != '')donasinew(data)
+	//donasiold(data)
+	if(pengaturan != '')donasinew(data)
 }
 
 function donasinew(data){

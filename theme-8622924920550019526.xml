@@ -3869,6 +3869,33 @@ width:auto!important;
       </li>
     </ul>
   </nav>
+  
+<backsoundplayer>
+  
+    <audio class='d-none' controls='true' controlslist='nodownload' loop='true' preload='metadata'>
+      <source src='https://nuzulul.github.io/uploads/Al-Kahfi-Mishari-Rasyid-10.mp3' type='audio/mpeg'/>
+      Your browser does not support the audio tag.
+    </audio>
+      
+  
+    
+      	<div class='bg-danger d-flex align-items-center justify-content-center p-1' onclick='togglebacksoundplayer()' style='cursor:pointer;position:fixed;right:10px;bottom:60px;z-index: 99993;'>
+          		<div class='volup'>
+                  <svg class='bi bi-volume-up-fill' fill='currentColor' height='26' viewBox='0 0 16 16' width='26' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z'/>
+                    <path d='M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z'/>
+                    <path d='M8.707 11.182A4.5 4.5 0 0 0 10.025 8a4.5 4.5 0 0 0-1.318-3.182L8 5.525A3.5 3.5 0 0 1 9.025 8 3.5 3.5 0 0 1 8 10.475zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06'/>
+                  </svg>   
+          		</div>
+          		<div class='voldown' style='display:none;'>
+                    <svg class='bi bi-volume-mute-fill' fill='currentColor' height='26' viewBox='0 0 16 16' width='26' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06m7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0'/>
+                    </svg>                  
+          		</div>
+      	</div>
+    
+  
+</backsoundplayer>
 
 <myModalDonasi>
 <!-- Modal Donasi -->
@@ -4504,7 +4531,7 @@ $(document).ready(function() {
 console.log("created by nzl");
 //]]></script>  
   
-  <script type='text/javascript'>//<![CDATA[
+<script type='text/javascript'>//<![CDATA[
     // The data/time we want to countdown to
     var countDownDate = new Date("March 22, 2023 18:00:00").getTime();
 
@@ -4530,7 +4557,53 @@ console.log("created by nzl");
         document.getElementById("countdown").innerHTML = "";
     }
     }, 1000);
-    //]]></script>
+
+var backsoundplayerStart = false
+
+function togglebacksoundplayer(){
+
+	const audio = document.querySelector('backsoundplayer audio')
+
+	const paused = audio.paused
+	if(paused){
+		const promise = audio.play()
+		if (promise !== undefined) {
+			promise.then(_ => {
+				backsoundplayerStart = true
+                $('backsoundplayer .volup').hide()
+                $('backsoundplayer .voldown').show()
+			}).catch(error => {
+				console.log('sound failed -> ',error)
+			})
+		}
+	}else{
+		audio.pause()
+		$('backsoundplayer .voldown').hide()
+		$('backsoundplayer .volup').show()
+	}
+}
+
+function togglebacksoundplayerrun(){
+	if(backsoundplayerStart){return}else{togglebacksoundplayer()}
+}
+
+$(document).ready(function() {
+	$("body").on({
+    	click: togglebacksoundplayerrun,
+		contextmenu: togglebacksoundplayerrun,
+		dblclick: togglebacksoundplayerrun,
+		mouseup: togglebacksoundplayerrun,
+		pointerup: togglebacksoundplayerrun,
+		touchend: togglebacksoundplayerrun,
+		keyup: togglebacksoundplayerrun,
+		scroll: togglebacksoundplayerrun
+    });
+
+	setTimeout(()=>{
+		$('body').click()
+	},5000)
+})
+//]]></script>
       
 </body>
 </html>

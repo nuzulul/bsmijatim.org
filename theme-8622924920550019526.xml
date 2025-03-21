@@ -4470,7 +4470,26 @@ $('#myModalDonasi').modal('show');
 
 //copy
 function copy2clipboard(data){
-navigator.clipboard.writeText(data);
+	navigator.clipboard.writeText(data);
+	maketoast('Tersimpan ke clipboard')
+}
+
+
+//toast
+function maketoast(text = 'Ok'){
+	const html = `
+<div class="toastcontainer position-fixed bottom-0 right-0 p-3" style="z-index: 1500; right: 0; bottom: 0;">
+  <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
+
+    <div class="toast-body bg-dark text-warning">
+      ${text}
+    </div>
+  </div>
+</div>
+`
+	$('.toastcontainer').remove()
+	$('body').append(html)
+	$('#liveToast').toast('show')
 }
 
 
@@ -4494,36 +4513,37 @@ var pengaturanawal = [
 pengaturan = pengaturanawal
 
 function fpengaturan(){    
-$.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-nsfe3eqFW8iNXAywySZ79CXuYY6V3BfiN0HGf8AvYyE2bxtLZ3vQYsezvGAyMeprkNxelKrVDwOO/pub?output=csv", function(data, status){
-    data = CSVToArray(data);
-    pengaturan = data;
-	pengaturanawal[0][1]=pengaturan[1][1]
-	pengaturanawal[0][2]=pengaturan[1][2]
-	pengaturanawal[0][3]=pengaturan[1][3]
-    //console.log(data);
-	var batasdonasi = new Date(pengaturan[0][3]).getTime();//console.log(batasdonasi);
-	var waktusekarang = new Date().getTime();//console.log(waktusekarang);
-	if (waktusekarang >= batasdonasi && window.location.href.indexOf("/p/donasi-palestina.html") == -1)
-	{
-		pengaturan = pengaturanawal
-        var myintervaldonasi = setInterval(function(){
-          if( $('#bsmidonasi > div:nth-child(3) > a > div').length )
-          {
-				let image = pengaturan[0][3]                
-				$("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url("+image+")");
-                $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src",image);
-                clearInterval(myintervaldonasi);
-				if (window.location.href.indexOf("/p/donasi.html") > -1){
-						document.getElementById("bsmidonasititle").innerHTML = pengaturan[0][1];
-				}
-          }
-        }, 1000);
-	}
-	if (window.location.href.indexOf("/p/donasi-palestina.html") > -1){
-		pengaturan = pengaturanawal
-	}
-});
+    $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-nsfe3eqFW8iNXAywySZ79CXuYY6V3BfiN0HGf8AvYyE2bxtLZ3vQYsezvGAyMeprkNxelKrVDwOO/pub?output=csv", function(data, status){
+        data = CSVToArray(data);
+        pengaturan = data;
+        pengaturanawal[0][1]=pengaturan[1][1]
+        pengaturanawal[0][2]=pengaturan[1][2]
+        pengaturanawal[0][3]=pengaturan[1][3]
+        //console.log(data);
+        var batasdonasi = new Date(pengaturan[0][3]).getTime();//console.log(batasdonasi);
+        var waktusekarang = new Date().getTime();//console.log(waktusekarang);
+        if (waktusekarang >= batasdonasi && window.location.href.indexOf("/p/donasi-palestina.html") == -1)
+        {
+            pengaturan = pengaturanawal
+            var myintervaldonasi = setInterval(function(){
+              if( $('#bsmidonasi > div:nth-child(3) > a > div').length )
+              {
+                    let image = pengaturan[0][3]                
+                    $("#bsmidonasi > div:nth-child(3) > a > div").css("background-image","url("+image+")");
+                    $("#bsmidonasi > div:nth-child(3) > a > div > center > img").attr("src",image);
+                    clearInterval(myintervaldonasi);
+                    if (window.location.href.indexOf("/p/donasi.html") > -1){
+                            document.getElementById("bsmidonasititle").innerHTML = pengaturan[0][1];
+                    }
+              }
+            }, 1000);
+        }
+        if (window.location.href.indexOf("/p/donasi-palestina.html") > -1){
+            pengaturan = pengaturanawal
+        }
+    });
 }
+
 $(document).ready(function() {
 	fpengaturan();
 	//$('<iframe src="https://bsmiradio.netlify.app/?platform=bsmijatimorg" frameborder="0" scrolling="no" id="myFrame" style="display:none"></iframe>').appendTo('body');
@@ -4602,8 +4622,10 @@ $(document).ready(function() {
 
 	setTimeout(()=>{
 		$('body').click()
-	},5000)
+	},5000);
 })
+
+
 //]]></script>
       
 </body>

@@ -4058,7 +4058,7 @@ width:auto!important;
                     <input class='form-control mb-2' name='detaildonaturno' placeholder='No. HP/WA*' required='true' type='number'/>
                     <div class='custom-control custom-checkbox mb-2'>
                       <input class='custom-control-input' id='detaildonaturanonim' name='detaildonaturanonim' type='checkbox'/>
-                      <label class='custom-control-label' for='detaildonaturanonim'>Sembunyikan nama saya (Sahabat Dermawan)</label>
+                      <label class='custom-control-label' for='detaildonaturanonim'>Sembunyikan nama saya (Hamba Allah)</label>
                     </div>
 					<div class='p-3'>Donasi melalui BSMI bersumber dari dana yang sah secara hukum, bukan bersumber maupun untuk tujuan pencucian uang (money laundry), termasuk terorisme maupun tindak kejahatan lainnya.</div>              
         	</form>
@@ -4505,7 +4505,7 @@ var fundraiser= {
 var pengaturanawal = [
 	[
 		"KODE DONASI",
-		"PULIHKAN KEMBALI GAZA PALESTINA",
+		"BSMI JATIM PEDULI PALESTINA",
 		"8",
 		"https://blogger.googleusercontent.com/img/a/AVvXsEgby5J11nnSQ0iXGTTJbJdRwwKn_P2Hk7s6cX43eqDjXLxiAQzFZu8MmyBEKhywao-8zLCYiDmywZRolQxu1XOEhGDjEJWoooTxaQgYj4wBiMa-dpsbiaYQWMOsMq4scPjkzF2hNRgZTe9PyJcsUba8cye4IDzEUDZX09bP1a1_dBRx0B8nuKTIzPe0Frj8=s2000"
 	]

@@ -4517,6 +4517,7 @@ function fpengaturan(){
     $.get("https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-nsfe3eqFW8iNXAywySZ79CXuYY6V3BfiN0HGf8AvYyE2bxtLZ3vQYsezvGAyMeprkNxelKrVDwOO/pub?output=csv", function(data, status){
         data = CSVToArray(data);
         pengaturan = data;
+		pengaturanawal = pengaturan
         pengaturanawal[0][1]=pengaturan[1][1]
         pengaturanawal[0][2]=pengaturan[1][2]
         pengaturanawal[0][3]=pengaturan[1][3]

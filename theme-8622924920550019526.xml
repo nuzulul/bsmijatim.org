@@ -2684,8 +2684,8 @@ border-radius:5px 5px 5px 5px;
               && comment.author.profileUrl == config.authorUrl;
           return matches ? 'true' : '';
         } else if ('deletelink' == key) {
-          return config.baseUri + '/delete-comment.g?blogID='
-               + config.blogId + '&postID=' + comment.id;
+          return config.baseUri + '/comment/delete/'
+               + config.blogId + '/' + comment.id;
         } else if ('deleteclass' == key) {
           return comment.deleteclass;
         }
@@ -3926,6 +3926,7 @@ width:auto!important;
         </a>
       </div>
       <div class='modal-footer'>
+        <a href='https://www.bsmijatim.org/p/donasi.html'>Lihat Program</a>
         <button class='btn btn-default' data-dismiss='modal' type='button'>Close</button>
       </div>
     </div>

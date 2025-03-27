@@ -4633,7 +4633,7 @@ $(document).ready(function() {
         }
 		setTimeout(()=>{fcreatepopdonasi()},5000)
  	}
-	if(window.location.href.indexOf("/p/donasi-palestina.html") == -1 || window.location.href.indexOf("/p/donasi.html") == -1 || window.location.href.indexOf("/p/invoice.html") == -1){
+	if(window.location.href.indexOf("/p/donasi-palestina.html") == -1 && window.location.href.indexOf("/p/donasi.html") == -1 && window.location.href.indexOf("/p/invoice.html") == -1){
 		fpopdonasi()
 	}
 })

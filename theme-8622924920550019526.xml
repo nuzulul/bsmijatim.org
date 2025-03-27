@@ -4625,8 +4625,131 @@ $(document).ready(function() {
 	setTimeout(()=>{
 		$('body').click()
 	},5000);
+
+	function fpopdonasi(){
+    	if (typeof pengaturan[2] === 'undefined' ||  pengaturan[2] === null){
+          	setTimeout(function(){ fpopdonasi(); }, 1000)
+          	return
+        }
+		setTimeout(()=>{fcreatepopdonasi()},5000)
+ 	}
+	if(window.location.href.indexOf("/p/donasi-palestina.html") == -1 || window.location.href.indexOf("/p/donasi.html") == -1 || window.location.href.indexOf("/p/invoice.html") == -1){
+		fpopdonasi()
+	}
 })
 
+let popdonasiindex = -1
+
+function fcreatepopdonasi(){
+	popdonasiindex++
+	const publicdonaturlist = (JSON.parse(pengaturan[2][2])).reverse()
+	if(popdonasiindex == publicdonaturlist.length){
+		popdonasiindex = -1
+		fcreatepopdonasi()
+		return
+	}
+	
+	let popdonasidonatur = publicdonaturlist[popdonasiindex]
+
+	let html = `
+			<div id="popupdonasi">
+                  <style>
+                  #snackbar {
+                    visibility: hidden;
+                    max-width: 250px;
+                    background-color: #fff;
+                    color: #dc3545;
+                    text-align: center;
+                    border-radius: 10px;
+					border: 2px solid #dc3545;
+                    padding: 16px 16px;
+                    position: fixed;
+                    z-index: 11;
+                    bottom:70%;
+					left:30px;
+                  }
+
+                  #snackbar.show {
+                    visibility: visible;
+                    -webkit-animation: fadeinpopdonasi 0.5s, fadeoutpopdonasi 0.5s 4.5s;
+                    animation: fadeinpopdonasi 0.5s, fadeoutpopdonasi 0.5s 4.5s;
+                  }
+
+                  @-webkit-keyframes fadeinpopdonasi {
+                    from {left: 0; opacity: 0;} 
+                    to {left: 30px; opacity: 1;}
+                  }
+
+                  @keyframes fadeinpopdonasi {
+                    from {left: 0; opacity: 0;}
+                    to {left: 30px; opacity: 1;}
+                  }
+
+                  @-webkit-keyframes fadeoutpopdonasi {
+                    from {left: 30px; opacity: 1;} 
+                    to {left: 0; opacity: 0;}
+                  }
+
+                  @keyframes fadeoutpopdonasi {
+                    from {left: 30px; opacity: 1;}
+                    to {left: 0; opacity: 0;}
+                  }
+                  </style>
+					<a href="https://www.bsmijatim.org/p/donasi.html">
+     				<div id="snackbar" class="show"><p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16">
+                          <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                          <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z"/>
+                        </svg> 
+      					<b>${popdonasidonatur.nama}</b> berdonasi <b>Rp ${formatRupiah(popdonasidonatur.donasi.toString())}</b> pada ${relative_time(popdonasidonatur.tanggal)}
+					</p></div>
+     				</a>
+   			</div>
+	`
+	$('body').append(html)
+	setTimeout(function(){ 
+		x = document.getElementById("snackbar");
+		x.className = x.className.replace("show", ""); 
+		document.getElementById("popupdonasi").remove()
+		setTimeout(()=>{
+			fcreatepopdonasi()
+		},2000)
+	}, 5000)
+}
+
+function relative_time(x) {
+        if (!x) {
+            return
+        }
+        var a = x;
+
+        a = $.trim(a);
+        a = a.replace(/\.\d\d\d+/, "");
+        a = a.replace(/-/, "/").replace(/-/, "/");
+        a = a.replace(/T/, " ").replace(/Z/, " UTC");
+        a = a.replace(/([\+\-]\d\d)\:?(\d\d)/, " $1$2");
+        var b = new Date(a);
+        var c = (arguments.length > 1) ? arguments[1] : new Date();
+        var d = parseInt((c.getTime() - b) / 1000);
+        d = (d < 2) ? 2 : d;
+        var r = '';
+        if (d < 60) {
+            r = 'Baru saja dipublikasikan'
+        } else if (d < 120) {
+            r = '1 menit yang lalu'
+        } else if (d < (45 * 60)) {
+            r = (parseInt(d / 60, 10)).toString() + ' menit yang lalu'
+        } else if (d < (2 * 60 * 60)) {
+            r = '1 jam yang lalu'
+        } else if (d < (24 * 60 * 60)) {
+            r = '' + (parseInt(d / 3600, 10)).toString() + ' jam yang lalu'
+        } else if (d < (48 * 60 * 60)) {
+            r = '1 hari yang lalu'
+        } else {
+            r = (parseInt(d / 86400, 10)).toString() + ' hari yang lalu'
+        }
+        return (r.match('NaN') ? x : r)
+}
 
 //]]></script>
       

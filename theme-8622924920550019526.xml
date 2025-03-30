@@ -1089,7 +1089,8 @@ var maxhead = 4;
 function sendQueryPosthead()
 {
    var scpt = document.createElement("script");
-   scpt.src = "/feeds/posts/default?alt=json-in-script&orderby=published&callback=headbsmijatim&start-index=" + starthead + "&max-results=" + maxhead;
+   //scpt.src = "/feeds/posts/default?alt=json-in-script&orderby=published&callback=headbsmijatim&start-index=" + starthead + "&max-results=" + maxhead;
+	scpt.src = "/feeds/posts/default/-/Peduli%20Palestina?alt=json-in-script&orderby=published&callback=headbsmijatim&start-index=" + starthead + "&max-results=" + maxhead;
 
    document.body.appendChild(scpt);
 }

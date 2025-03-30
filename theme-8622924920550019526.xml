@@ -4679,7 +4679,8 @@ function fcreatepopdonasi(){
                     padding: 5px 5px;
                     position: fixed;
                     z-index: 11;
-                    bottom:70%;
+                    /*bottom:70%;*/
+					top:110px;
 					left:30px;
                   }
 

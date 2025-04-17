@@ -151,7 +151,7 @@ font-size:24px;
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 520px;
+  height: 420px;
   background-size:cover;
   background-position:center center;
   background-attachment: fixed;
@@ -910,8 +910,8 @@ $(document).ready(function(){
     <div class='col-12'>
       <div style='width:100%;height:120px;'/>
     </div>
-    <div class='col-12 d-none'>
-      <a href='https://go.bsmijatim.org/donasipalestina'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc3FLz05eWE1GIbpsV6EhwTIUNAYjy-kjD9EZn-JvGC7YkR0Q2eSw1WiaLZsB7TrQkiC83HzQrHtV9Kd2zWKn-iKbqEttnqtYW6aSf9cFKvJIZP6qeEGfdrNun43Li89PyOcvL2LHVHpIOv7K2WEpFco810LYMHPpDEGazyErkIyuoXCVUvyjD3wzCIUtr/s7559/banner-donasi-kemanusiaan-palestina.png' style='width:100%'/></a>
+    <div class='col-12'>
+      <a href='https://www.bsmijatim.org/p/donasi-palestina.html'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHLYrArMJC6nmVwaxiDAdjZYQAk2fPzGH9pPHMDL7ADxjsTZPz5MoOFB_ugKIrmIFKKJd75APmcIzj5CMKKC6VPA6Kh8vFQcZUg9SI9_EQN5nRXkvOKbWSTEc161LRKe4Yk4KtyM7XNvxN4dQamaKA3093tUnVMnu4K116rxMwon4ntKD-38OnX151tMc6/s7559/banner%20200x10%20%281%29.png' style='width:100%'/></a>
     </div>
     <div class='col-10 col-md-3' style='height:10px'>
   	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;display:none;'>

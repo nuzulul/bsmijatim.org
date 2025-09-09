@@ -668,6 +668,7 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/search'>News</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/search/label/Event'>Event</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/download.html'>Download</a></div>
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/poster.html'>Poster</a></div>-->
@@ -686,9 +687,9 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'>BSMI RADIO</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://wiki.bsmijatim.org/' target='_blank'>WIKI BSMI</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/radiobsmifm.html'>BSMI FM</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/info_bencana' target='_blank'>Info Bencana</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://jurnal.bsmi.or.id/index.php/irchum' target='_blank'>Jurnal</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://bsmi.or.id/' target='_blank'>BSMI Nasional</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://linktr.ee/bsmijatim' target='_blank'>INFO</a></div>
       
       <div class='col-12 mt-3 mb-2'><strong><h3>Channel</h3></strong></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://youtube.com/channel/UCobpncSvOW0iOaQmUwuExpQ?sub_confirmation=1' target='_blank'>Youtube</a></div>
@@ -702,7 +703,7 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://kitabisa.com/orang-baik/c444e950064b8786ae28f5f01ef1b03f' target='_blank'>Kita Bisa</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/bsmi_jatim' target='_blank'>Telegram</a></div>
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://web.facebook.com/groups/316612265111204' target='_blank'>Fb Group</a></div>-->
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/infogempaid' target='_blank'>Telegram Group</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/sahabatbsmi' target='_blank'>Telegram Group</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.linkedin.com/company/indonesianredcrescent' target='_blank'>Linkedin</a></div>
       
       <div class='col-12 mt-3 mb-2'><strong><h3>Cabang</h3></strong></div>

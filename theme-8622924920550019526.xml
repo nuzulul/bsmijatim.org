@@ -1150,8 +1150,9 @@ bsmisosmed div div img:hover{
           <div class='item col-12 col-md-6 col-lg-8'>
             <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>Selamatkan Satu Jiwa Sambung Seribu Asa</div>
             <div style='width:100%;font-size:1.5em;text-align:center;'>&#8220;Cinta bermakna memberi sedangkan kerelawanan adalah bukti dari cinta yaitu pengorbanan. Tidak ada kebahagiaan hakiki kecuali menebarkan cinta dan pelayanan umat&#8220;<hr/></div><div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'/>
+            <div style='width:100%;font-size:1.5em;text-align:center;'>Ketua BSMI Jawa Timur</div>
             <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>dr. Azhar Anwar, MM, MMRS</div>
-            <div style='width:100%;font-size:1.5em;text-align:center;'>Ketua BSMI Jawa Timur Periode 2025-2030</div>
+            <div style='width:100%;font-size:1.5em;text-align:center;'>BSMI3572DC</div>
           </div>
         </div>
     </div>
@@ -4724,7 +4725,7 @@ function fcreatepopdonasi(){
                           <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
                           <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z"/>
                         </svg> 
-      					<b>${popdonasidonatur.nama}</b> berdonasi <b>Rp ${formatRupiah(popdonasidonatur.donasi.toString())}</b> pada ${relative_time(popdonasidonatur.tanggal)}
+           <b>${popdonasidonatur.nama}</b> berdonasi <b></br>Rp ${formatRupiah(popdonasidonatur.donasi.toString())}</b> <span class="d-none">pada ${relative_time(popdonasidonatur.tanggal)}</span>
 					</p></div>
      				</a>
    			</div>

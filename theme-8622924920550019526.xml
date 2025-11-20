@@ -1168,9 +1168,9 @@ bsmisosmed div div img:hover{
           <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Tentang BSMI</h5>
           <div class='row align-items-center justify-content-center' id='bsmiinfomars'>
             	<div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''>
-                  	<p>Bulan Sabit Merah Indonesia adalah Lembaga Kemanusiaan Nasional yang berdiri sejak tanggal 8 Juni 2002. BSMI aktif  memberikan dukungan dan pertolongan kemanusian, kesehatan serta sosial baik di lingkup Nasional maupun Internasional. BSMI juga berperan aktif dalam menghadapi dan menanggulangi krisis kemanusian di negara-negara konflik dan darurat, tanpa memandang ras, agama, negara, kelas, maupun aspirasi politik.</p><a class='btn btn-danger' data-fancybox='' data-src='https://www.youtube.com/embed/OE3rU3nLSQs' href='https://www.youtube.com/watch?v=Z6qX8Tkb_5c'><span>VIDEO PROFIL</span><svg class='bi bi-play-btn-fill' fill='currentColor' height='25' viewBox='0 0 16 16' width='50' xmlns='http://www.w3.org/2000/svg'>   <path d='M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z'/> </svg></a>
+                  	<p>Bulan Sabit Merah Indonesia adalah Lembaga Kemanusiaan Nasional yang berdiri sejak tanggal 8 Juni 2002. BSMI aktif  memberikan dukungan dan pertolongan kemanusian, kesehatan serta sosial baik di lingkup Nasional maupun Internasional. BSMI juga berperan aktif dalam menghadapi dan menanggulangi krisis kemanusian di negara-negara konflik dan darurat, tanpa memandang ras, agama, negara, kelas, maupun aspirasi politik.</p><a class='btn btn-danger d-none' data-fancybox='' data-src='https://www.youtube.com/embed/OE3rU3nLSQs' href='https://www.youtube.com/watch?v=Z6qX8Tkb_5c'><span>VIDEO PROFIL</span><svg class='bi bi-play-btn-fill' fill='currentColor' height='25' viewBox='0 0 16 16' width='50' xmlns='http://www.w3.org/2000/svg'>   <path d='M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z'/> </svg></a><a class='btn btn-danger' href='https://www.bsmijatim.org/p/diklatsar-bsmi.html'>Gabung Relawan</a><a class='btn btn-danger ml-1' href='https://www.bsmijatim.org/p/donasi.html'>Donasi Kemanusiaan</a>
             	</div>
-                <div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''><a data-fancybox='' data-src='https://www.youtube.com/embed/OE3rU3nLSQs' href='https://www.youtube.com/watch?v=OE3rU3nLSQs'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url(https://img.youtube.com/vi/Z6qX8Tkb_5c/0.jpg);padding:50px 50px;'><div class='playvideobutton'><svg class='bi bi-play-btn-fill' fill='currentColor' height='50' viewBox='0 0 16 16' width='100' xmlns='http://www.w3.org/2000/svg'>   <path d='M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z'/> </svg></div></div></a></div>
+                <div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''><a data-fancybox='' data-src='https://www.youtube.com/embed/MfqBGJl77U0' href='https://www.youtube.com/watch?v=MfqBGJl77U0'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url(https://img.youtube.com/vi/Z6qX8Tkb_5c/0.jpg);padding:50px 50px;'><div class='playvideobutton'><svg class='bi bi-play-btn-fill' fill='currentColor' height='50' viewBox='0 0 16 16' width='100' xmlns='http://www.w3.org/2000/svg'>   <path d='M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z'/> </svg></div></div></a></div>
           </div>
          </div> 
      </div>
@@ -3715,9 +3715,9 @@ width:auto!important;
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/search'>News</a></h2></div>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/search/label/Event'>Event</a></h2></div>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></h2></div>
-              <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></h2></div>
-              <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/download.html'>Download</a></h2></div>
-              <div class='col-6 col-md-12 text-center'><h2><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi'>BSMI Mobile</a></h2></div>
+              <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/donasi.html'>Donasi</a></h2></div>
+              <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/diklatsar-bsmi.html'>Bergabung</a></h2></div>
+              <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate</a></h2></div>
               <!--<div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2></div>-->
               <div class='col-6 col-md-12 text-center'><h2><a href='http://mybsmi.bsmijatim.org/'>MyBSMI</a></h2></div>
           </div>
@@ -3895,7 +3895,7 @@ width:auto!important;
 <backsoundplayer>
   
     <audio class='d-none' controls='true' controlslist='nodownload' loop='true' preload='metadata'>
-      <source src='https://nuzulul.github.io/uploads/Al-Kahfi-Mishari-Rasyid-10.mp3' type='audio/mpeg'/>
+      <source src='https://nuzulul.github.io/uploads/Mars-BSMI-versi-bsmijatim.mp3' type='audio/mpeg'/>
       Your browser does not support the audio tag.
     </audio>
       

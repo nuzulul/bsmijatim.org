@@ -1138,7 +1138,7 @@ bsmisosmed div div img:hover{
 <b:section class='bsmiwidget-home-top' id='bsmiwidget-home-top'/>
   
   
-<bsmiselayangpandang>
+<bsmiselayangpandang class='d-none'>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
     <div class='container'>
         <div class='row align-items-center justify-content-center'>

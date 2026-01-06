@@ -589,11 +589,14 @@ body {
 
 function menucabang()
 {
-    var cabang = ["BSMI Surabaya ","BSMI Sidoarjo ","BSMI KAB Mojokerto ","BSMI KOTA Mojokerto ","BSMI Lamongan ","BSMI Gresik ","BSMI Tuban ","BSMI Bojonegoro ","BSMI KOTA Pasuruan ","BSMI KAB Pasuruan ","BSMI Bangkalan ","BSMI Sampang ","BSMI Pamekasan ","BSMI Sumenep ","BSMI KOTA Probolinggo ","BSMI KAB Probolinggo ","BSMI Jember ","BSMI Lumajang ","BSMI Bondowoso ","BSMI Situbondo ","BSMI Banyuwangi ","BSMI Jombang ","BSMI KOTA Malang ","BSMI KAB Malang ","BSMI Batu ","BSMI KOTA Kediri ","BSMI KAB Kediri ","BSMI KOTA Blitar ","BSMI KAB Blitar ","BSMI Tulungagung ","BSMI KOTA Madiun ","BSMI KAB Madiun ","BSMI Ngawi ","BSMI Magetan ","BSMI Ponorogo ","BSMI Pacitan ","BSMI Trenggalek ","BSMI Nganjuk"];
+    var cabang = ["BSMI Kota Surabaya","BSMI Kab Sidoarjo","BSMI Kab Mojokerto","BSMI Kota Mojokerto","BSMI Kab Lamongan","BSMI Kab Gresik","BSMI Kab Tuban","BSMI Kab Bojonegoro","BSMI Kota Pasuruan","BSMI KKab Pasuruan","BSMI Kab Bangkalan","BSMI Kab Sampang","BSMI Kab Pamekasan","BSMI Kab Sumenep","BSMI Kota Probolinggo","BSMI Kab Probolinggo","BSMI Kab Jember","BSMI Kab Lumajang","BSMI Kab Bondowoso","BSMI Kab Situbondo","BSMI Kab Banyuwangi","BSMI Kab Jombang","BSMI Kota Malang","BSMI Kab Malang","BSMI Kota Batu","BSMI Kota Kediri","BSMI Kab Kediri","BSMI Kota Blitar","BSMI Kab Blitar","BSMI Kab Tulungagung","BSMI Kota Madiun","BSMI Kab Madiun","BSMI Kab Ngawi","BSMI Kab Magetan","BSMI Kab Ponorogo","BSMI Kab Pacitan","BSMI Kab Trenggalek","BSMI Kab Nganjuk"];
+    var cabangOld = ["BSMI Surabaya ","BSMI Sidoarjo ","BSMI KAB Mojokerto ","BSMI KOTA Mojokerto ","BSMI Lamongan ","BSMI Gresik ","BSMI Tuban ","BSMI Bojonegoro ","BSMI KOTA Pasuruan ","BSMI KAB Pasuruan ","BSMI Bangkalan ","BSMI Sampang ","BSMI Pamekasan ","BSMI Sumenep ","BSMI KOTA Probolinggo ","BSMI KAB Probolinggo ","BSMI Jember ","BSMI Lumajang ","BSMI Bondowoso ","BSMI Situbondo ","BSMI Banyuwangi ","BSMI Jombang ","BSMI KOTA Malang ","BSMI KAB Malang ","BSMI Batu ","BSMI KOTA Kediri ","BSMI KAB Kediri ","BSMI KOTA Blitar ","BSMI KAB Blitar ","BSMI Tulungagung ","BSMI KOTA Madiun ","BSMI KAB Madiun ","BSMI Ngawi ","BSMI Magetan ","BSMI Ponorogo ","BSMI Pacitan ","BSMI Trenggalek ","BSMI Nganjuk"];
     var data = "";
     cabang.forEach((item)=>{
     	//console.log(item)
-		data+= "<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/search.html?q="+item+"'>"+item+"</a></div>";
+		//data+= "<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/search.html?q="+item+"'>"+item+"</a></div>";//old
+		let page = item.toLowerCase().replaceAll(' ','-');
+		data+= "<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/"+page+".html'>"+item+"</a></div>";
 	})
 	$('.menu-cabang').replaceWith(data)
 }

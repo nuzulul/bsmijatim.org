@@ -683,19 +683,20 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/anggota.html'>Anggota</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/diklatsar-bsmi.html'>Diklatsar</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/donasi.html'>Donasi</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate</a></div>
+      
       
       <div class='col-12 mt-3 mb-2'><strong><h3>Layanan</h3></strong></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'>Klinik BSMI</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/relawanmerah' target='_blank'>Donor Darah</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'>BSMI MOBILE</a></div>
       <!--<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'>BSMI RADIO</a></div>-->
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://wiki.bsmijatim.org/' target='_blank'>WIKI BSMI</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/radiobsmifm.html'>RADIO BSMI FM</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://jurnal.bsmi.or.id/index.php/irchum' target='_blank'>Jurnal</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://bsmi.or.id/' target='_blank'>BSMI Nasional</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://linktr.ee/bsmijatim' target='_blank'>INFO</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/radiobsmifm.html'>BSMI FM</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://jurnal.bsmi.or.id/index.php/irchum' target='_blank'>JURNAL</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://bsmi.or.id/' target='_blank'>BSMI PUSAT</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://s.id/bsmijatim' target='_blank'>INFO</a></div>
       
       <div class='col-12 mt-3 mb-2'><strong><h3>Channel</h3></strong></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://youtube.com/channel/UCobpncSvOW0iOaQmUwuExpQ?sub_confirmation=1' target='_blank'>Youtube</a></div>
@@ -704,13 +705,14 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.twitter.com/bsmijatim' target='_blank'>Twitter</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'>Android </a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://soundcloud.com/bsmijatim' target='_blank'>Soundcloud</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://issuu.com/majalahbsmi' target='_blank'>Issuu</a></div>
+      <!--<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://issuu.com/majalahbsmi' target='_blank'>Issuu</a></div>-->
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://tiktok.com/@bsmijatim' target='_blank'>Tiktok</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://kitabisa.com/orang-baik/c444e950064b8786ae28f5f01ef1b03f' target='_blank'>Kita Bisa</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/bsmi_jatim' target='_blank'>Telegram</a></div>
       <!--<div class='col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://web.facebook.com/groups/316612265111204' target='_blank'>Fb Group</a></div>-->
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/sahabatbsmi' target='_blank'>Telegram Group</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.linkedin.com/company/indonesianredcrescent' target='_blank'>Linkedin</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://linktr.ee/bsmijatim' target='_blank'>Linktree</a></div>
       
       <div class='col-12 mt-3 mb-2'><strong><h3>Cabang</h3></strong></div>
       <div class='menu-cabang'/>
@@ -1096,8 +1098,8 @@ var maxhead = 4;
 function sendQueryPosthead()
 {
    var scpt = document.createElement("script");
-   //scpt.src = "/feeds/posts/default?alt=json-in-script&orderby=published&callback=headbsmijatim&start-index=" + starthead + "&max-results=" + maxhead;
-	scpt.src = "/feeds/posts/default/-/Peduli%20Palestina?alt=json-in-script&orderby=published&callback=headbsmijatim&start-index=" + starthead + "&max-results=" + maxhead;
+   scpt.src = "/feeds/posts/default?alt=json-in-script&orderby=published&callback=headbsmijatim&start-index=" + starthead + "&max-results=" + maxhead;
+	//scpt.src = "/feeds/posts/default/-/Peduli%20Palestina?alt=json-in-script&orderby=published&callback=headbsmijatim&start-index=" + starthead + "&max-results=" + maxhead;
 
    document.body.appendChild(scpt);
 }

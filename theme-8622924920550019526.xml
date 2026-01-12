@@ -768,7 +768,7 @@ $(document).ready(function(){
       </b:widget>
       <b:widget id='BlogArchive2' locked='false' title='Arsip' type='BlogArchive'>
         <b:widget-settings>
-          <b:widget-setting name='showStyle'>FLAT</b:widget-setting>
+          <b:widget-setting name='showStyle'>MENU</b:widget-setting>
           <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
           <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
           <b:widget-setting name='monthPattern'>MMM yyyy</b:widget-setting>

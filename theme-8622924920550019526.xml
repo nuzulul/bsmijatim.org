@@ -1082,7 +1082,7 @@ img=new Array();
   //document.getElementById("bsmipost").innerHTML += trtd;
   //console.log(trtd);
   var id=i+1;
-  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text(posttitle);
+  $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text(posttitle+' - '+daystr);
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("data-toggle","");
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("href", posturl)
   $("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle").hide()
@@ -1517,7 +1517,7 @@ function postrecentbsmievent(json){
               for(var u2=0;u2<month.length;u2++){if(parseInt(m)==month[u2]){m=month2[u2];break}}
               var daystr=day+' '+m+' '+y;
               var jpg = img[i].replace("s320","s1600");
-              var trtd='<div class="item col-12 col-md-6 col-lg-6" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:1/1;background-image:url('+jpg+');"><p>'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></p></div></a></div>';
+              var trtd='<div class="item col-12 col-md-6 col-lg-6" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:1/1;background-image:url('+jpg+');"><div class="credit">'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></div></div></a></div>';
               document.getElementById("bsmievent").innerHTML += trtd;AOS.refreshHard();
               j++
         }
@@ -1552,7 +1552,7 @@ display:block;
 }
 
 bsmievent .item{
-margin-bottom:20px;
+margin-bottom:40px;
 	
 
     background-size:cover;
@@ -1561,7 +1561,7 @@ border-radius:20px 20px 20px 20px;
   }
 
 bsmievent .item .isi{
-	overflow:hidden;
+	/*overflow:hidden;*/
 
   background:#fff;
     background-size:cover;
@@ -1583,16 +1583,16 @@ bsmievent .item .isi:hover{
 border-radius:20px 20px 20px 20px;
 }
 
-bsmievent .item .isi p {
+bsmievent .item .isi .credit {
 position:absolute;
-bottom:15px;
+bottom:-35px;
 background:#fff;
 width:80%;
 padding:5px 10px;
 color:red;
 left:30px;
 border-radius:5px 5px 5px 5px;
-display:none;
+display:block;
 }
 </style>
 </bsmievent>

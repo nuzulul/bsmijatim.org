@@ -627,8 +627,8 @@ $(document).ready(function(){
 
   
 <header class='fixed-top bg-light bg-bsmi-white'>
-  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home</a> | <a href='https://www.bsmijatim.org/search'>News</a> | <a href='https://www.bsmijatim.org/search/label/Event'>Event</a> | <a href='https://www.bsmijatim.org/p/majalah.html'>Magazine</a> | <a href='https://www.bsmijatim.org/p/anggota.html'>Members</a> | <a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate</a> | <a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div></div>
-<div class='container-fluid'>
+  <div class='container-fluid px-4' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home</a> | <a href='https://www.bsmijatim.org/search'>News</a> | <a href='https://www.bsmijatim.org/search/label/Event'>Event</a> | <a href='https://www.bsmijatim.org/p/majalah.html'>Magazine</a> | <a href='https://www.bsmijatim.org/p/anggota.html'>Members</a> | <a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate</a> | <a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div></div></div>
+<div class='container'>
 <nav class='navbar navbar-light dropdown search-dropdown'>
 
     <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
@@ -916,6 +916,7 @@ $(document).ready(function(){
 </div>
 </header>
 <div class='container-fluid topboard' style='background:#dc3545;'>
+  <div class='container'>
   <div class='row align-items-center justify-content-center'>
     <div class='col-12'>
       <div style='width:100%;height:120px;'/>
@@ -933,6 +934,7 @@ $(document).ready(function(){
       </div>
   	</div>
   </div>
+  </div>
 </div>  
 
   
@@ -942,7 +944,6 @@ $(document).ready(function(){
   
 
 <carousel>
-
   <div class='carousel slide' data-interval='10000' data-ride='carousel' id='myCarousel'>
     <ol class='carousel-indicators'>
       <li class='active' data-slide-to='0' data-target='#myCarousel'/>

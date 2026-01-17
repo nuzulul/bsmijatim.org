@@ -1119,7 +1119,7 @@ img=new Array();
   var m=postdate.split("-")[1];var y=postdate.split("-")[0];
   for(var u2=0;u2<month.length;u2++){if(parseInt(m)==month[u2]){m=month2[u2];break}}
   var daystr=day+' '+m+' '+y;
-  var jpg = img[i].replace("s320","s1600");
+  var jpg = img[i].replace("s320","s600");
   var trtd='<div class="item col-md-6 col-lg-3" style=""><a href="'+posturl+'"><div class="isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+jpg+');padding:50px 50px;"><p>'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></p></div></a></div>';
   j++;
   //document.write(trtd);
@@ -1560,7 +1560,7 @@ function postrecentbsmievent(json){
               var m=postdate.split("-")[1];var y=postdate.split("-")[0];
               for(var u2=0;u2<month.length;u2++){if(parseInt(m)==month[u2]){m=month2[u2];break}}
               var daystr=day+' '+m+' '+y;
-              var jpg = img[i].replace("s320","s1600");
+              var jpg = img[i].replace("s320","s600");
               var trtd='<div class="item col-12 col-md-6 col-lg-6" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:1/1;background-image:url('+jpg+');"><div class="credit">'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></div></div></a></div>';
               document.getElementById("bsmievent").innerHTML += trtd;AOS.refreshHard();
               j++

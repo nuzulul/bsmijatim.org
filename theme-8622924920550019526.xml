@@ -944,6 +944,8 @@ $(document).ready(function(){
   
 
 <carousel>
+<div class='container-fluid' style='background:#00923F;'> 
+<div class='container'>
   <div class='carousel slide' data-interval='10000' data-ride='carousel' id='myCarousel'>
     <ol class='carousel-indicators'>
       <li class='active' data-slide-to='0' data-target='#myCarousel'/>
@@ -1013,6 +1015,8 @@ $(document).ready(function(){
     </div></div>
     
   </div>
+</div>
+</div>
 </carousel>
 <script type='text/javascript'>
 //<![CDATA[

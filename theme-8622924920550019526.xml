@@ -1008,7 +1008,7 @@ $(document).ready(function(){
       <div class='col-4 col-md-4 col-lg-4 d-none' style='white-space: nowrap;'><h3>50.<span id='penerimamanfaat'>111</span>+</h3><h6>Terbantu</h6></div>
       <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><h3 class='homeaksicount'>0+</h3><h6>Aksi</h6></div>
       <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><h3 class='homedonaturcount'>50+</h3><h6>Donatur</h6></div>
-      <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><h3>175+</h3><h6>Relawan</h6></div>
+      <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><h3 class='homerelawancount'>175+</h3><h6>Relawan</h6></div>
     </div>
     </div></div>
     
@@ -1045,7 +1045,7 @@ $(document).ready(function() {
 <script type='text/javascript'>
 //<![CDATA[
 let labelarr = $('.label-size');
-console.log(labelarr)
+//console.log(labelarr)
 labelarr.each((index,el)=>{
 	let label = $(el)[0].children[0].innerText.toLowerCase()
 	let count = $(el)[0].children[1].innerText.toLowerCase().replace('(','').replace(')','')
@@ -1057,6 +1057,20 @@ labelarr.each((index,el)=>{
 //]]>
 </script>
 </homeaksicountscript>
+  
+<homerelawancountscript>
+<script type='text/javascript'>
+//<![CDATA[
+let dataanggota = fetch('https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vSR6Nga8etn6taA15kDqPqD2m09_FSirxWSxtbMzjOxcj43UUSUYilw3H8EjUqj9GahrfGvs_QQ3M7f/pub?output=csv')
+.then(response => response.text())
+.then(async(response) => {
+	let data = CSVToArray(response)
+	let count = data[1][1]
+	$('.homerelawancount').text(count+'+')
+})
+//]]>
+</script>
+</homerelawancountscript>
   
 <cauroselscript>
 <script type='text/javascript'>

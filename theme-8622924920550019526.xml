@@ -1005,7 +1005,8 @@ $(document).ready(function(){
 
     <div class='container-fluid' style='position:absolute;bottom:-60px;left:0px;'><div class='container shadow bg-danger' style='height:100px;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
     <div class='row'>
-      <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><h3>50.<span id='penerimamanfaat'>111</span>+</h3><h6>Terbantu</h6></div>
+      <div class='col-4 col-md-4 col-lg-4 d-none' style='white-space: nowrap;'><h3>50.<span id='penerimamanfaat'>111</span>+</h3><h6>Terbantu</h6></div>
+      <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><h3 class='homeaksicount'>0+</h3><h6>Aksi</h6></div>
       <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><h3 class='homedonaturcount'>50+</h3><h6>Donatur</h6></div>
       <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><h3>175+</h3><h6>Relawan</h6></div>
     </div>
@@ -1039,6 +1040,23 @@ $(document).ready(function() {
 })
 //]]>
 </script>
+
+<homeaksicountscript>
+<script type='text/javascript'>
+//<![CDATA[
+let labelarr = $('.label-size');
+console.log(labelarr)
+labelarr.each((index,el)=>{
+	let label = $(el)[0].children[0].innerText.toLowerCase()
+	let count = $(el)[0].children[1].innerText.toLowerCase().replace('(','').replace(')','')
+	if(label === 'aksi'){
+		//console.log(count)
+		$('.homeaksicount').text(count+'+')
+	}
+})
+//]]>
+</script>
+</homeaksicountscript>
   
 <cauroselscript>
 <script type='text/javascript'>

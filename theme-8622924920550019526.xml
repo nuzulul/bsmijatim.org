@@ -944,7 +944,7 @@ $(document).ready(function(){
   
 
 <carousel>
-<div class='container-fluid' style='background:#00923F;'> 
+<div class='container-fluid' style='background:#dc3545;'> 
 <div class='container'>
   <div class='carousel slide' data-interval='10000' data-ride='carousel' id='myCarousel'>
     <ol class='carousel-indicators'>

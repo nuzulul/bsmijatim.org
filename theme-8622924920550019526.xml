@@ -631,7 +631,7 @@ $(document).ready(function(){
 <div class='container'>
 <nav class='navbar navbar-light dropdown search-dropdown'>
 
-    <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s16000'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
+    <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img height='50px' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s500'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
   	<div class='d-flex justify-content-end'>
     <a class='btn btn-light d-none d-sm-none d-md-none mr-sm-4' role='button'/>
     <a class='nav-item nav-link dropdown-toggle togglepencarian' data-toggle='dropdown' href='#'><svg class='bi bi-search' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/> </svg></a>
@@ -922,7 +922,7 @@ $(document).ready(function(){
       <div style='width:100%;height:120px;'/>
     </div>
     <div class='col-12'>
-      <a href='https://www.bsmijatim.org/p/donasi-palestina.html'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz2TgqutLUUfmt6Jmihm-a65h_itzx-W5I3wVSlW8np8syNGESO4QIx4G9avMDuvVf4x-Gku4QuS-K5kjrrRNNfrmv2ImQczqVgrWvCzGvLnY8HN33oXPloHckBkNYj-JrJtAUlQGS33bRZKvdsJdeT4GTIpEwLp8iF_NQeQLETf9iWGg7-ZDbynwvVGq/s7559/banner%20200x10%20%283%29.png' style='width:100%'/></a>
+      <a href='https://www.bsmijatim.org/p/donasi-palestina.html'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz2TgqutLUUfmt6Jmihm-a65h_itzx-W5I3wVSlW8np8syNGESO4QIx4G9avMDuvVf4x-Gku4QuS-K5kjrrRNNfrmv2ImQczqVgrWvCzGvLnY8HN33oXPloHckBkNYj-JrJtAUlQGS33bRZKvdsJdeT4GTIpEwLp8iF_NQeQLETf9iWGg7-ZDbynwvVGq/s1500/banner%20200x10%20%283%29.png' style='width:100%'/></a>
     </div>
     <div class='col-10 col-md-3' style='height:10px'>
   	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;display:none;'>
@@ -936,7 +936,13 @@ $(document).ready(function(){
   </div>
   </div>
 </div>  
+  
+  
+  
+  
 
+<!-- ///////////////////////////////////////////////////// HOMETOP /////////////////////////////////////////////////////////////////// -->    
+  
   
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
@@ -954,7 +960,7 @@ $(document).ready(function(){
       <li data-slide-to='3' data-target='#myCarousel'/>
     </ol>
     <div class='carousel-inner'>
-      <div class='carousel-item active' style='background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg56i25MAFgFCMsPlS4SBZeavZyL_CdjLiKoJ3NrBgCYoY9vrSmd5OJZziDe6OJZhWIV6Pgsg7SD_uHaOr83mLwYRiLv1DULSfT217W8TmV2wl1c_pIEZ6w_Q-oebeveuROmK9HqryK4K0/s1600/bsmijatim-siaranpers.jpg)'>
+      <div class='carousel-item active' style='background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg56i25MAFgFCMsPlS4SBZeavZyL_CdjLiKoJ3NrBgCYoY9vrSmd5OJZziDe6OJZhWIV6Pgsg7SD_uHaOr83mLwYRiLv1DULSfT217W8TmV2wl1c_pIEZ6w_Q-oebeveuROmK9HqryK4K0/s100/bsmijatim-siaranpers.jpg)'>
         <svg class='bd-placeholder-img' focusable='false' height='100%' preserveAspectRatio='xMidYMid slice' role='img' width='100%' xmlns='http://www.w3.org/2000/svg'><div class='carouselbg'/></svg>
         <div class='container'>
           <div class='carousel-caption text-left'>
@@ -964,7 +970,7 @@ $(document).ready(function(){
           </div>
         </div>
       </div>
-      <div class='carousel-item' style='background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiLTjEu-EeFxAJK-6cTEoDPwo7aBxDCKsz3C-DxFM_OoiWm5-QebPxuuzTqbOP-m9MDoRvGKnVRemXrgZNMAMHwrqBs3XiUQF2VpWVux9qdWgvCNFF7ovC4PbfzzPwm2_2WezAFUzrCd4/s1600/bsmijatim-muswil3.jpg)'>
+      <div class='carousel-item' style='background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiLTjEu-EeFxAJK-6cTEoDPwo7aBxDCKsz3C-DxFM_OoiWm5-QebPxuuzTqbOP-m9MDoRvGKnVRemXrgZNMAMHwrqBs3XiUQF2VpWVux9qdWgvCNFF7ovC4PbfzzPwm2_2WezAFUzrCd4/s100/bsmijatim-muswil3.jpg)'>
         <svg class='bd-placeholder-img' focusable='false' height='100%' preserveAspectRatio='xMidYMid slice' role='img' width='100%' xmlns='http://www.w3.org/2000/svg'><div class='carouselbg'/></svg>
         <div class='container'>
           <div class='carousel-caption text-left'>
@@ -974,7 +980,7 @@ $(document).ready(function(){
           </div>
         </div>
       </div>
-      <div class='carousel-item' style='background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl5tUZ8yj0RKGXxlasF0l9LXgXzLGPFSzJZUwrV8ihOMndb33TpEkzkWo87mujTISkEcvyIb6rj8FVCFPT9TOmgNBaWNWhW-z2vrJg17V1IR_A7k8iP9v2VYBV5ORsLip-4DKliH1UXnY/s1600/WhatsApp+Image+2020-02-26+at+04.06.41.jpeg)'>
+      <div class='carousel-item' style='background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl5tUZ8yj0RKGXxlasF0l9LXgXzLGPFSzJZUwrV8ihOMndb33TpEkzkWo87mujTISkEcvyIb6rj8FVCFPT9TOmgNBaWNWhW-z2vrJg17V1IR_A7k8iP9v2VYBV5ORsLip-4DKliH1UXnY/s100/WhatsApp+Image+2020-02-26+at+04.06.41.jpeg)'>
         <svg class='bd-placeholder-img' focusable='false' height='100%' preserveAspectRatio='xMidYMid slice' role='img' width='100%' xmlns='http://www.w3.org/2000/svg'><div class='carouselbg'/></svg>
         <div class='container'>
           <div class='carousel-caption text-left'>
@@ -984,7 +990,7 @@ $(document).ready(function(){
           </div>
         </div>
       </div>
-      <div class='carousel-item' style='background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkSeZTvHkmk14uGSnEtllW2yrLs-idFotYefAZW2vz5y4IDPhGVQ_sYJ3A_xMklKteDtLDTpGlRaEx87M7EjC40hPD032tX3YmlRUY7QFHmS079jC0GgCltVHsrl90IBZykKRRShKI4GE/s1600/image_big_5af1275c95fb4.jpg)'>
+      <div class='carousel-item' style='background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkSeZTvHkmk14uGSnEtllW2yrLs-idFotYefAZW2vz5y4IDPhGVQ_sYJ3A_xMklKteDtLDTpGlRaEx87M7EjC40hPD032tX3YmlRUY7QFHmS079jC0GgCltVHsrl90IBZykKRRShKI4GE/s100/image_big_5af1275c95fb4.jpg)'>
         <svg class='bd-placeholder-img' focusable='false' height='100%' preserveAspectRatio='xMidYMid slice' role='img' width='100%' xmlns='http://www.w3.org/2000/svg'><div class='carouselbg'/></svg>
         <div class='container'>
           <div class='carousel-caption text-left'>
@@ -1159,12 +1165,12 @@ $(document).ready(function() {
 
 <bsmisosmed>
 <div class='container'><div class='row' style='padding-top:30px;'>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://www.facebook.com/bsmijatimnews/' target='_blank'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEgPL_PbCsNGXn1E57Bfjo7hq16Xl1nhrCylKqlowwxuQrrDqjQU29vRO8tLJckTyjLq0u98i0hEvAWHK0JAsirXTFJlwjrmw94OHKCzSD8bbo4fi64LXVLWVgAHZox83Z1HSnVsJx2hJlXsaSLZs3JtW5Gr_thG1utgZ1cps5Ep20kmWKkZ1MQ5r6ajxw=s354' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://www.instagram.com/bsmijatim' target='_blank'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEgEmyZ_-JqeOg8NSC-8c3rNP0IPkaDyFuciPPi2DFJqfoGjq6y1lFlmodRV3PhAwBlET2tVkA0EZ1NDHzchQs6InJMa8-2aJi9jPwCPwK4_KW54EZfv9xt3wMTo_UrkoLLJg5uB4lCzIHfTWDKVBXVuTLe9bUaO2ieJp5UwuCo7BnStH7I7JFJwMwfUxQ=s354' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://youtube.com/channel/UCobpncSvOW0iOaQmUwuExpQ?sub_confirmation=1' target='_blank'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEhjvLIYcwsU-Jt73HQDUYueGIwbFHrGwtCeSrLLYHXpbWWoZUzrtn_M7jJen6W2yr1mxBF0s0oWgDaGfsj2prqsmDEpt7vmBsSL2yqRPRTI6T8HcKfi38pPmctSVPv37ex28Nu1BcJYZiLFJN5ctv42JDNVzzEnFTUWPpnk0f9PiWQlog4ZsRL9BPYOgg=s354' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://tiktok.com/@bsmijatim' target='_blank'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEgIqU18cnOztKghLYBGxfPBVIx8O-Y8czWneGDau08QXgp9sKBt1J_gfNEs54qOuuVr0kD6uphOyXHB9XrS2eEOk46wZ4rXhMMSJ8P2D9pqj1vZAENP757uC83yJm1TZsR6QXWpypFBnEvzQ-kjjATlCKE_kJrT4nG9eRNvSQpqnpVvnA0p3M53hY5hPw=s354' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://t.me/bsmi_jatim' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh34HRTd5RiEfzYbnzJ6oni9OmYdRKXJQGaFYhifQQf1ErhibRtaVVRS8XvWvyYq8EyNynguaq2bOk2Q6niGGuPL0-xu3OC-jVJEHHT4FmGMRubQJg3jrijVmtYuzURVotnp7QrSAwjHqMl8WVZJLBctI23bUhRNwgwRcxHj0rmxZ3GbkUaFBoTzo8uiQ2t/s458/tgbsmijatim.png' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEhCYddQhdESypg231B39rNSKTX8N6Bccut33vr2lpbUCYkA3lWzhxHksWU0io4JMpLMNRNryhICraT5Xv8mxv8fBjkdpRX2e-vjvZftsyd9GL4Hsz9pln7wW7wMqfziuPfXo5cOopkS9hr6LpLdgd74Ql8UsFC3R6mdiFx8qV9mwsXtZlzg7yyn5exuZQ=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://www.facebook.com/bsmijatimnews/' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEgPL_PbCsNGXn1E57Bfjo7hq16Xl1nhrCylKqlowwxuQrrDqjQU29vRO8tLJckTyjLq0u98i0hEvAWHK0JAsirXTFJlwjrmw94OHKCzSD8bbo4fi64LXVLWVgAHZox83Z1HSnVsJx2hJlXsaSLZs3JtW5Gr_thG1utgZ1cps5Ep20kmWKkZ1MQ5r6ajxw=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://www.instagram.com/bsmijatim' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEgEmyZ_-JqeOg8NSC-8c3rNP0IPkaDyFuciPPi2DFJqfoGjq6y1lFlmodRV3PhAwBlET2tVkA0EZ1NDHzchQs6InJMa8-2aJi9jPwCPwK4_KW54EZfv9xt3wMTo_UrkoLLJg5uB4lCzIHfTWDKVBXVuTLe9bUaO2ieJp5UwuCo7BnStH7I7JFJwMwfUxQ=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://youtube.com/channel/UCobpncSvOW0iOaQmUwuExpQ?sub_confirmation=1' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEhjvLIYcwsU-Jt73HQDUYueGIwbFHrGwtCeSrLLYHXpbWWoZUzrtn_M7jJen6W2yr1mxBF0s0oWgDaGfsj2prqsmDEpt7vmBsSL2yqRPRTI6T8HcKfi38pPmctSVPv37ex28Nu1BcJYZiLFJN5ctv42JDNVzzEnFTUWPpnk0f9PiWQlog4ZsRL9BPYOgg=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://tiktok.com/@bsmijatim' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEgIqU18cnOztKghLYBGxfPBVIx8O-Y8czWneGDau08QXgp9sKBt1J_gfNEs54qOuuVr0kD6uphOyXHB9XrS2eEOk46wZ4rXhMMSJ8P2D9pqj1vZAENP757uC83yJm1TZsR6QXWpypFBnEvzQ-kjjATlCKE_kJrT4nG9eRNvSQpqnpVvnA0p3M53hY5hPw=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://t.me/bsmi_jatim' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh34HRTd5RiEfzYbnzJ6oni9OmYdRKXJQGaFYhifQQf1ErhibRtaVVRS8XvWvyYq8EyNynguaq2bOk2Q6niGGuPL0-xu3OC-jVJEHHT4FmGMRubQJg3jrijVmtYuzURVotnp7QrSAwjHqMl8WVZJLBctI23bUhRNwgwRcxHj0rmxZ3GbkUaFBoTzo8uiQ2t/s458/tgbsmijatim.png' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEhCYddQhdESypg231B39rNSKTX8N6Bccut33vr2lpbUCYkA3lWzhxHksWU0io4JMpLMNRNryhICraT5Xv8mxv8fBjkdpRX2e-vjvZftsyd9GL4Hsz9pln7wW7wMqfziuPfXo5cOopkS9hr6LpLdgd74Ql8UsFC3R6mdiFx8qV9mwsXtZlzg7yyn5exuZQ=s354' width='100%'/></a></div>
 </div></div>
 <style>
 bsmisosmed div div img:hover{
@@ -1187,7 +1193,7 @@ bsmisosmed div div img:hover{
         <div class='row align-items-center justify-content-center'>
           <div class='item col-12 col-md-6 col-lg-4 mb-5 mt-5'>
             <div class='photo' style='border-radius:50% 50% 50% 50%;overflow: hidden;border:2em solid #dc3545;width:100%;aspect-ratio:1/1;'>
-              <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcLPd_5GeoFU9dI_arGXbis1hy079QyOxbwnakVv2Rf-LILAmjZFKt3OPv7BZlTy3Hlm5X_EEEKDRpyAEq5P2NudV7MSVO9DRJEW9ygm4InEcnjjMzyx9KisCeJXADRTgq-jVmzENvh-6-lREN5vLOPzAEV9Quc2vkFUuxzW6VH9eSAjsXLmbMzcGyisi5/s1000/m35w7k5g.jpg' width='100%'/>
+              <img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcLPd_5GeoFU9dI_arGXbis1hy079QyOxbwnakVv2Rf-LILAmjZFKt3OPv7BZlTy3Hlm5X_EEEKDRpyAEq5P2NudV7MSVO9DRJEW9ygm4InEcnjjMzyx9KisCeJXADRTgq-jVmzENvh-6-lREN5vLOPzAEV9Quc2vkFUuxzW6VH9eSAjsXLmbMzcGyisi5/s1000/m35w7k5g.jpg' width='100%'/>
             </div>
           </div>
           <div class='item col-12 col-md-6 col-lg-8'>
@@ -1346,18 +1352,18 @@ border-radius:20px 20px 20px 20px;
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
         <div class='container'>
           <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Program BSMI</h5>
-          <div class='row align-items-center justify-content-center d-none'>
+          <!--<div class='row align-items-center justify-content-center d-none'>
             	<div class='item col-12 mb-3' data-aos='zoom-in-up' style=''>
                   		<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzMOzLUrj5Njr46Fou2ufsID5nH_gX1ALZYHug4FBx1UblDdGKzq7RoIF0E-l92gl9nABdmxQ2dLXuMilpewm_cO15vsAAA7rB71RtairVG9rLc2ufK9aWtQVx9btAgtu_egtToT2WKtlsLjtPFik5CDgIoen8Mk1sjHVnsSXnF8m1njRD4n8sK9GBHYw/s2000/spanduk-bsmi-tv-header.jpg' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzMOzLUrj5Njr46Fou2ufsID5nH_gX1ALZYHug4FBx1UblDdGKzq7RoIF0E-l92gl9nABdmxQ2dLXuMilpewm_cO15vsAAA7rB71RtairVG9rLc2ufK9aWtQVx9btAgtu_egtToT2WKtlsLjtPFik5CDgIoen8Mk1sjHVnsSXnF8m1njRD4n8sK9GBHYw/s2000/spanduk-bsmi-tv-header.jpg' style='width:100%;'/></div></a>
             	</div>
-          </div>
+          </div>-->
           <div class='row align-items-center justify-content-center'>
             	<div class='item col-12 col-md-6 col-lg-6 mb-3' data-aos='zoom-in-up' style=''>
                   	<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s2000' href='javascript:;'>
                       <div class='row align-items-center justify-content-center no-gutters shadow isiku'>
                         	<div class='col-2'>
                               	<div style='width:100%;aspect-ratio:1/1;background:white;border-radius:50% 50% 50%;border:0.5em solid #dc3545;overflow:hidden;'>
-                                  <img src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s2000' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
+                                  <img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s200' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
                               	</div>
                         	</div>
                         	<div class='col-10'>
@@ -1371,7 +1377,7 @@ border-radius:20px 20px 20px 20px;
                       <div class='row align-items-center justify-content-center no-gutters shadow isiku'>
                         	<div class='col-2'>
                               	<div style='width:100%;aspect-ratio:1/1;background:white;border-radius:50% 50% 50%;border:0.5em solid #dc3545;overflow:hidden;'>
-                                  <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipSqdlt3QmUkspiy8-5ZenSrMVb-yP_oUhxCTKL4xd2e1DPEeTc0Q7YgiVUsskh2GxO1k57TbNNJxcMZsS-Qt9GFFdkolnBnwbIEWsx674ayQivWIPgN96e6MneLpTaGgi9dFgOXEOh7EE/s2000/IMG_20180904_092158.jpg' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
+                                  <img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipSqdlt3QmUkspiy8-5ZenSrMVb-yP_oUhxCTKL4xd2e1DPEeTc0Q7YgiVUsskh2GxO1k57TbNNJxcMZsS-Qt9GFFdkolnBnwbIEWsx674ayQivWIPgN96e6MneLpTaGgi9dFgOXEOh7EE/s200/IMG_20180904_092158.jpg' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
                               	</div>
                         	</div>
                         	<div class='col-10'>
@@ -1385,7 +1391,7 @@ border-radius:20px 20px 20px 20px;
                       <div class='row align-items-center justify-content-center no-gutters shadow isiku'>
                         	<div class='col-2'>
                               	<div style='width:100%;aspect-ratio:1/1;background:white;border-radius:50% 50% 50%;border:0.5em solid #dc3545;overflow:hidden;'>
-                                  <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1Pxtb1c6tC2780RP_LyAsvjuERN4xt-4YiJlLXH282OXAEyvHeiqKTxzV1wMLSIswBvG51CKWuoBEymdSyGnoIoLYc_DHnz8PmQFesYngYgrUai7zUFaCuw_l9Xy89yRyqwMi07tOq0k/s2000/WhatsApp+Image+2021-12-07+at+19.55.22gvgvnh.jpeg' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
+                                  <img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1Pxtb1c6tC2780RP_LyAsvjuERN4xt-4YiJlLXH282OXAEyvHeiqKTxzV1wMLSIswBvG51CKWuoBEymdSyGnoIoLYc_DHnz8PmQFesYngYgrUai7zUFaCuw_l9Xy89yRyqwMi07tOq0k/s200/WhatsApp+Image+2021-12-07+at+19.55.22gvgvnh.jpeg' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
                               	</div>
                         	</div>
                         	<div class='col-10'>
@@ -1398,7 +1404,7 @@ border-radius:20px 20px 20px 20px;
                       <div class='row align-items-center justify-content-center no-gutters shadow isiku'>
                         	<div class='col-2'>
                               	<div style='width:100%;aspect-ratio:1/1;background:white;border-radius:50% 50% 50%;border:0.5em solid #dc3545;overflow:hidden;'>
-                                  <img src='https://blogger.googleusercontent.com/img/a/AVvXsEjJX3JiOn0Jd_xApCih6qNPFWM19ZQiBA1DGn9yuZgOJAzn06f51n-LPsQwJ_bKT7fVHY6Xpev_6kHbqIQ_LH4IlrF8RDW49ygPEWY8XTef3lE5Cleo2CY_yt5QtAV3HnY1w-VeUUoeK1nx2mGQwl-X2LQEOny8oZGThb3m63YStUdGAVmAumpaHbwiG1js=s2000' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
+                                  <img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEjJX3JiOn0Jd_xApCih6qNPFWM19ZQiBA1DGn9yuZgOJAzn06f51n-LPsQwJ_bKT7fVHY6Xpev_6kHbqIQ_LH4IlrF8RDW49ygPEWY8XTef3lE5Cleo2CY_yt5QtAV3HnY1w-VeUUoeK1nx2mGQwl-X2LQEOny8oZGThb3m63YStUdGAVmAumpaHbwiG1js=s200' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
                               	</div>
                         	</div>
                         	<div class='col-10'>
@@ -1411,7 +1417,7 @@ border-radius:20px 20px 20px 20px;
                       <div class='row align-items-center justify-content-center no-gutters shadow isiku'>
                         	<div class='col-2'>
                               	<div style='width:100%;aspect-ratio:1/1;background:white;border-radius:50% 50% 50%;border:0.5em solid #dc3545;overflow:hidden;'>
-                                  <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrni3Aln2fmy_WGaaheu5DLdojH0zTEtzIc-589dfAv7pTKHfktiNf_5Xfprw0lftX0rMhx35fjsPDgLi2WS3o_HZYBrF3oZNTYYibUwdO_hQSrWM75Z009lI-XrOoOOq63T88ek50bvPF/s2000/IMG-20180807-WA0201.jpg' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
+                                  <img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrni3Aln2fmy_WGaaheu5DLdojH0zTEtzIc-589dfAv7pTKHfktiNf_5Xfprw0lftX0rMhx35fjsPDgLi2WS3o_HZYBrF3oZNTYYibUwdO_hQSrWM75Z009lI-XrOoOOq63T88ek50bvPF/s200/IMG-20180807-WA0201.jpg' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
                               	</div>
                         	</div>
                         	<div class='col-10'>
@@ -1424,7 +1430,7 @@ border-radius:20px 20px 20px 20px;
                       <div class='row align-items-center justify-content-center no-gutters shadow isiku'>
                         	<div class='col-2'>
                               	<div style='width:100%;aspect-ratio:1/1;background:white;border-radius:50% 50% 50%;border:0.5em solid #dc3545;overflow:hidden;'>
-                                  <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJr82Fm8PkPgTorz8MbrXIno-BP6-EHkQ1SyhmaNWPxAVSGLbFCgmyHSSQ6CkVoArrM9PB2LdzDDQeGfdf1-m9HNITdiNSG4pvQ69eSNwe_n8RRDVZphYkXWsIpCh-6ST9LVwbqpX4F0K_/s1600/WhatsApp+Image+2020-02-09+at+03.10.36.jpeg' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
+                                  <img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJr82Fm8PkPgTorz8MbrXIno-BP6-EHkQ1SyhmaNWPxAVSGLbFCgmyHSSQ6CkVoArrM9PB2LdzDDQeGfdf1-m9HNITdiNSG4pvQ69eSNwe_n8RRDVZphYkXWsIpCh-6ST9LVwbqpX4F0K_/s160/WhatsApp+Image+2020-02-09+at+03.10.36.jpeg' style='width:100%;aspect-ratio:1/1;object-fit:cover;'/>
                               	</div>
                         	</div>
                         	<div class='col-10'>
@@ -1781,19 +1787,10 @@ color:red;
         <div class='container'>
           <div class='row align-items-center justify-content-center'>
             	<div class='item col-12 mb-3' data-aos='zoom-in-up' style=''>
-                  		<a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnYYf28gy_SE0fH1LMLU-DpARN46BZVjdybTJD7F13ZBBQlh14TUhTaEGSkRzWnxlSQ4w7Kt7w8uKBN1QHpTMAEJGexSSXB9jSacsHxY5WaNQ2mZHV8fByREbR5rSBsdtXDuu6rVHrL3qwh57-Pohpk8_vROZDPRngxydSRiULL2Z-o1m77CYh_2mDKKDH/s2048/bsmijatim2530crew.jpg' style='width:100%;'/></div></a>
+                  		<a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnYYf28gy_SE0fH1LMLU-DpARN46BZVjdybTJD7F13ZBBQlh14TUhTaEGSkRzWnxlSQ4w7Kt7w8uKBN1QHpTMAEJGexSSXB9jSacsHxY5WaNQ2mZHV8fByREbR5rSBsdtXDuu6rVHrL3qwh57-Pohpk8_vROZDPRngxydSRiULL2Z-o1m77CYh_2mDKKDH/s1048/bsmijatim2530crew.jpg' style='width:100%;'/></div></a>
             	</div>
           </div>
-          <div class='row align-items-center justify-content-center d-none'>
-            	<div class='item col-12 col-md-4 col-lg-4 mb-3' data-aos='zoom-in-up' style=''>
-                  	<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/a/AVvXsEhK6m1ZemFy_zUIftbkbXMLrCNSJfRWLuxPe6RXVZiYvJ4qewDB_fvJwY-5uw0HMXtL9gaC7ZE0eGWu6xZ-vqMx3ZUl2Hbk-g_--q3DGMTobQxf30nY2sDVs9_UBZ61ER9-rtbEDa05593hwrbxpgzzahYh14CHdq0c-bXhuJ_oaaVU-vh7kFV-MHq0RA=s2000' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEhK6m1ZemFy_zUIftbkbXMLrCNSJfRWLuxPe6RXVZiYvJ4qewDB_fvJwY-5uw0HMXtL9gaC7ZE0eGWu6xZ-vqMx3ZUl2Hbk-g_--q3DGMTobQxf30nY2sDVs9_UBZ61ER9-rtbEDa05593hwrbxpgzzahYh14CHdq0c-bXhuJ_oaaVU-vh7kFV-MHq0RA=s2000' style='width:100%;'/></div></a>
-            	</div>            
-            	<div class='item col-12 col-md-4 col-lg-4 mb-3' data-aos='zoom-in-up' style=''>
-                  	<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2D1vVm-buj2eqMx965fRHt2L-gVHsZo9xzQnRa0ndAFrvmcp7n-SicQzeaXk1l1keZoEm-0gn4VbozZCC7kByXYCu1nGGwpLv7wY7SX-VDsNbAlM0sZtriXZiFKiqm3T8uDpqW_VE5yrWjNEF5E_JeuzwA8pt-VCTTsveuib2gw63NhbDnAyVJgjrAeiZ/s1600/IMG-20230731-WA0004.jpg' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2D1vVm-buj2eqMx965fRHt2L-gVHsZo9xzQnRa0ndAFrvmcp7n-SicQzeaXk1l1keZoEm-0gn4VbozZCC7kByXYCu1nGGwpLv7wY7SX-VDsNbAlM0sZtriXZiFKiqm3T8uDpqW_VE5yrWjNEF5E_JeuzwA8pt-VCTTsveuib2gw63NhbDnAyVJgjrAeiZ/s1600/IMG-20230731-WA0004.jpg' style='width:100%;'/></div></a>
-            	</div>
-                <div class='item col-12 col-md-4 col-lg-4 mb-3' data-aos='zoom-in-up' style=''>
-                  	<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/a/AVvXsEi5bqIDCDJ7o44Gkd9-DTOPhpNH9oviFC9lyQWJ5QUpefR6AEG4zcbwGqjsoLs-YybnWqj9ZTrok3yOQZ2NexGjSS_pW0cpz7PTcqkhSc0KafS8Fzko9NNd5dglq6_Mfc6JZfpv6xlDANfoQQnX0KOxGzu1DlAQSoWVgqqErpDw-3j2pmtpXyAwcIDoyM_G=s2000' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEi5bqIDCDJ7o44Gkd9-DTOPhpNH9oviFC9lyQWJ5QUpefR6AEG4zcbwGqjsoLs-YybnWqj9ZTrok3yOQZ2NexGjSS_pW0cpz7PTcqkhSc0KafS8Fzko9NNd5dglq6_Mfc6JZfpv6xlDANfoQQnX0KOxGzu1DlAQSoWVgqqErpDw-3j2pmtpXyAwcIDoyM_G=s2000' style='width:100%;'/></div></a></div>
-          </div>
+
          </div> 
      </div>
   </div>
@@ -1908,7 +1905,7 @@ function postrecentbsmijatim(json){
             var m=postdate.split("-")[1];var y=postdate.split("-")[0];
             for(var u2=0;u2<month.length;u2++){if(parseInt(m)==month[u2]){m=month2[u2];break}}
             var daystr=day+' '+m+' '+y;
-            var jpg = img[i].replace("s320","s1600");
+            var jpg = img[i].replace("s320","s600");
             //var trtd='<div class="item col-6 col-md-6 col-lg-3" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;height:100%;background-image:url('+jpg+');padding:50px 50px;"><p>'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></p></div></a></div>';
             //document.write(trtd);
 			var trtd = '<div class="item col-6 col-md-6 col-lg-3" style="">'+
@@ -2014,31 +2011,43 @@ border-radius:5px 5px 5px 5px;
 </bsmipost>
   
 </b:if></b:if></b:if>  
+<!-- ///////////////////////////////////////////////////// HOMETOP /////////////////////////////////////////////////////////////////// -->    
+  
+  
+  
+  
+  
+<h5 class='spotlightbsmi' data-aos='zoom-in-up' style='margin:80px 0px 20px 10px;text-align:center;display:none;'>Spotlight BSMI</h5>  
 
 <article>  
 <div class='container' id='article'>
 
     <b:section class='main' id='main' showaddelement='no'>
-      <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog'>
+      <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='commentLabel'>comments</b:widget-setting>
           <b:widget-setting name='showShareButtons'>false</b:widget-setting>
-          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='showAuthor'>true</b:widget-setting>
-          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='authorLabel'>Posted by</b:widget-setting>
           <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='timestampLabel'>at</b:widget-setting>
           <b:widget-setting name='reactionsLabel'/>
           <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
           <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-          <b:widget-setting name='showLabels'>true</b:widget-setting>
           <b:widget-setting name='showLocation'>true</b:widget-setting>
           <b:widget-setting name='showTimestamp'>true</b:widget-setting>
           <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
           <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='postLocationLabel'>Location:</b:widget-setting>
+          <b:widget-setting name='showAuthor'>true</b:widget-setting>
+          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='showLabels'>true</b:widget-setting>
+          <b:widget-setting name='postLabelsLabel'>Labels:</b:widget-setting>
+          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
           <b:widget-setting name='showInlineAds'>false</b:widget-setting>
           <b:widget-setting name='showReactions'>false</b:widget-setting>
         </b:widget-settings>
@@ -2492,7 +2501,13 @@ border-radius:5px 5px 5px 5px;
 
     <!-- Then use the post body as the schema.org description, for good G+/FB snippeting. -->
     <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' expr:itemprop='(data:blog.metaDescription ? &quot;&quot; : &quot;description &quot;) + &quot;articleBody&quot;'>
-      <data:post.body/>
+      <!-- <data:post.body/> -->
+      <!-- homepagemainmodif -->
+      <b:if cond='data:blog.url == data:blog.homepageUrl'>
+      <b:else/>
+        <data:post.body/>
+      </b:if>
+      <!-- homepagemainmodif -->
       <div style='clear: both;'/> <!-- clear for photos floats -->
     </div>
 
@@ -2885,8 +2900,42 @@ margin-bottom:25px;
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
-  <style>#article{height:0px;overflow:hidden;}</style>
+  <style>
+    #article #main{
+    	/*height:0px;overflow:hidden;*/
+    	border-radius: 20px 20px 20px 20px;
+    	border: 5px solid #dc3545;
+    }
+    #article #main .date-header{
+    	display:none;
+    }
+    #article #main .post-title{
+    	font-size:1em;
+    	text-align:center;
+    }
+    #article #main .post-footer, #article #main .blog-pager, #article #main .blog-feeds{
+    	/*display:none;*/
+    	font-size:0.1em;
+    	margin-top:0px;
+    	margin-bottom:0px;
+    }
+    .spotlightbsmi {
+    	/*display:block!important;*/
+    }
+  </style>
 </b:if></b:if></b:if>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<!-- ///////////////////////////////////////////////////// HOMEBOTTOM /////////////////////////////////////////////////////////////////// -->  
  
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
@@ -2894,9 +2943,6 @@ margin-bottom:25px;
 <b:section class='bsmiwidget-home-bottom' id='bsmiwidget-home-bottom'/>
   
 
-  
-  
-  
   
   
   
@@ -3019,6 +3065,10 @@ bsmiinfobencana .parallax {
 </style>
 </bsmiinfobencana>  
 
+
+  
+  
+  
   
   
   
@@ -3103,6 +3153,11 @@ border-radius:20px 20px 20px 20px;
 }  
   </style>
 </bsmidonasigaza>    
+  
+  
+  
+  
+  
   
   
   
@@ -3211,6 +3266,11 @@ border-radius:5px 5px 5px 5px;
 }
 </style>
 </bsmichannel>  
+  
+  
+  
+  
+  
   
   
 <bsmimagazine>
@@ -3357,6 +3417,9 @@ border-radius:5px 5px 5px 5px;
 }
 </style>
 </bsmimagazine>
+  
+  
+  
 
 
   
@@ -3536,31 +3599,31 @@ sendQuerybsmiinfodonordarah();
       <h5 data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Informasi BSMI</h5>
       <div class='row align-items-center justify-content-center'>
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://mybsmi.bsmijatim.org'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDkYbqgh-MQ7ppJ6jpGwhDp27JTL9k_Iv8XhzyON3VLN54C3Z3JS4HxM56TIFxelRt5Q3ujk0TLskfiA-Bc81wDZVdIYbxu783QFE0891p_3iJ2XSBZK-R2kDRvuTXPXEdzvl3aNYsN_5OL9j2akrXL2PvRRX5mgAmWKakWycpNl5MqNal2YzXwr-Osg/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://mybsmi.bsmijatim.org'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDkYbqgh-MQ7ppJ6jpGwhDp27JTL9k_Iv8XhzyON3VLN54C3Z3JS4HxM56TIFxelRt5Q3ujk0TLskfiA-Bc81wDZVdIYbxu783QFE0891p_3iJ2XSBZK-R2kDRvuTXPXEdzvl3aNYsN_5OL9j2akrXL2PvRRX5mgAmWKakWycpNl5MqNal2YzXwr-Osg/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
 
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://www.bsmijatim.org/p/mydonate.html' target='_self'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid3A_6x7IAVWoWq56rVRDEwEpjE4B2hf8Eky_YrxdjhT7Q-8Yr5H-V64x3sdYnLa6BO1Yb4EPd1hFIQARmBL0CpPwjZ4IoZS3iCEmxMwrBtquacfn4oA6Twmhg5t2JzN7alL_sQyN2nFwDwreHKZKhj88L8wuFCfg9ibEpbwdKcBugkp_wAABGG6rL1_NC/s1000/mydonate.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://www.bsmijatim.org/p/mydonate.html' target='_self'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid3A_6x7IAVWoWq56rVRDEwEpjE4B2hf8Eky_YrxdjhT7Q-8Yr5H-V64x3sdYnLa6BO1Yb4EPd1hFIQARmBL0CpPwjZ4IoZS3iCEmxMwrBtquacfn4oA6Twmhg5t2JzN7alL_sQyN2nFwDwreHKZKhj88L8wuFCfg9ibEpbwdKcBugkp_wAABGG6rL1_NC/s320/mydonate.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>         
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfAd0aZhGU0T-erdG3Lbd4a-LDkvJ5sHeRK72ipMmFvUnslkUWqhBbrzDFFDuX3LW9N4PF7RAchce3dXxcI6Psi992wig3s2yacnkMisT8EpJjjwQlRQbTXnzNSMZPfMB4ojcuCjUomqge7cFQXjzuhT-I5YwyNqi2q69LxyCY4FvEGRdOLJSlGBEEvg/s320/logobsmimobiledownload.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://t.me/infogempaid' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoaYgCMjCb7d4yJY-wZsIszmzvv-p556wN7MvNSfDkNDK3plLpt625ztKBdJ2BmtV8O9HlQIZ1cjgEKZAM4Q1HBIqjgvPX2GmzhyELbzySZRTKVXgh5vZObk76CiEHIyxg3vlzhYgi5k1_5O5Gzjun5VA6rLBtO_x64G_4PZrsd6YFTEgzA0zZA35HUT_Z/s1000/infogempaid.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://t.me/infogempaid' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoaYgCMjCb7d4yJY-wZsIszmzvv-p556wN7MvNSfDkNDK3plLpt625ztKBdJ2BmtV8O9HlQIZ1cjgEKZAM4Q1HBIqjgvPX2GmzhyELbzySZRTKVXgh5vZObk76CiEHIyxg3vlzhYgi5k1_5O5Gzjun5VA6rLBtO_x64G_4PZrsd6YFTEgzA0zZA35HUT_Z/s320/infogempaid.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>        
 
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://t.me/relawanmerah' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjICfTkfH5hrS6Uk3hM1Usqe1OLRM6tr3gX6mHicbp6BGTRSHsPmNxIfbWJKe4tGYEWvSngGJhq6vaZ30FX0RFxLfs80gHfcwSQQtb5GqZve77TXegH0tNyns1pveT1vZS91xbS45p-p-Q0ZiVEQinvqWbUJNHDMIFbfUzu4ODA96sjZz60IgC9WLAd/s320/iconrelawanmerah.pn' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://t.me/relawanmerah' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjICfTkfH5hrS6Uk3hM1Usqe1OLRM6tr3gX6mHicbp6BGTRSHsPmNxIfbWJKe4tGYEWvSngGJhq6vaZ30FX0RFxLfs80gHfcwSQQtb5GqZve77TXegH0tNyns1pveT1vZS91xbS45p-p-Q0ZiVEQinvqWbUJNHDMIFbfUzu4ODA96sjZz60IgC9WLAd/s320/iconrelawanmerah.pn' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div> 
         
-        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://t.me/info_palestina' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMTsS92t6_FTa-Y8AMBJ26xNVsl3PyhLeHukXMxdAc9DpqPMtabB7E1TnWYFVpYe3WzKWB7Kk94L2ZRxdUoSj4ZM_OzgitkObbkE6-Y7SJn1WtAUKl7GNpKLHVcKVUumAuVintHN1rdztWhDi8fEorxx3ixiz7Nf97c6rtOQTVz70mnijqcQbhOrsqDmQF/s1600/iconinfopalestina.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://t.me/info_palestina' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMTsS92t6_FTa-Y8AMBJ26xNVsl3PyhLeHukXMxdAc9DpqPMtabB7E1TnWYFVpYe3WzKWB7Kk94L2ZRxdUoSj4ZM_OzgitkObbkE6-Y7SJn1WtAUKl7GNpKLHVcKVUumAuVintHN1rdztWhDi8fEorxx3ixiz7Nf97c6rtOQTVz70mnijqcQbhOrsqDmQF/s320/iconinfopalestina.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
-		<div class='item col-6 col-md-2 hover1 d-none' data-aos='zoom-in-up'><div class='isi hovereffect'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+		<div class='item col-6 col-md-2 hover1 d-none' data-aos='zoom-in-up'><div class='isi hovereffect'><a data-fancybox='' data-src='https://bsmiradio.netlify.app/?platform=bsmijatimorg' data-type='iframe' href='javascript:;'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnEUJZZw6odgG8V-Z8A0GUdvGydbanxtdFFnW2jzJFoSeJUH7FiYrZLiJwoKk1ztFiuAY91YOI_USOse07ZhO6_PzrM5hw5HpnEOBYK9bz_Z4_GrdyYjF9QUj1RYZC-9rSIdIhiOq2-oxVHIt5czWf-CJM9KDeCtbLsVhDkqeXFLjPq6FaxUIxaiJVg/s320/radiobsmifm20mhz.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>
         
-        <div class='item col-6 col-md-2 hover1 d-none' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1 d-none' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkp7P2BM6QfvK_dnOzGOKfi9KvYLHPGEkKTHZI13C-py9EcinuqkNhhHxmpFxzRbGfbfXErkZPBflWiCRKoFpdRWNqjW1OMmVVwCsAjxSq3qMYUduk3epL-eAbc6qKd9HpBxj493wvSY83SivHjeMJw5zG73GmAZNSrD9vtx90qU1LUhOWAFDBOAk-ag/s320/logobsmiradio.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>       
         
-        <div class='item col-6 col-md-2 hover1 d-none' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://radiobsmi.press.my.id/' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT312vOGU8__pLGs3LFHlIzdEhjp8iPfsA1nyI3CMKemD6vy59AGU2zNEhAyoxDex42RzOGUog6r0jj6ogVxmThUscB4QwGG88bDLCi9AOo9160-T4FhiRAZaa05icouTA2muC2ZJ0qB4O9FvvNGyQ_yHzVDchpWmfg_zwP7YpcOXePYVrYnZQiktC/s320/radioonlinebsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
+        <div class='item col-6 col-md-2 hover1 d-none' data-aos='zoom-in-up'><div class='isi hovereffect'><a href='https://radiobsmi.press.my.id/' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT312vOGU8__pLGs3LFHlIzdEhjp8iPfsA1nyI3CMKemD6vy59AGU2zNEhAyoxDex42RzOGUog6r0jj6ogVxmThUscB4QwGG88bDLCi9AOo9160-T4FhiRAZaa05icouTA2muC2ZJ0qB4O9FvvNGyQ_yHzVDchpWmfg_zwP7YpcOXePYVrYnZQiktC/s320/radioonlinebsmifm.png' style='width:100%;margin-bottom:10px;'/></a></div>          
         </div>           
         
         
@@ -3634,16 +3697,16 @@ bsmiinfomaps .parallax {
 <div class='container'><div class='row'>
 <div class='col-md-6' data-aos='zoom-in-up'>
 	<h5 style='margin:30px 0px 20px 10px;'>Rekening BSMI</h5>
-  <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'><a data-target='#myModalDonasi' data-toggle='modal' href='#'><img src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' style='width:100px;margin:0px 10px 5px;float:left;'/><span style='font-size:28px;color:red;font-weight:bold;'>7063416872</span> a.n. <span style='font-weight:bold;'>BSMI Jawa Timur</span></a></div>
+  <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'><a data-target='#myModalDonasi' data-toggle='modal' href='#'><img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' style='width:100px;margin:0px 10px 5px;float:left;'/><span style='font-size:28px;color:red;font-weight:bold;'>7063416872</span> a.n. <span style='font-weight:bold;'>BSMI Jawa Timur</span></a></div>
 </div>
 <div class='col-md-6' data-aos='zoom-in-up'>
 <h5 style='margin:30px 0px 5px 10px;'>Channel BSMI</h5>
 	<div class='row'>
-		<div class='item col-12 col-lg-6 hover1'><div class='isi vertical-center'><a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhACIcYT_MOob74mP0vqlk4W5ETjT-NvOUnCFr15F5txJvbLQSskiXeDJB7gqSfiM5BSx-FBW_TsMyQyuRNokpMmC7MmRgSUvRrL85XuHAMjUe5FXUReVWA7RZqnVO1B-Xs8U11QTMBVF8/s1600/qris.png' style='width:100%'/></a></div>
+		<div class='item col-12 col-lg-6 hover1'><div class='isi vertical-center'><a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhACIcYT_MOob74mP0vqlk4W5ETjT-NvOUnCFr15F5txJvbLQSskiXeDJB7gqSfiM5BSx-FBW_TsMyQyuRNokpMmC7MmRgSUvRrL85XuHAMjUe5FXUReVWA7RZqnVO1B-Xs8U11QTMBVF8/s600/qris.png' style='width:100%'/></a></div>
       	</div>
-      <div class='item col-6 col-lg-3 hover1'><div class='isi vertical-center'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-s8g0g4bbiXZdHMwjpdDG-Cf7hxXND6YO4vwA83WhGX9nkqCFyIsg9QMvX7HmUTp5KjjS-375Ks0BZxBkYwRUzMP_RSeTsedTQiq2GQ2oVCJ-48NrDyvwZts7heYrhg09OfTPYr-jrf4/s292/newiconbsmimobile1.jpg' style='width:100%'/></a></div>
+      <div class='item col-6 col-lg-3 hover1'><div class='isi vertical-center'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-s8g0g4bbiXZdHMwjpdDG-Cf7hxXND6YO4vwA83WhGX9nkqCFyIsg9QMvX7HmUTp5KjjS-375Ks0BZxBkYwRUzMP_RSeTsedTQiq2GQ2oVCJ-48NrDyvwZts7heYrhg09OfTPYr-jrf4/s292/newiconbsmimobile1.jpg' style='width:100%'/></a></div>
       	</div>
-		<div class='item col-6 col-lg-3 hover1'><div class='isi vertical-center'><a href='https://www.bsmijatim.org/p/donasi.html' target='_self'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgjd0cGJyiGVnEiv49soZzikxwV0OgfRew64QggLAsFmP1ai2VkYE9mIKEmD6x9VrAIo4zhMnxu44y3MIQ5Nfpzd1cYPH8CVg41SCfrJAjL2dI4Wq7cve2jlIP0YafUxy7aJEhyphenhypheny_xHmSkzw1NOoRmYa09rcia8ZyvjDXko969_zDRTpKjR7Qc5CbQPfeS/s1732/donasibsmi.jpg' style='width:100%'/></a></div>
+		<div class='item col-6 col-lg-3 hover1'><div class='isi vertical-center'><a href='https://www.bsmijatim.org/p/donasi.html' target='_self'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgjd0cGJyiGVnEiv49soZzikxwV0OgfRew64QggLAsFmP1ai2VkYE9mIKEmD6x9VrAIo4zhMnxu44y3MIQ5Nfpzd1cYPH8CVg41SCfrJAjL2dI4Wq7cve2jlIP0YafUxy7aJEhyphenhypheny_xHmSkzw1NOoRmYa09rcia8ZyvjDXko969_zDRTpKjR7Qc5CbQPfeS/s320/donasibsmi.jpg' style='width:100%'/></a></div>
       	</div>
 
   </div>
@@ -3671,7 +3734,15 @@ border-radius:10px 10px 10px 10px;
 </style>
 </div></div>
 </rekening>
-
+  
+  
+  
+  
+  
+  
+  
+  
+<!--
 <mitra data-aos='zoom-in-up'><div class='container'><h5 style='margin:30px 0px 20px 10px;text-align:center;'>Mitra BSMI</h5>
 <div class='owl-carousel owl-theme'>
   <div class='item1'> <div class='item'><img class='mitra' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeM7OTrJ0JKizBVi9-qbcALWeTseNqLkr0QtMzRzjTcMumDKMjhywRjCsKQUfHhYRboKUXquH3c-VV1_xPdfLrnmy423uJq4lUPnp4fGAcgSVA4e5G_yF6I4tcOAfO7IMSNA_X009sxmoRdzV47dg99rSQVZiOxpVgggL1teMUv1gUbh9_to4g3Ilf/s320/LOGO-BNPB.png'/></div> </div>
@@ -3741,16 +3812,29 @@ width:auto!important;
 </style>
 </div>
 </mitra>
+-->  
+  
+  
+  
+  
 
 <div class='container-fluid' style='height:10px;background:#dc3545;'/> 
 <!--<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7407495217426!2d112.76295431437097!3d-7.270314673455884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7b2e99a1%3A0xe0360390fae406f0!2sKantor%20BSMI%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1583203832858!5m2!1sid!2sid' style='border:0;' width='100%'/>-->
 </b:if></b:if></b:if>  
+  
+<!-- ///////////////////////////////////////////////////// HOMEBOTTOM /////////////////////////////////////////////////////////////////// -->  
+  
+  
+  
+  
+  
+  
 <div class='container-fluid' style='height:10px;background:#dc3545;'/> 
 <footer class='blended1' style='background-image:url();background-size:cover;background-position:center top;background-color:#000;'>
   <div class='container'>
     <div class='row align-items-center justify-content-center'>
       	<div class='item col-12 col-sm-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-center' data-aos='zoom-in-up'>
-          <img height='200px' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFYntKvwXtgQwUMW9ZsqG63x68e5_5xqLLpQPtBHhnFTjkJjMaj2bmiI91JigRuVBgJHDyNJWUlaurfyfJyrWbEW2vTW5lqqKQUZj3bgb-RZxhpUmtLEke-8oUWMjVCJnujQb2XPbr1pA/s1600/Logo+BSMI+%2528vector%2529.png'/>
+          <img height='200px' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFYntKvwXtgQwUMW9ZsqG63x68e5_5xqLLpQPtBHhnFTjkJjMaj2bmiI91JigRuVBgJHDyNJWUlaurfyfJyrWbEW2vTW5lqqKQUZj3bgb-RZxhpUmtLEke-8oUWMjVCJnujQb2XPbr1pA/s1600/Logo+BSMI+%2528vector%2529.png'/>
       	</div>
       	<div class='item col-12 col-sm-6 col-md-6 col-lg-3' data-aos='zoom-in-up'>
           <div class='row align-items-center justify-content-center'>
@@ -3776,7 +3860,7 @@ width:auto!important;
           <br/>
             <div class='col-6 col-md-12 align-items-center justify-content-center text-center'>
               <h2>Aplikasi Gawai</h2>
-              <p><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyfK9Fu_Xc9JT3zqVUI8UEmb2W8LrJdifx9nG6aOJYgBz99oqEPiAykCb4y34YoL2HaD4GGaPn7AbsPVKkT3bwdk-MZb8NqVsAuy16tr_VWBm0GPZdqdPHob_TPe53HHgjzvRXRrptmds6gUq3XtH20YdAfb5FC6CbIPY7weYJ8drNjREcKPvhTfp7gFOS/s646/en_badge_web_generic.png' width='100%'/></a></p>
+              <p><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyfK9Fu_Xc9JT3zqVUI8UEmb2W8LrJdifx9nG6aOJYgBz99oqEPiAykCb4y34YoL2HaD4GGaPn7AbsPVKkT3bwdk-MZb8NqVsAuy16tr_VWBm0GPZdqdPHob_TPe53HHgjzvRXRrptmds6gUq3XtH20YdAfb5FC6CbIPY7weYJ8drNjREcKPvhTfp7gFOS/s646/en_badge_web_generic.png' width='100%'/></a></p>
             </div>
           </div>
       	</div>
@@ -3892,10 +3976,19 @@ width:auto!important;
     
   </div>
 </footer>
+  
+  
+  
+  
 <div class='container-fluid' style='height:20px;background:#dc3545;'/>
   
+  
+  
+  
+  
+  
 <!-- Bottom Navbar -->
-  <nav class='p-0 navbar navbar-dark bg-danger navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom'>
+<nav class='p-0 navbar navbar-dark bg-danger navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom'>
     <ul class='navbar-nav nav-justified w-100'>
       <li class='nav-item'>
           <a class='nav-link text-center' href='https://www.bsmijatim.org/'>
@@ -3933,7 +4026,14 @@ width:auto!important;
           </a>
       </li>
     </ul>
-  </nav>
+</nav>
+  
+  
+  
+  
+  
+  
+  
   
 <backsoundplayer>
   
@@ -4183,13 +4283,17 @@ width:auto!important;
       background-color: #f0f0f0;
     }
   
-  </style>
+</style>
 
 <!--<script crossorigin='anonymous' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'/>-->
 <script crossorigin='anonymous' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'/>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js'/>  
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js'/>
 
+  
+  
+  
+  
 <script id='rendered-js'>
 /* Demo Scripts for Bootstrap Carousel and Animate.css article
 * on SitePoint by Maria Antonietta Perna
@@ -4231,14 +4335,25 @@ width:auto!important;
 })(jQuery);
 //# sourceURL=pen.js
 
-    </script>
-  <script>
+</script>
+  
+  
+  
+  
+  
+  
+<script>
     AOS.init({
     easing: &#39;ease-out-back&#39;,
     duration: 2000,
     delay: 2,
     });
-  </script>
+</script>
+  
+  
+  
+  
+  
 
 <script type='text/javascript'>//<![CDATA[
 $(document).ready(function() {

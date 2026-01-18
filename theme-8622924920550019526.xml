@@ -124,7 +124,7 @@ font-weight:bold;
 font-size:24px;
 }
   
-.navbar-swipe-up{
+.custom-box-shadow{
   box-shadow: 0 1px 10px rgba(151, 164, 175, .29);
   -webkit-box-shadow: 0 1px 10px rgba(151, 164, 175, .29);
 }
@@ -933,14 +933,14 @@ function scrollFunction() {
 	$('.navbar').css('padding-top','0px');
 	$('.navbar').css('padding-bottom','0px');
 	$('.topmenucontainer').hide()
-	$('.topnavbarcontainer').addClass('navbar-swipe-up');
+	$('.topnavbarcontainer').addClass('custom-box-shadow');
   } else {
     //document.getElementById("navbar").style.padding = "80px 10px";
     //document.getElementById("logo").style.fontSize = "35px";
 	$('.navbar').css('padding-top','.5rem');
 	$('.navbar').css('padding-bottom','.5rem');
 	$('.topmenucontainer').show()
-	$('.topnavbarcontainer').removeClass('navbar-swipe-up');
+	$('.topnavbarcontainer').removeClass('custom-box-shadow');
   }
 }
 //]]>
@@ -1231,10 +1231,10 @@ bsmisosmed div div img:hover{
           </div>
           <div class='item col-12 col-md-6 col-lg-8'>
             <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>Selamatkan Satu Jiwa Sambung Seribu Asa</div>
-            <div style='width:100%;font-size:1.5em;text-align:center;'>&#8220;BSMI CARE FOR LIFE&#8220;<hr/></div><div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'/>
-            <div style='width:100%;font-size:1.5em;text-align:center;'>Ketua BSMI Jawa Timur</div>
+            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>&#8220;BSMI CARE FOR LIFE&#8220;<hr/></div><div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'/>
+            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>Ketua BSMI Jawa Timur</div>
             <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>dr. Azhar Anwar, MM, MMRS</div>
-            <div style='width:100%;font-size:1.5em;text-align:center;'>BSMI3572DC</div>
+            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>BSMI3572DC</div>
           </div>
         </div>
     </div>
@@ -1594,7 +1594,7 @@ function postrecentbsmievent(json){
               for(var u2=0;u2<month.length;u2++){if(parseInt(m)==month[u2]){m=month2[u2];break}}
               var daystr=day+' '+m+' '+y;
               var jpg = img[i].replace("s320","s600");
-              var trtd='<div class="item col-12 col-md-6 col-lg-6" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:1/1;background-image:url('+jpg+');"><div class="credit">'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></div></div></a></div>';
+              var trtd='<div class="item col-12 col-md-6 col-lg-6" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:1/1;background-image:url('+jpg+');"><div class="credit custom-box-shadow h6">'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></div></div></a></div>';
               document.getElementById("bsmievent").innerHTML += trtd;AOS.refreshHard();
               j++
         }
@@ -1629,7 +1629,7 @@ display:block;
 }
 
 bsmievent .item{
-margin-bottom:40px;
+margin-bottom:60px;
 	
 
     background-size:cover;
@@ -1667,7 +1667,7 @@ background:#fff;
 width:80%;
 padding:5px 10px;
 color:red;
-left:30px;
+left:10%;
 border-radius:5px 5px 5px 5px;
 display:block;
 }
@@ -1946,7 +1946,7 @@ function postrecentbsmijatim(json){
 								'<div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:4/3;background-image:url('+jpg+');padding:50px 50px;">'+
 									
 								'</div>'+
-								'<p>'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></p>'+
+								'<p class="h6">'+posttitle+' <br/><span style="color:#969696;font-size:10px">'+daystr+'</span></p>'+
 							'</a>'+
 						'</div>';
             document.getElementById("bsmipost").innerHTML += trtd;AOS.refreshHard();
@@ -3227,7 +3227,7 @@ function sendQuerybsmichannel(){ //console.log("cek1");
             	//if (i < 1){break}
 			  
  			  var tanggalupload = new Date(data[i]['published']).toLocaleDateString("id");
-              var item='<div class="item col-12 col-md-12 col-lg-6" style=""><a href="javascript:;" data-fancybox data-src="https://www.youtube.com/embed/'+data[i]['videoId']+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:2/1;background-image:url(https://img.youtube.com/vi/'+data[i]['videoId']+'/0.jpg);"><div class="playvideobutton"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">   <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/> </svg></div></div><p>'+data[i]['title']+'<br/><span style="color:#969696;font-size:10px">'+tanggalupload+'</span></p></a></div>';
+              var item='<div class="item col-12 col-md-12 col-lg-6" style=""><a href="javascript:;" data-fancybox data-src="https://www.youtube.com/embed/'+data[i]['videoId']+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:2/1;background-image:url(https://img.youtube.com/vi/'+data[i]['videoId']+'/0.jpg);"><div class="playvideobutton"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">   <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/> </svg></div></div><div class="credit custom-box-shadow h6">'+data[i]['title']+'<br/><span style="color:#969696;font-size:10px">'+tanggalupload+'</span></div></a></div>';
 
 				document.getElementById("bsmichannel").innerHTML += item;
 				AOS.refreshHard();
@@ -3250,7 +3250,7 @@ display:block;
 }
 
 bsmichannel .item{
-margin-bottom:20px;
+margin-bottom:60px;
     background-size:cover;
   background-position:center center;
 border-radius:20px 20px 20px 20px;
@@ -3286,13 +3286,14 @@ bsmichannel .item .isi:hover{
 border-radius:20px 20px 20px 20px;
 }
 
-bsmichannel .item p {
-
+bsmichannel .item .credit {
+position:absolute;
+bottom:-35px;
 background:#fff;
 width:80%;
 padding:5px 10px;
 color:red;
-left:30px;
+left:10%;
 border-radius:5px 5px 5px 5px;
   white-space: nowrap;
   overflow:hidden;
@@ -3869,7 +3870,7 @@ width:auto!important;
       	<div class='item col-12 col-sm-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-center' data-aos='zoom-in-up'>
           <img height='200px' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFYntKvwXtgQwUMW9ZsqG63x68e5_5xqLLpQPtBHhnFTjkJjMaj2bmiI91JigRuVBgJHDyNJWUlaurfyfJyrWbEW2vTW5lqqKQUZj3bgb-RZxhpUmtLEke-8oUWMjVCJnujQb2XPbr1pA/s1600/Logo+BSMI+%2528vector%2529.png'/>
       	</div>
-      	<div class='item col-12 col-sm-6 col-md-6 col-lg-3' data-aos='zoom-in-up'>
+      	<div class='item col-12 col-sm-6 col-md-6 col-lg-2' data-aos='zoom-in-up'>
           <div class='row align-items-center justify-content-center'>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/'>Home</a></h2></div>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/search'>News</a></h2></div>
@@ -3897,7 +3898,7 @@ width:auto!important;
             </div>
           </div>
       	</div>
-      	<div class='item col-12 col-sm-6 col-md-6 col-lg-3 text-center' data-aos='zoom-in-up'>
+      	<div class='item col-12 col-sm-6 col-md-6 col-lg-4 text-center' data-aos='zoom-in-up'>
           <b:section class='bsmiwidget-sidebar-right' id='bsmiwidget-sidebar-right'>
             <b:widget id='PopularPosts1' locked='false' title='Trending' type='PopularPosts'>
               <b:widget-settings>

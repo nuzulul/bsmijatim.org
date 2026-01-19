@@ -112,6 +112,15 @@ position:fixed;
 bottom:25px;
 z-index:100;
 }*/
+  
+.blakgradbg {
+
+background: -moz-linear-gradient(left, rgba(0,0,0,0.97) 0%, rgba(0,0,0,0.97) 1%, rgba(0,0,0,0.65) 48%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.97) 0%,rgba(0,0,0,0.97) 1%,rgba(0,0,0,0.65) 48%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0.97) 0%,rgba(0,0,0,0.97) 1%,rgba(0,0,0,0.65) 48%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#f7000000&#39;, endColorstr=&#39;#00000000&#39;,GradientType=1 );
+
+}
 
 #navbarsBsmi01 {
 padding-top:20px;
@@ -992,6 +1001,17 @@ function scrollFunction() {
 <div class='container' style='height:420px;'>
   
   <img alt='Klinik BSMI di Gaza' fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s1000' style='width:100%;height:100%;object-fit:cover;'/>
+  <div style='position:relative;height:0px;bottom:420px;'>
+    <div class='blakgradbg' style='height:420px;'/>
+  </div>
+  <div style='position:relative;height:0px;bottom:240px;z-index:1;'>
+    <div class='row'>
+      <div class='col-12 col-lg-8 p-5 d-flex flex-column justify-content-center'>
+        <div class='h3 text-white'><span class='text-danger'>MISI KEMANUSIAAN</span> PALESTINA</div>
+        <div><a class='btn bg-danger text-white' href='javascript:' onclick='openmodaldonasi()'>Bantu Sekarang</a></div>
+      </div>
+    </div>
+  </div>
 
 <!--
   <div class='carousel slide' data-interval='10000' data-ride='carousel' id='myCarousel'>
@@ -1183,7 +1203,7 @@ function sendQueryPosthead()
   
   <div class='donasi container-fluid' style='height:0px;position:relative;bottom:350px;'>
 	<div class='container' style='display:flex;flex-direction:row;justify-content:flex-end;'>
-      <div class='d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:25px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'>
+      <div class='d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:25px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;z-index:2'>
         <div class='h4'>DONASI<strong>BSMI</strong></div>
         <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button'>Rp 20.000</a>
         <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>Rp 50.000</a>

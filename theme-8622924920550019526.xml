@@ -1307,6 +1307,13 @@ bsmisosmed div div img:hover{
   
 <b:section class='bsmiwidget-home-top' id='bsmiwidget-home-top'/>
   
+  
+  
+
+  
+  
+  
+  
 <div class='h5 spotlightbsmi d-none' style='margin:0px 0px 20px 10px;text-align:center;'>HEADLINE</div>   
 </b:if></b:if></b:if>  
 <!-- ///////////////////////////////////////////////////// HOMETOP /////////////////////////////////////////////////////////////////// -->    
@@ -2360,6 +2367,28 @@ margin-bottom:25px;
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:section class='bsmiwidget-home-bottom' id='bsmiwidget-home-bottom'/>
+  
+  
+<recentdonation>
+<div class='container mt-3'><div class='container p-4 h5 text-align-center d-flex justify-content-center' style='border-radius: 20px 20px 20px 20px;border: 5px solid #dc3545;'><span id='recentdonation'/></div></div>
+<script>
+//<![CDATA[
+var startIndexbsmidonasirecentdonation = 1;
+var maxResultsbsmidonasirecentdonation = 1;
+let url = "/feeds/posts/default/-/Donasi?alt=json&orderby=published&start-index=" + startIndexbsmidonasirecentdonation + "&max-results=" + maxResultsbsmidonasirecentdonation;
+fetch(url)
+.then((resp)=>resp.json())
+.then((resp)=>{
+	//console.log(resp)
+	let title = resp.feed.entry[0].title.$t
+	let link = resp.feed.entry[0].link[4].href
+  	let html = `<a aria-label="${title}" href="${link}">${title}</a>`;
+	document.querySelector('#recentdonation').innerHTML = html;
+})
+//]]>
+</script>
+</recentdonation>  
+  
   
   
 <profil>

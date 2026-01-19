@@ -3320,7 +3320,7 @@ bsmiinfobencana .parallax {
   
   
   
-  
+<!--  
 <bsmidonasigaza>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
@@ -3402,6 +3402,7 @@ border-radius:20px 20px 20px 20px;
 }  
   </style>
 </bsmidonasigaza>    
+-->  
   
   
   
@@ -3409,8 +3410,7 @@ border-radius:20px 20px 20px 20px;
   
   
   
-  
-
+<!--
 <bsmichannel>
 <div class='container'>
 <div class='h5' data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>BSMI TV</div>
@@ -3517,21 +3517,22 @@ border-radius:5px 5px 5px 5px;
 }
 </style>
 </bsmichannel>  
+-->  
   
   
   
   
   
-  
-  
+
 <bsmimagazine>
+<!--  
 <div class='container'>
 <div class='h5' data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Majalah BSMI</div>
   <div class='row' id='bsmimagazine'>
   </div>
   <center><a data-aos='zoom-in-up' href='#' onclick='$( &quot;.majalahspinner&quot; ).toggle();setTimeout(function(){ sendQueryMajalah(); }, 2000);return false'>more<div class='majalahspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
 </div> 
-
+-->
 <script>
 //<![CDATA[
 function CSVToArray( strData, strDelimiter ){
@@ -3610,7 +3611,7 @@ function sendQueryMajalah(){//console.log("test1");
 }
 
 $(document).ready(function() {
-sendQueryMajalah();
+//sendQueryMajalah();
 });
 //]]>
 </script>

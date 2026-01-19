@@ -732,7 +732,7 @@ $(document).ready(function(){
       <b:widget id='PopularPosts2' locked='false' title='Populer' type='PopularPosts'>
         <b:widget-settings>
           <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
-          <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+          <b:widget-setting name='showThumbnails'>false</b:widget-setting>
           <b:widget-setting name='showSnippets'>true</b:widget-setting>
           <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
         </b:widget-settings>
@@ -1288,26 +1288,48 @@ bsmisosmed div div img:hover{
 <b:section class='bsmiwidget-home-top' id='bsmiwidget-home-top'/>
   
   
-<bsmiselayangpandang class=''>
-  <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
-    <div class='container'>
-        <div class='row align-items-center justify-content-center'>
-          <div class='item col-12 col-md-6 col-lg-4 mb-5 mt-5'>
-            <div class='photo' style='border-radius:50% 50% 50% 50%;overflow: hidden;border:2em solid #dc3545;width:100%;aspect-ratio:1/1;'>
-              <img alt='Ketua BSMI JATIM' fetchpriority='high' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcLPd_5GeoFU9dI_arGXbis1hy079QyOxbwnakVv2Rf-LILAmjZFKt3OPv7BZlTy3Hlm5X_EEEKDRpyAEq5P2NudV7MSVO9DRJEW9ygm4InEcnjjMzyx9KisCeJXADRTgq-jVmzENvh-6-lREN5vLOPzAEV9Quc2vkFUuxzW6VH9eSAjsXLmbMzcGyisi5/s1000/m35w7k5g.jpg' width='100%'/>
+<profil>
+      <div class='container' style='padding-top:30px;padding-bottom:30px;'><div class='row'>
+            <div class='col-4' data-aos='zoom-in-up'>
+                <div class='h6' style='margin:30px 0px 20px 10px;'>DONATUR</div>
+                <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
+                  <p class='d-none d-md-block'>Layanan Donatur BSMI JATIM</p>
+                  <a aria-label='MyDonate' href='https://www.bsmijatim.org/p/mydonate.html'>
+                      <svg class='bi bi-people-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/>
+                        <path d='M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z' fill-rule='evenodd'/>
+                        <path d='M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'/>
+                      </svg>        
+                  </a>
+                </div>
             </div>
-          </div>
-          <div class='item col-12 col-md-6 col-lg-8'>
-            <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>Selamatkan Satu Jiwa Sambung Seribu Asa</div>
-            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>&#8220;BSMI CARE FOR LIFE&#8220;<hr/></div><div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'/>
-            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>Ketua BSMI Jawa Timur</div>
-            <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>dr. Azhar Anwar, MM, MMRS</div>
-            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>BSMI3572DC</div>
-          </div>
-        </div>
-    </div>
-  </div>
-</bsmiselayangpandang>
+            <div class='col-4' data-aos='zoom-in-up'>
+                <div class='h6' style='margin:30px 0px 20px 10px;'>DONASI</div>
+                <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
+                  <p class='d-none d-md-block'>Donasi Kemanusiaan BSMI JATIM</p>
+                  <a aria-label='Donasi BSMI' href='https://www.bsmijatim.org/p/donasi.html'><!--<a href='https://bit.ly/3KLuzop' target='_blank'>-->
+                      <svg class='bi bi-gift-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z'/>
+                      </svg>
+                  </a>  
+                </div>
+            </div>
+            <div class='col-4' data-aos='zoom-in-up'>
+                <div class='h6' style='margin:30px 0px 20px 10px;'>RELAWAN</div>
+                <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
+                  <p class='d-none d-md-block'>Anggota Relawan BSMI JATIM</p>
+                  <!--<a data-fancybox='' data-src='https://www.youtube.com/embed/Z6qX8Tkb_5c' href='javascript:;'>-->
+                  <a aria-label='Relawan BSMI' href='https://www.bsmijatim.org/p/anggota.html'>
+                      <svg class='bi bi-person-vcard-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0'/>
+                      </svg>      
+                  </a>
+                </div>
+            </div>      
+      <style>
+      </style>
+      </div></div>
+</profil>
   
   
   
@@ -1396,50 +1418,30 @@ border-radius:20px 20px 20px 20px;
   </style>
 </bsmiinfomars>  
   
+
   
+<bsmiselayangpandang class=''>
+  <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
+    <div class='container'>
+        <div class='row align-items-center justify-content-center'>
+          <div class='item col-12 col-md-6 col-lg-4 mb-5 mt-5'>
+            <div class='photo' style='border-radius:50% 50% 50% 50%;overflow: hidden;border:2em solid #dc3545;width:100%;aspect-ratio:1/1;'>
+              <img alt='Ketua BSMI JATIM' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcLPd_5GeoFU9dI_arGXbis1hy079QyOxbwnakVv2Rf-LILAmjZFKt3OPv7BZlTy3Hlm5X_EEEKDRpyAEq5P2NudV7MSVO9DRJEW9ygm4InEcnjjMzyx9KisCeJXADRTgq-jVmzENvh-6-lREN5vLOPzAEV9Quc2vkFUuxzW6VH9eSAjsXLmbMzcGyisi5/s1000/m35w7k5g.jpg' width='100%'/>
+            </div>
+          </div>
+          <div class='item col-12 col-md-6 col-lg-8'>
+            <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>Selamatkan Satu Jiwa Sambung Seribu Asa</div>
+            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>&#8220;BSMI CARE FOR LIFE&#8220;<hr/></div><div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'/>
+            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>Ketua BSMI Jawa Timur</div>
+            <div style='width:100%;font-size:2em;text-align:center;font-weight:bold;color:#dc3545;'>dr. Azhar Anwar, MM, MMRS</div>
+            <div class='h6' style='width:100%;font-size:1.5em;text-align:center;'>BSMI3572DC</div>
+          </div>
+        </div>
+    </div>
+  </div>
+</bsmiselayangpandang>  
   
-<profil>
-      <div class='container' style='padding-top:30px;padding-bottom:30px;'><div class='row'>
-            <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h6' style='margin:30px 0px 20px 10px;'>DONATUR</div>
-                <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
-                  <p class='d-none d-md-block'>Layanan Donatur BSMI JATIM</p>
-                  <a aria-label='MyDonate' href='https://www.bsmijatim.org/p/mydonate.html'>
-                      <svg class='bi bi-people-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
-                        <path d='M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/>
-                        <path d='M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z' fill-rule='evenodd'/>
-                        <path d='M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'/>
-                      </svg>        
-                  </a>
-                </div>
-            </div>
-            <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h6' style='margin:30px 0px 20px 10px;'>DONASI</div>
-                <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
-                  <p class='d-none d-md-block'>Donasi Kemanusiaan BSMI JATIM</p>
-                  <a aria-label='Donasi BSMI' href='https://www.bsmijatim.org/p/donasi.html'><!--<a href='https://bit.ly/3KLuzop' target='_blank'>-->
-                      <svg class='bi bi-gift-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
-                        <path d='M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z'/>
-                      </svg>
-                  </a>  
-                </div>
-            </div>
-            <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h6' style='margin:30px 0px 20px 10px;'>RELAWAN</div>
-                <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
-                  <p class='d-none d-md-block'>Anggota Relawan BSMI JATIM</p>
-                  <!--<a data-fancybox='' data-src='https://www.youtube.com/embed/Z6qX8Tkb_5c' href='javascript:;'>-->
-                  <a aria-label='Relawan BSMI' href='https://www.bsmijatim.org/p/anggota.html'>
-                      <svg class='bi bi-person-vcard-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
-                        <path d='M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0'/>
-                      </svg>      
-                  </a>
-                </div>
-            </div>      
-      <style>
-      </style>
-      </div></div>
-</profil>
+
   
   
   

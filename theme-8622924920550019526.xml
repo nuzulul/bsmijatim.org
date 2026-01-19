@@ -991,7 +991,7 @@ function scrollFunction() {
 <div class='container-fluid' style='background:none;'> 
 <div class='container' style='height:420px;'>
   
-  <img alt='Klinik BSMI di Gaza' fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s2000' style='width:100%;height:100%;object-fit:cover;'/>
+  <img alt='Klinik BSMI di Gaza' fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s1000' style='width:100%;height:100%;object-fit:cover;'/>
 
 <!--
   <div class='carousel slide' data-interval='10000' data-ride='carousel' id='myCarousel'>

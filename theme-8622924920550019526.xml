@@ -15,18 +15,18 @@
 </b:if>
 
 <link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' rel='stylesheet'/>
-<link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css' rel='stylesheet'/>
-<link href='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css' rel='stylesheet'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css' media='print' onload='this.media=&apos;all&apos;' rel='stylesheet'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css' media='print' onload='this.media=&apos;all&apos;' rel='stylesheet'/>
 
-<link href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' rel='stylesheet'/>
-<link href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' rel='stylesheet'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' media='print' onload='this.media=&apos;all&apos;' rel='stylesheet'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' media='print' onload='this.media=&apos;all&apos;' rel='stylesheet'/>
   
 <script crossorigin='anonymous' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'/>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'/>
+<script async='true' defer='true' src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'/>
 <!--<script data-client-key='SB-Mid-client-DegWqA_DSFerObPF' src='https://app.sandbox.midtrans.com/snap/snap.js'/>-->
   
-<script crossorigin='anonymous' integrity='sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'/> <!--  https://web.archive.org/web/20210325170940/https://fancyapps.com/fancybox/3/docs/ -->
-<link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css' integrity='sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==' referrerpolicy='no-referrer' rel='stylesheet'/>  
+<script async='true' crossorigin='anonymous' defer='true' integrity='sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'/> <!--  https://web.archive.org/web/20210325170940/https://fancyapps.com/fancybox/3/docs/ -->
+<link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css' integrity='sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==' media='print' onload='this.media=&apos;all&apos;' referrerpolicy='no-referrer' rel='stylesheet'/>  
 <script async='async' src='https://cse.google.com/cse.js?cx=52ef3ceb8450448b6'/>  
   
 <!-- deskripsi dan keyword -->
@@ -1665,7 +1665,8 @@ function postrecentbsmievent(json){
               var daystr=day+' '+m+' '+y;
               var jpg = img[i].replace("s320","s600");
               var trtd='<div class="item col-12 col-md-6 col-lg-6" style=""><a href="'+posturl+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:1/1;background-image:url('+jpg+');"><div class="credit custom-box-shadow h6">'+posttitle+' <br/><span style="color:#000;font-size:10px">'+daystr+'</span></div></div></a></div>';
-              document.getElementById("bsmievent").innerHTML += trtd;AOS.refreshHard();
+              document.getElementById("bsmievent").innerHTML += trtd;
+			  if(typeof(AOS) === 'object')AOS.refreshHard();
               j++
         }
 	  }
@@ -2019,7 +2020,8 @@ function postrecentbsmijatim(json){
 								'<p class="h6">'+posttitle+' <br/><span style="color:#000;font-size:10px">'+daystr+'</span></p>'+
 							'</a>'+
 						'</div>';
-            document.getElementById("bsmipost").innerHTML += trtd;AOS.refreshHard();
+            document.getElementById("bsmipost").innerHTML += trtd;
+			if(typeof(AOS) === 'object')AOS.refreshHard();
             j++
           }
       }
@@ -3426,7 +3428,7 @@ function sendQuerybsmichannel(){ //console.log("cek1");
               var item='<div class="item col-12 col-md-12 col-lg-6" style=""><a href="javascript:;" data-fancybox data-src="https://www.youtube.com/embed/'+data[i]['videoId']+'"><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:2/1;background-image:url(https://img.youtube.com/vi/'+data[i]['videoId']+'/0.jpg);"><div class="playvideobutton"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">   <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/> </svg></div></div><div class="credit custom-box-shadow h6">'+data[i]['title']+'<br/><span style="color:#000;font-size:10px">'+tanggalupload+'</span></div></a></div>';
 
 				document.getElementById("bsmichannel").innerHTML += item;
-				AOS.refreshHard();
+				if(typeof(AOS) === 'object')AOS.refreshHard();
 				
             }
 			indexbsmichannel += 2;
@@ -3581,7 +3583,7 @@ function sendQueryMajalah(){//console.log("test1");
 				var majalahitem='<div class="item col-6 col-lg-3" style=""><a href="javascript:;" data-fancybox data-src="https://nuzulul.github.io/app/pdfflipbook/gdrivepdf.html?fileid='+data[i][3]+'" data-options=\'{"type" : "iframe", "iframe" : {"preload" : false,"attr":{"allow":"web-share"}, "css" : {}}}\'><div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:4/5;background-image:url(https://lh3.googleusercontent.com/d/'+data[i][3]+'=s220);">'+ebookpdfbutton+'<p>'+data[i][1]+' '+data[i][2]+' <br/><span style="color:#969696;font-size:10px">Edisi '+data[i][0]+'</span></p></div></a></div>';
 				//$('#bsmimagazine').append(majalahitem);
 				document.getElementById("bsmimagazine").innerHTML += majalahitem;
-				AOS.refreshHard();
+				if(typeof(AOS) === 'object')AOS.refreshHard();
 				
             }
 			indexmajalah += 4;
@@ -4517,9 +4519,9 @@ width:auto!important;
 </style>
 
 <!--<script crossorigin='anonymous' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'/>-->
-<script crossorigin='anonymous' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'/>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js'/>  
-<script src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js'/>
+<script async='true' crossorigin='anonymous' defer='true' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'/>
+<script async='true' defer='true' id='aosscript' src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js'/>
+<script async='true' defer='true' src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js'/>
   
   
   
@@ -4527,11 +4529,13 @@ width:auto!important;
   
   
 <script>
-    AOS.init({
-    easing: &#39;ease-out-back&#39;,
-    duration: 2000,
-    delay: 2,
-    });
+    document.getElementById(&#39;aosscript&#39;).onload = () =&gt; {
+      AOS.init({
+      easing: &#39;ease-out-back&#39;,
+      duration: 2000,
+      delay: 2,
+      });
+    };
 </script>
   
   

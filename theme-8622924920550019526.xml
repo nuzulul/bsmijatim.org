@@ -732,7 +732,7 @@ $(document).ready(function(){
       <b:widget id='PopularPosts2' locked='false' title='Populer' type='PopularPosts'>
         <b:widget-settings>
           <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
-          <b:widget-setting name='showThumbnails'>false</b:widget-setting>
+          <b:widget-setting name='showThumbnails'>true</b:widget-setting>
           <b:widget-setting name='showSnippets'>true</b:widget-setting>
           <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
         </b:widget-settings>
@@ -960,7 +960,7 @@ function scrollFunction() {
       <div style='width:100%;height:120px;'/>
     </div>
     <div class='col-12'>
-      <a aria-label='DONASI PALESTINA' href='https://www.bsmijatim.org/p/donasi-palestina.html'><img alt='DONASI PALESTINA' fetchpriority='high' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz2TgqutLUUfmt6Jmihm-a65h_itzx-W5I3wVSlW8np8syNGESO4QIx4G9avMDuvVf4x-Gku4QuS-K5kjrrRNNfrmv2ImQczqVgrWvCzGvLnY8HN33oXPloHckBkNYj-JrJtAUlQGS33bRZKvdsJdeT4GTIpEwLp8iF_NQeQLETf9iWGg7-ZDbynwvVGq/s1500/banner%20200x10%20%283%29.png' style='width:100%'/></a>
+      <!--<a aria-label='DONASI PALESTINA' href='https://www.bsmijatim.org/p/donasi-palestina.html'><img alt='DONASI PALESTINA' fetchpriority='high' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz2TgqutLUUfmt6Jmihm-a65h_itzx-W5I3wVSlW8np8syNGESO4QIx4G9avMDuvVf4x-Gku4QuS-K5kjrrRNNfrmv2ImQczqVgrWvCzGvLnY8HN33oXPloHckBkNYj-JrJtAUlQGS33bRZKvdsJdeT4GTIpEwLp8iF_NQeQLETf9iWGg7-ZDbynwvVGq/s1500/banner%20200x10%20%283%29.png' style='width:100%'/></a>-->
     </div>
     <div class='col-10 col-md-3' style='height:10px'>
   	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;display:none;'>
@@ -2688,9 +2688,9 @@ function onloadthumbnail(data){
         
         <div class='customthumbnail2'>
         <b:if cond='data:post.thumbnailUrl'>
-          <img expr:src='resizeImage(data:post.thumbnailUrl, 600)' fetchpriority='high' onload='onloadthumbnail(this)' title='thumbexist'/>
+          <!--<img expr:src='resizeImage(data:post.thumbnailUrl, 600)' fetchpriority='high' onload='onloadthumbnail(this)' title='thumbexist'/>-->
         <b:else/>
-          <img fetchpriority='high' onload='onloadthumbnail(this)' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIbZ7c3P-TOVQMPaMBceNQIq-bmnypQjeXeZHiyS_eLotVDNBUxud-qkuLX13BgROf6EXq_oIOTuBnbqdLgNK23L0nDIuGCG1QqDB3n_r84_OAXTmjcz9sbAaFaEfb1K2JtMVGaNUz-jnaZ10McgOukLtDXbqc3yaQLdLdruoNrCDs9M-DJVFVJOkpbws/w600/logo%20BSMI-lurus%20bulan%20sabit.jpg' title='thumbnotexist'/>
+          <!--<img fetchpriority='high' onload='onloadthumbnail(this)' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIbZ7c3P-TOVQMPaMBceNQIq-bmnypQjeXeZHiyS_eLotVDNBUxud-qkuLX13BgROf6EXq_oIOTuBnbqdLgNK23L0nDIuGCG1QqDB3n_r84_OAXTmjcz9sbAaFaEfb1K2JtMVGaNUz-jnaZ10McgOukLtDXbqc3yaQLdLdruoNrCDs9M-DJVFVJOkpbws/w600/logo%20BSMI-lurus%20bulan%20sabit.jpg' title='thumbnotexist'/>-->
         </b:if>
         </div> 
         
@@ -3130,12 +3130,12 @@ margin-bottom:25px;
         let thumbnail = el[0].children[2].innerText.replace(/s72-c/gi, "s1000-c");
         if(thumbnail === '')thumbnail = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIbZ7c3P-TOVQMPaMBceNQIq-bmnypQjeXeZHiyS_eLotVDNBUxud-qkuLX13BgROf6EXq_oIOTuBnbqdLgNK23L0nDIuGCG1QqDB3n_r84_OAXTmjcz9sbAaFaEfb1K2JtMVGaNUz-jnaZ10McgOukLtDXbqc3yaQLdLdruoNrCDs9M-DJVFVJOkpbws/s1000/logo%20BSMI-lurus%20bulan%20sabit.jpg';
         let posturl = el[0].children[3].innerText;
-        let thumbnail2 = el[0].children[6].children[0].attributes[2].nodeValue
+        //let thumbnail2 = el[0].children[6].children[0].attributes[2].nodeValue
         //console.log(thumbnail2)
         //console.log(idx,title,tanggal,thumbnail,thumbnail2);
 
-		let item = {title,tanggal,posturl,thumbnail,thumbnail2,ready:true}
-		arrthumb.push(item);
+		//let item = {title,tanggal,posturl,thumbnail,thumbnail2,ready:true}
+		//arrthumb.push(item);
 
         var id=idx+1;
         //$("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text(title+' - '+tanggal);

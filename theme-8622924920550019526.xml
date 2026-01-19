@@ -646,7 +646,7 @@ $(document).ready(function(){
 
   
 <header class='fixed-top bg-white'>
-<div class='container-fluid px-4 topmenucontainer' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span class='d-none' id='countdown' style='color:#fff;'/></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/search'>News | </a><a href='https://www.bsmijatim.org/search/label/Event'>Event | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/majalah.html'>Magazine | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/anggota.html'>Members | </a><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate | </a><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div></div></div>
+<div class='container-fluid px-4 topmenucontainer' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span class='d-none' id='countdown' style='color:#fff;'/><span class='d-none d-md-block d-lg-block text-white font-weight-bold font-italic' style=''>CARE FOR LIFE</span></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/search'>News | </a><a href='https://www.bsmijatim.org/search/label/Event'>Event | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/majalah.html'>Magazine | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/anggota.html'>Members | </a><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate | </a><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div></div></div>
 <div class='container-fluid px-0 topnavbarcontainer'><div class='container'>
 <nav class='navbar navbar-light dropdown search-dropdown'>
 
@@ -1204,7 +1204,7 @@ function sendQueryPosthead()
   <div class='donasi container-fluid' style='height:0px;position:relative;bottom:350px;'>
 	<div class='container' style='display:flex;flex-direction:row;justify-content:flex-end;'>
       <div class='d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:25px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;z-index:2'>
-        <div class='h4'>DONASI<strong>BSMI</strong></div>
+        <div class='h4'>INFAQ<strong>PALESTINA</strong></div>
         <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button'>Rp 20.000</a>
         <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>Rp 50.000</a>
         <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a>

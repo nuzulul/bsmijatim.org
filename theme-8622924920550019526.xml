@@ -4390,7 +4390,7 @@ width:auto!important;
         <h4>Anda akan berdonasi untuk program <strong><span id='namaprogramdonasi'/></strong></h4><br/>
         <table>
           <tr><td>Metode</td> <td>:</td> <td>Transfer bank</td></tr>
-          <tr><td>Bank</td> <td>:</td> <td><img src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' width='100px'/><br/>Bank Syariah Indonesia (BSI)</td></tr>
+          <tr><td>Bank</td> <td>:</td> <td><img loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' style='width:100px;height:30px;object-fit:contain;'/><br/>Bank Syariah Indonesia (BSI)</td></tr>
           <tr><td>Nama</td> <td>:</td> <td>BSMI Jawa Timur</td></tr>
           <tr><td>No Rekening</td> <td>:</td> <td>7063416872 <button class='btn btn-danger' onclick='copy2clipboard(&quot;7063416872&quot;);' type='button'>Copy</button></td></tr>
           <tr><td>Nominal*</td> <td>:</td> <td>Rp<span id='nominalpembayaran'/> <button class='btn btn-danger' onclick='copy2clipboard($(&quot;#nominalpembayaran&quot;).text());' type='button'>Copy</button></td></tr>
@@ -4435,7 +4435,7 @@ width:auto!important;
   <div class='modal-dialog modal-dialog-centered' role='document'>
     <div class='modal-content'>
       <div class='modal-header bg-danger'>
-        <div class='p-2 bg-white'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFYntKvwXtgQwUMW9ZsqG63x68e5_5xqLLpQPtBHhnFTjkJjMaj2bmiI91JigRuVBgJHDyNJWUlaurfyfJyrWbEW2vTW5lqqKQUZj3bgb-RZxhpUmtLEke-8oUWMjVCJnujQb2XPbr1pA/s1600/Logo+BSMI+%2528vector%2529.png' width='45px'/></div>
+        <div class='p-2 bg-white'><img loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFYntKvwXtgQwUMW9ZsqG63x68e5_5xqLLpQPtBHhnFTjkJjMaj2bmiI91JigRuVBgJHDyNJWUlaurfyfJyrWbEW2vTW5lqqKQUZj3bgb-RZxhpUmtLEke-8oUWMjVCJnujQb2XPbr1pA/s1600/Logo+BSMI+%2528vector%2529.png' style='width:45px;height:70px;object-fit:contain;'/></div>
         <div class='p-2'>
           	<h6 class='modal-title text-white-50' id='exampleModalLabel'>DONASI SEKARANG</h6>
           	<strong><h5 class='text-white' id='detaildonasiprogram'>Pulihkan Kembali Gaza Palestina Sekarang</h5></strong>

@@ -732,7 +732,7 @@ $(document).ready(function(){
       <b:widget id='PopularPosts2' locked='false' title='Populer' type='PopularPosts'>
         <b:widget-settings>
           <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
-          <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+          <b:widget-setting name='showThumbnails'>false</b:widget-setting>
           <b:widget-setting name='showSnippets'>true</b:widget-setting>
           <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
         </b:widget-settings>

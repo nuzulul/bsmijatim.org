@@ -90,7 +90,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background:#fff;
 }
   
 .bg-bsmi-white{
@@ -641,7 +640,7 @@ $(document).ready(function(){
 <div class='container-fluid px-0 topnavbarcontainer'><div class='container'>
 <nav class='navbar navbar-light dropdown search-dropdown'>
 
-    <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img alt='BSMI JATIM' height='50px' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s500'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
+    <a class='navbar-brand' expr:href='data:blog.homepageUrl'><img alt='BSMI JATIM' fetchpriority='high' height='50px' src='https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s500'/><span id='judulweb' style='padding-left:20px;font-weight: bold;display:none;'>BULAN SABIT MERAH INDONESIA PROV. JAWA TIMUR</span></a>
   	<div class='d-flex justify-content-end'>
     <a class='btn btn-light d-none d-sm-none d-md-none mr-sm-4' role='button'/>
     <a aria-label='SEARCH' class='nav-item nav-link dropdown-toggle togglepencarian' data-toggle='dropdown' href='#'><svg class='bi bi-search' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/> </svg></a>
@@ -960,7 +959,7 @@ function scrollFunction() {
       <div style='width:100%;height:120px;'/>
     </div>
     <div class='col-12'>
-      <a aria-label='DONASI PALESTINA' href='https://www.bsmijatim.org/p/donasi-palestina.html'><img alt='DONASI PALESTINA' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz2TgqutLUUfmt6Jmihm-a65h_itzx-W5I3wVSlW8np8syNGESO4QIx4G9avMDuvVf4x-Gku4QuS-K5kjrrRNNfrmv2ImQczqVgrWvCzGvLnY8HN33oXPloHckBkNYj-JrJtAUlQGS33bRZKvdsJdeT4GTIpEwLp8iF_NQeQLETf9iWGg7-ZDbynwvVGq/s1500/banner%20200x10%20%283%29.png' style='width:100%'/></a>
+      <a aria-label='DONASI PALESTINA' href='https://www.bsmijatim.org/p/donasi-palestina.html'><img alt='DONASI PALESTINA' fetchpriority='high' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz2TgqutLUUfmt6Jmihm-a65h_itzx-W5I3wVSlW8np8syNGESO4QIx4G9avMDuvVf4x-Gku4QuS-K5kjrrRNNfrmv2ImQczqVgrWvCzGvLnY8HN33oXPloHckBkNYj-JrJtAUlQGS33bRZKvdsJdeT4GTIpEwLp8iF_NQeQLETf9iWGg7-ZDbynwvVGq/s1500/banner%20200x10%20%283%29.png' style='width:100%'/></a>
     </div>
     <div class='col-10 col-md-3' style='height:10px'>
   	  <div class='alert alert-warning alert-dismissible fade show p-1' role='alert' style='position:relative;top:13px;z-index:999;display:none;'>
@@ -989,7 +988,11 @@ function scrollFunction() {
 
 <carousel>
 <div class='container-fluid' style='background:none;'> 
-<div class='container'>
+<div class='container' style='height:420px;'>
+  
+  <img fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEgGmgQ9A2Tzf0Eeg5X_YU_GZwFUO1TeNaC2xjaCTvMU_vn8s-KEtxy8w9RLqB1S0mOdO5YvRVqcUO-AWXXsggR2hL_20ubwqsHdn2MX0DYQimMDlginYv8n4SEL-J034UpULhxYxGNhLffR7tCFXMQeUBPz8Onp2PhprrdxNd69HYFAaRPhFviStKbnN3Mf=s2000' style='width:100%;height:100%;object-fit:cover;'/>
+
+<!--
   <div class='carousel slide' data-interval='10000' data-ride='carousel' id='myCarousel'>
     <ol class='carousel-indicators'>
       <li class='active' data-slide-to='0' data-target='#myCarousel'/>
@@ -1047,78 +1050,55 @@ function scrollFunction() {
       <span aria-hidden='true' class='carousel-control-next-icon'/>
       <span class='sr-only'>Next</span>
     </a>
-    <div class='donasi container-fluid'><div class='container'><div class='float-right d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:70px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'><div class='h4'>DONASI<strong>BSMI</strong></div><a aria-label='Donasi BSMI' class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button'>Rp 20.000</a><a aria-label='Donasi BSMI' class='btn btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>Rp 50.000</a><a aria-label='Donasi BSMI' class='btn btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a></div></div></div>
-
-    <div class='container-fluid' style='position:absolute;bottom:-60px;left:0px;'><div class='container shadow bg-danger' style='height:100px;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;'>
-    <div class='row'>
-      <div class='col-4 col-md-4 col-lg-4 d-none' style='white-space: nowrap;'><div class='h3'>50.<span id='penerimamanfaat'>111</span>+</div><div class='h6'>Terbantu</div></div>
-      <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homeaksicount'>0+</div><div class='h6'>Aksi</div></div>
-      <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homedonaturcount'>50+</div><div class='h6'>Donatur</div></div>
-      <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homerelawancount'>175+</div><div class='h6'>Relawan</div></div>
-    </div>
-    </div></div>
-    
   </div>
+  <script id='rendered-js'>
+  /* Demo Scripts for Bootstrap Carousel and Animate.css article
+  * on SitePoint by Maria Antonietta Perna
+  */
+  (function ($) {
+    //Function to animate slider captions
+    function doAnimations(elems) {
+      //Cache the animationend event in a variable
+      var animEndEv = &quot;webkitAnimationEnd animationend&quot;;
+
+      elems.each(function () {
+        var $this = $(this),
+        $animationType = $this.data(&quot;animation&quot;);
+        $this.addClass($animationType).one(animEndEv, function () {
+          $this.removeClass($animationType);
+        });
+      });
+    }
+
+    //Variables on page load
+    var $myCarousel = $(&quot;#myCarousel&quot;),
+    $firstAnimatingElems = $myCarousel.
+    find(&quot;.carousel-item:first&quot;).
+    find(&quot;[data-animation ^= &#39;animated&#39;]&quot;);
+
+    //Initialize carousel
+    $myCarousel.carousel();
+
+    //Animate captions in first slide on page load
+    doAnimations($firstAnimatingElems);
+
+    //Other slides to be animated on carousel slide event
+    $myCarousel.on(&quot;slide.bs.carousel&quot;, function (e) {
+      var $animatingElems = $(e.relatedTarget).find(
+      &quot;[data-animation ^= &#39;animated&#39;]&quot;);
+
+      doAnimations($animatingElems);
+    });
+  })(jQuery);
+  //# sourceURL=pen.js
+
+  </script>  
+-->
+  
 </div>
 </div>
 </carousel>
-<script type='text/javascript'>
-//<![CDATA[
-setInterval(fPenerimamanfaat, 3000);
-var countpenerimamanfaat = 111;
-function fPenerimamanfaat(){
-countpenerimamanfaat++;
-document.getElementById("penerimamanfaat").textContent = countpenerimamanfaat;
-if (countpenerimamanfaat === 999){countpenerimamanfaat = 100;}
-}
-//console.log('cek');
-$(document).ready(function() {
 
-	function fpopdonasi(){
-    	if (typeof pengaturan[2] === 'undefined' ||  pengaturan[2] === null){
-          	setTimeout(function(){ fpopdonasi(); }, 1000)
-          	return
-        }
-      const donatur = pengaturan[2][1].toString()+'+'
-      $('.homedonaturcount').html(donatur)
- 	}
-
-	fpopdonasi()
-	
-})
-//]]>
-</script>
-
-<homeaksicountscript>
-<script type='text/javascript'>
-//<![CDATA[
-let labelarr = $('.label-size');
-//console.log(labelarr)
-labelarr.each((index,el)=>{
-	let label = $(el)[0].children[0].innerText.toLowerCase()
-	let count = $(el)[0].children[1].innerText.toLowerCase().replace('(','').replace(')','')
-	if(label === 'aksi'){
-		//console.log(count)
-		$('.homeaksicount').text(count+'+')
-	}
-})
-//]]>
-</script>
-</homeaksicountscript>
-  
-<homerelawancountscript>
-<script type='text/javascript'>
-//<![CDATA[
-let dataanggota = fetch('https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vSR6Nga8etn6taA15kDqPqD2m09_FSirxWSxtbMzjOxcj43UUSUYilw3H8EjUqj9GahrfGvs_QQ3M7f/pub?output=csv')
-.then(response => response.text())
-.then(async(response) => {
-	let data = CSVToArray(response)
-	let count = data[1][1]
-	$('.homerelawancount').text(count+'+')
-})
-//]]>
-</script>
-</homerelawancountscript>
   
 <cauroselscript>
 <script type='text/javascript'>
@@ -1186,29 +1166,110 @@ function sendQueryPosthead()
    document.body.appendChild(scpt);
 }
 
-$(document).ready(function() {
-	sendQueryPosthead();
-});
+//$(document).ready(function() {
+	//sendQueryPosthead();
+//});
 
 
 
 //]]>
 </script>
 </cauroselscript>
+  
+  
 
+<div class='container-fluid' style='height:10px;background:none;margin-bottom:50px;'> 
+  
+  <div class='donasi container-fluid' style='height:0px;position:relative;bottom:350px;'>
+	<div class='container' style='display:flex;flex-direction:row;justify-content:flex-end;'>
+      <div class='d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:25px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;'>
+        <div class='h4'>DONASI<strong>BSMI</strong></div>
+        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button'>Rp 20.000</a>
+        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>Rp 50.000</a>
+        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a>
+      </div>
+    </div>
+  </div>
 
+  <div class='container-fluid' style='position:relative;bottom:40px;left:0px;height:0px;background:yellow;'><div class='container px-4'><div class='shadow bg-danger' style='height:100px;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;width:100%;'>
+      <div class='row'>
+        <div class='col-4 col-md-4 col-lg-4 d-none' style='white-space: nowrap;'><div class='h3'>50.<span id='penerimamanfaat'>111</span>+</div><div class='h6'>Terbantu</div></div>
+        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homeaksicount'>0+</div><div class='h6'>Aksi</div></div>
+        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homedonaturcount'>50+</div><div class='h6'>Donatur</div></div>
+        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homerelawancount'>175+</div><div class='h6'>Relawan</div></div>
+      </div>
+      </div>
+  </div>
+  </div>  
+  
+</div>
+<script type='text/javascript'>
+//<![CDATA[
+setInterval(fPenerimamanfaat, 3000);
+var countpenerimamanfaat = 111;
+function fPenerimamanfaat(){
+countpenerimamanfaat++;
+document.getElementById("penerimamanfaat").textContent = countpenerimamanfaat;
+if (countpenerimamanfaat === 999){countpenerimamanfaat = 100;}
+}
+//console.log('cek');
+$(document).ready(function() {
 
+	function fpopdonasi(){
+    	if (typeof pengaturan[2] === 'undefined' ||  pengaturan[2] === null){
+          	setTimeout(function(){ fpopdonasi(); }, 1000)
+          	return
+        }
+      const donatur = pengaturan[2][1].toString()+'+'
+      $('.homedonaturcount').html(donatur)
+ 	}
 
-  <div class='container-fluid' style='height:10px;background:none;margin-bottom:50px;'/> 
+	fpopdonasi()
+	
+})
+//]]>
+</script>
 
+<homeaksicountscript>
+<script type='text/javascript'>
+//<![CDATA[
+let labelarr = $('.label-size');
+//console.log(labelarr)
+labelarr.each((index,el)=>{
+	let label = $(el)[0].children[0].innerText.toLowerCase()
+	let count = $(el)[0].children[1].innerText.toLowerCase().replace('(','').replace(')','')
+	if(label === 'aksi'){
+		//console.log(count)
+		$('.homeaksicount').text(count+'+')
+	}
+})
+//]]>
+</script>
+</homeaksicountscript>
+  
+<homerelawancountscript>
+<script type='text/javascript'>
+//<![CDATA[
+let dataanggota = fetch('https://cors.bsmijatim.workers.dev/?https://docs.google.com/spreadsheets/d/e/2PACX-1vSR6Nga8etn6taA15kDqPqD2m09_FSirxWSxtbMzjOxcj43UUSUYilw3H8EjUqj9GahrfGvs_QQ3M7f/pub?output=csv')
+.then(response => response.text())
+.then(async(response) => {
+	let data = CSVToArray(response)
+	let count = data[1][1]
+	$('.homerelawancount').text(count+'+')
+})
+//]]>
+</script>
+</homerelawancountscript>  
+
+<!--
 <bsmisosmed>
-<div class='container'><div class='row' style='padding-top:30px;'>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Facebook BSMI JATIM' href='https://www.facebook.com/bsmijatimnews/' target='_blank'><img alt='Facebook BSMI JATIM' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEgPL_PbCsNGXn1E57Bfjo7hq16Xl1nhrCylKqlowwxuQrrDqjQU29vRO8tLJckTyjLq0u98i0hEvAWHK0JAsirXTFJlwjrmw94OHKCzSD8bbo4fi64LXVLWVgAHZox83Z1HSnVsJx2hJlXsaSLZs3JtW5Gr_thG1utgZ1cps5Ep20kmWKkZ1MQ5r6ajxw=s354' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Instagram BSMI JATIM' href='https://www.instagram.com/bsmijatim' target='_blank'><img alt='Instagram BSMI JATIM' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEgEmyZ_-JqeOg8NSC-8c3rNP0IPkaDyFuciPPi2DFJqfoGjq6y1lFlmodRV3PhAwBlET2tVkA0EZ1NDHzchQs6InJMa8-2aJi9jPwCPwK4_KW54EZfv9xt3wMTo_UrkoLLJg5uB4lCzIHfTWDKVBXVuTLe9bUaO2ieJp5UwuCo7BnStH7I7JFJwMwfUxQ=s354' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Youtube BSMI JATIM' href='https://youtube.com/channel/UCobpncSvOW0iOaQmUwuExpQ?sub_confirmation=1' target='_blank'><img alt='Youtube BSMI JATIM' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEhjvLIYcwsU-Jt73HQDUYueGIwbFHrGwtCeSrLLYHXpbWWoZUzrtn_M7jJen6W2yr1mxBF0s0oWgDaGfsj2prqsmDEpt7vmBsSL2yqRPRTI6T8HcKfi38pPmctSVPv37ex28Nu1BcJYZiLFJN5ctv42JDNVzzEnFTUWPpnk0f9PiWQlog4ZsRL9BPYOgg=s354' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Tiktok BSMI JATIM' href='https://tiktok.com/@bsmijatim' target='_blank'><img alt='Tiktok BSMI JATIM' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEgIqU18cnOztKghLYBGxfPBVIx8O-Y8czWneGDau08QXgp9sKBt1J_gfNEs54qOuuVr0kD6uphOyXHB9XrS2eEOk46wZ4rXhMMSJ8P2D9pqj1vZAENP757uC83yJm1TZsR6QXWpypFBnEvzQ-kjjATlCKE_kJrT4nG9eRNvSQpqnpVvnA0p3M53hY5hPw=s354' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Telegram BSMI JATIM' href='https://t.me/bsmi_jatim' target='_blank'><img alt='Telegram BSMI JATIM' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh34HRTd5RiEfzYbnzJ6oni9OmYdRKXJQGaFYhifQQf1ErhibRtaVVRS8XvWvyYq8EyNynguaq2bOk2Q6niGGuPL0-xu3OC-jVJEHHT4FmGMRubQJg3jrijVmtYuzURVotnp7QrSAwjHqMl8WVZJLBctI23bUhRNwgwRcxHj0rmxZ3GbkUaFBoTzo8uiQ2t/s458/tgbsmijatim.png' width='100%'/></a></div>
-  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='App BSMI JATIM' href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img alt='App BSMI JATIM' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEhCYddQhdESypg231B39rNSKTX8N6Bccut33vr2lpbUCYkA3lWzhxHksWU0io4JMpLMNRNryhICraT5Xv8mxv8fBjkdpRX2e-vjvZftsyd9GL4Hsz9pln7wW7wMqfziuPfXo5cOopkS9hr6LpLdgd74Ql8UsFC3R6mdiFx8qV9mwsXtZlzg7yyn5exuZQ=s354' width='100%'/></a></div>
+<div class='container'><div class='row' style='padding-top:30px;width:100%;'>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Facebook BSMI JATIM' href='https://www.facebook.com/bsmijatimnews/' target='_blank'><img alt='Facebook BSMI JATIM' fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEgPL_PbCsNGXn1E57Bfjo7hq16Xl1nhrCylKqlowwxuQrrDqjQU29vRO8tLJckTyjLq0u98i0hEvAWHK0JAsirXTFJlwjrmw94OHKCzSD8bbo4fi64LXVLWVgAHZox83Z1HSnVsJx2hJlXsaSLZs3JtW5Gr_thG1utgZ1cps5Ep20kmWKkZ1MQ5r6ajxw=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Instagram BSMI JATIM' href='https://www.instagram.com/bsmijatim' target='_blank'><img alt='Instagram BSMI JATIM' fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEgEmyZ_-JqeOg8NSC-8c3rNP0IPkaDyFuciPPi2DFJqfoGjq6y1lFlmodRV3PhAwBlET2tVkA0EZ1NDHzchQs6InJMa8-2aJi9jPwCPwK4_KW54EZfv9xt3wMTo_UrkoLLJg5uB4lCzIHfTWDKVBXVuTLe9bUaO2ieJp5UwuCo7BnStH7I7JFJwMwfUxQ=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Youtube BSMI JATIM' href='https://youtube.com/channel/UCobpncSvOW0iOaQmUwuExpQ?sub_confirmation=1' target='_blank'><img alt='Youtube BSMI JATIM' fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEhjvLIYcwsU-Jt73HQDUYueGIwbFHrGwtCeSrLLYHXpbWWoZUzrtn_M7jJen6W2yr1mxBF0s0oWgDaGfsj2prqsmDEpt7vmBsSL2yqRPRTI6T8HcKfi38pPmctSVPv37ex28Nu1BcJYZiLFJN5ctv42JDNVzzEnFTUWPpnk0f9PiWQlog4ZsRL9BPYOgg=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Tiktok BSMI JATIM' href='https://tiktok.com/@bsmijatim' target='_blank'><img alt='Tiktok BSMI JATIM' fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEgIqU18cnOztKghLYBGxfPBVIx8O-Y8czWneGDau08QXgp9sKBt1J_gfNEs54qOuuVr0kD6uphOyXHB9XrS2eEOk46wZ4rXhMMSJ8P2D9pqj1vZAENP757uC83yJm1TZsR6QXWpypFBnEvzQ-kjjATlCKE_kJrT4nG9eRNvSQpqnpVvnA0p3M53hY5hPw=s354' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='Telegram BSMI JATIM' href='https://t.me/bsmi_jatim' target='_blank'><img alt='Telegram BSMI JATIM' fetchpriority='high' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh34HRTd5RiEfzYbnzJ6oni9OmYdRKXJQGaFYhifQQf1ErhibRtaVVRS8XvWvyYq8EyNynguaq2bOk2Q6niGGuPL0-xu3OC-jVJEHHT4FmGMRubQJg3jrijVmtYuzURVotnp7QrSAwjHqMl8WVZJLBctI23bUhRNwgwRcxHj0rmxZ3GbkUaFBoTzo8uiQ2t/s354/tgbsmijatim.png' width='100%'/></a></div>
+  <div class='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2'><a aria-label='App BSMI JATIM' href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'><img alt='App BSMI JATIM' fetchpriority='high' src='https://blogger.googleusercontent.com/img/a/AVvXsEhCYddQhdESypg231B39rNSKTX8N6Bccut33vr2lpbUCYkA3lWzhxHksWU0io4JMpLMNRNryhICraT5Xv8mxv8fBjkdpRX2e-vjvZftsyd9GL4Hsz9pln7wW7wMqfziuPfXo5cOopkS9hr6LpLdgd74Ql8UsFC3R6mdiFx8qV9mwsXtZlzg7yyn5exuZQ=s354' width='100%'/></a></div>
 </div></div>
 <style>
 bsmisosmed div div img:hover{
@@ -1220,6 +1281,7 @@ bsmisosmed div div img:hover{
 }
 </style>
 </bsmisosmed>
+-->
 
   
 <b:section class='bsmiwidget-home-top' id='bsmiwidget-home-top'/>
@@ -1231,7 +1293,7 @@ bsmisosmed div div img:hover{
         <div class='row align-items-center justify-content-center'>
           <div class='item col-12 col-md-6 col-lg-4 mb-5 mt-5'>
             <div class='photo' style='border-radius:50% 50% 50% 50%;overflow: hidden;border:2em solid #dc3545;width:100%;aspect-ratio:1/1;'>
-              <img alt='Ketua BSMI JATIM' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcLPd_5GeoFU9dI_arGXbis1hy079QyOxbwnakVv2Rf-LILAmjZFKt3OPv7BZlTy3Hlm5X_EEEKDRpyAEq5P2NudV7MSVO9DRJEW9ygm4InEcnjjMzyx9KisCeJXADRTgq-jVmzENvh-6-lREN5vLOPzAEV9Quc2vkFUuxzW6VH9eSAjsXLmbMzcGyisi5/s1000/m35w7k5g.jpg' width='100%'/>
+              <img alt='Ketua BSMI JATIM' fetchpriority='high' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcLPd_5GeoFU9dI_arGXbis1hy079QyOxbwnakVv2Rf-LILAmjZFKt3OPv7BZlTy3Hlm5X_EEEKDRpyAEq5P2NudV7MSVO9DRJEW9ygm4InEcnjjMzyx9KisCeJXADRTgq-jVmzENvh-6-lREN5vLOPzAEV9Quc2vkFUuxzW6VH9eSAjsXLmbMzcGyisi5/s1000/m35w7k5g.jpg' width='100%'/>
             </div>
           </div>
           <div class='item col-12 col-md-6 col-lg-8'>
@@ -2055,6 +2117,49 @@ border-radius:5px 5px 5px 5px;
   
   
   
+  
+  
+  
+  
+  
+  
+<script type='text/javascript'>
+//<![CDATA[
+customhomepageindex = 0
+
+function customhomepage(a,b){
+	//console.log(a,b)
+	if(customhomepageindex === 0){
+		//console.log(customhomepageindex);
+		customhomepageindex++;
+		let id = customhomepageindex
+		//document.querySelector("#myCarousel > div.carousel-inner > div:nth-child("+id+")").style.backgroundImage = "url('https://blogger.googleusercontent.com/img/a/AVvXsEieo1QmyGGL34qa9mTfvkM4wfDStsRsyA5M4nxWeqpb4gLMc7KlGlqs-8-yIeIxcacPAPVNOhtelgufbRHd_3jdqAOMJldPVn4iyxh-6IG0X2wWw0B1KoWzs84uxg1R61cLj-GM2cnsF36uH1ZgFYJj5457io0FcNvcJKr2mK-o7alZ0wnOUklkHT4y=s500')";
+	}
+}
+
+let arrthumb = []
+
+function onloadthumbnail(data){
+	//console.log($(data));
+	let img = $(data)[0];
+	let thumb = $(data)[0].attributes[2].nodeValue;
+	//console.log(thumb);
+	arrthumb.forEach((item,idx,arr)=>{
+		if(item.thumbnail2 === thumb && item.ready === true){
+			arr[idx].ready = false;
+			let id = idx+1;
+
+			//console.log(idx)
+
+			//$("#myCarousel > div.carousel-inner > div:nth-child("+id+")").css("background-image", "url("+data.src+")"); 
+
+		}
+	})
+	
+}
+//]]>
+</script>  
+  
 <div class='h5 spotlightbsmi' data-aos='zoom-in-up' style='margin:80px 0px 20px 10px;text-align:center;display:none;'>Spotlight BSMI</div>  
 
 <article role='main'>  
@@ -2523,6 +2628,8 @@ border-radius:5px 5px 5px 5px;
     <meta expr:content='data:blog.blogId' itemprop='blogId'/>
     <meta expr:content='data:post.id' itemprop='postId'/>
 
+    <b:if cond='data:blog.url == data:blog.homepageUrl'>
+    <b:else/>
     <a expr:name='data:post.id'/>
     <b:if cond='data:post.title'>
       <h3 class='post-title entry-title' itemprop='name'>
@@ -2532,6 +2639,7 @@ border-radius:5px 5px 5px 5px;
         <data:post.title/>
       </b:if>
       </h3>
+    </b:if>
     </b:if>
 
     <div class='post-header'>
@@ -2557,6 +2665,44 @@ border-radius:5px 5px 5px 5px;
     </b:if>
 
     <b:if cond='data:blog.url == data:blog.homepageUrl'>
+      
+      <div class='customhomepage' style='display:none;'>
+      
+        <span class='customposttitle'><data:post.title/></span>
+
+        <span class='customisotimestamp'><b:if cond='data:top.showTimestamp'><data:post.timestampISO8601/></b:if></span>
+
+        <span class='customthumbnail'><b:if cond='data:post.thumbnailUrl'><data:post.thumbnailUrl/><b:else/></b:if></span>
+        
+        <span class='customposturl'><data:post.url/></span>
+        
+        <div class='customthumbnail1'><b:if cond='data:post.thumbnailUrl'><span expr:title='resizeImage(data:post.thumbnailUrl, 600)'><data:post.thumbnailUrl/></span><b:else/><span title=''/></b:if></div>
+        
+        <div class='customfeaturedimage2'>
+        <b:if cond='data:post.featuredImage'>
+          <img expr:src='data:post.featuredImage'/>
+        <b:else/>
+        </b:if>
+        </div>
+        
+        <div class='customthumbnail2'>
+        <b:if cond='data:post.thumbnailUrl'>
+          <img expr:src='resizeImage(data:post.thumbnailUrl, 600)' fetchpriority='high' onload='onloadthumbnail(this)' title='thumbexist'/>
+        <b:else/>
+          <img fetchpriority='high' onload='onloadthumbnail(this)' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIbZ7c3P-TOVQMPaMBceNQIq-bmnypQjeXeZHiyS_eLotVDNBUxud-qkuLX13BgROf6EXq_oIOTuBnbqdLgNK23L0nDIuGCG1QqDB3n_r84_OAXTmjcz9sbAaFaEfb1K2JtMVGaNUz-jnaZ10McgOukLtDXbqc3yaQLdLdruoNrCDs9M-DJVFVJOkpbws/w600/logo%20BSMI-lurus%20bulan%20sabit.jpg' title='thumbnotexist'/>
+        </b:if>
+        </div> 
+        
+        <script>
+          <b:if cond='data:post.thumbnailUrl'>
+          	customhomepage(&#39;<data:post.title/>&#39;,&#39;<data:post.thumbnailUrl/>&#39;);
+          <b:else/>
+            customhomepage(&#39;<data:post.title/>&#39;,&#39;&#39;);
+          </b:if>
+        </script>
+        
+      </div>
+      
     <b:else/>
     <div class='post-footer'>
     <div class='post-footer-line post-footer-line-1'>
@@ -2968,6 +3114,41 @@ margin-bottom:25px;
     	/*display:block!important;*/
     }
   </style>
+<custominjectscript>
+<script type='text/javascript'>
+//<![CDATA[
+
+ $('.customhomepage').each((idx,element)=>{
+        let el = $(element)
+        //console.log(el)
+        let title = el[0].children[0].innerText;
+        let time = el[0].children[1].innerText;
+        let date = new Intl.DateTimeFormat("id-ID", { hour12:false,dateStyle: "long" , timeStyle: "short",  timeZone: "Asia/Jakarta"}).format(new Date(time));
+        date = date.split(' ');
+        let tanggal = date[0]+' '+date[1]+' '+date[2]
+        let thumbnail = el[0].children[2].innerText.replace(/s72-c/gi, "s1000-c");
+        if(thumbnail === '')thumbnail = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIbZ7c3P-TOVQMPaMBceNQIq-bmnypQjeXeZHiyS_eLotVDNBUxud-qkuLX13BgROf6EXq_oIOTuBnbqdLgNK23L0nDIuGCG1QqDB3n_r84_OAXTmjcz9sbAaFaEfb1K2JtMVGaNUz-jnaZ10McgOukLtDXbqc3yaQLdLdruoNrCDs9M-DJVFVJOkpbws/s1000/logo%20BSMI-lurus%20bulan%20sabit.jpg';
+        let posturl = el[0].children[3].innerText;
+        let thumbnail2 = el[0].children[6].children[0].attributes[2].nodeValue
+        //console.log(thumbnail2)
+        //console.log(idx,title,tanggal,thumbnail,thumbnail2);
+
+		let item = {title,tanggal,posturl,thumbnail,thumbnail2,ready:true}
+		arrthumb.push(item);
+
+        var id=idx+1;
+        //$("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").text(title+' - '+tanggal);
+        //$("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("data-toggle","");
+        //$("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.tombol > a").attr("href", posturl)
+        //$("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle").hide()
+        //$("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle > a").attr("href", posturl)
+        //$("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > h2").text("");
+        //$("#myCarousel > div.carousel-inner > div:nth-child("+id+") > div.container > div > p.subtitle > a").text(title);
+        //$("#myCarousel > div.carousel-inner > div:nth-child("+id+")").css("background-image", "url("+thumbnail2+")");
+ })
+//]]>
+</script>
+</custominjectscript>
 </b:if></b:if></b:if>  
   
   
@@ -4336,53 +4517,6 @@ width:auto!important;
 <script crossorigin='anonymous' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'/>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js'/>  
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js'/>
-
-  
-  
-  
-  
-<script id='rendered-js'>
-/* Demo Scripts for Bootstrap Carousel and Animate.css article
-* on SitePoint by Maria Antonietta Perna
-*/
-(function ($) {
-  //Function to animate slider captions
-  function doAnimations(elems) {
-    //Cache the animationend event in a variable
-    var animEndEv = &quot;webkitAnimationEnd animationend&quot;;
-
-    elems.each(function () {
-      var $this = $(this),
-      $animationType = $this.data(&quot;animation&quot;);
-      $this.addClass($animationType).one(animEndEv, function () {
-        $this.removeClass($animationType);
-      });
-    });
-  }
-
-  //Variables on page load
-  var $myCarousel = $(&quot;#myCarousel&quot;),
-  $firstAnimatingElems = $myCarousel.
-  find(&quot;.carousel-item:first&quot;).
-  find(&quot;[data-animation ^= &#39;animated&#39;]&quot;);
-
-  //Initialize carousel
-  $myCarousel.carousel();
-
-  //Animate captions in first slide on page load
-  doAnimations($firstAnimatingElems);
-
-  //Other slides to be animated on carousel slide event
-  $myCarousel.on(&quot;slide.bs.carousel&quot;, function (e) {
-    var $animatingElems = $(e.relatedTarget).find(
-    &quot;[data-animation ^= &#39;animated&#39;]&quot;);
-
-    doAnimations($animatingElems);
-  });
-})(jQuery);
-//# sourceURL=pen.js
-
-</script>
   
   
   

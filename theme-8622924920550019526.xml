@@ -452,7 +452,7 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
   	margin:0;
   }
   .bsmiwidget-menu-top .PopularPosts .widget-content ul li{
-  	border: 1px solid #000;
+  	border: 1px solid #dc3545;
   	float:left;
   	width:100%;
   	/*width:45%;margin-right:5%;*/
@@ -497,6 +497,10 @@ footer h4 {font-size:1.0rem;margin-top:20px;}
   .bsmiwidget-menu-top .BlogArchive ul li a:hover{
   	color:#dc3545!important;
   	background:#fff!important;
+  }
+  .bsmiwidget-menu-top .BlogArchive select{
+  	width: 100%;
+  	border : 1px solid #dc3545;
   }
 /*-------------------------------------------------------
   widget end
@@ -708,12 +712,12 @@ $(document).ready(function(){
       <div class='col-12 mt-3 mb-2'><strong><h3>Layanan</h3></strong></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'>Klinik BSMI</a></div>
+      <!--<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'>Klinik BSMI</a></div>-->
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://t.me/relawanmerah' target='_blank'>Donor Darah</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=net.sourceforge.bsmi' target='_blank'>BSMI MOBILE</a></div>
       <!--<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio' target='_blank'>BSMI RADIO</a></div>-->
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://wiki.bsmijatim.org/' target='_blank'>WIKI BSMI</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/radiobsmifm.html'>BSMI FM</a></div>
+      <!--<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://wiki.bsmijatim.org/' target='_blank'>WIKI BSMI</a></div>-->
+      <!--<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/radiobsmifm.html'>BSMI FM</a></div>-->
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://jurnal.bsmi.or.id/index.php/irchum' target='_blank'>JURNAL</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://bsmi.or.id/' target='_blank'>BSMI PUSAT</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://s.id/bsmijatim' target='_blank'>INFO</a></div>
@@ -923,7 +927,7 @@ $(document).ready(function(){
     #navbarsBsmi01 .item a
     {
     font-size:14px;
-    border:1px solid gray;
+    border:1px solid #dc3545;
     padding:5px 5px 5px 5px;
     }
     #navbarsBsmi01 .item a:hover
@@ -2411,13 +2415,13 @@ margin-bottom:25px;
                 <div class='h5' style='margin:30px 0px 20px 10px;'>DONATUR</div>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
                   <a aria-label='MyDonate' href='https://www.bsmijatim.org/p/mydonate.html'>
-                      <p class='h6 d-none d-md-block'>
+                      <p>
                       <svg class='bi bi-people-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/>
                         <path d='M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z' fill-rule='evenodd'/>
                         <path d='M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'/>
                       </svg>  
-                      Layanan Donatur</p>
+                      <span class='h6 d-none d-md-block'>Layanan Donatur</span></p>
                   </a>
                 </div>
             </div>
@@ -2425,11 +2429,11 @@ margin-bottom:25px;
                 <div class='h5' style='margin:30px 0px 20px 10px;'>DONASI</div>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
                   <a aria-label='Donasi BSMI' href='https://www.bsmijatim.org/p/donasi.html'><!--<a href='https://bit.ly/3KLuzop' target='_blank'>-->
-                    	<p class='h6 d-none d-md-block'>
+                    	<p>
                       <svg class='bi bi-gift-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z'/>
                       </svg>
-                       Donasi Kemanusiaan</p>
+                       <span class='h6 d-none d-md-block'>Donasi Kemanusiaan</span></p>
                   </a>  
                 </div>
             </div>
@@ -2439,11 +2443,11 @@ margin-bottom:25px;
                   
                   <!--<a data-fancybox='' data-src='https://www.youtube.com/embed/Z6qX8Tkb_5c' href='javascript:;'>-->
                   <a aria-label='Relawan BSMI' href='https://www.bsmijatim.org/p/anggota.html'>
-                    	<p class='h6 d-none d-md-block'>
+                    	<p>
                       <svg class='bi bi-person-vcard-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0'/>
                       </svg>      
-                      Anggota Relawan</p>
+                      <span class='h6 d-none d-md-block'>Anggota Relawan</span></p>
                   </a>
                 </div>
             </div>      
@@ -4117,7 +4121,7 @@ width:auto!important;
   
   
 
-<div class='container-fluid' style='height:10px;background:#dc3545;'/> 
+<div class='container-fluid mt-5' style='height:10px;background:#dc3545;'/> 
 <!--<iframe allowfullscreen='' data-aos='zoom-in-up' frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7407495217426!2d112.76295431437097!3d-7.270314673455884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa2b7b2e99a1%3A0xe0360390fae406f0!2sKantor%20BSMI%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1583203832858!5m2!1sid!2sid' style='border:0;' width='100%'/>-->
 </b:if></b:if></b:if>  
   

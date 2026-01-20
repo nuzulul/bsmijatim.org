@@ -2412,42 +2412,45 @@ margin-bottom:25px;
 <profil>
       <div class='container' style='padding-top:30px;padding-bottom:30px;'><div class='row'>
             <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h5' style='margin:30px 0px 20px 10px;'>DONATUR</div>
+                <div class='h5 text-center' style='margin:30px 0px 20px 10px;'>DONATUR</div>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
                   <a aria-label='MyDonate' href='https://www.bsmijatim.org/p/mydonate.html'>
-                      <p>
+                      <div class='d-flex flex-column align-items-center'>
                       <svg class='bi bi-people-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/>
                         <path d='M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z' fill-rule='evenodd'/>
                         <path d='M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'/>
                       </svg>  
-                      <span class='h6 d-none d-md-block'>Layanan Donatur</span></p>
+                      <span class='h6 d-none d-md-block'>Layanan Donatur</span>
+                      </div>
                   </a>
                 </div>
             </div>
             <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h5' style='margin:30px 0px 20px 10px;'>DONASI</div>
+                <div class='h5 text-center' style='margin:30px 0px 20px 10px;'>DONASI</div>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
                   <a aria-label='Donasi BSMI' href='https://www.bsmijatim.org/p/donasi.html'><!--<a href='https://bit.ly/3KLuzop' target='_blank'>-->
-                    	<p>
+                      <div class='d-flex flex-column align-items-center'>
                       <svg class='bi bi-gift-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z'/>
                       </svg>
-                       <span class='h6 d-none d-md-block'>Donasi Kemanusiaan</span></p>
+                       <span class='h6 d-none d-md-block'>Donasi Kemanusiaan</span>
+                      </div>
                   </a>  
                 </div>
             </div>
             <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h5' style='margin:30px 0px 20px 10px;'>RELAWAN</div>
+                <div class='h5 text-center' style='margin:30px 0px 20px 10px;'>RELAWAN</div>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
                   
                   <!--<a data-fancybox='' data-src='https://www.youtube.com/embed/Z6qX8Tkb_5c' href='javascript:;'>-->
                   <a aria-label='Relawan BSMI' href='https://www.bsmijatim.org/p/anggota.html'>
-                    	<p>
+                      <div class='d-flex flex-column align-items-center'>
                       <svg class='bi bi-person-vcard-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0'/>
                       </svg>      
-                      <span class='h6 d-none d-md-block'>Anggota Relawan</span></p>
+                      <span class='h6 d-none d-md-block'>Anggota Relawan</span>
+                      </div>
                   </a>
                 </div>
             </div>      
@@ -3999,11 +4002,11 @@ bsmiinfomaps .parallax {
 <rekening>
 <div class='container'><div class='row'>
 <div class='col-md-6' data-aos='zoom-in-up'>
-	<div class='h5' style='margin:30px 0px 20px 10px;'>REKENING KEMANUSIAAN</div>
-  <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'><a data-target='#myModalDonasi' data-toggle='modal' href='#'><img alt='BSI' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' style='width:100px;margin:0px 10px 5px;float:left;'/><span style='font-size:28px;color:red;font-weight:bold;'>7063416872</span> a.n. <span style='font-weight:bold;'>BSMI Jawa Timur</span></a></div>
+	<div class='h5 text-center' style='margin:30px 0px 20px 10px;'>REKENING KEMANUSIAAN</div>
+  <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'><a data-target='#myModalDonasi' data-toggle='modal' href='#'><img alt='BSI' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' style='width:100px;margin:0px 10px 5px;float:left;'/><span class='h3' style='color:#dc3545;'>7063416872</span> <span class='h6' style='display:inline-block;color:#dc3545;'>a.n. BSMI Jawa Timur</span></a></div>
 </div>
 <div class='col-md-6' data-aos='zoom-in-up'>
-<div class='h5' style='margin:30px 0px 5px 10px;'>CHANNEL BSMI</div>
+<div class='h5 text-center' style='margin:30px 0px 5px 10px;'>CHANNEL BSMI</div>
 	<div class='row'>
 		<div class='item col-12 col-lg-6 hover1'><div class='isi vertical-center'><a aria-label='QRIS BSMI' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/'><img alt='QRIS' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhACIcYT_MOob74mP0vqlk4W5ETjT-NvOUnCFr15F5txJvbLQSskiXeDJB7gqSfiM5BSx-FBW_TsMyQyuRNokpMmC7MmRgSUvRrL85XuHAMjUe5FXUReVWA7RZqnVO1B-Xs8U11QTMBVF8/s600/qris.png' style='width:100%'/></a></div>
       	</div>

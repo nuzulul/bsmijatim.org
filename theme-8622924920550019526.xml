@@ -2554,7 +2554,7 @@ border-radius:20px 20px 20px 20px;
 </bsmiinfomars>  
   
 
-  
+<!--  
 <bsmiselayangpandang class=''>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
     <div class='container'>
@@ -2575,7 +2575,7 @@ border-radius:20px 20px 20px 20px;
     </div>
   </div>
 </bsmiselayangpandang>  
-  
+-->  
 
   
   
@@ -2584,7 +2584,7 @@ border-radius:20px 20px 20px 20px;
   
   
   
-
+<!--
 <bsmibannerquote>
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
@@ -2662,7 +2662,7 @@ bsmibannerquote .item .isi:hover{
 }  
   </style>
 </bsmibannerquote> 
-  
+-->  
   
   
   
@@ -3050,7 +3050,7 @@ bsmibannertop .isi{
   height:500px;
   background:#fff;
   background-size:cover;
-  background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRy0_fAXEzG7V4z-UKw3kLPXnHXwQ_v94phGhLM4ZxUo4rCgj_HLolp8d-57_AjHJ4yIYVOKNNynhtFrurH7b4oR1jedcwPvnlgN5Sdiyk9g4s351-q9uU2QHCaQrJ6wYAR2vFI7sXOKmchGxwsQv6Df5QHFFLAr7F3rrlFjRvA0RYpS5zDBaBTOJn0w0L/s600/1696038028347972-0.jpg);
+  background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiV9QK58C0VVAc7CP6F_7uttcnzHvGhKtuqsNwfhp4AAj-pYAFTjLMfcS6b6Bl9ZFAQw1Zf_ayu69upFIQtnQLjgzSyjrKUize7l-6Z2LEPopqXDE_RQWKc3_i3f03cc97Ogmf9fybjKE/s600/WhatsApp+Image+2021-12-07+at+08.26.35kok.jpeg);
   background-position:center center;
   /*background-color: #FF0000;*/
   background-color: #2e302f;

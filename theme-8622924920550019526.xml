@@ -1889,8 +1889,9 @@ function onloadthumbnail(data){
       <div class='jump-link'>
         <a expr:href='data:post.url + &quot;#more&quot;' expr:title='data:post.title'><data:post.jumpText/></a>
       </div>
-    </b:if>
-
+    </b:if>   
+    
+    
     <b:if cond='data:blog.url == data:blog.homepageUrl'>
       
       
@@ -1902,7 +1903,7 @@ function onloadthumbnail(data){
           <data:post.title/>
         </b:if>
         </div>
-      </b:if>      
+      </b:if>         
       
       <div class='customhomepage' style='display:none;'>
       
@@ -2672,7 +2673,7 @@ bsmibannerquote .item .isi:hover{
 <bsmievent>
 
 <div class='container'>
-  <div class='h5' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>AGENDA BSMI</div>
+  <div class='h5' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>AGENDA</div>
   <div class='row' id='bsmievent'/>
   <center><a class='h6' data-aos='zoom-in-up' href='#' onclick='$( &quot;.spinnerbsmievent&quot; ).toggle();sendQueryPostbsmievent();return false'>MORE<div class='spinnerbsmievent spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
 </div>
@@ -2946,7 +2947,7 @@ color:red;
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
         <div class='container'>
-          <div class='h5' data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>PROGRAM BSMI</div>
+          <div class='h5' data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>PROGRAM</div>
           <!--<div class='row align-items-center justify-content-center d-none'>
             	<div class='item col-12 mb-3' data-aos='zoom-in-up' style=''>
                   		<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzMOzLUrj5Njr46Fou2ufsID5nH_gX1ALZYHug4FBx1UblDdGKzq7RoIF0E-l92gl9nABdmxQ2dLXuMilpewm_cO15vsAAA7rB71RtairVG9rLc2ufK9aWtQVx9btAgtu_egtToT2WKtlsLjtPFik5CDgIoen8Mk1sjHVnsSXnF8m1njRD4n8sK9GBHYw/s2000/spanduk-bsmi-tv-header.jpg' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzMOzLUrj5Njr46Fou2ufsID5nH_gX1ALZYHug4FBx1UblDdGKzq7RoIF0E-l92gl9nABdmxQ2dLXuMilpewm_cO15vsAAA7rB71RtairVG9rLc2ufK9aWtQVx9btAgtu_egtToT2WKtlsLjtPFik5CDgIoen8Mk1sjHVnsSXnF8m1njRD4n8sK9GBHYw/s2000/spanduk-bsmi-tv-header.jpg' style='width:100%;'/></div></a>
@@ -3167,7 +3168,7 @@ function postrecentbsmijatim(json){
 
 
 <div class='container'>
-<div class='h5' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>KABAR BSMI</div>
+<div class='h5' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>KABAR</div>
   <div class='row' id='bsmipost'>
 <script>
 //<![CDATA[
@@ -3909,7 +3910,7 @@ sendQuerybsmiinfodonordarah();
   
 <layanan>
 	<div class='container' style='margin:30px auto;text-align:center;'>
-      <div class='h5' data-aos='zoom-in-up' style='margin:50px 0px 20px 10px;text-align:center;'>INFO BSMI</div>
+      <div class='h5' data-aos='zoom-in-up' style='margin:50px 0px 20px 10px;text-align:center;'>PORTAL</div>
       <div class='row align-items-center justify-content-center'>
         
         <div class='item col-6 col-md-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a aria-label='MyBSMI' href='https://mybsmi.bsmijatim.org'><img alt='MyBSMI' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDkYbqgh-MQ7ppJ6jpGwhDp27JTL9k_Iv8XhzyON3VLN54C3Z3JS4HxM56TIFxelRt5Q3ujk0TLskfiA-Bc81wDZVdIYbxu783QFE0891p_3iJ2XSBZK-R2kDRvuTXPXEdzvl3aNYsN_5OL9j2akrXL2PvRRX5mgAmWKakWycpNl5MqNal2YzXwr-Osg/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
@@ -4009,11 +4010,11 @@ bsmiinfomaps .parallax {
 <rekening>
 <div class='container'><div class='row'>
 <div class='col-md-6' data-aos='zoom-in-up'>
-	<div class='h5 text-center' style='margin:30px 0px 20px 10px;'>REKENING KEMANUSIAAN</div>
+	<div class='h5 text-center' style='margin:30px 0px 20px 10px;'>REKENING</div>
   <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'><a data-target='#myModalDonasi' data-toggle='modal' href='#'><img alt='BSI' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' style='width:100px;margin:0px 10px 5px;float:left;'/><span class='h3' style='color:#dc3545;'>7063416872</span> <span class='h6' style='display:inline-block;color:#dc3545;'>a.n. BSMI Jawa Timur</span></a></div>
 </div>
 <div class='col-md-6' data-aos='zoom-in-up'>
-<div class='h5 text-center' style='margin:30px 0px 5px 10px;'>CHANNEL BSMI</div>
+<div class='h5 text-center' style='margin:30px 0px 5px 10px;'>DIGITAL</div>
 	<div class='row'>
 		<div class='item col-12 col-lg-6 hover1'><div class='isi vertical-center'><a aria-label='QRIS BSMI' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/'><img alt='QRIS' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhACIcYT_MOob74mP0vqlk4W5ETjT-NvOUnCFr15F5txJvbLQSskiXeDJB7gqSfiM5BSx-FBW_TsMyQyuRNokpMmC7MmRgSUvRrL85XuHAMjUe5FXUReVWA7RZqnVO1B-Xs8U11QTMBVF8/s600/qris.png' style='width:100%'/></a></div>
       	</div>
@@ -4388,7 +4389,7 @@ width:auto!important;
       </div>
       <div class='modal-body'>
         <!--<a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Scan QRIS</a>-->   
-        <!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 10.000</a>-->
+        <a class='btn btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 10.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 20.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 50.000</a>
 		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;100000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 100.000</a>

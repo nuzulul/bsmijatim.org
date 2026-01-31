@@ -1206,7 +1206,7 @@ function sendQueryPosthead()
   
   
 
-<div class='container-fluid' style='height:10px;background:none;margin-bottom:80px;'> 
+<div class='container-fluid' style='height:10px;background:none;margin-bottom:60px;'> 
   
   <div class='donasi container-fluid' style='height:0px;position:relative;bottom:350px;'>
 	<div class='container' style='display:flex;flex-direction:row;justify-content:flex-end;'>
@@ -1318,7 +1318,7 @@ bsmisosmed div div img:hover{
   
 
 <recentdonation>
-<div class='container mt-3'><div class='container p-4 h5 text-align-center d-flex justify-content-center align-items-center' style='border-radius: 20px 20px 20px 20px;border: 5px solid #dc3545;min-height:130px;'><span class='text-align-center' id='recentdonation' style='text-align:center;'>...</span></div></div>
+<div class='container mt-3'><div class='container p-4 h5 text-align-center d-flex justify-content-center align-items-center' style='border-radius: 20px 20px 20px 20px;border: 5px solid #dc3545;min-height:82px;'><span class='text-align-center' id='recentdonation' style='text-align:center;'>...</span></div></div>
 <script>
 //<![CDATA[
 var startIndexbsmidonasirecentdonation = 1;

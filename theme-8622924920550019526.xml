@@ -650,7 +650,7 @@ $(document).ready(function(){
 
   
 <header class='fixed-top bg-white'>
-<div class='container-fluid px-4 topmenucontainer' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span class='d-none' id='countdown' style='color:#fff;'/><span class='d-none d-md-block d-lg-block text-white font-weight-bold font-italic' style=''>Kemanusiaan, Kesehatan, Sosial</span></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/search'>News | </a><a href='https://www.bsmijatim.org/search/label/Event'>Event | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/majalah.html'>Magazine | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/anggota.html'>Members | </a><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate | </a><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div></div></div>
+<div class='container-fluid px-4 topmenucontainer' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span class='d-none' id='countdown' style='color:#fff;'/><span class='d-none d-md-block d-lg-block text-white font-weight-bold font-italic' style=''>Kemanusiaan, Kesehatan, Sosial</span></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home | </a><a href='https://www.bsmijatim.org/search'>News | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/search/label/Event'>Event | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/majalah.html'>Magazine | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/anggota.html'>Members | </a><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate | </a><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div></div></div>
 <div class='container-fluid px-0 topnavbarcontainer'><div class='container'>
 <nav class='navbar navbar-light dropdown search-dropdown'>
   
@@ -687,7 +687,7 @@ $(document).ready(function(){
 
   <div class='collapse navbar-collapse' id='navbarsBsmi01' style='max-height:70vh;overflow:scroll;'>
 	<div class='row'>
-      <div class='col-12 mt-3 mb-2'><strong><h3>Menu</h3></strong></div>      
+      <div class='col-12 mt-3 mb-2 h3'>Menu</div>      
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sejarah-bsmi.html'>Sejarah</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='http://www.bsmijatim.org/p/visi-dan-misi-bsmi.html'>Visi Misi</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/legalitas.html'>Legalitas</a></div>
@@ -710,7 +710,7 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/donasi.html'>Donasi</a></div>
       
       
-      <div class='col-12 mt-3 mb-2'><strong><h3>Portal</h3></strong></div>
+      <div class='col-12 mt-3 mb-2 h3'>Portal</div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate</a></div>
       <!--<div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.google.com/maps/place/Klinik+BSMI+Mojo/@-7.2703034,112.7643601,18z/data=!4m15!1m8!3m7!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!2sKlinik+BSMI+Mojo!8m2!3d-7.2703034!4d112.7650697!10e4!16s%2Fg%2F11b6t81tpb!3m5!1s0x2dd7fa2b7b176b15:0xd876edf155118da7!8m2!3d-7.2703034!4d112.7650697!16s%2Fg%2F11b6t81tpb' target='_blank'>Klinik BSMI</a></div>-->
@@ -723,7 +723,7 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://bsmi.or.id/' target='_blank'>BSMI PUSAT</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://s.id/bsmijatim' target='_blank'>INFO</a></div>
       
-      <div class='col-12 mt-3 mb-2'><strong><h3>Channel</h3></strong></div>
+      <div class='col-12 mt-3 mb-2 h3'>Channel</div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://youtube.com/channel/UCobpncSvOW0iOaQmUwuExpQ?sub_confirmation=1' target='_blank'>Youtube</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.facebook.com/bsmijatimnews/' target='_blank'>Facebook</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.instagram.com/bsmijatim' target='_blank'>Instagram</a></div>
@@ -739,7 +739,7 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.linkedin.com/company/indonesianredcrescent' target='_blank'>Linkedin</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://linktr.ee/bsmijatim' target='_blank'>Linktree</a></div>
       
-      <div class='col-12 mt-3 mb-2'><strong><h3>Cabang</h3></strong></div>
+      <div class='col-12 mt-3 mb-2 h3'>Cabang</div>
       <div class='menu-cabang'/>
     </div><!-- row end -->
     <b:section class='bsmiwidget-menu-top' id='bsmiwidget-menu-top'>
@@ -1212,9 +1212,9 @@ function sendQueryPosthead()
 	<div class='container' style='display:flex;flex-direction:row;justify-content:flex-end;'>
       <div class='d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:25px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;z-index:2'>
         <div class='h4'>Save<strong>Humanity</strong></div>
-        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button'>Rp 20.000</a>
-        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button'>Rp 50.000</a>
-        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='#/' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a>
+        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='javascript:' onclick='donasi(&quot;20000&quot;)' role='button'>Rp 20.000</a>
+        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='javascript:' onclick='donasi(&quot;50000&quot;)' role='button'>Rp 50.000</a>
+        <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='javascript:' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a>
       </div>
     </div>
   </div>
@@ -4393,13 +4393,13 @@ width:auto!important;
       </div>
       <div class='modal-body'>
         <!--<a class='btn btn-danger' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Scan QRIS</a>-->   
-        <a class='btn btn-danger' href='#/' onclick='donasi(&quot;10000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 10.000</a>
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;20000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 20.000</a>
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;50000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 50.000</a>
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;100000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 100.000</a>
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;200000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 200.000</a>
-		<!--<a class='btn btn-danger' href='#/' onclick='donasi(&quot;500000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>500.000</a>-->
-		<a class='btn btn-danger' href='#/' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Nominal Lainnya</a>
+        <a class='btn btn-danger' href='javascript:' onclick='donasi(&quot;10000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 10.000</a>
+		<a class='btn btn-danger' href='javascript:' onclick='donasi(&quot;20000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 20.000</a>
+		<a class='btn btn-danger' href='javascript:' onclick='donasi(&quot;50000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 50.000</a>
+		<a class='btn btn-danger' href='javascript:' onclick='donasi(&quot;100000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 100.000</a>
+		<a class='btn btn-danger' href='javascript:' onclick='donasi(&quot;200000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Rp 200.000</a>
+		<!--<a class='btn btn-danger' href='javascript:' onclick='donasi(&quot;500000&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>500.000</a>-->
+		<a class='btn btn-danger' href='javascript:' onclick='donasi(&quot;custom&quot;)' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>Nominal Lainnya</a>
         <!--<a class='btn btn-danger' href='https://wa.me/6287782872007' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;' target='_blank'>Konfirmasi</a>-->
         <a class='btn btn-success' href='https://www.bsmijatim.org/p/mydonate.html' role='button' style='color:#fff;display:block;text-align:center;margin-bottom:10px;'>
           <svg class='bi bi-person-circle' fill='currentColor' height='1.5em' viewBox='0 0 16 16' width='1.5em' xmlns='http://www.w3.org/2000/svg'>
@@ -4529,10 +4529,12 @@ width:auto!important;
                             </div>
                             <div class='float-right p-3 mydropdown'>
                                 <div class='dropdown-container' id='dropdown-target'>
-                                  <a class='dropbtn btn btn-danger' href='#dropdown-target'>Pilih</a>
+                                  <a class='dropbtn btn btn-danger d-none' href='#dropdown-target'>Pilih</a>
+                                  <label class='dropbtn btn btn-danger' for='toggletransfer'>Pilih</label>
+                                  <input id='toggletransfer' style='opacity:0;' type='checkbox'/>
                                   <div class='dropdown-content'>
-                                    <a href='#' onclick='metodepembayarantransfer(&apos;bsi&apos;)'>Transfer BSI</a>
-                                    <a href='#' onclick='metodepembayarantransfer(&apos;qris&apos;)'>Transfer QRIS</a>
+                                    <a href='#' onclick='metodepembayarantransfer(&apos;bsi&apos;)'><label for='toggletransfer'>Transfer BSI</label></a>
+                                    <a href='#' onclick='metodepembayarantransfer(&apos;qris&apos;)'><label for='toggletransfer'>Transfer QRIS</label></a>
                                   </div>
                                 </div>
                             </div>
@@ -4566,16 +4568,16 @@ width:auto!important;
       display: none;
       position: absolute;
       top: 100%;
-      left: 0;
+      left: -30px;
       background-color: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border: 1px solid #ddd;
       border-radius: 4px;
-      min-width: 160px;
+      min-width: 130px;
       z-index: 1;
     }
 
-    .dropdown-container:target .dropdown-content {
+    .dropdown-container:target .dropdown-content,#toggletransfer:checked ~ .dropdown-content {
       display: block;
     }
 
@@ -4591,11 +4593,15 @@ width:auto!important;
 
     .dropdown-content a {
       display: block;
-      padding: 12px 16px;
       text-decoration: none;
       color: #333;
       transition: background-color 0.3s;
     }
+  	.dropdown-content a label{
+  		padding: 12px 16px;
+  		cursor: pointer;
+  		width:100%;
+  }
 
     .dropdown-content a:hover {
       background-color: #f0f0f0;

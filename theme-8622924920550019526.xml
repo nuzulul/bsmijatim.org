@@ -1219,7 +1219,7 @@ function sendQueryPosthead()
   <div class='donasi container-fluid' style='height:0px;position:relative;bottom:350px;'>
 	<div class='container' style='display:flex;flex-direction:row;justify-content:flex-end;'>
       <div class='d-none d-sm-none d-md-none d-lg-block' style='width:300px;height:250px;background:#f8f9fa;margin-right:25px;border-radius:20px 20px 20px 20px;padding:20px 20px;text-align:center;z-index:2'>
-        <div class='h4'>Quick<strong>Donate</strong></div>
+        <div class='h4'>Infaq<strong>Palestina</strong></div>
         <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='javascript:' onclick='donasi(&quot;20000&quot;)' role='button'>Rp 20.000</a>
         <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='javascript:' onclick='donasi(&quot;50000&quot;)' role='button'>Rp 50.000</a>
         <a aria-label='Donasi BSMI' class='btn btn-block btn-lg btn-danger' href='javascript:' onclick='openmodaldonasi()' role='button'><svg class='bi bi-grid-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>   <path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z'/> </svg></a>
@@ -1230,17 +1230,21 @@ function sendQueryPosthead()
   <div class='container-fluid' style='position:relative;bottom:40px;left:0px;height:0px;background:yellow;'><div class='container px-4'><div class='shadow bg-danger' style='height:100px;border-radius:10px 10px 10px 10px;color:#fff;text-align:center;padding:15px;overflow:hidden;width:100%;'>
       <div class='row'>
         <div class='col-4 col-md-4 col-lg-4 d-none' style='white-space: nowrap;'><div class='h3'>50.<span id='penerimamanfaat'>111</span>+</div><div class='h6'>Terbantu</div></div>
-        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homeaksicount'>0+</div><div class='h6'>Aksi</div></div>
-        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homedonaturcount'>50+</div><div class='h6'>Donatur</div></div>
-        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homerelawancount'>175+</div><div class='h6'>Relawan</div></div>
+        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homeaksicount' style='cursor:pointer'>0+</div><div class='h6'>Aksi</div></div>
+        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homedonaturcount' style='cursor:pointer'>50+</div><div class='h6'>Donatur</div></div>
+        <div class='col-4 col-md-4 col-lg-4' style='white-space: nowrap;'><div class='h3 homerelawancount' style='cursor:pointer'>175+</div><div class='h6'>Relawan</div></div>
       </div>
       </div>
   </div>
   </div>  
   
 </div>
+  
+ 
+  
 <script type='text/javascript'>
 //<![CDATA[
+
 setInterval(fPenerimamanfaat, 3000);
 var countpenerimamanfaat = 111;
 function fPenerimamanfaat(){
@@ -1261,7 +1265,19 @@ $(document).ready(function() {
  	}
 
 	fpopdonasi()
-	
+
+	$('.homeaksicount').on('click',()=>{
+		location.href = 'https://www.bsmijatim.org/search/label/Peduli%20Palestina';
+	})
+
+	$('.homedonaturcount').on('click',()=>{
+		location.href = 'https://www.bsmijatim.org/p/donasi.html';
+	}) 
+
+	$('.homerelawancount').on('click',()=>{
+		location.href = 'https://www.bsmijatim.org/p/anggota.html';
+	})
+
 })
 //]]>
 </script>
@@ -1274,7 +1290,7 @@ let labelarr = $('.label-size');
 labelarr.each((index,el)=>{
 	let label = $(el)[0].children[0].innerText.toLowerCase()
 	let count = $(el)[0].children[1].innerText.toLowerCase().replace('(','').replace(')','')
-	if(label === 'aksi'){
+	if(label === 'peduli palestina'){
 		//console.log(count)
 		$('.homeaksicount').text(count+'+')
 	}

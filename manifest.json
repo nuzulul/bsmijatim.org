@@ -1,0 +1,17 @@
+{
+  "short_name": "BSMIJATIM",
+  "name": "BSMIJATIM",
+  "icons": [
+    {
+      "src": "logobsmijatim.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#ffffff",
+  "display":"standalone",
+  "orientation":"portrait",
+  "theme_color":"#dc3545",
+  "start_url": "https://www.bsmijatim.org/?m=1",
+  "scope": "https://www.bsmijatim.org/"
+}

@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 <html lang='id' translate='no' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
+<link href='https://cdn.jsdelivr.net/gh/nuzulul/bsmijatim.org/manifest.json' rel='manifest'/>
 <meta content='notranslate' name='google'/>
 <meta charset='utf-8'/>
-<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/ https://www.google.com/js/bg/ nuzulul.github.io cdn.tailwindcss.com script.google.com/macros/s/AKfycbxoLyMWCU7L2rh0HulWpPjEQNppNT8Rw64MSMZKkwsMmVwEg3Y4yvOZoZ620UqiiBxEtg/exec script.google.com/macros/s/AKfycbygAypOfPrMh_PNAf_-dLV8euphqIP_zBOZ2B1Dvpi5/dev script.google.com/macros/s/AKfycbzCdYoE_z89SId9VkxFCri9WQ11GBx50WBCTuIFbD85eUx8zh7C_HpPrSaoHhgRBSaN/exec https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js https://dev-c7irc54zcpa7ng8x.us.auth0.com/oauth/token; img-src &apos;self&apos; data: blob: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/ https://dev-c7irc54zcpa7ng8x.us.auth0.com;worker-src blob:;' http-equiv='Content-Security-Policy'/>
+<meta content='default-src &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; &apos;self&apos; *.bsmijatim.org cdnjs.cloudflare.com https://cdn.jsdelivr.net/gh/nuzulul/ *.blogger.com cors.bsmijatim.workers.dev *.googleusercontent.com www.google-analytics.com https://www.gstatic.com *.googletagmanager.com cse.google.com www.google.com/cse/ https://www.google.com/js/bg/ nuzulul.github.io cdn.tailwindcss.com script.google.com/macros/s/AKfycbxoLyMWCU7L2rh0HulWpPjEQNppNT8Rw64MSMZKkwsMmVwEg3Y4yvOZoZ620UqiiBxEtg/exec script.google.com/macros/s/AKfycbygAypOfPrMh_PNAf_-dLV8euphqIP_zBOZ2B1Dvpi5/dev script.google.com/macros/s/AKfycbzCdYoE_z89SId9VkxFCri9WQ11GBx50WBCTuIFbD85eUx8zh7C_HpPrSaoHhgRBSaN/exec https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js https://dev-c7irc54zcpa7ng8x.us.auth0.com/oauth/token; img-src &apos;self&apos; data: blob: https://*; child-src &apos;self&apos; *.blogger.com accounts.google.com drive.google.com w.soundcloud.com www.google.com www.youtube.com www.youtube-nocookie.com bsmiradio.netlify.app nuzulul.github.io https://cse.google.com/ https://dev-c7irc54zcpa7ng8x.us.auth0.com;worker-src blob:;' http-equiv='Content-Security-Policy'/>
 <b:include data='blog' name='all-head-content'/>
 <b:include data='blog' name='google-analytics'/>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'/>
@@ -650,7 +651,7 @@ $(document).ready(function(){
 
   
 <header class='bg-white'>
-<div class='container-fluid px-4 topmenucontainer' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span class='d-none' id='countdown' style='color:#fff;'/><span class='d-none d-md-block d-lg-block text-white font-weight-bold font-italic' style=''>Kemanusiaan, Kesehatan, Sosial</span></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home | </a><a href='https://www.bsmijatim.org/search'>News | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/search/label/Event'>Event | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/majalah.html'>Magazine | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/anggota.html'>Members | </a><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate | </a><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div></div></div>
+<div class='container-fluid px-4 topmenucontainer' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span class='d-none' id='countdown' style='color:#fff;'/><span class='d-none d-md-block d-lg-block text-white font-weight-bold font-italic' style=''>Kemanusiaan, Kesehatan, Sosial</span></div><div class='topmenu float-right d-flex align-items-center h-100'><a href='/'>Home | </a><a href='https://www.bsmijatim.org/search'>News | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/search/label/Event'>Event | </a><a href='https://www.bsmijatim.org/p/majalah.html'>Magazine | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/anggota.html'>Members | </a><a class='d-none d-sm-block' href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate | </a><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></div></div></div>
 <div class='container-fluid px-0 topnavbarcontainer'><div class='container'>
 <nav class='navbar navbar-light dropdown search-dropdown'>
   
@@ -2454,7 +2455,7 @@ margin-bottom:25px;
                         <path d='M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z' fill-rule='evenodd'/>
                         <path d='M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'/>
                       </svg>  
-                      <span class='h6 d-none d-md-block'>Gabung Donatur</span>
+                      <span class='h6 d-block d-md-block text-center'>Gabung Donatur</span>
                       </div>
                   </a>
                 </div>
@@ -2467,7 +2468,7 @@ margin-bottom:25px;
                       <svg class='bi bi-gift-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z'/>
                       </svg>
-                       <span class='h6 d-none d-md-block'>Infaq Palestina</span>
+                       <span class='h6 d-block d-md-block text-center'>Infaq Palestina</span>
                       </div>
                   </a>  
                 </div>
@@ -2482,7 +2483,7 @@ margin-bottom:25px;
                       <svg class='bi bi-person-vcard-fill' fill='currentColor' height='36' viewBox='0 0 16 16' width='36' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0'/>
                       </svg>      
-                      <span class='h6 d-none d-md-block'>Gabung Relawan</span>
+                      <span class='h6 d-block d-md-block text-center'>Gabung Relawan</span>
                       </div>
                   </a>
                 </div>

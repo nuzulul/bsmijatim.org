@@ -5192,7 +5192,7 @@ function fcreatepopdonasi(){
                   </style>
 					
      				<div id="snackbar" class="show"><p class="mb-0">
-           <b>${popdonasidonatur.nama}</b> berdonasi <b></br>Rp ${formatRupiah(popdonasidonatur.donasi.toString())}</b> <span class="d-none">pada ${relative_time(popdonasidonatur.tanggal)}</span> : ${popdonasidonatur.pesan}
+           <b>${safe(popdonasidonatur.nama)}</b> berdonasi <b>Rp ${safe(formatRupiah(popdonasidonatur.donasi.toString()))}</b> <span class="d-none">pada ${relative_time(popdonasidonatur.tanggal)}</span> :</br>${safe(popdonasidonatur.pesan)}
 					</p></div>
      				
    			</div>
@@ -5240,6 +5240,25 @@ function relative_time(x) {
             r = (parseInt(d / 86400, 10)).toString() + ' hari yang lalu'
         }
         return (r.match('NaN') ? x : r)
+}
+
+function escapehtmloldbrowser(s) {
+    let lookup = {
+        '&': "&amp;",
+        '"': "&quot;",
+        '\'': "&apos;",
+        '<': "&lt;",
+        '>': "&gt;"
+    };
+    return s.replace( /[&"'<>]/g, c => lookup[c] );
+}
+
+function safe(unsafe)
+{
+unsafe = String(unsafe);
+var data = escapehtmloldbrowser(unsafe);
+return data;
+
 }
 
 //]]></script>

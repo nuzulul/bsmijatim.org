@@ -5128,7 +5128,8 @@ $(document).ready(function() {
 		setTimeout(()=>{fcreatepopdonasi()},5000)
  	}
 	if(window.location.href.indexOf("/p/donasi-palestina.html") == -1 && window.location.href.indexOf("/p/donasi.html") == -1 && window.location.href.indexOf("/p/invoice.html") == -1){
-		fpopdonasi()
+		//fpopdonasi()
+		if(new Date().getTime() > (localStorage.getItem("popdonasihide") ? localStorage.getItem("popdonasihide") : 0)){fpopdonasi()}else{console.log('error')}
 	}
 })
 
@@ -5148,7 +5149,7 @@ function fcreatepopdonasi(){
 	let popdonasidonatur = publicdonaturlist[popdonasiindex]
 
 	let html = `
-			<div id="popupdonasi">
+			<div id="popupdonasi" onclick="popupdonasioption(&quot;${popdonasiindex}&quot;)" style="cursor:pointer">
                   <style>
                   #snackbar {
                     visibility: hidden;
@@ -5168,8 +5169,8 @@ function fcreatepopdonasi(){
 
                   #snackbar.show {
                     visibility: visible;
-                    -webkit-animation: fadeinpopdonasi 0.5s, fadeoutpopdonasi 0.5s 4.5s;
-                    animation: fadeinpopdonasi 0.5s, fadeoutpopdonasi 0.5s 4.5s;
+                    -webkit-animation: fadeinpopdonasi 0.5s, fadeoutpopdonasi 0.5s 6.5s;
+                    animation: fadeinpopdonasi 0.5s, fadeoutpopdonasi 0.5s 6.5s;
                   }
 
                   @-webkit-keyframes fadeinpopdonasi {
@@ -5204,10 +5205,25 @@ function fcreatepopdonasi(){
 		x = document.getElementById("snackbar");
 		x.className = x.className.replace("show", ""); 
 		document.getElementById("popupdonasi").remove()
+		if(window.statuscreatepopdonasi === 'stop')return;
 		setTimeout(()=>{
 			fcreatepopdonasi()
 		},Math.floor(Math.random() * 5000) + 3000)
-	}, Math.floor(Math.random() * 3000) + 1000)
+	}, 6000)
+}
+
+function popupdonasioption(popdonasiindex){
+	const publicdonaturlist = (JSON.parse(pengaturan[3][2])).reverse()
+	let popdonasidonatur = publicdonaturlist[parseInt(popdonasiindex)]
+	let data = popdonasidonatur
+    let html = `
+      <div class="p-3" style="max-width:300px;">
+          <div class="text-danger mb-5"><b>${safe(popdonasidonatur.nama)}</b> berdonasi <b>Rp ${safe(formatRupiah(popdonasidonatur.donasi.toString()))}</b> <span class="d-none">pada ${relative_time(popdonasidonatur.tanggal)}</span> :</br>${safe(popdonasidonatur.pesan)}</div>
+    		<button class="btn btn-light mr-3 mb-3" onclick="localStorage.setItem(&quot;popdonasihide&quot;,&quot;${(new Date().getTime()+(1000*60*60*24)).toString()}&quot;);parent.$.fancybox.close();window.statuscreatepopdonasi = 'stop';"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-slash-fill" viewBox="0 0 16 16"><path d="M5.164 14H15c-1.5-1-2-5.902-2-7q0-.396-.06-.776zm6.288-10.617A5 5 0 0 0 8.995 2.1a1 1 0 1 0-1.99 0A5 5 0 0 0 3 7c0 .898-.335 4.342-1.278 6.113zM10 15a2 2 0 1 1-4 0zm-9.375.625a.53.53 0 0 0 .75.75l14.75-14.75a.53.53 0 0 0-.75-.75z"/></svg> Senyapkan</button><button class="btn btn-danger" onclick="parent.$.fancybox.close();donasi(&quot;custom&quot;)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/></svg> Aminkan doa ini</button>
+      </div>
+    `
+    $.fancybox.open(html);
+
 }
 
 function relative_time(x) {

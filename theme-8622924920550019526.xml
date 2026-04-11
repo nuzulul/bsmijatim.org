@@ -4188,9 +4188,9 @@ width:auto!important;
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/search/label/Event'>Event</a></h2></div>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/donasi.html'>Donasi</a></h2></div>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/diklatsar-bsmi.html'>Bergabung</a></h2></div>
-              <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/mydonate.html'>Donatur</a></h2></div>
+              <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/mydonate.html'>Konfirmasi</a></h2></div>
               <!--<div class='col-6 col-md-12'><h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2></div>-->
-              <div class='col-6 col-md-12 text-center'><h2><a href='http://mybsmi.bsmijatim.org/'>Relawan</a></h2></div>
+              <div class='col-6 col-md-12 text-center'><h2><a href='http://mybsmi.bsmijatim.org/'>Membership</a></h2></div>
               <div class='col-6 col-md-12 text-center'><h2><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></h2></div>
           </div>
       	</div>
@@ -4584,7 +4584,7 @@ width:auto!important;
       </div>
       <div class='modal-footer'>
         <div class='pesan'/>
-        <button class='btn btn-danger' onclick='bayardonasi()' type='submit'>BAYAR DONASI</button>
+        <button class='btn btn-danger' onclick='bayardonasi()' type='submit'>Pembayaran &amp; Konfirmasi</button>
       </div>
     </div>
   </div>
@@ -5132,7 +5132,7 @@ $(document).ready(function() {
 	}
 })
 
-let popdonasiindex = -1
+let popdonasiindex = localStorage.getItem("popdonasiindex") ? parseInt(localStorage.getItem("popdonasiindex")) : -1;
 
 function fcreatepopdonasi(){
 	popdonasiindex++
@@ -5142,6 +5142,8 @@ function fcreatepopdonasi(){
 		fcreatepopdonasi()
 		return
 	}
+
+    localStorage.setItem("popdonasiindex", popdonasiindex.toString());
 	
 	let popdonasidonatur = publicdonaturlist[popdonasiindex]
 
@@ -5150,7 +5152,7 @@ function fcreatepopdonasi(){
                   <style>
                   #snackbar {
                     visibility: hidden;
-                    max-width: 350px;
+                    max-width: 300px;
                     background-color: #fff;
                     color: #dc3545;
                     text-align: center;
@@ -5204,8 +5206,8 @@ function fcreatepopdonasi(){
 		document.getElementById("popupdonasi").remove()
 		setTimeout(()=>{
 			fcreatepopdonasi()
-		},2000)
-	}, 5000)
+		},Math.floor(Math.random() * 5000) + 3000)
+	}, Math.floor(Math.random() * 3000) + 1000)
 }
 
 function relative_time(x) {

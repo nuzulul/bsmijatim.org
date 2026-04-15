@@ -2371,7 +2371,9 @@ margin-bottom:25px;
     #article #main #blog-pager{
     	margin-top:30px;
     }
-    
+    #article #main #blog-pager-newer-link{
+    	display:none;
+    }    
     #article #main #blog-pager-older-link{
     	float:none;
     }
@@ -5127,7 +5129,8 @@ $(document).ready(function() {
         }
 		setTimeout(()=>{fcreatepopdonasi()},5000)
  	}
-	if(window.location.href.indexOf("/p/donasi-palestina.html") == -1 && window.location.href.indexOf("/p/donasi.html") == -1 && window.location.href.indexOf("/p/invoice.html") == -1){
+	//if(window.location.href.indexOf("/p/donasi-palestina.html") == -1 && window.location.href.indexOf("/p/donasi.html") == -1 && window.location.href.indexOf("/p/invoice.html") == -1){
+	if(window.location.href.indexOf("/p/invoice.html") == -1){
 		//fpopdonasi()
 		if(new Date().getTime() > (localStorage.getItem("popdonasihide") ? localStorage.getItem("popdonasihide") : 0)){fpopdonasi()}else{console.log('error')}
 	}

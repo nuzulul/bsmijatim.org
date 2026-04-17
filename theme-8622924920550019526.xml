@@ -38,9 +38,12 @@
 <meta expr:content='data:blog.metaDescription' itemprop='description'/>
 </b:if>
 <b:if cond='data:blog.postImageUrl or data:blog.postImageThumbnailUrl'>
-<meta expr:content='(data:blog.postImageUrl ? data:blog.postImageUrl : data:blog.postImageThumbnailUrl)' property='og:image'/>
-<meta expr:content='(data:blog.postImageUrl ? data:blog.postImageUrl : data:blog.postImageThumbnailUrl)' name='twitter:image'/>
-<meta expr:content='(data:blog.postImageUrl ? data:blog.postImageUrl : data:blog.postImageThumbnailUrl)' itemprop='image'/>
+<meta expr:content='(data:blog.postImageUrl ? resizeImage(data:blog.postImageUrl,630) : data:blog.postImageThumbnailUrl)' property='og:image'/>
+<meta expr:content='(data:blog.postImageUrl ? resizeImage(data:blog.postImageUrl,630) : data:blog.postImageThumbnailUrl)' name='twitter:image'/>
+<meta expr:content='(data:blog.postImageUrl ? resizeImage(data:blog.postImageUrl,630) : data:blog.postImageThumbnailUrl)' itemprop='image'/>
+<b:else/>
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNGldlUDlqUM_qgyICAkEP6wACZP4oHqFoj8Bol-Ld_afJBWXj6ZjkhC_jWUTTSqnO8vzEiDJ61hR_8lXYjR-lt9t1LI4Ub7_cGEDHtGD-iHThAXsQ5-MLhPqu1ub2s0KqubRHJEXtUhiNH1y6-hyJOiyE9JiYATc7ywUhsxcrHXXrc4m2tNhi07WjNrEQ/s2000/thumbnail-bsmi-jatim.png' property='og:image'/>
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNGldlUDlqUM_qgyICAkEP6wACZP4oHqFoj8Bol-Ld_afJBWXj6ZjkhC_jWUTTSqnO8vzEiDJ61hR_8lXYjR-lt9t1LI4Ub7_cGEDHtGD-iHThAXsQ5-MLhPqu1ub2s0KqubRHJEXtUhiNH1y6-hyJOiyE9JiYATc7ywUhsxcrHXXrc4m2tNhi07WjNrEQ/s2000/thumbnail-bsmi-jatim.png' itemprop='image'/>
 </b:if>
 <meta content='bsmi,bsmijatim' name='keywords'/>
 <!-- Metadata Facebook -->
@@ -1908,6 +1911,12 @@ function onloadthumbnail(data){
       <b:if cond='data:blog.url == data:blog.homepageUrl'>
       <b:else/>
         <data:post.body/>
+        <div class='p-2 border mt-2 mb-2' expr:data-title='data:post.title' expr:data-url='data:post.url' onclick='sharepost(this)' style='cursor:pointer;'>
+          Share : 
+          <svg class='bi bi-share-fill' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>
+            <path d='M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5'/>
+          </svg>          
+        </div>
       </b:if>
       <!-- homepagemainmodif -->
       <div style='clear: both;'/> <!-- clear for photos floats -->
@@ -5358,6 +5367,14 @@ unsafe = String(unsafe);
 var data = escapehtmloldbrowser(unsafe);
 return data;
 
+}
+
+function sharepost(el){
+	let title = $(el).data('title')
+	let url = $(el).data('url')
+	let text = title+'\n\n'+url
+	let wa = encodeURI('https://api.whatsapp.com/send?text='+text)
+    window.open(wa, '_blank');
 }
 
 //]]></script>

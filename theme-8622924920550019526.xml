@@ -4352,8 +4352,8 @@ width:auto!important;
           </a>
       </li>
       <li class='nav-item'>
-          <a class='nav-link text-center' data-target='#myModalDonasi' data-toggle='modal' href='#'>
-              <button class='btn h4 bg-white text-danger btn-outline-light d-block w-100' style='border-radius:25px;'><b>DONASI</b></button>
+          <a class='text-center d-flex align-items-center justify-content-center mt-2 btn btn-outline-danger bg-white text-danger' data-target='#myModalDonasi' data-toggle='modal' href='#' style='border-radius:25px;'>
+            <b>DONASI</b>
           </a>
       </li>
       <!--<li class='nav-item'>

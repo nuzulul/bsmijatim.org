@@ -4353,7 +4353,7 @@ width:auto!important;
       </li>
       <li class='nav-item'>
           <a class='nav-link text-center' data-target='#myModalDonasi' data-toggle='modal' href='#'>
-              <button class='btn h4 border btn-light text-danger d-block w-100' style='border-radius:25px;'><b>DONASI</b></button>
+              <button class='btn h4 bg-white text-danger btn-outline-light d-block w-100' style='border-radius:25px;'><b>DONASI</b></button>
           </a>
       </li>
       <!--<li class='nav-item'>
@@ -5122,7 +5122,7 @@ $(document).ready(function() {
 	fpengaturan();
 	//$('<iframe src="https://bsmiradio.netlify.app/?platform=bsmijatimorg" frameborder="0" scrolling="no" id="myFrame" style="display:none"></iframe>').appendTo('body');
 });
-console.log("created by nzl");
+console.log("crafted by @nuzululzulkarnain");
 //]]></script>  
   
 <script type='text/javascript'>//<![CDATA[

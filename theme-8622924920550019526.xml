@@ -3222,7 +3222,7 @@ function postrecentbsmijatim(json){
 <script>
 //<![CDATA[
 var startIndex = 1;
-var maxResults = 4;
+var maxResults = 8;
 function sendQueryPost()
 {
    //var scpt = document.createElement("script");

@@ -2722,7 +2722,11 @@ bsmibannerquote .item .isi:hover{
 <bsmievent>
 
 <div class='container'>
-  <div class='h4' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>Agenda Terbaru <span class='text-success'>BSMI</span></div>
+  <div class='h4' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>
+    	<div class='h4'>Agenda Terkini <span class='text-success'>BSMI</span></div>
+    	<div class='h5 mt-2'>Ikuti agenda-agenda terdekat kami</div>
+    	<div class='h6 mt-2'><a href='https://www.bsmijatim.org/search/label/Event'>Lihat selengkapnya &#8594;</a></div>
+  </div>
   <div class='row justify-content-center' id='bsmievent'/>
   <center><a class='h6 d-none' data-aos='zoom-in-up' href='#' onclick='$( &quot;.spinnerbsmievent&quot; ).toggle();sendQueryPostbsmievent();return false'>MORE<div class='spinnerbsmievent spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
 </div>
@@ -2996,7 +3000,10 @@ color:red;
   <div class='container-fluid' style='padding-top:30px;padding-bottom:30px;padding-left:0px;padding-right:0px;'>
      <div class='isi parallax' style='padding-top:30px;padding-bottom:30px;'>
         <div class='container'>
-          <div class='h5' data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>Program BSMI</div>
+          <div class='h4' data-aos='zoom-in-up' style='margin:30px 0px 20px 10px;text-align:center;'>
+            	<div class='h4'>Program Utama <span class='text-success'>BSMI</span></div>
+            	<div class='h5'>Dukung program-program kemanusiaan, kesehatan dan sosial yang kami lakukan</div>
+          </div>
           <!--<div class='row align-items-center justify-content-center d-none'>
             	<div class='item col-12 mb-3' data-aos='zoom-in-up' style=''>
                   		<a data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzMOzLUrj5Njr46Fou2ufsID5nH_gX1ALZYHug4FBx1UblDdGKzq7RoIF0E-l92gl9nABdmxQ2dLXuMilpewm_cO15vsAAA7rB71RtairVG9rLc2ufK9aWtQVx9btAgtu_egtToT2WKtlsLjtPFik5CDgIoen8Mk1sjHVnsSXnF8m1njRD4n8sK9GBHYw/s2000/spanduk-bsmi-tv-header.jpg' href='javascript:;'><div class='shadow isi' data-aos='zoom-in-up' style='width:100%;height:100%;background-image:url();'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzMOzLUrj5Njr46Fou2ufsID5nH_gX1ALZYHug4FBx1UblDdGKzq7RoIF0E-l92gl9nABdmxQ2dLXuMilpewm_cO15vsAAA7rB71RtairVG9rLc2ufK9aWtQVx9btAgtu_egtToT2WKtlsLjtPFik5CDgIoen8Mk1sjHVnsSXnF8m1njRD4n8sK9GBHYw/s2000/spanduk-bsmi-tv-header.jpg' style='width:100%;'/></div></a>
@@ -3217,7 +3224,11 @@ function postrecentbsmijatim(json){
 
 
 <div class='container'>
-<div class='h5' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>Update BSMI</div>
+  <div class='h4' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>
+    <div class='h4'>Update Terbaru <span class='text-success'>BSMI</span></div>
+    <div class='h5'>Ikuti berita-berita terkini dari kami</div>
+    <div class='h6'><a href='https://www.bsmijatim.org/search'>Lihat berita selengkapnya &#8594;</a></div>
+  </div>
   <div class='row' id='bsmipost'>
 <script>
 //<![CDATA[

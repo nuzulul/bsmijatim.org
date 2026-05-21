@@ -3254,7 +3254,7 @@ sendQueryPost();
 });
 //]]>
 </script>
-  </div><center><a class='h6' data-aos='zoom-in-up' href='#' onclick='$( &quot;.giatspinner&quot; ).toggle();sendQueryPost();return false'>MORE<div class='giatspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
+  </div><center><a class='btn btn-outline-danger' data-aos='zoom-in-up' href='#' onclick='$( &quot;.giatspinner&quot; ).toggle();sendQueryPost();return false'>Load more<div class='giatspinner spinner-border'/><i class='fas fa-spinner fa-spin'/></a></center>
   </div>
 
 
@@ -3970,7 +3970,7 @@ sendQuerybsmiinfodonordarah();
   
 <layanan>
 	<div class='container' style='margin:30px auto;text-align:center;'>
-      <div class='h5' data-aos='zoom-in-up' style='margin:50px 0px 20px 10px;text-align:center;'>Layanan <span class='text-success'>BSMI</span></div>
+      <div class='h4' data-aos='zoom-in-up' style='margin:50px 0px 20px 10px;text-align:center;'>Layanan <span class='text-success'>BSMI</span></div>
       <div class='row align-items-center justify-content-center'>
         
         <div class='item col-6 col-md-4 col-lg-2 hover1' data-aos='zoom-in-up'><div class='isi hovereffect'><a aria-label='MyBSMI' href='https://mybsmi.bsmijatim.org'><img alt='MyBSMI' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDkYbqgh-MQ7ppJ6jpGwhDp27JTL9k_Iv8XhzyON3VLN54C3Z3JS4HxM56TIFxelRt5Q3ujk0TLskfiA-Bc81wDZVdIYbxu783QFE0891p_3iJ2XSBZK-R2kDRvuTXPXEdzvl3aNYsN_5OL9j2akrXL2PvRRX5mgAmWKakWycpNl5MqNal2YzXwr-Osg/s320/mybsmiicon.png' style='width:100%;margin-bottom:10px;'/></a></div>          
@@ -4073,11 +4073,11 @@ bsmiinfomaps .parallax {
 <rekening>
 <div class='container'><div class='row'>
 <div class='col-md-8 col-lg-6' data-aos='zoom-in-up'>
-	<div class='h5 text-center' style='margin:30px 0px 20px 10px;'>Donasi <span class='text-success'>BSMI</span></div>
+	<div class='h4 text-center' style='margin:30px 0px 20px 10px;'>Donasi <span class='text-success'>BSMI</span></div>
   <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'><a data-target='#myModalDonasi' data-toggle='modal' href='#'><img alt='BSI' loading='lazy' src='https://blogger.googleusercontent.com/img/a/AVvXsEif3Ytpt07-XYVOMwGgUTW6dLBT7ycu789auOfiPbITifoWqMQ3RUp0VZZoZZrWS1HfWo-ixpfwoAS9-f7dQ8XFZILHdYLHOiAHXfGCcqjL1X6k5Qrwf1iKhm5dDAlXjRW_JP-vG8jUv1GX33s0E6usj_TLH7zc-O07RP1cvL7h10BwqyuMSVMFiB_K-w=s347' style='width:100px;margin:0px 10px 5px;float:left;'/><span class='h3' style='color:#dc3545;'>7063416872</span> <span class='h6' style='display:inline-block;color:#dc3545;'>a.n. BSMI Jawa Timur</span></a></div>
 </div>
 <div class='col-md-4 col-lg-6' data-aos='zoom-in-up'>
-<div class='h5 text-center' style='margin:30px 0px 5px 10px;'>Digital <span class='text-success'>BSMI</span></div>
+<div class='h4 text-center' style='margin:30px 0px 5px 10px;'>Digital <span class='text-success'>BSMI</span></div>
 	<div class='row'>
 		<div class='item col-12 col-lg-6 hover1'><div class='isi vertical-center'><a aria-label='QRIS BSMI' data-fancybox='' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdoSgdpLCzBekIL5DsNrxkfRhKJdk7W41USFFsV_CrMgBDdUPX0LXqjfTEc1LerljHTAdIJ6js6z4GbigiWcX_cd5-iKCrP56XlNQ6yCWTl5L2QRu0BF5OHHHD6bogSsCKfSUsrD435DfOv82OavlOPLRlADeEfaO8XRlaP_DQ6bB5bbuIvXDtktjjXg/s1600/qrcodebsmijatim.jpg' href='#/'><img alt='QRIS' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhACIcYT_MOob74mP0vqlk4W5ETjT-NvOUnCFr15F5txJvbLQSskiXeDJB7gqSfiM5BSx-FBW_TsMyQyuRNokpMmC7MmRgSUvRrL85XuHAMjUe5FXUReVWA7RZqnVO1B-Xs8U11QTMBVF8/s600/qris.png' style='width:100%'/></a></div>
       	</div>

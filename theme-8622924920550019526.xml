@@ -683,7 +683,7 @@ $(document).ready(function(){
                             </form> 
     </div>
     <!--<a class='btn btn-danger d-block d-sm-block mr-sm-4' data-target='#myModalDonasi' data-toggle='modal' href='#' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>-->
-    <a class='btn btn-danger mr-sm-4' href='https://www.bsmijatim.org/p/donasi.html' id='tomboldonasi' role='button' style='color:#fff;'>Donasi</a>
+    <a class='btn btn-outline-danger mr-sm-4' href='https://www.bsmijatim.org/p/donasi.html' id='tomboldonasi' role='button'>Donasi</a>
     <button aria-controls='navbarsBsmi01' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-target='#navbarsBsmi01' data-toggle='collapse' type='button'>
       <span class='navbar-toggler-icon'/>
     </button>
@@ -4216,13 +4216,13 @@ width:auto!important;
       	<div class='item col-12 col-sm-12 col-md-12 col-lg-2' data-aos='zoom-in-up'>
           <div class='row align-items-center justify-content-center'>
               <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/'>Home</a></h2></div>
-              <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/search'>News</a></h2></div>
-              <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/search/label/Event'>Event</a></h2></div>
+              <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/search'>Berita</a></h2></div>
+              <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/search/label/Event'>Agenda</a></h2></div>
               <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/p/donasi.html'>Donasi</a></h2></div>
               <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/p/diklatsar-bsmi.html'>Bergabung</a></h2></div>
               <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate</a></h2></div>
               <!--<div class='col-6 col-md-6 col-lg-12'><h2><a href='https://play.google.com/store/apps/details?id=app.netlify.bsmiradio'>BSMI Radio</a></h2></div>-->
-              <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='http://mybsmi.bsmijatim.org/'>MyBSMI</a></h2></div>
+              <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://mybsmi.bsmijatim.org/'>MyBSMI</a></h2></div>
               <div class='col-6 col-md-6 col-lg-12 text-center'><h2><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></h2></div>
           </div>
       	</div>

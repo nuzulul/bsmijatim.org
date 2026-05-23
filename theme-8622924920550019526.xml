@@ -1350,7 +1350,7 @@ bsmisosmed div div img:hover{
   
 
 <recentdonation>
-<div class='container mt-3'><div class='container p-4 h5 text-align-center d-flex justify-content-center align-items-center' style='border-radius: 20px 20px 20px 20px;border: 5px solid #dc3545;min-height:82px;'><span class='text-align-center' id='recentdonation' style='text-align:center;'>...</span></div></div>
+<div class='container mt-3 d-none'><div class='container p-4 h5 text-align-center d-flex justify-content-center align-items-center' style='border-radius: 20px 20px 20px 20px;border: 5px solid #dc3545;min-height:82px;'><span class='text-align-center' id='recentdonation' style='text-align:center;'>...</span></div></div>
 <script>
 //<![CDATA[
 var startIndexbsmidonasirecentdonation = 1;
@@ -2468,7 +2468,7 @@ margin-bottom:25px;
 <profil>
       <div class='container' style='padding-top:30px;padding-bottom:30px;'><div class='row'>
             <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h5 text-center d-none d-sm-block' style='margin:30px 0px 20px 0px;'>DONATUR</div>
+                <div class='h5 text-center d-none d-sm-none' style='margin:30px 0px 20px 0px;'>DONATUR</div>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
                   <a aria-label='MyDonate' href='https://www.bsmijatim.org/p/mydonate.html'>
                       <div class='d-flex flex-column align-items-center'>
@@ -2483,7 +2483,7 @@ margin-bottom:25px;
                 </div>
             </div>
             <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h5 text-center d-none d-sm-block' style='margin:30px 0px 20px 0px;'>DONASI</div>
+                <div class='h5 text-center d-none d-sm-none' style='margin:30px 0px 20px 0px;'>DONASI</div>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
                   <a aria-label='Donasi BSMI' href='https://www.bsmijatim.org/p/donasi.html'><!--<a href='https://bit.ly/3KLuzop' target='_blank'>-->
                       <div class='d-flex flex-column align-items-center'>
@@ -2496,7 +2496,7 @@ margin-bottom:25px;
                 </div>
             </div>
             <div class='col-4' data-aos='zoom-in-up'>
-                <div class='h5 text-center d-none d-sm-block' style='margin:30px 0px 20px 0px;'>RELAWAN</div>
+                <div class='h5 text-center d-none d-sm-none' style='margin:30px 0px 20px 0px;'>RELAWAN</div>
                 <div class='hover1' style='border-radius:15px 15px 15px 15px;border:5px solid #dc3545;padding:15px 15px;'>
                   
                   <!--<a data-fancybox='' data-src='https://www.youtube.com/embed/Z6qX8Tkb_5c' href='javascript:;'>-->

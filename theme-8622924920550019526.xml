@@ -3207,7 +3207,7 @@ function postrecentbsmijatim(json){
             //document.write(trtd);
 			var trtd = '<div class="item col-6 col-md-6 col-lg-3" style="">'+
 							'<a href="'+posturl+'">'+
-								'<div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:4/3;background-image:url('+jpg+');padding:50px 50px;">'+
+								'<div class="shadow isi" data-aos="zoom-in-up" style="width:100%;aspect-ratio:4/3;background-image:url(&quot;'+jpg+'&quot;);padding:50px 50px;">'+
 									
 								'</div>'+
 								'<p class="h5" data-aos="zoom-in-up">'+posttitle+' <br/><span class="h6" style="color:#000;">'+daystr+'</span></p>'+
@@ -5420,8 +5420,8 @@ return data;
 function sharepost(el){
 	let title = $(el).data('title')
 	let url = $(el).data('url')
-	let text = title+'\n\n'+url
-	let wa = encodeURI('https://api.whatsapp.com/send?text='+text)
+	let text = encodeURIComponent(title+'\n\n'+url)
+	let wa = 'https://api.whatsapp.com/send?text='+text
     window.open(wa, '_blank');
 }
 

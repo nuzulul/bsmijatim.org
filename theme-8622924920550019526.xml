@@ -654,7 +654,7 @@ $(document).ready(function(){
 
   
 <header class='bg-white'>
-<div class='container-fluid px-4 topmenucontainer' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span class='d-none' id='countdown' style='color:#fff;'/><span class='d-none d-md-block d-lg-block text-white font-weight-bold font-italic' style=''>#BsmiCareForLife</span></div><div class='topmenu float-right d-flex align-items-center h-100'><a class='d-none d-lg-block' href='/'>Beranda | </a><a class='d-block d-md-block' href='https://www.bsmijatim.org/search'>Berita | </a><a class='d-none d-md-block' href='https://www.bsmijatim.org/search/label/Event'>Agenda | </a><a class='d-block d-sm-block' href='https://www.bsmijatim.org/p/majalah.html'>Majalah | </a><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang | </a><a href='https://www.bsmijatim.org/p/anggota.html'>Anggota | </a><a class='d-none d-sm-none' href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate | </a><a href='https://mybsmi.bsmijatim.org/'>Login</a></div></div></div>
+<div class='container-fluid px-4 topmenucontainer' style='height:30px;background:#dc3545;'><div class='container' style='height:30px;'><div class='float-left d-flex align-items-center h-100'><span class='d-none' id='countdown' style='color:#fff;'/><span class='d-none d-md-block d-lg-block text-white font-weight-bold font-italic' style=''>#BsmiCareForLife</span></div><div class='topmenu float-right d-flex align-items-center h-100'><a class='d-none d-lg-block' href='/'>Beranda | </a><a class='d-block d-md-block' href='https://www.bsmijatim.org/p/bsmi-news.html'>Berita | </a><a class='d-none d-md-block' href='https://www.bsmijatim.org/search/label/Event'>Agenda | </a><a class='d-block d-sm-block' href='https://www.bsmijatim.org/p/majalah.html'>Majalah | </a><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang | </a><a href='https://www.bsmijatim.org/p/anggota.html'>Anggota | </a><a class='d-none d-sm-none' href='https://www.bsmijatim.org/p/mydonate.html'>MyDonate | </a><a href='https://mybsmi.bsmijatim.org/'>Login</a></div></div></div>
 <div class='container-fluid px-0 topnavbarcontainer'><div class='container'>
 <nav class='navbar navbar-light dropdown search-dropdown'>
   
@@ -698,7 +698,7 @@ $(document).ready(function(){
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/pengurus-bsmi-jawa-timur.html'>Pengurus</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/daftar-cabang-bsmi-jatim.html'>Cabang</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/sitemap.html'>Sitemap</a></div>
-      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/search'>Berita</a></div>
+      <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/bsmi-news.html'>Berita</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/search/label/Event'>Agenda</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/kontak.html'>Kontak</a></div>
       <div class='item col-6 col-sm-6 col-md-6 col-lg-3'><a href='https://www.bsmijatim.org/p/download.html'>Download</a></div>
@@ -3228,7 +3228,7 @@ function postrecentbsmijatim(json){
   <div class='h4' data-aos='zoom-in-up' style='margin:80px 0px 50px 10px;text-align:center;'>
     <div class='h4'>Update Terbaru <span class='text-success'>BSMI</span></div>
     <div class='h5'>Ikuti berita-berita terkini dari kami</div>
-    <div class='h6'><a href='https://www.bsmijatim.org/search'>Lihat berita selengkapnya &#8594;</a></div>
+    <div class='h6'><a href='https://www.bsmijatim.org/p/bsmi-news.html'>Lihat berita selengkapnya &#8594;</a></div>
   </div>
   <div class='row' id='bsmipost'>
 <script>

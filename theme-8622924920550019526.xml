@@ -4809,7 +4809,7 @@ $(document).ready(function() {
 var dimension = 2000;
 $('article').find('img').each(function(n,image){
                var image = $(image);
-               image.attr({src : image.attr('src').replace(/s\B\d{3,4}/,'s' + dimension)}); 
+               //image.attr({src : image.attr('src').replace(/s\B\d{3,4}/,'s' + dimension)}); 
                image.attr('width','50%');
                image.attr('height','auto');
   image.attr('style','margin:20px 20px;display:block;min-width:250px;');
